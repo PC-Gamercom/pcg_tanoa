@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1162;
+	toggles=1034;
 	class ItemIDProvider
 	{
-		nextID=2224;
+		nextID=2225;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5375.3003,4.8737154,4106.3779};
-		dir[]={0.31555066,-0.22403753,0.9221043};
-		up[]={0.07253731,0.97458249,0.21197037};
-		aside[]={0.94615632,4.4757326e-007,-0.32378325};
+		pos[]={5792.1216,125.32133,4156.2979};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -418,10 +418,264 @@ randomSeed=14049939;
 class ScenarioData
 {
 	author="[PCG]Big MIke";
+	class Header
+	{
+		gameType="RPG";
+	};
 };
 class CustomAttributes
 {
 	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="ReviveRequiredTrait";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute2
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="ReviveRequiredItemsFakConsumed";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute4
+		{
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute5
+		{
+			property="ReviveMedicSpeedMultiplier";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		class Attribute6
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute7
+		{
+			property="ReviveForceRespawnDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=3;
+				};
+			};
+		};
+		class Attribute8
+		{
+			property="ReviveBleedOutDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=20;
+				};
+			};
+		};
+		class Attribute9
+		{
+			property="ReviveDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=6;
+				};
+			};
+		};
+		class Attribute10
+		{
+			property="ReviveUnconsciousStateMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute11
+		{
+			property="ReviveRequiredItems";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		nAttributes=12;
+	};
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -450,8 +704,9 @@ class Mission
 {
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		briefingName="Staat der Visionäre Tanoa Life";
+		timeOfChanges=28800;
+		startWeather=0;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0;
@@ -470,7 +725,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1555;
+		items=1556;
 		class Item0
 		{
 			dataType="Object";
@@ -42640,7 +42895,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889883,13510.989};
+				position[]={13232.703,-5.889884,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -79334,6 +79589,23 @@ class Mission
 			b=0.69999999;
 			id=2223;
 			atlOffset=-0.1678834;
+		};
+		class Item1555
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5749.4189,6.6023903,4280.6416};
+				angles[]={0,2.6977804,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2224;
+			type="Land_LampSolar_F";
+			atlOffset=-0.012240171;
 		};
 	};
 	class Connections
