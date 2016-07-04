@@ -64,6 +64,7 @@ class CfgRemoteExec {
         F(life_fnc_freezePlayer,CLIENT)
 
         /* Server only functions */
+		F(TON_fnc_insureCar,SERVER)
         F(bis_fnc_execvm,SERVER)
         F(life_fnc_wantedBounty,SERVER)
         F(TON_fnc_getID,SERVER)

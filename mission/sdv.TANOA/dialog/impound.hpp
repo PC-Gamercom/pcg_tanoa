@@ -8,6 +8,17 @@ class Life_impound_menu
 	
 	class controlsBackground
 	{
+		class InsureCar : life_RscButtonMenu
+		{
+			idc = 97480;
+			text = "Assurer";
+			onButtonClick = "[] call life_fnc_InsureCar;";
+			x = 0.43 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.9 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
 		class Life_RscTitleBackground : Life_RscText
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};

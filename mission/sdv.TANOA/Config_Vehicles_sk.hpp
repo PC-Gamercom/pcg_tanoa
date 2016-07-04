@@ -38,6 +38,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 0, 5000, 0 };
         insurance = 2500;
         chopShop = 12500;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
     };
 
@@ -47,6 +48,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 0, 10000, 0 };
         insurance = 2500;
         chopShop = 22500;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
     };
 
@@ -56,6 +58,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 0, 25000, 0 };
         insurance = 2500;
         chopShop = 30000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
     };
 
@@ -65,6 +68,7 @@ class LifeCfgVehicles {
         garageSell[] = { 950, 350, 0, 0 };
         insurance = 2500;
         chopShop = 2500;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
     };
 
@@ -74,6 +78,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 85000, 0, 0 };
         insurance = 16000;
         chopShop = 45000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
     };
 
@@ -83,6 +88,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 100000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
@@ -99,6 +105,7 @@ class LifeCfgVehicles {
         garageSell[] = { 21000, 21000, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
     };
 
@@ -108,6 +115,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 21000, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
     };
 
@@ -117,6 +125,7 @@ class LifeCfgVehicles {
         garageSell[] = { 21000, 21000, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
     };
 
@@ -126,6 +135,7 @@ class LifeCfgVehicles {
         garageSell[] = { 0, 850, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };// Versicherungen
         textures[] = { };
     };
 

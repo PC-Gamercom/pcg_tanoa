@@ -82,6 +82,7 @@ class CfgFunctions {
 		tag = "TON";
 		class Systems {
 			file = "\life_server\Functions\Systems";
+			class insureCar{};
 			class managesc {};
 			class cleanup {};
 			class huntingZone {};
