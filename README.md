@@ -10,9 +10,13 @@ Wir freuen uns auf Dich!
 #Updates
 
 - Version 0.0.1 b
+ 
  Fahrzeugversicherung eingebaut
 
 - Version 0.0.1 a
+ 
  Einspielen der Altis Daten und Umbenennung der Items.
+ 
  Manuelle Spawnpunkte festgelegt
+ 
  Ressourcen planung
