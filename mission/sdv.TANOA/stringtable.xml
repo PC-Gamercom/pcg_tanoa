@@ -4207,6 +4207,10 @@
       <Portuguese>Licença de Casas</Portuguese>
       <Polish>Zarządca nieruchomości</Polish>
     </Key>
+	 <Key ID="STR_License_Einwohner">
+      <Original>Einwohner Lizenz</Original>
+      <German>Einwohner Lizenz</German>
+    </Key>
   </Package>
   <Package name="More_Item_Strings">
     <Key ID="STR_ISTR_Blast_VaultOnly">

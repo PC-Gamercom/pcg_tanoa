@@ -63,6 +63,14 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
+	  class civ_einwohner {
+        variable = "civ_einwohner";
+        displayName = "STR_License_Einwohner";
+        price = 5000;
+        illegal = false;
+        side = "civ";
+    };
 
     //Processing Licenses
     class oil {
