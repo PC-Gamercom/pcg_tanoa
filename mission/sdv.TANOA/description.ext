@@ -1,6 +1,6 @@
 Briefing = 0;
 author = "Big Mike";
-loadScreen = "textures\armalife.jpg";
+loadScreen = "textures\logo.paa";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
