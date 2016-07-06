@@ -64,10 +64,10 @@ class Licenses {
         side = "civ";
     };
 	
-	  class civ_einwohner {
-        variable = "civ_einwohner";
-        displayName = "STR_License_Einwohner";
-        price = 5000;
+	      class einwohner {
+        variable = "einwohner";
+        displayName = "STR_License_einwohner";
+        price = 0;
         illegal = false;
         side = "civ";
     };

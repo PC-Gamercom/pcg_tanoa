@@ -15,433 +15,1252 @@
 *
 */
 class WeaponShops {
-    //Armory Shops
-    class gun {
-        name = "Billy Joe's Firearms";
-        side = "civ";
-        license = "gun";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "hgun_Rook40_F", "", 15600, 6240 },
-            { "hgun_Pistol_heavy_02_F", "", 41700, 16680 },
-            { "hgun_ACPC2_F", "", 30800, 12320 },
-            { "hgun_PDW2000_F", "", 42300, 16920 },
-            { "optic_ACO_grn_smg", "", 2500, 250 }
-        };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "", 250 },
-            { "6Rnd_45ACP_Cylinder", "", 500 },
-            { "9Rnd_45ACP_Mag", "", 450 },
-            { "30Rnd_9x21_Mag", "", 750 }
-        };
-    };
- 
-    class rebel {
-        name = "Delicate Jihadi Shop";
-        side = "civ";
-        license = "rebel";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "hgun_ACPC2_F", "", 30800, 12500 },
-            { "hgun_Pistol_heavy_01_F", "", 40600, 19500 },
-            { "hgun_Pistol_heavy_02_F", "", 41700, 20000 },
-            { "hgun_Rook40_F", "", 15900, 7300 },
-            { "arifle_TRG21_F", "", 63000, 28700 },
-            { "arifle_Katiba_F", "", 120000, 58000 },
-            { "arifle_SDAR_F", "", 50000, 23200 },
-            { "arifle_Mk20_F", "", 84500, 39700 },
-            { "srifle_EBR_F", "", 275000, 130000 },
-            { "srifle_GM6_F", "", 1250000, 550000 },
-            { "srifle_LRR_F", "", 1000000, 450000 },
-            { "srifle_DMR_01_F", "", 250000, 115000 },
-            { "srifle_DMR_02_camo_F", "", 2750000, 1250000 },
-            { "srifle_DMR_03_F", "", 325000, 150000 },
-            { "srifle_DMR_04_F", "", 1150000, 490000 },
-            { "srifle_DMR_05_tan_f", "", 600000, 280000 },
-            { "srifle_DMR_06_camo_F", "", 300000, 130000 },
-            { "LMG_Mk200_F", "", 450000, 215000 },
-            { "LMG_Zafir_F", "", 650000, 315000 },
-            { "MMG_01_hex_F", "", 3500000, 1600000 },
-            { "MMG_02_camo_F", "", 3700000, 1750000 },
-            { "optic_ACO_grn", "", 3500, 350 },
-            { "optic_MRCO", "", 3600, 275 },
-            { "optic_SOS", "", 3600, 275 },
-            { "optic_DMS", "", 3600, 275 },
-            { "optic_Holosight", "", 3600, 275 },
-            { "optic_Hamr", "", 3600, 275 },
-            { "optic_Aco", "", 3600, 275 },
-            { "optic_Aco_smg", "", 3600, 275 },
-            { "optic_NVS", "", 3600, 275 },
-            { "optic_Nightstalker", "", 3600, 275 },
-            { "optic_tws", "", 3600, 275 },
-            { "optic_tws_mg", "", 3600, 275 },
-            { "optic_Yorris", "", 3600, 275 },
-            { "optic_MRD", "", 3600, 275 },
-            { "optic_LRPS", "", 3600, 275 },
-            { "optic_AMS", "", 3600, 275 },
-            { "optic_KHS_blk", "", 3600, 275 },
-            { "bipod_01_F_blk", "", 3600, 275 },
-            { "bipod_02_F_blk", "", 3600, 275 },
-            { "bipod_03_F_blk", "", 3600, 275 },
-            { "muzzle_snds_H", "", 3600, 275 },
-            { "muzzle_snds_L", "", 3600, 275 },
-            { "muzzle_snds_M", "", 3600, 275 },
-            { "muzzle_snds_B", "", 3600, 275 },
-            { "muzzle_snds_H_MG", "", 3600, 275 },
-            { "muzzle_snds_H_SW", "", 3600, 275 },
-            { "muzzle_snds_acp", "", 3600, 275 },
-            { "muzzle_snds_338_black", "", 3600, 275 },
-            { "muzzle_snds_93mmg", "", 3600, 275 },
-            { "acc_flashlight", "", 1000, 100 },
-            { "acc_pointer_IR", "", 3600, 275 }
-        };
-        mags[] = {
-      { "9Rnd_45ACP_Mag", "", 125 },
-            { "11Rnd_45ACP_Mag", "", 125 },
-            { "6Rnd_45ACP_Cylinder", "", 125 },
-            { "16Rnd_9x21_Mag", "", 125 },
-            { "30Rnd_9x21_Mag", "", 125 },
-            { "20Rnd_556x45_UW_mag", "", 125 },
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_556x45_Stanag_Tracer_Red", "", 125 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "200Rnd_65x39_cased_Box", "", 125 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 125 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_762x51_Mag", "", 125 },
-            { "150Rnd_762x54_Box", "", 125 },
-            { "150Rnd_762x54_Box_Tracer", "", 125 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 125 },
-            { "150Rnd_93x64_Mag", "", 125 },
-            { "5Rnd_127x108_Mag", "", 125 },
-            { "5Rnd_127x108_APDS_Mag", "", 125 },
-            { "10Rnd_127x54_Mag", "", 125 },
-            { "7Rnd_408_Mag", "", 125 },
-            { "10Rnd_338_Mag", "", 125 },
-            { "130Rnd_338_Mag", "", 125 }
-        };
-    };
- 
-    class gang {
-        name = "Hideout Armament";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = {
-          { "arifle_TRG21_F", "", 63000, 28700 },
-          { "arifle_Katiba_F", "", 120000, 58000 },
-          { "arifle_SDAR_F", "", 50000, 23200 },
-          { "arifle_Mk20_F", "", 84500, 39700 },
-          { "srifle_EBR_F", "", 275000, 130000 },
-          { "optic_Hamr", "", 2500, -1 },
-          { "optic_MRCO", "", 2500, -1 },
-          { "optic_Aco", "", 2000, -1 },
-          { "optic_Holosight", "", 2000, -1 },
-          { "acc_flashlight", "", 2500, -1 },
-          { "acc_pointer_IR", "", 2500, -1 }
-        };
-        mags[] = {
-          { "9Rnd_45ACP_Mag", "", 125 },
-          { "11Rnd_45ACP_Mag", "", 125 },
-          { "6Rnd_45ACP_Cylinder", "", 125 },
-          { "16Rnd_9x21_Mag", "", 125 },
-          { "30Rnd_9x21_Mag", "", 125 },
-          { "20Rnd_556x45_UW_mag", "", 125 },
-          { "30Rnd_556x45_Stanag", "", 300 },
-          { "30Rnd_556x45_Stanag_Tracer_Red", "", 125 },
-          { "30Rnd_65x39_caseless_green", "", 275 },
-          { "200Rnd_65x39_cased_Box", "", 125 },
-          { "200Rnd_65x39_cased_Box_Tracer", "", 125 },
-          { "10Rnd_762x54_Mag", "", 500 },
-          { "20Rnd_762x51_Mag", "", 125 },
-          { "150Rnd_762x54_Box", "", 125 },
-          { "150Rnd_762x54_Box_Tracer", "", 125 },
-          { "10Rnd_93x64_DMR_05_Mag", "", 125 },
-          { "150Rnd_93x64_Mag", "", 125 },
-          { "5Rnd_127x108_Mag", "", 125 },
-          { "5Rnd_127x108_APDS_Mag", "", 125 },
-          { "10Rnd_127x54_Mag", "", 125 },
-          { "7Rnd_408_Mag", "", 125 },
-          { "10Rnd_338_Mag", "", 125 },
-          { "130Rnd_338_Mag", "", 125 }
-        };
-    };
- 
-    //Basic Shops
-    class genstore {
-        name = "Altis General Store";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "ItemMap", "", 50, 35 },
-            { "ItemCompass", "", 50, 25 },
-            { "ItemWatch", "", 50, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
-            { "Chemlight_yellow", "", 300, 50 },
-            { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 }
-        };
-        mags[] = {};
-    };
- 
-    class f_station_store {
-        name = "Altis Fuel Station Store";
-        side = "";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "Binocular", "", 750, -1 },
-            { "ItemGPS", "", 500, 45 },
-            { "ItemMap", "", 250, 35 },
-            { "ItemCompass", "", 250, 25 },
-            { "ItemWatch", "", 250, -1 },
-            { "ToolKit", "", 1250, 75 },
-            { "FirstAidKit", "", 750, 65 },
-            { "NVGoggles", "", 10000, 980 },
-            { "Chemlight_red", "", 1500, -1 },
-            { "Chemlight_yellow", "", 1500, 50 },
-            { "Chemlight_green", "", 1500, 50 },
-            { "Chemlight_blue", "", 1500, 50 }
-        };
-        mags[] = {};
-    };
- 
-    //Cop Shops
-    class cop_basic {
-        name = "Altis Cop Shop";
-        side = "cop";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 15000, -1 },
-            { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "", 250, -1 },
-            { "muzzle_snds_L", "", 650, -1 },
-            { "FirstAidKit", "", 150, -1 },
-            { "Medikit", "", 1000, -1 },
-            { "NVGoggles", "", 2000, -1 }
-        };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "Taser Pistol Magazine", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
-        };
-    };
- 
-    class cop_patrol {
-        name = "Delicate Officer Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be an Officer or higher!" };
-        items[] = {
-            { "arifle_MXC_Black_F", "", 25000, -1 },
-            { "optic_Aco", "", 750, -1 },
-            { "optic_Holosight", "", 1200, -1 },
-            { "acc_flashlight", "", 2500, -1 },
-            { "acc_pointer_IR", "", 2500, -1 },
-            { "muzzle_snds_H", "", 5000, -1 }
-        };
-        mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 250 }
-        };
-    };
- 
-    class cop_detective {
-        name = "Delicate Detective Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Detective or higher!" };
-        items[] = {
-            { "arifle_MX_Black_F", "", 27500, -1 },
-            { "arifle_MX_SW_Black_F", "", 50000, -1 },
-            { "optic_Hamr", "", 2500, -1 },
-            { "optic_MRCO", "", 2500, -1 },
-            { "optic_Aco", "", 2000, -1 },
-            { "optic_Holosight", "", 2000, -1 },
-            { "acc_flashlight", "", 2500, -1 },
-            { "acc_pointer_IR", "", 2500, -1 },
-            { "muzzle_snds_H", "", 5000, -1 },
-            { "SmokeShell", "", 5000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 }
-        };
-        mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 250 },
-            { "100Rnd_65x39_caseless_mag", "", 750 }
-        };
-    };
- 
-    class cop_sergeant {
-        name = "Delicate Sergeant Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Sergeant or higher!" };
-        items[] = {
-            { "arifle_MX_Black_F", "", 27500, -1 },
-            { "arifle_MXM_Black_F", "", 30000, -1 },
-            { "arifle_MX_SW_Black_F", "", 30000, -1 },
-            { "optic_Hamr", "", 2500, -1 },
-            { "optic_MRCO", "", 2500, -1 },
-            { "optic_Aco", "", 2000, -1 },
-            { "optic_Holosight", "", 2000, -1 },
-            { "optic_DMS", "", 5000, -1 },
-            { "acc_flashlight", "", 2500, -1 },
-            { "acc_pointer_IR", "", 2500, -1 },
-            { "muzzle_snds_H", "", 5000, -1 },
-            { "bipod_01_F_blk", "", 3600, -1 },
-            { "bipod_02_F_blk", "", 3600, -1 },
-            { "bipod_03_F_blk", "", 3600, -1 },
-            { "SmokeShell", "", 5000, -1 },
-            { "SmokeShellGreen", "Teargas", 5000, -1},
-            { "HandGrenade_Stone", "Flashbang", 2500, -1 }
-        };
-        mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 250 },
-            { "100Rnd_65x39_caseless_mag", "", 750 }
-        };
-    };
- 
-    class cop_patrolsupervisor {
-        name = "Delicate Patrol Supervisor Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "You must be a Patrol Supervisor or higher!" };
-        items[] = {
-            { "srifle_EBR_F", "", 35000, -1 },
-            { "srifle_DMR_06_olive_F", "", 35000, -1 },
-            { "srifle_DMR_03_F", "", 45000, -1 },
-            { "LMG_Zafir_F", "", 45000, -1 },
-            { "optic_Hamr", "", 2500, -1 },
-            { "optic_MRCO", "", 2500, -1 },
-            { "optic_NVS", "", 10000, -1 },
-            { "optic_SOS", "", 10000, -1 },
-            { "optic_KHS_old", "", 10000, -1 },
-            { "optic_AMS", "", 10000, -1 },
-            { "acc_flashlight", "", 2500, -1 },
-            { "acc_pointer_IR", "", 2500, -1 },
-            { "muzzle_snds_B", "", 5000, -1 },
-            { "bipod_01_F_blk", "", 3600, -1 },
-            { "bipod_02_F_blk", "", 3600, -1 },
-            { "bipod_03_F_blk", "", 3600, -1 },
-            { "SmokeShell", "", 5000, -1 },
-            { "SmokeShellGreen", "Teargas", 5000, -1},
-            { "HandGrenade_Stone", "Flashbang", 2500, -1 }
-        };
-        mags[] = {
-            { "20Rnd_762x51_Mag", "", 500 },
-            { "150Rnd_762x54_Box", "", 500 }
-        };
-    };
- 
-    class cop_inspector {
-        name = "Delicate Inspector Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "You must be an Inspector or higher!" };
-        items[] = {
-            { "srifle_GM6_F", "", 50000, -1 },
-            { "srifle_LRR_F", "", 35000, -1 },
-            { "srifle_DMR_02_F", "", 65000, -1 },
-            { "srifle_DMR_05_blk_F", "", 60000, -1 },
-            { "srifle_DMR_04_F", "", 65000, -1 },
-            { "MMG_01_tan_F", "", 150000, -1 },
-            { "optic_Hamr", "", 2500, -1 },
-            { "optic_MRCO", "", 2500, -1 },
-            { "optic_NVS", "", 10000, -1 },
-            { "optic_SOS", "", 10000, -1 },
-            { "optic_KHS_old", "", 10000, -1 },
-            { "optic_LRPS", "", 2500, -1 },
-            { "optic_Nightstalker", "", 2500, -1 },
-            { "optic_LRPS", "", 2500, -1 },
-            { "optic_AMS", "", 10000, -1 },
-            { "acc_flashlight", "", 2500, -1 },
-            { "acc_pointer_IR", "", 2500, -1 },
-            { "muzzle_snds_B", "", 5000, -1 },
-            { "muzzle_snds_338_black", "", 5000, -1 },
-            { "muzzle_snds_93mmg_tan", "", 5000, -1 },
-            { "bipod_01_F_blk", "", 3600, -1 },
-            { "bipod_02_F_blk", "", 3600, -1 },
-            { "bipod_03_F_blk", "", 3600, -1 },
-            { "SmokeShell", "", 5000, -1 },
-            { "SmokeShellGreen", "Teargas", 5000, -1},
-            { "HandGrenade_Stone", "Flashbang", 2500, -1 }
-        };
-        mags[] = {
-            { "5Rnd_127x108_Mag", "", 500 },
-            { "7Rnd_408_Mag", "", 500 },
-            { "10Rnd_338_Mag", "", 500 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 500 },
-            { "10Rnd_127x54_Mag", "", 500 },
-            { "150Rnd_93x64_Mag", "", 500 }
-        };
-    };
- 
-    class cop_cop {
-        name = "Delicate Chief of Police Shop";
-        side = "cop";
-        license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "You must be a Chief of Police!" };
-        items[] = {
-          { "srifle_GM6_F", "", 50000, -1 },
-          { "srifle_LRR_F", "", 35000, -1 },
-          { "srifle_DMR_02_F", "", 65000, -1 },
-          { "srifle_DMR_05_blk_F", "", 60000, -1 },
-          { "srifle_DMR_04_F", "", 65000, -1 },
-          { "MMG_01_tan_F", "", 150000, -1 },
-          { "MMG_02_black_F", "", 150000, -1 },
-          { "optic_Hamr", "", 2500, -1 },
-          { "optic_MRCO", "", 2500, -1 },
-          { "optic_NVS", "", 10000, -1 },
-          { "optic_SOS", "", 10000, -1 },
-          { "optic_KHS_old", "", 10000, -1 },
-          { "optic_LRPS", "", 2500, -1 },
-          { "optic_Nightstalker", "", 2500, -1 },
-          { "optic_LRPS", "", 2500, -1 },
-          { "optic_AMS", "", 10000, -1 },
-          { "acc_flashlight", "", 2500, -1 },
-          { "acc_pointer_IR", "", 2500, -1 },
-          { "muzzle_snds_B", "", 5000, -1 },
-          { "muzzle_snds_338_black", "", 5000, -1 },
-          { "muzzle_snds_93mmg_tan", "", 5000, -1 },
-          { "bipod_01_F_blk", "", 3600, -1 },
-          { "bipod_02_F_blk", "", 3600, -1 },
-          { "bipod_03_F_blk", "", 3600, -1 },
-          { "SmokeShell", "", 5000, -1 },
-          { "SmokeShellGreen", "Teargas", 5000, -1},
-          { "HandGrenade_Stone", "Flashbang", 2500, -1 }
-        };
-        mags[] = {
-            { "5Rnd_127x108_Mag", "", 500 },
-            { "7Rnd_408_Mag", "", 500 },
-            { "10Rnd_338_Mag", "", 500 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 500 },
-            { "10Rnd_127x54_Mag", "", 500 },
-            { "130Rnd_338_Mag", "", 500 },
-            { "150Rnd_93x64_Mag", "", 500 }
-        };
-    };
- 
     //Medic Shops
     class med_basic {
-        name = "store";
+        name = "THW Shop";
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "ItemGPS", "", 100, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ToolKit", "", 250, -1 },
-            { "FirstAidKit", "", 150, -1 },
-            { "Medikit", "", 500, -1 },
-            { "NVGoggles", "", 1200, -1 }
+            { "ItemRadio", "Handy",800, -1 },
+            { "ItemGPS", "",50, -1 },
+            { "ToolKit", "",100, -1 },
+            { "FirstAidKit", "",50, -1 },
+            { "Medikit", "",1000, -1 },
+            { "NVGoggles", "",100, -1 }
         };
         mags[] = {};
+    };
+	
+    //Armory Shops
+    class gun {
+        name = "Gun Store";
+        side = "civ";
+        license = "gun";
+        level[] = { "", "", -1, "" };
+        items[] = {
+			{ "SMG_02_F", "",40000, -1 },
+            { "SMG_01_F", "",40000, -1 },
+            { "hgun_PDW2000_F", "",25000, -1 },
+            { "hgun_Rook40_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_02_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_01_F", "",15000, -1 },
+            { "hgun_ACPC2_F", "",15000, -1 },
+            { "muzzle_snds_L", "",30000, -1 },
+            { "muzzle_snds_acp", "",30000, -1 },
+            { "optic_MRD", "",2500, -1 },
+            { "optic_Yorris", "",2500, -1 },
+            { "optic_Aco_smg", "",2500, -1 },
+            { "optic_ACO_grn_smg", "",2500, -1 },
+            { "optic_Holosight_smg", "",2500, -1 }
+		};
+        mags[] = {
+            { "30Rnd_9x21_Mag", "",250, -1 },
+            { "16Rnd_9x21_Mag", "",250, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",500, -1 },
+            { "11Rnd_45ACP_Mag", "",250, -1 },
+            { "9Rnd_45ACP_Mag", "",250, -1 },
+            { "6Rnd_45ACP_Cylinder", "",250, -1 }
+		};
+    };
+
+    class rebel {
+        name = "Rebellen Shop";
+        side = "civ";
+        license = "rebel";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Sturmgewehre",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "arifle_SDAR_F", "",75000, -1 },
+            { "arifle_Mk20C_plain_F", "",150000, -1 },
+            { "arifle_Mk20_plain_F", "",150000, -1 },
+            { "arifle_Mk20_GL_plain_F", "",180000, -1 },
+            { "arifle_Mk20C_F", "",150000, -1 },
+            { "arifle_Mk20_F", "",150000, -1 },
+            { "arifle_Mk20_GL_F", "",180000, -1 },
+            { "arifle_TRG20_F", "",150000, -1 },
+            { "arifle_TRG21_F", "",150000, -1 },
+            { "arifle_TRG21_GL_F", "",180000, -1 },
+            { "arifle_SPAR_01_khk_F", "",190000, -1 },
+            { "arifle_SPAR_01_GL_khk_F", "",210000, -1 },
+            { "arifle_SPAR_01_snd_F", "",190000, -1 },
+            { "arifle_SPAR_01_GL_snd_F", "",210000, -1 },
+            { "arifle_SPAR_03_khk_F", "",700000, -1 },
+            { "arifle_SPAR_03_snd_F", "",700000, -1 },
+            { "arifle_CTAR_blk_F", "",200000, -1 },
+            { "arifle_CTAR_GL_blk_F", "",225000, -1 },
+            { "arifle_Katiba_C_F", "",225000, -1 },
+            { "arifle_Katiba_F", "",225000, -1 },
+            { "arifle_Katiba_GL_F", "",250000, -1 },
+            { "arifle_MXC_F", "",300000, -1 },
+            { "arifle_MXC_khk_F", "",300000, -1 },
+            { "arifle_MX_F", "",300000, -1 },
+            { "arifle_MX_khk_F", "",300000, -1 },
+            { "arifle_MX_GL_F", "",375000, -1 },
+            { "arifle_MX_GL_khk_F", "",375000, -1 },
+            { "arifle_MXM_F", "",350000, -1 },
+            { "arifle_MXM_khk_F", "",350000, -1 },
+            { "arifle_AKS_F", "",250000, -1 },
+            { "arifle_AKM_F", "",450000, -1 },
+            { "arifle_AK12_F", "",500000, -1 },
+            { "arifle_AK12_GL_F", "",550000, -1 },
+            { "arifle_ARX_hex_F", "",950000, -1 },
+            { "arifle_ARX_ghex_F", "",950000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Sniper- und Schütztengewehre",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "srifle_DMR_01_F", "",400000, -1 },
+            { "srifle_EBR_F", "",500000, -1 },
+            { "srifle_DMR_06_camo_F", "",600000, -1 },
+            { "srifle_DMR_06_olive_F", "",600000, -1 },
+            { "srifle_DMR_03_multicam_F", "",1000000, -1 },
+            { "srifle_DMR_03_khaki_F", "",1000000, -1 },
+            { "srifle_DMR_03_tan_F", "",1000000, -1 },
+            { "srifle_DMR_03_woodland_F", "",1000000, -1 },
+            { "srifle_DMR_07_hex_F", "",1000000, -1 },
+            { "srifle_DMR_07_ghex_F", "",1000000, -1 },
+            { "srifle_LRR_camo_F", "",4000000, -1 },
+            { "srifle_LRR_tna_F", "",4000000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Launcher",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "launch_RPG7_F", "",750000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Zubehör",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",5000, -1 },
+            { "optic_ACO_grn", "",5000, -1 },
+            { "optic_Holosight_blk_F", "",7500, -1 },
+            { "optic_Holosight", "",7500, -1 },
+            { "optic_Holosight_khk_F", "",7500, -1 },
+            { "optic_MRCO", "",10000, -1 },
+            { "optic_Hamr", "",10000, -1 },
+            { "optic_Hamr_khk_F", "",10000, -1 },
+            { "optic_Arco", "",10000, -1 },
+            { "optic_Arco_ghex_F", "",10000, -1 },
+            { "optic_Arco_blk_F", "",10000, -1 },
+            { "optic_Erco_khk_F", "",10000, -1 },
+            { "optic_Erco_snd_F", "",10000, -1 },
+            { "optic_Erco_blk_F", "",10000, -1 },
+            { "optic_DMS", "",15000, -1 },
+            { "optic_DMS_ghex_F", "",15000, -1 },
+            { "optic_AMS", "",17500, -1 },
+            { "optic_AMS_snd", "",17500, -1 },
+            { "optic_AMS_khk", "",17500, -1 },
+            { "optic_KHS_blk", "",17500, -1 },
+            { "optic_KHS_old", "",17500, -1 },
+            { "optic_KHS_tan", "",17500, -1 },
+            { "optic_KHS_hex", "",17500, -1 },
+            { "optic_SOS", "",20000, -1 },
+            { "optic_SOS_khk_F", "",20000, -1 },
+            { "optic_LRPS", "",25000, -1 },
+            { "optic_LRPS_ghex_F", "",25000, -1 },
+            { "optic_LRPS_tna_F", "",25000, -1 },
+            { "optic_NVS", "",75000, -1 },
+            { "muzzle_snds_B", "",50000, -1 },
+            { "muzzle_snds_B_khk_F", "",50000, -1 },
+            { "muzzle_snds_B_snd_F", "",50000, -1 },
+            { "muzzle_snds_58_blk_F", "",50000, -1 },
+            { "muzzle_snds_58_wdm_F", "",50000, -1 },
+            { "muzzle_snds_H", "",50000, -1 },
+            { "muzzle_snds_H_khk_F", "",50000, -1 },
+            { "muzzle_snds_M", "",50000, -1 },
+            { "muzzle_snds_M_khk_F", "",50000, -1 },
+            { "muzzle_snds_M_snd_F", "",50000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",50000, -1 },
+            { "muzzle_snds_65_Ti_hex_F", "",50000, -1 },
+            { "muzzle_snds_65_Ti_ghex_F", "",50000, -1 },
+            { "bipod_01_F_khk", "",65000, -1 },
+            { "bipod_01_F_blk", "",65000, -1 },
+            { "bipod_01_F_snd", "",65000, -1 },
+            { "bipod_01_F_mtp", "",65000, -1 },
+            { "bipod_02_F_blk", "",65000, -1 },
+            { "bipod_02_F_hex", "",65000, -1 },
+            { "bipod_02_F_tan", "",65000, -1 },
+            { "bipod_03_F_blk", "",65000, -1 },
+            { "bipod_03_F_oli", "",65000, -1 },
+            { "UGL_FlareWhite_F", "",500, -1 },
+            { "UGL_FlareGreen_F", "",500, -1 },
+            { "UGL_FlareRed_F", "",500, -1 },
+            { "UGL_FlareYellow_F", "",500, -1 },
+            { "UGL_FlareCIR_F", "",500, -1 },
+            { "1Rnd_Smoke_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokeRed_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokePurple_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "",500, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Kleine Kaliber",0, -1 },
+			{ "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "SMG_02_F", "",40000, -1 },
+            { "SMG_01_F", "",40000, -1 },
+            { "hgun_PDW2000_F", "",25000, -1 },
+            { "hgun_Rook40_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_02_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_01_F", "",15000, -1 },
+            { "hgun_Pistol_01_F", "",15000, -1 },
+            { "hgun_P07_khk_F", "",15000, -1 },
+            { "hgun_ACPC2_F", "",15000, -1 },
+            { "muzzle_snds_L", "",30000, -1 },
+            { "muzzle_snds_acp", "",30000, -1 },
+            { "optic_MRD", "",2500, -1 },
+            { "optic_Yorris", "",2500, -1 },
+            { "optic_Aco_smg", "",2500, -1 },
+            { "optic_ACO_grn_smg", "",2500, -1 },
+            { "optic_Holosight_smg_blk_F", "",2500, -1 },
+            { "optic_Holosight_smg", "",2500, -1 }
+        };
+        mags[] = {
+            { "7Rnd_408_Mag", "",5000, -1 },
+            { "20Rnd_762x51_Mag", "",1000, -1 },
+            { "10Rnd_762x54_Mag", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "30Rnd_65x39_caseless_mag", "",500, -1 },
+            { "30Rnd_556x45_Stanag", "",500, -1 },
+            { "20Rnd_556x45_UW_mag", "",500, -1 },
+            { "30Rnd_9x21_Mag", "",500, -1 },
+            { "16Rnd_9x21_Mag", "",250, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",500, -1 },
+            { "11Rnd_45ACP_Mag", "",250, -1 },
+            { "9Rnd_45ACP_Mag", "",250, -1 },
+            { "6Rnd_45ACP_Cylinder", "",250, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+
+    class gang {
+        name = "Hideout Arsenal";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Sturmgewehre",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "arifle_SDAR_F", "",75000, -1 },
+            { "arifle_Mk20C_plain_F", "",150000, -1 },
+            { "arifle_Mk20_plain_F", "",150000, -1 },
+            { "arifle_Mk20_GL_plain_F", "",180000, -1 },
+            { "arifle_Mk20C_F", "",150000, -1 },
+            { "arifle_Mk20_F", "",150000, -1 },
+            { "arifle_Mk20_GL_F", "",180000, -1 },
+            { "arifle_TRG20_F", "",150000, -1 },
+            { "arifle_TRG21_F", "",150000, -1 },
+            { "arifle_TRG21_GL_F", "",180000, -1 },
+            { "arifle_SPAR_01_khk_F", "",190000, -1 },
+            { "arifle_SPAR_01_GL_khk_F", "",210000, -1 },
+            { "arifle_SPAR_01_snd_F", "",190000, -1 },
+            { "arifle_SPAR_01_GL_snd_F", "",210000, -1 },
+            { "arifle_CTAR_blk_F", "",200000, -1 },
+            { "arifle_CTAR_GL_blk_F", "",225000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Zubehör",0, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",5000, -1 },
+            { "optic_ACO_grn", "",5000, -1 },
+            { "optic_Holosight_blk_F", "",7500, -1 },
+            { "optic_Holosight", "",7500, -1 },
+            { "optic_Holosight_khk_F", "",7500, -1 },
+            { "optic_MRCO", "",10000, -1 },
+            { "optic_Hamr", "",10000, -1 },
+            { "optic_Hamr_khk_F", "",10000, -1 },
+            { "optic_Arco", "",10000, -1 },
+            { "optic_Arco_ghex_F", "",10000, -1 },
+            { "optic_Arco_blk_F", "",10000, -1 },
+            { "optic_Erco_khk_F", "",10000, -1 },
+            { "optic_Erco_snd_F", "",10000, -1 },
+            { "optic_Erco_blk_F", "",10000, -1 },
+            { "optic_DMS", "",15000, -1 },
+            { "optic_DMS_ghex_F", "",15000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "NONE", "Kleine Kaliber",0, -1 },
+			{ "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "SMG_02_F", "",40000, -1 },
+            { "SMG_01_F", "",40000, -1 },
+            { "hgun_PDW2000_F", "",25000, -1 },
+            { "hgun_Rook40_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_02_F", "",15000, -1 },
+            { "hgun_Pistol_heavy_01_F", "",15000, -1 },
+            { "hgun_Pistol_01_F", "",15000, -1 },
+            { "hgun_P07_khk_F", "",15000, -1 },
+            { "hgun_ACPC2_F", "",15000, -1 },
+            { "muzzle_snds_L", "",30000, -1 },
+            { "muzzle_snds_acp", "",30000, -1 },
+            { "optic_MRD", "",2500, -1 },
+            { "optic_Yorris", "",2500, -1 },
+            { "optic_Aco_smg", "",2500, -1 },
+            { "optic_ACO_grn_smg", "",2500, -1 },
+            { "optic_Holosight_smg_blk_F", "",2500, -1 },
+            { "optic_Holosight_smg", "",2500, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "30Rnd_65x39_caseless_mag", "",500, -1 },
+            { "30Rnd_556x45_Stanag", "",500, -1 },
+            { "20Rnd_556x45_UW_mag", "",500, -1 },
+            { "30Rnd_9x21_Mag", "",500, -1 },
+            { "16Rnd_9x21_Mag", "",250, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",500, -1 },
+            { "11Rnd_45ACP_Mag", "",250, -1 },
+            { "9Rnd_45ACP_Mag", "",250, -1 },
+            { "6Rnd_45ACP_Cylinder", "",250, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+
+    //Basic Shops
+    class genstore {
+        name = "Hornbach";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "ItemRadio", "Handy",800, -1 },
+            { "Binocular", "",150, -1 },
+			{ "ItemGPS", "",100, -1 },
+			{ "ToolKit", "",3500, -1 },
+			{ "FirstAidKit", "",150, -1 },
+			{ "NVGoggles", "",1500, -1 },
+			{ "NVGoggles_INDEP", "",1500, -1 },
+			{ "NVGoggles_OPFOR", "",1500, -1 },
+			{ "NVGoggles_tna_F", "",1500, -1 },
+            { "Rangefinder", "",10000, -1 }
+        };
+        mags[] = {};
+    };
+
+    //Cop Shops
+    class cop_basic {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 1, "Du musst Polizist sein!" };
+        items[] = {
+            { "ItemRadio", "Handy",800, -1 },
+            { "ItemGPS", "",100, -1 },
+            { "Binocular", "",100, -1 },
+            { "Rangefinder", "",500, -1 },
+            { "ToolKit", "",100, -1 },
+            { "FirstAidKit", "",100, -1 },
+            { "Medikit", "",1000, -1 },
+            { "NVGoggles", "",10, -1 },
+            { "NVGoggles_INDEP", "",10, -1 },
+            { "NVGoggles_OPFOR", "",10, -1 },
+			{ "NVGoggles_tna_F", "",1500, -1 },
+            { "Chemlight_red", "",20, -1 },
+            { "Chemlight_green", "",20, -1 },
+            { "Chemlight_blue", "",20, -1 }
+        };
+        mags[] = {
+        };
+    };
+	
+    class cop_cadet {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 1, "Du musst Cadet sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "muzzle_snds_L", "",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_officer {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 2, "Du musst Officer sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_trooper {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 3, "Du musst Trooper sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_statetrooper {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 4, "Du musst State Trooper sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_sergeant {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 5, "Du musst Sergeant sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_staffsergeant {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "Du musst Staff Sergeant sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_lieutenant {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 7, "Du musst Lieutenant sein!" };
+        items[] = {
+			{ "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_1stlieutenant {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 8, "Du musst 1st Lieutenant sein!" };
+        items[] = {
+			{ "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_captain {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 9, "Du musst Captain sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_inspector {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 10, "Du musst Inspector sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_2ndchief {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 11, "Du musst Deputy Chief sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_chief {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 12, "Du musst Chief o. Police sein!" };
+        items[] = {
+            { "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_sniper {
+        name = "Polizei Shop";
+        side = "cop";
+        license = "";
+        level[] = { "license_cop_sniper", "BOOL", true, "Du musst Polizei Sniper sein!" };
+        items[] = {
+			{ "srifle_DMR_07_blk_F", "",150000, -1 },
+			{ "srifle_LRR_F", "",250000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "7Rnd_408_Mag", "",500, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
+    };
+	
+    class cop_fbi {
+        name = "FBI Shop";
+        side = "cop";
+        license = "";
+        level[] = { "license_cop_fbi", "BOOL", true, "Du musst FBI Mitglied sein!" };
+        items[] = {
+			{ "hgun_P07_snds_F","Taser Pistole",500, -1 },
+            { "arifle_SDAR_F","Tazer Rifle",15000, -1 },
+            { "SMG_05_F", "",5000, -1 },
+            { "arifle_TRG20_F", "",5000, -1 },
+            { "arifle_SPAR_01_blk_F", "",15000, -1 },
+            { "arifle_SPAR_01_GL_blk_F", "",15000, -1 },
+            { "arifle_SPAR_03_blk_F", "",20000, -1 },
+            { "arifle_MX_Black_F", "",20000, -1 },
+            { "arifle_MXC_Black_F", "",15000, -1 },
+            { "arifle_MX_GL_Black_F", "",30000, -1 },
+            { "arifle_MXM_Black_F", "",35000, -1 },
+            { "arifle_MX_SW_Black_F", "",60000, -1 },
+            { "srifle_EBR_F", "",50000, -1 },
+            { "arifle_ARX_blk_F", "",20000, -1 },
+            { "srifle_DMR_06_camo_F", "",75000, -1 },
+            { "srifle_DMR_06_olive_F", "",75000, -1 },
+            { "srifle_DMR_03_F", "",100000, -1 },
+            { "NONE", "---------------------------------------------------------------------------",0, -1 },
+            { "acc_flashlight", "",500, -1 },
+            { "acc_pointer_IR", "",500, -1 },
+            { "optic_Aco", "",1500, -1 },
+            { "optic_ACO_grn", "",1500, -1 },
+            { "optic_Holosight", "",2500, -1 },
+            { "optic_MRCO", "",5000, -1 },
+            { "optic_Hamr", "",5000, -1 },
+            { "optic_Erco_blk_F", "",5000, -1 },
+            { "optic_Arco", "",5000, -1 },
+            { "optic_DMS", "",10000, -1 },
+            { "optic_AMS", "",10000, -1 },
+            { "optic_AMS_snd", "",12500, -1 },
+            { "optic_AMS_khk", "",12500, -1 },
+            { "optic_KHS_blk", "",12500, -1 },
+            { "optic_KHS_old", "",12500, -1 },
+            { "optic_KHS_tan", "",12500, -1 },
+            { "optic_KHS_hex", "",12500, -1 },
+            { "optic_SOS", "",14000, -1 },
+            { "optic_LRPS", "",15000, -1 },
+            { "optic_NVS", "",17500, -1 },
+            { "muzzle_snds_58_blk_F", "",10000, -1 },
+            { "muzzle_snds_65_Ti_blk_F", "",10000, -1 },
+            { "muzzle_snds_B", "",10000, -1 },
+            { "muzzle_snds_H", "",10000, -1 },
+            { "muzzle_snds_M", "",10000, -1 },
+            { "muzzle_snds_L", "",5000, -1 },
+            { "bipod_01_F_blk", "",10000, -1 },
+            { "bipod_01_F_snd", "",10000, -1 },
+            { "HandGrenade_Stone","Blendgranate",5000, -1 },
+            { "1Rnd_SmokeGreen_Grenade_shell","Tränengas",15000, -1 },
+            { "SmokeShellGreen","Reizgas",5000, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
+            { "20Rnd_556x45_UW_mag","Tazer Munition",100, -1 },
+            { "30Rnd_9x21_Mag", "",100, -1 },
+            { "30Rnd_9x21_Mag_SMG_02_Tracer_Green", "",100, -1 },
+            { "30Rnd_45ACP_Mag_SMG_01", "",100, -1 },
+            { "30Rnd_556x45_Stanag", "",100, -1 },
+            { "30Rnd_65x39_caseless_mag", "",100, -1 },
+            { "100Rnd_65x39_caseless_mag", "",100, -1 },
+            { "20Rnd_762x51_Mag", "",100, -1 },
+            { "30Rnd_545x39_Mag_F", "",500, -1 },
+            { "30Rnd_762x39_Mag_F", "",500, -1 },
+            { "30Rnd_580x42_Mag_F", "",500, -1 },
+            { "30Rnd_65x39_caseless_green", "",500, -1 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
+            { "RPG7_F", "",750000, -1 }
+        };
     };
 };
