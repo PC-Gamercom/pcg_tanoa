@@ -24,7 +24,7 @@ if(EQUAL(_zone,"")) exitWith {life_action_inUse = false;};
 switch(true) do {
 	case (_zone in ["banane_1"]): {_gather = ["banane",2];};
 	case (_zone in ["kiwi_1"]): {_gather = ["kiwi",3];};
-	case (_zone in ["kirsch_1"]): {_gather = ["kirsche",3];};
+	case (_zone in ["kirsche_1"]): {_gather = ["kirsche",3];};
 	case (_zone in ["gerste_1"]): {_gather = ["gerste",3];};
 	case (_zone in ["hopfen_1"]): {_gather = ["hopfen",3];};
 	case (_zone in ["weizen_1"]): {_gather = ["weizen",3];};

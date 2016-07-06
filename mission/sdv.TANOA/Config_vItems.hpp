@@ -363,6 +363,28 @@ class VirtualItems {
 	
 // andere Sachen
 
+class hanf {
+        variable = "hanf";
+        displayName = "STR_Item_hanF";
+        weight = 3;
+        buyPrice = 0;
+        sellPrice = 20;
+        illegal = true;
+        edible = 10;
+        icon = "";
+    };
+
+	class hanfver {
+        variable = "hanfver";
+        displayName = "STR_Item_hanFver";
+        weight = 2;
+        buyPrice = 0;
+        sellPrice = 20;
+        illegal = true;
+        edible = 10;
+        icon = "";
+    };
+	
 class eichenholz {
         variable = "eichenholz";
         displayName = "STR_Item_Eichenholz";

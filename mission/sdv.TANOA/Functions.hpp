@@ -25,7 +25,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
-		class welcomeNotification {};
+		//class welcomeNotification {};
 		class welcomeMessage {};
 		class survival {};
 	};
