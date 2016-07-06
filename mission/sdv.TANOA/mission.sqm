@@ -1,25 +1,25 @@
 version=52;
 class EditorData
 {
-	moveGridStep=1;
+	moveGridStep=1.1634643;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1162;
+	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=3771;
+		nextID=3775;
 	};
 	class MarkerIDProvider
 	{
-		nextID=273;
+		nextID=275;
 	};
 	class Camera
 	{
-		pos[]={2181.9211,37.866196,4500.5596};
-		dir[]={0.026400382,-0.70026982,0.71339095};
-		up[]={0.025897099,0.7138781,0.69979095};
-		aside[]={0.99931675,-4.6784407e-009,-0.036981616};
+		pos[]={5518.9697,4.1111522,3968.0642};
+		dir[]={-0.41897753,-0.35088295,0.83746839};
+		up[]={-0.156995,0.93641591,0.31380707};
+		aside[]={0.89433044,-6.4261258e-008,0.44742551};
 	};
 };
 binarizationWanted=0;
@@ -156,14 +156,13 @@ addons[]=
 	"A3_Structures_F_Exp_Commercial_Advertisements",
 	"A3_Structures_F_Mil_Barracks",
 	"A3_Boat_F_Gamma_Boat_Transport_01",
-	"A3_Structures_F_Mark_Items_Military",
-	"A3_Structures_F_Kart_Signs_Companies"
+	"A3_Structures_F_Mark_Items_Military"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=41;
+		items=40;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -441,13 +440,6 @@ class AddonsMetaData
 		{
 			className="A3_Boat_F_Exp";
 			name="Arma 3 Apex - Boats and Submersibles";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item40
-		{
-			className="A3_Structures_F_Kart";
-			name="Arma 3 Karts - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -763,7 +755,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2773;
+		items=2776;
 		class Item0
 		{
 			dataType="Object";
@@ -10689,11 +10681,11 @@ class Mission
 		class Item144
 		{
 			dataType="Marker";
-			position[]={3662.1279,-1.0785893e-015,9604.9238};
+			position[]={3016.863,0,11175.074};
 			name="REB_01";
 			type="Empty";
 			id=348;
-			atlOffset=-19.125954;
+			atlOffset=-8.5417309;
 		};
 		class Item145
 		{
@@ -10707,11 +10699,11 @@ class Mission
 		class Item146
 		{
 			dataType="Marker";
-			position[]={2108.5271,-3.3637707e-024,3418.2471};
+			position[]={4791.4175,0,5115.7656};
 			name="KAT_COP_01";
 			type="Empty";
 			id=350;
-			atlOffset=-12.774543;
+			atlOffset=-14.702165;
 		};
 		class Item147
 		{
@@ -43518,7 +43510,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889884,13510.989};
+				position[]={13232.703,-5.889883,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -94280,8 +94272,8 @@ class Mission
 		class Item1848
 		{
 			dataType="Marker";
-			position[]={4705.7329,-5.0309247e-016,2205.801};
-			name="marker_57";
+			position[]={4705.7329,-4.6491479e-035,2205.801};
+			name="tropenholz_1";
 			text="Tropfenholzwald";
 			type="mil_dot";
 			colorName="ColorBrown";
@@ -94462,9 +94454,9 @@ class Mission
 		class Item1857
 		{
 			dataType="Marker";
-			position[]={10030.352,-4.9197991e-014,4367.3091};
-			name="marker_59";
-			text="Eichenholzwald";
+			position[]={10030.352,-4.6491479e-035,4367.3091};
+			name="eichenholz_1";
+			text="Eichenholz";
 			type="mil_dot";
 			colorName="ColorBrown";
 			id=2590;
@@ -94683,9 +94675,9 @@ class Mission
 		class Item1864
 		{
 			dataType="Marker";
-			position[]={11391.173,-4.5109001e-013,12354.227};
-			name="marker_63";
-			text="Kokainhändler";
+			position[]={11391.173,-1.0513838e-033,12354.227};
+			name="Dealer_3";
+			text="Dealer";
 			type="mil_dot";
 			colorName="ColorRed";
 			id=2597;
@@ -94781,7 +94773,7 @@ class Mission
 		class Item1868
 		{
 			dataType="Marker";
-			position[]={3538.3589,1.0890509e+028,9666.4258};
+			position[]={3669.5664,1.0890509e+028,9462.4551};
 			name="marker_65";
 			text="Hanfpresser";
 			type="mil_dot";
@@ -94851,9 +94843,9 @@ class Mission
 		class Item1870
 		{
 			dataType="Marker";
-			position[]={8813.3418,-4.4343121e-013,3698.3921};
-			name="marker_66";
-			text="Hanfhändler";
+			position[]={8813.3418,-4.2946212e-016,3698.3921};
+			name="Dealer_1";
+			text="Dealer";
 			type="mil_dot";
 			colorName="ColorRed";
 			id=2603;
@@ -94862,13 +94854,13 @@ class Mission
 		class Item1871
 		{
 			dataType="Marker";
-			position[]={2374.262,-9.9663145e-037,6709.7041};
-			name="marker_67";
+			position[]={2374.262,1.8816281e+021,6709.7041};
+			name="heroin_1";
 			text="Heroinplantage";
 			type="mil_dot";
 			colorName="ColorRed";
 			id=2604;
-			atlOffset=-19.605671;
+			atlOffset=1.8816281e+021;
 		};
 		class Item1872
 		{
@@ -95001,9 +94993,9 @@ class Mission
 		class Item1875
 		{
 			dataType="Marker";
-			position[]={11960.76,-1.3672716e-013,6533.377};
-			name="marker_69";
-			text="Heroinhändler";
+			position[]={11960.76,5.4368149e-036,6533.377};
+			name="Dealer_2";
+			text="Dealer";
 			type="mil_dot";
 			colorName="ColorRed";
 			id=2608;
@@ -101471,7 +101463,7 @@ class Mission
 			};
 			id=2931;
 			type="Land_InfoStand_V2_F";
-			atlOffset=4.6753373;
+			atlOffset=4.6820025;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -101590,7 +101582,7 @@ class Mission
 			};
 			id=2935;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.7510376;
+			atlOffset=0.75393295;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -101727,7 +101719,7 @@ class Mission
 			};
 			id=2939;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.3869772;
+			atlOffset=0.38904858;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -102694,16 +102686,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5789.5537,9.4799519,10345.571};
-				angles[]={0,1.6944559,0};
+				position[]={5789.5542,9.4803371,10345.571};
+				angles[]={0,1.6944529,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Lizenzen"",life_fnc_licenses,[""driver"",""truck"",""boat"",""dive"",""hpilot"",""pilot"",""gun"",""home""],0,true,true,"""",' playerSide == civilian '];";
 			};
 			id=2991;
 			type="Land_Laptop_device_F";
+			atlOffset=0.00038528442;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -103013,17 +103007,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5697.918,4.7796516,9933.7734};
-				angles[]={0,2.7527511,0};
+				position[]={5697.918,4.7792578,9933.7734};
+				angles[]={0,2.7527506,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3004;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11939383;
+			atlOffset=0.11899996;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -103407,16 +103402,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5444.4463,3.6293738,4097.8511};
-				angles[]={0,0.34514204,0};
+				position[]={5444.4458,3.6296625,4097.8511};
+				angles[]={0,0.34513885,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Antrag auf Staatsbürgerschaft stellen"",{license_civ_einwohner = true; hint parseText ""<t size= '1.6' color='#f19727'>Herzlichen Glückwunsch<br/><br/></t>Ihr Antrag auf ein Staatsbürgertum wurde angenommen. Sie sind nun Staatsbürger der Staat der Visionäre.</t>"";[2] call SOCK_fnc_updatePartial;},"""",0,false,false,"""",'!license_civ_einwohner'];";
 			};
 			id=3017;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.44570899;
+			atlOffset=0.00021696091;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -103842,17 +103839,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11212.618,2.5993276,5241.6943};
-				angles[]={0,6.0837545,0};
+				position[]={11212.618,2.5992579,5241.6938};
+				angles[]={0,6.0837464,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3030;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.079069614;
+			atlOffset=0.078999996;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104069,17 +104067,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5480.1318,4.1816702,4072.9141};
-				angles[]={0,0.025450211,0};
+				position[]={5480.1318,4.1813145,4072.9143};
+				angles[]={0,0.025446899,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""SdVKlamotten"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=3037;
 			type="Land_InfoStand_V2_F";
-			atlOffset=4.7683716e-007;
+			atlOffset=0.20399976;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104139,17 +104138,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5536.5054,4.5464029,4137.1699};
-				angles[]={0,5.473177,0};
+				position[]={5536.5059,4.5467787,4137.1694};
+				angles[]={0,5.4731779,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3039;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.048619032;
+			atlOffset=0.048999786;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -119302,16 +119302,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1836.0674,7.6836123,11949.735};
+				position[]={1836.0677,7.6838512,11949.735};
 				angles[]={0,0.34880406,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3345;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.48175669;
+			atlOffset=0.012302876;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -119711,17 +119713,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6287.7319,2.2696695,12797.747};
-				angles[]={0,1.1175027,0};
+				position[]={6287.7314,2.269258,12797.747};
+				angles[]={0,1.1174994,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3361;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00017499924;
+			atlOffset=0.23900008;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -119912,17 +119915,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9684.1816,5.4992137,13498.764};
-				angles[]={0,2.6841054,0};
+				position[]={9684.1816,5.4990706,13498.764};
+				angles[]={0,2.6841068,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3370;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0079202652;
+			atlOffset=0.0077772141;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -129412,6 +129416,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Lizenzen"",life_fnc_licenses,[""driver"",""truck"",""boat"",""dive"",""hpilot"",""pilot"",""gun"",""home""],0,true,true,"""",' playerSide == civilian '];";
 			};
 			id=3702;
 			type="Land_InfoStand_V2_F";
@@ -130402,7 +130407,7 @@ class Mission
 			position[]={13375.32,-14.308599,12618.537};
 			name="marker_246";
 			type="mil_arrow2";
-			angle=19.782154;
+			angle=19.78215;
 			id=3732;
 			atlOffset=-1.7765875;
 		};
@@ -130494,7 +130499,7 @@ class Mission
 			position[]={13395.81,-30.036123,12888.223};
 			name="marker_256";
 			type="mil_arrow2";
-			angle=349.73718;
+			angle=349.73715;
 			id=3742;
 			atlOffset=-0.27880287;
 		};
@@ -130504,7 +130509,7 @@ class Mission
 			position[]={13385.79,-31.125788,12932.679};
 			name="marker_257";
 			type="mil_arrow2";
-			angle=343.46371;
+			angle=343.46365;
 			id=3743;
 			atlOffset=-0.38399696;
 		};
@@ -130514,7 +130519,7 @@ class Mission
 			position[]={13364.111,-31.755901,12979.017};
 			name="marker_258";
 			type="mil_arrow2";
-			angle=333.32785;
+			angle=333.32779;
 			id=3744;
 			atlOffset=-0.36109543;
 		};
@@ -130534,7 +130539,7 @@ class Mission
 			position[]={13313.474,-32.025955,13075.754};
 			name="marker_260";
 			type="mil_arrow2";
-			angle=324.2587;
+			angle=324.25864;
 			id=3746;
 			atlOffset=-0.87508965;
 		};
@@ -130554,7 +130559,7 @@ class Mission
 			position[]={13250.406,-31.238333,13168.436};
 			name="marker_262";
 			type="mil_arrow2";
-			angle=329.43317;
+			angle=329.43311;
 			id=3748;
 			atlOffset=0.26699829;
 		};
@@ -130564,7 +130569,7 @@ class Mission
 			position[]={13212.236,-29.422009,13223.248};
 			name="marker_263";
 			type="mil_arrow2";
-			angle=330.00275;
+			angle=330.00272;
 			id=3749;
 			atlOffset=1.0283127;
 		};
@@ -130594,7 +130599,7 @@ class Mission
 			position[]={13102.173,-25.079098,13403.094};
 			name="marker_266";
 			type="mil_arrow2";
-			angle=327.9614;
+			angle=327.96136;
 			id=3752;
 			atlOffset=0.37370872;
 		};
@@ -130624,7 +130629,7 @@ class Mission
 			position[]={13035.058,-16.628557,13562.813};
 			name="marker_269";
 			type="mil_arrow2";
-			angle=54.328281;
+			angle=54.328274;
 			id=3755;
 			atlOffset=-0.45949554;
 		};
@@ -131025,16 +131030,92 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2859.1575,-33.690346,839.05951};
+				position[]={5515.9844,2.3083498,3973.2307};
+				angles[]={0,5.240212,6.2826972};
 			};
 			side="Empty";
-			flags=5;
+			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Lizenzen"",life_fnc_licenses,[""driver"",""truck"",""boat"",""dive"",""hpilot"",""pilot"",""gun"",""home""],0,true,true,"""",' playerSide == civilian '];";
 			};
-			id=3768;
-			type="SignAd_SponsorS_Fuel_white_F";
-			atlOffset=0.0034790039;
+			id=3771;
+			type="Land_InfoStand_V2_F";
+			atlOffset=0.11119485;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="enableSimulation";
+					expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item2773
+		{
+			dataType="Marker";
+			position[]={5515.9844,4.1286338e+024,3973.2307};
+			name="marker_273";
+			text="Amt für Lizenzen";
+			type="b_unknown";
+			colorName="ColorBlue";
+			id=3772;
+			atlOffset=4.1286338e+024;
+		};
+		class Item2774
+		{
+			dataType="Marker";
+			position[]={1293.772,7.8190106e+030,11389.152};
+			name="jail_marker";
+			type="Empty";
+			alpha=0.7457512;
+			a=0.69999999;
+			b=0.69999999;
+			id=3773;
+			atlOffset=7.8190106e+030;
+		};
+		class Item2775
+		{
+			dataType="Marker";
+			position[]={5797.709,-1.8218041e-028,10128.553};
+			name="jail_release";
+			type="Empty";
+			id=3774;
+			atlOffset=-4.329277;
 		};
 	};
 	class Connections
