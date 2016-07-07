@@ -1,6 +1,6 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
-
+//Test
 player createDiarySubject ["credits","Credits"];
 //player createDiarySubject ["changelog","Change Log"];
 player createDiarySubject ["serverrules","General Rules"];
