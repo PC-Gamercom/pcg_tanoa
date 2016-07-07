@@ -8,18 +8,18 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=3778;
+		nextID=3790;
 	};
 	class MarkerIDProvider
 	{
-		nextID=276;
+		nextID=281;
 	};
 	class Camera
 	{
-		pos[]={11724.11,25,3092.3601};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={1769.2406,14.524294,12067.017};
+		dir[]={0.1794218,-0.48062962,-0.85839182};
+		up[]={0.098337688,0.87691879,-0.47046763};
+		aside[]={-0.97886229,3.9002043e-007,-0.20460391};
 	};
 };
 binarizationWanted=0;
@@ -747,7 +747,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2387;
+		items=2395;
 		class Item0
 		{
 			dataType="Object";
@@ -28269,8 +28269,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28279,10 +28279,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -28326,8 +28326,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28336,10 +28336,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -43536,7 +43536,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889883,13510.989};
+				position[]={13232.703,-5.889884,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -85099,12 +85099,13 @@ class Mission
 				angles[]={0,4.355504,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=2931;
 			type="Land_InfoStand_V2_F";
-			atlOffset=4.6753373;
+			atlOffset=0.0020160675;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -87977,16 +87978,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2128.5627,13.009479,3344.9941};
-				angles[]={0,3.1041439,0};
+				position[]={2128.5493,13.009258,3345.0649};
+				angles[]={0,3.1041379,0};
 			};
 			side="Empty";
 			class Attributes
 			{
+				init="this addAction[""Auto Händler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""garage_5"",""garage_6"",""garage_7"",""garage_8"",""garage_9"",""garage_10"",""garage_11"",""garage_12""],""civ"",""Garage""]];this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""garage_5"",""garage_6"",""garage_7"",""garage_8"",""garage_9"",""garage_10"",""garage_11"",""garage_12"";}];this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 			};
 			id=3045;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.53921986;
+			atlOffset=0.53899956;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -88045,17 +88047,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2148.6311,12.741281,3354.2871};
-				angles[]={0,2.9303002,0};
+				position[]={2148.6311,12.741376,3354.2871};
+				angles[]={0,2.9303031,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Auto Händler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""garage_5"",""garage_6"",""garage_7"",""garage_8"",""garage_9"",""garage_10"",""garage_11"",""garage_12""],""civ"",""Garage""]];this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""garage_5"",""garage_6"",""garage_7"",""garage_8"",""garage_9"",""garage_10"",""garage_11"",""garage_12"";}];this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 			};
 			id=3047;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-9.5367432e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -102891,7 +102893,7 @@ class Mission
 			};
 			id=3343;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.14916015;
+			atlOffset=0.0005030632;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -102955,13 +102957,14 @@ class Mission
 				angles[]={0,0.34880406,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3345;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.48200035;
+			atlOffset=0.012541771;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -111325,13 +111328,12 @@ class Mission
 				angles[]={0,0.31751028,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3666;
 			type="Land_InfoStand_V2_F";
-			atlOffset=3.8146973e-005;
+			atlOffset=0.55395699;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114518,6 +114520,71 @@ class Mission
 			colorName="ColorWEST";
 			id=3777;
 			atlOffset=-2.98;
+		};
+		class Item2387
+		{
+			dataType="Marker";
+			position[]={2141.167,1.4182242e+023,3354.47};
+			name="garage_5";
+			type="Empty";
+			id=3778;
+			atlOffset=1.4182242e+023;
+		};
+		class Item2388
+		{
+			dataType="Marker";
+			position[]={2145.1387,12.160363,3357.918};
+			name="garage_6";
+			type="Empty";
+			id=3783;
+		};
+		class Item2389
+		{
+			dataType="Marker";
+			position[]={2149.0359,12.130768,3358.3677};
+			name="garage_7";
+			type="Empty";
+			id=3784;
+		};
+		class Item2390
+		{
+			dataType="Marker";
+			position[]={2152.5583,12.087801,3360.7664};
+			name="garage_8";
+			type="Empty";
+			id=3785;
+		};
+		class Item2391
+		{
+			dataType="Marker";
+			position[]={2155.1062,12.076211,3362.5645};
+			name="garage_9";
+			type="Empty";
+			id=3786;
+		};
+		class Item2392
+		{
+			dataType="Marker";
+			position[]={2157.9543,12.063417,3364.5137};
+			name="garage_10";
+			type="Empty";
+			id=3787;
+		};
+		class Item2393
+		{
+			dataType="Marker";
+			position[]={2160.5774,12.06,3365.8621};
+			name="garage_11";
+			type="Empty";
+			id=3788;
+		};
+		class Item2394
+		{
+			dataType="Marker";
+			position[]={2163.2004,12.06,3367.2117};
+			name="garage_12";
+			type="Empty";
+			id=3789;
 		};
 	};
 	class Connections
