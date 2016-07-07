@@ -1,7 +1,7 @@
 /*
 	File: initServer.sqf
 	
-	Description:
+	BlaBluujbbfgDescription:
 	Starts the initialization of the server.
 */
 if(!(_this select 0)) exitWith {}; //Not server
