@@ -136,6 +136,14 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
+	    class kakao {
+        variable = "kakao";
+        displayName = "STR_License_Kakao";
+        price = 20000;
+        illegal = false;
+        side = "civ";
+    };
 
     //Illegal Licenses
     class cocaine {
@@ -158,6 +166,14 @@ class Licenses {
         variable = "marijuana";
         displayName = "STR_License_Marijuana";
         price = 19500;
+        illegal = true;
+        side = "civ";
+    };
+	
+	    class koralle {
+        variable = "koralle";
+        displayName = "STR_License_Korallen";
+        price = 20000;
         illegal = true;
         side = "civ";
     };
