@@ -39,6 +39,22 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "turtle_soup", "turtle_raw" };
     };
+	
+	class korallenexport {
+        name = "STR_Shops_Korallenexport";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "korallever" };
+    };
+	
+	class kakaoundkaffee {
+        name = "STR_Shops_KakaoUndKaffee";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "kakaopulver", "coffee" };
+    };
 
     class coffee {
         name = "STR_Shops_Coffee";
@@ -177,7 +193,7 @@ class VirtualItems {
         displayName = "STR_Item_FuelE";
         weight = 2;
         buyPrice = -1;
-        sellPrice = -1;
+        sellPrice = 50;
         illegal = false;
         edible = -1;
         icon = "icons\ico_fuelempty.paa";
@@ -321,7 +337,7 @@ class VirtualItems {
         variable = "gerste";
         displayName = "STR_Item_Gerste";
         weight = 2;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 10;
         illegal = false;
         edible = 10;
@@ -332,7 +348,7 @@ class VirtualItems {
         variable = "hopfen";
         displayName = "STR_Item_Hopfen";
         weight = 2;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 11;
         illegal = false;
         edible = 10;
@@ -343,7 +359,7 @@ class VirtualItems {
         variable = "weizen";
         displayName = "STR_Item_Weizen";
         weight = 1;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 13;
         illegal = false;
         edible = 10;
@@ -354,7 +370,7 @@ class VirtualItems {
         variable = "wasser";
         displayName = "STR_Item_Wasser";
         weight = 3;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 4;
         illegal = false;
         edible = 10;
@@ -367,10 +383,10 @@ class hanf {
         variable = "hanf";
         displayName = "STR_Item_hanF";
         weight = 3;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 20;
         illegal = true;
-        edible = 10;
+        edible = -1;
         icon = "";
     };
 
@@ -378,10 +394,10 @@ class hanf {
         variable = "hanfver";
         displayName = "STR_Item_hanFver";
         weight = 2;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 20;
         illegal = true;
-        edible = 10;
+        edible = -1;
         icon = "";
     };
 	
@@ -389,10 +405,10 @@ class eichenholz {
         variable = "eichenholz";
         displayName = "STR_Item_Eichenholz";
         weight = 3;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 20;
         illegal = false;
-        edible = 10;
+        edible = -1;
         icon = "";
     };
 		
@@ -400,10 +416,10 @@ class eichenholz {
         variable = "eichenholzbretter";
         displayName = "STR_Item_Eichenholzbretter";
         weight = 2;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 60;
         illegal = false;
-        edible = 10;
+        edible = -1;
         icon = "";
     };
 	
@@ -411,10 +427,10 @@ class eichenholz {
         variable = "tropenholz";
         displayName = "STR_Item_Tropenholz";
         weight = 4;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 20;
         illegal = false;
-        edible = 10;
+        edible = -1;
         icon = "";
     };
 		
@@ -422,7 +438,29 @@ class eichenholz {
         variable = "tropenholzbretter";
         displayName = "STR_Item_Tropenholzbretter";
         weight = 3;
-        buyPrice = 0;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	
+		class kakaobohnen {
+        variable = "kakaobohnen";
+        displayName = "STR_Item_Kakaobohnen";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	
+		class kakaopulver {
+        variable = "kakaopulver";
+        displayName = "STR_Item_Kakaopulver";
+        weight = 2;
+        buyPrice = -1;
         sellPrice = 75;
         illegal = false;
         edible = 10;
@@ -433,8 +471,8 @@ class eichenholz {
         variable = "golderz";
         displayName = "STR_Item_Golderz";
         weight = 4;
-        buyPrice = 0;
-        sellPrice = 0;
+        buyPrice = -1;
+        sellPrice = -1;
         illegal = false;
         edible = 10;
         icon = "";
@@ -444,7 +482,7 @@ class eichenholz {
         variable = "goldbarren";
         displayName = "STR_Item_Goldbarren";
         weight = 3;
-        buyPrice = 0;
+        buyPrice = -1;
         sellPrice = 500;
         illegal = false;
         edible = 10;
@@ -675,6 +713,28 @@ class eichenholz {
         illegal = true;
         edible = -1;
         icon = "icons\ico_cocaineProcessed.paa";
+    };
+	
+		class koralle {
+        variable = "koralle";
+        displayName = "STR_Item_Koralle";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "";
+    };
+	
+		class korallever {
+        variable = "korallever";
+        displayName = "STR_Item_Korallever";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = true;
+        edible = 10;
+        icon = "";
     };
 
     //Drink

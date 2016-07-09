@@ -35,7 +35,7 @@ switch(true) do {
 	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
 	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
 	case (_zone in ["koralle_1"]): {_gather = ["koralle",1];};
-	case (_zone in ["kakao_1"]): {_gather = ["kakao",2];};
+	case (_zone in ["kakao_1"]): {_gather = ["kakaobohnen",2];};
 	default {""};
 };
 //gather check??

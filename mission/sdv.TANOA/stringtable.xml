@@ -52,6 +52,18 @@
       <Portuguese>Mercado</Portuguese>
       <Polish>Market Tanoa</Polish>
     </Key>
+	<Key ID="STR_Shops_Korallenexport">
+      <Original>Korallenexport</Original>
+      <German>Korallenexport</German>
+    </Key>
+	<Key ID="STR_Shops_Market">
+      <Original>Tanoa Market</Original>
+      <German>Tanoa Markt</German>
+    </Key>
+	<Key ID="STR_Shops_KakaoUndKaffee">
+      <Original>Kakao und Kaffee</Original>
+      <German>Kakao und Kaffee</German>
+    </Key>
     <Key ID="STR_Shops_Rebel">
       <Original>Rebel Market</Original>
       <German>Rebellen Markt</German>
@@ -3925,6 +3937,14 @@
       <Portuguese>Diamante Lapidado</Portuguese>
       <Polish>Diament szlifowany</Polish>
     </Key>
+	<Key ID="STR_Item_Kakaobohnen">
+      <Original>Kakaobohnen</Original>
+      <German>Kakaobohnen</German>
+    </Key>
+	<Key ID="STR_Item_Kakaopulver">
+      <Original>Kakaopulver</Original>
+      <German>Kakaopulver</German>
+    </Key>
     <Key ID="STR_Item_DiamondU">
       <Original>Diamond Uncut</Original>
       <German>Ungeschliffene Diamanten</German>
@@ -4037,6 +4057,14 @@
       <Portuguese>Cocaína Refinada</Portuguese>
       <Polish>Oczyszczona kokaina</Polish>
     </Key>
+	<Key ID="STR_Item_Koralle">
+      <Original>Koralle</Original>
+      <German>Koralle</German>
+    </Key>
+	<Key ID="STR_Item_Korallever">
+      <Original>Verpackte Korallen</Original>
+      <German>Verpackte Korallen</German>
+    </Key>
     <Key ID="STR_Item_SpikeStrip">
       <Original>Spike Strip</Original>
       <German>Nagelband</German>
@@ -4070,6 +4098,10 @@
       <Italian>Processo Eroina</Italian>
       <Portuguese>Treinamento de Heroina</Portuguese>
       <Polish>Wytwarzanie Heroiny</Polish>
+    </Key>
+	<Key ID="STR_License_Korallen">
+      <Original>Korallenverpackung</Original>
+      <German>Korallenverpackung</German>
     </Key>
     <Key ID="STR_License_Oil">
       <Original>Oil Processing</Original>
@@ -4210,6 +4242,10 @@
 	 <Key ID="STR_License_einwohner">
       <Original>Einwohner Lizenz</Original>
       <German>Einwohner Lizenz</German>
+    </Key>
+	 <Key ID="STR_License_Kakao">
+      <Original>Kakaoverarbeitung</Original>
+      <German>Kakaoverarbeitung</German>
     </Key>
   </Package>
   <Package name="More_Item_Strings">
@@ -4599,6 +4635,22 @@
       <Portuguese>Misturando Cimento</Portuguese>
       <Polish>Mielenie cementu</Polish>
     </Key>
+    <Key ID="STR_Process_Kakaobohnen">
+      <Original>Kakaobohnen werden pulverisiert</Original>
+      <German>Kakaobohnen werden pulverisiert</German>
+      <French>Mélange de ciment</French>
+      <Italian>Processando Cemento</Italian>
+      <Portuguese>Misturando Cimento</Portuguese>
+      <Polish>Mielenie cementu</Polish>
+    </Key>
+    <Key ID="STR_Process_Koralle">
+      <Original>Korallen werden verpackt</Original>
+      <German>Korallen werden verpackt</German>
+      <French>Mélange de ciment</French>
+      <Italian>Processando Cemento</Italian>
+      <Portuguese>Misturando Cimento</Portuguese>
+      <Polish>Mielenie cementu</Polish>
+    </Key>
     <Key ID="STR_Process_Stay">
       <Original>You need to stay within 10m to process.</Original>
       <German>Du musst innerhalb von 10m bleiben, um verarbeiten zu können.</German>
@@ -4652,7 +4704,7 @@
     </Key>
     <Key ID="STR_Gather_Cannabis">
       <Original>Gather Cannabis</Original>
-      <German>Kannabis sammeln</German>
+      <German>Cannabis sammeln</German>
       <French>Récolter du Cannabis</French>
       <Italian>Raccogli Cannabis</Italian>
       <Portuguese>Colher Maconha</Portuguese>
@@ -4661,6 +4713,22 @@
     <Key ID="STR_Gather_Cocaine">
       <Original>Gather Cocaine</Original>
       <German>Kokain sammeln</German>
+      <French>Récolte de la Cocaine</French>
+      <Italian>Raccogli Cocaina</Italian>
+      <Portuguese>Colher Cocaína</Portuguese>
+      <Polish>Zbieranie kokainy</Polish>
+    </Key>
+    <Key ID="STR_Gather_Koralle">
+      <Original>Sammle Korallen</Original>
+      <German>Sammle Korallen</German>
+      <French>Récolte de la Cocaine</French>
+      <Italian>Raccogli Cocaina</Italian>
+      <Portuguese>Colher Cocaína</Portuguese>
+      <Polish>Zbieranie kokainy</Polish>
+    </Key>
+    <Key ID="STR_Gather_Kakaobohnen">
+      <Original>Sammle Kakaobohnen</Original>
+      <German>Sammle Kakaobohnen</German>
       <French>Récolte de la Cocaine</French>
       <Italian>Raccogli Cocaina</Italian>
       <Portuguese>Colher Cocaína</Portuguese>
