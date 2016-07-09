@@ -27,6 +27,13 @@ class CarShops {
             { "C_Van_01_transport_F", 110000, { "driver" }, { "", "", -1 } }
         };
     };
+	
+	 class quad_car {
+        side = "civ";
+        vehicles[] = {
+            { "B_Quadbike_01_F", 4000, { "" }, { "", "", -1 } }
+        };
+    };
 
     class kart_shop {
         side = "civ";
