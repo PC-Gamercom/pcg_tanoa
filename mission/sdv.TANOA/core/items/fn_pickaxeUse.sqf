@@ -19,8 +19,8 @@ switch (true) do {
 	case (player distance (getMarkerPos "oil_field_2") < 40) : {_mine = ["oil_unprocessed",1];};
 	case (player distance (getMarkerPos "hanf_plan_01") < 40) : {_mine = ["hanf",2];};
 	case (player distance (getMarkerPos "rock_quarry") < 50): {_mine = ["rock",2];};
-	case (player distance (getMarkerPos "eichenholz_1","eichenholz_2","eichenholz_3","eichenholz_4") < 50): {_mine = ["eichenholz",2];};
-	case (player distance (getMarkerPos "tropenholz_1","tropenholz_2","tropenholz_3","tropenholz_4") < 50): {_mine = ["tropenholz",2];};
+	case (player distance (getMarkerPos "eichenholz_1") < 50): {_mine = ["eichenholz",2];};
+	case (player distance (getMarkerPos "tropenholz_1") < 50): {_mine = ["tropenholz",2];};
 	default {""};
 };
 //Mine check
