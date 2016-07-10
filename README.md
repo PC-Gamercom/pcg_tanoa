@@ -10,13 +10,13 @@ Wir freuen uns auf Dich!
 #Updates
 - Version 0.0.1 c
 
-Polizei Shops
-Waffen und Kleidung
-Medic Shops
-Kleidung
+Polizei Shops,
+Waffen und Kleidung,
+Medic Shops,
+Kleidung,
 
-Select DB Change
-Unnötige Marker entfernt
+Select DB Change,
+Unnötige Marker entfernt,
 Bugfixes und Stringtable
 
 
