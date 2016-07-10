@@ -5,18 +5,18 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=2;
+	toggles=130;
 	class ItemIDProvider
 	{
-		nextID=3832;
+		nextID=3837;
 	};
 	class MarkerIDProvider
 	{
-		nextID=289;
+		nextID=291;
 	};
 	class Camera
 	{
-		pos[]={6686.0059,28.228981,7017.1299};
+		pos[]={6681.8276,59.78672,6998.5732};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
 		aside[]={0.99999994,0,0};
@@ -746,7 +746,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2435;
+		items=2440;
 		class Item0
 		{
 			dataType="Object";
@@ -82163,17 +82163,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6957.7266,3.2404037,7212.9409};
-				angles[]={0,3.1468842,0};
+				position[]={6957.7271,3.240258,7212.9409};
+				angles[]={0,3.1468809,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_1"",""civ_air_2""],""civ"",""Bughatis Flugcenter""]];";
 			};
 			id=2614;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00014567375;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -87815,17 +87815,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2098.3916,13.530253,3447.9458};
-				angles[]={0,2.9077923,0};
+				position[]={2098.3921,13.530258,3447.946};
+				angles[]={0,2.9077883,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_3"",""civ_air_4"",""civ_air_5""],""civ"",""Carl's Airial Auto's""]];";
 			};
 			id=3042;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-4.7683716e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114585,7 +114585,7 @@ class Mission
 			position[]={2272.1702,1.4737248e+027,8592.042};
 			name="garage_21";
 			type="Empty";
-			angle=91.101219;
+			angle=91.101212;
 			id=3791;
 			atlOffset=1.4737248e+027;
 		};
@@ -114978,6 +114978,55 @@ class Mission
 			name="marker_288";
 			type="mil_triangle";
 			id=3831;
+		};
+		class Item2435
+		{
+			dataType="Marker";
+			position[]={6973.6279,5.661091e+023,7227.3555};
+			name="civ_air_1";
+			type="Empty";
+			angle=236.31035;
+			id=3832;
+			atlOffset=5.661091e+023;
+		};
+		class Item2436
+		{
+			dataType="Marker";
+			position[]={6955.0874,2.6600001,7226.5254};
+			name="civ_air_2";
+			type="Empty";
+			angle=217.50365;
+			id=3833;
+		};
+		class Item2437
+		{
+			dataType="Marker";
+			position[]={2094.092,-1.3091753e-025,3454.936};
+			name="civ_air_3";
+			type="Empty";
+			angle=213.32399;
+			id=3834;
+			atlOffset=-12.95;
+		};
+		class Item2438
+		{
+			dataType="Marker";
+			position[]={2098.803,2.8605007e+021,3455.2371};
+			name="civ_air_4";
+			type="Empty";
+			angle=208.71799;
+			id=3835;
+			atlOffset=2.8605007e+021;
+		};
+		class Item2439
+		{
+			dataType="Marker";
+			position[]={2103.8149,-1.3091753e-025,3456.179};
+			name="civ_air_5";
+			type="Empty";
+			angle=206.13698;
+			id=3836;
+			atlOffset=-12.95;
 		};
 	};
 	class Connections
