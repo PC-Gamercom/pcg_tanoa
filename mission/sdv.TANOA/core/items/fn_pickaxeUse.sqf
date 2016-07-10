@@ -72,7 +72,10 @@ switch (true) do {
 };
 //Mine check
 if(EQUAL(_mine,"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
+
+while {true} do {
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
+if(life_interrupted) exitWith {life_interrupted = false;};
 
 _diff = [SEL(_mine,0),SEL(_mine,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 

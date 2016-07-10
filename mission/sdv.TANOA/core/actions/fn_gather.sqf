@@ -37,7 +37,10 @@ switch(true) do {
 	default {""};
 };
 //gather check??
+
+while{true} do {
 if(vehicle player != player) exitWith {};
+if(life_interrupted) exitWith {life_interrupted = false;};
 
 _diff = [SEL(_gather,0),SEL(_gather,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
