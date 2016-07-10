@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=130;
+	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=3837;
+		nextID=3839;
 	};
 	class MarkerIDProvider
 	{
@@ -746,7 +746,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2440;
+		items=2442;
 		class Item0
 		{
 			dataType="Object";
@@ -28268,8 +28268,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28278,10 +28278,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -28325,8 +28325,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28335,10 +28335,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -81402,7 +81402,7 @@ class Mission
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.22604942;
+			atlOffset=0.11030436;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -83015,6 +83015,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""cop""];";
 			};
 			id=2646;
 			type="Land_InfoStand_V2_F";
@@ -83066,17 +83067,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5601.9316,3.2402935,11037.094};
+				position[]={5601.9321,3.240258,11037.094};
 				angles[]={0,0.74919999,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
 			};
 			id=2647;
 			type="Land_InfoStand_V2_F";
-			atlOffset=3.5524368e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -83125,17 +83126,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5603.2983,3.2402723,11035.799};
+				position[]={5603.2979,3.240258,11035.799};
 				angles[]={0,0.74919999,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""COP-Auto"",life_fnc_vehicleShopMenu,[""cop_car"",cop,[""kat1""],""west"",""Garage""]]; " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",west] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""kat1"";}]; " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " " \n "";
 			};
 			id=2648;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.4305115e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -83345,17 +83346,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5251.4653,2.7902484,10005.476};
-				angles[]={0,4.6970925,0};
+				position[]={5251.4648,2.7902579,10005.476};
+				angles[]={0,4.6970997,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Med-Auto"",life_fnc_vehicleShopMenu,[""med_shop"",med,[""med1""],""independent"",""Garage""]]; " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",independent] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""med1"";}]; " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 			};
 			id=2661;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-9.5367432e-006;
 		};
 		class Item1679
 		{
@@ -83514,6 +83515,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Med-Market"",life_fnc_virt_menu,""med""];";
 			};
 			id=2668;
 			type="Land_InfoStand_V2_F";
@@ -83577,17 +83579,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5242.3105,2.9924502,10034.603};
-				angles[]={0,4.7203913,0};
+				position[]={5242.311,2.9922578,10034.603};
+				angles[]={0,4.7203827,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""KLEIDUNG"",life_fnc_clothingMenu,""med_clothing""];";
 			};
 			id=2670;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.20219231;
+			atlOffset=0.2019999;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -83792,6 +83795,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""cop""];";
 			};
 			id=2881;
 			type="Land_InfoStand_V2_F";
@@ -83854,16 +83858,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13908.914,3.5477316,12551.672};
-				angles[]={0,5.5139556,0};
+				position[]={13908.914,3.5477629,12551.672};
+				angles[]={0,5.5139489,0};
 			};
 			side="Empty";
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
 			};
 			id=2883;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.4068892;
+			atlOffset=0.40692043;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -84622,17 +84627,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2746.6772,7.9878674,7348.4448};
+				position[]={2746.6775,7.9880724,7348.4443};
 				angles[]={0,2.3686037,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
 			};
 			id=2912;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.029208183;
+			atlOffset=-0.028999805;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -84681,17 +84687,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2744.356,7.9352584,7347.8115};
-				angles[]={0,2.4290421,0};
+				position[]={2744.356,7.9348612,7347.811};
+				angles[]={0,2.4290445,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""cop""];";
 			};
 			id=2913;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.0056200027;
+			atlOffset=-0.006000042;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -86611,7 +86618,7 @@ class Mission
 			};
 			id=3001;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.18690634;
+			atlOffset=0.1869998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -86781,17 +86788,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5623.1025,1.970212,4025.6338};
-				angles[]={0,4.3443313,0};
+				position[]={5623.103,1.9702579,4025.634};
+				angles[]={0,4.3443341,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
 			};
 			id=3009;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-4.5895576e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -86840,17 +86847,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5620.8071,1.9702311,4028.0068};
-				angles[]={0,4.4269981,0};
+				position[]={5620.8071,1.9702579,4028.0071};
+				angles[]={0,4.4269924,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""cop""];";
 			};
 			id=3010;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-2.682209e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -87034,12 +87041,12 @@ class Mission
 		class Item1807
 		{
 			dataType="Marker";
-			position[]={5621,-5218.1777,4028.1389};
+			position[]={5621,61385136,4028.1389};
 			name="marker_143";
 			text="Polizei - Markt";
 			type="b_maint";
 			id=3015;
-			atlOffset=-5219.5679;
+			atlOffset=61385132;
 		};
 		class Item1808
 		{
@@ -105862,13 +105869,12 @@ class Mission
 				angles[]={0,5.3271637,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3433;
 			type="RoadCone_L_F";
-			atlOffset=0.018478394;
+			atlOffset=2.7224569;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -105908,7 +105914,7 @@ class Mission
 			};
 			id=3434;
 			type="RoadCone_L_F";
-			atlOffset=0.044610977;
+			atlOffset=0.025733948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -106233,16 +106239,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4788.5293,15.645196,5112.9961};
-				angles[]={0,3.6303494,0};
+				position[]={4788.5288,15.644968,5112.9961};
+				angles[]={0,3.6303546,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
 			};
 			id=3461;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.43599987;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -106328,6 +106335,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Markt"",life_fnc_virt_menu,""cop""];";
 			};
 			id=3465;
 			type="Land_InfoStand_V2_F";
@@ -112073,7 +112081,7 @@ class Mission
 			};
 			id=3683;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.52240944;
+			atlOffset=0.52271032;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114985,7 +114993,7 @@ class Mission
 			position[]={6973.6279,5.661091e+023,7227.3555};
 			name="civ_air_1";
 			type="Empty";
-			angle=236.31035;
+			angle=236.31032;
 			id=3832;
 			atlOffset=5.661091e+023;
 		};
@@ -114995,7 +115003,7 @@ class Mission
 			position[]={6955.0874,2.6600001,7226.5254};
 			name="civ_air_2";
 			type="Empty";
-			angle=217.50365;
+			angle=217.50363;
 			id=3833;
 		};
 		class Item2437
@@ -115004,7 +115012,7 @@ class Mission
 			position[]={2094.092,-1.3091753e-025,3454.936};
 			name="civ_air_3";
 			type="Empty";
-			angle=213.32399;
+			angle=213.32397;
 			id=3834;
 			atlOffset=-12.95;
 		};
@@ -115014,7 +115022,7 @@ class Mission
 			position[]={2098.803,2.8605007e+021,3455.2371};
 			name="civ_air_4";
 			type="Empty";
-			angle=208.71799;
+			angle=208.71797;
 			id=3835;
 			atlOffset=2.8605007e+021;
 		};
@@ -115024,9 +115032,27 @@ class Mission
 			position[]={2103.8149,-1.3091753e-025,3456.179};
 			name="civ_air_5";
 			type="Empty";
-			angle=206.13698;
+			angle=206.13696;
 			id=3836;
 			atlOffset=-12.95;
+		};
+		class Item2440
+		{
+			dataType="Marker";
+			position[]={5266.2578,-7.9482266e-027,10010.877};
+			name="med1";
+			type="Empty";
+			id=3837;
+			atlOffset=-2.21;
+		};
+		class Item2441
+		{
+			dataType="Marker";
+			position[]={5604.2979,61000176,11028.103};
+			name="kat1";
+			type="Empty";
+			id=3838;
+			atlOffset=61000172;
 		};
 	};
 	class Connections

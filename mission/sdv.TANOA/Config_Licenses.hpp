@@ -122,7 +122,7 @@ class Licenses {
     };
 	
 	class schreiner {
-		variable = "schreiner"
+		variable = "schreiner";
 		displayName = "STR_License_Schreiner";
 		price = 15000;
 		illegal = false;
