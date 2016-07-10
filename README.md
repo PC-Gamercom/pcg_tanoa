@@ -11,13 +11,13 @@ Wir freuen uns auf Dich!
 - Version 0.0.1 c
 
 Polizei Shops
--Waffen und Kleidung
+Waffen und Kleidung
 Medic Shops
--Kleidung
+Kleidung
 
-- Select DB Change
-- Unnötige Marker entfernt
--Bugfixes und Stringtable
+Select DB Change
+Unnötige Marker entfernt
+Bugfixes und Stringtable
 
 
 - Version 0.0.1 b
