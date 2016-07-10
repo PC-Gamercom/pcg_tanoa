@@ -40,6 +40,14 @@ class VirtualShops {
         items[] = { "turtle_soup", "turtle_raw" };
     };
 	
+	class schreiner {
+        name = "STR_Shops_Schreiner";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "eichenholzbretter", "tropenholzbretter" };
+    };
+	
 	class korallenexport {
         name = "STR_Shops_Korallenexport";
         side = "civ";

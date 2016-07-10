@@ -56,6 +56,10 @@
       <Original>Korallenexport</Original>
       <German>Korallenexport</German>
     </Key>
+	<Key ID="STR_Shops_Schreiner">
+      <Original>Schreiner</Original>
+      <German>Schreiner</German>
+    </Key>
 	<Key ID="STR_Shops_Market">
       <Original>Tanoa Market</Original>
       <German>Tanoa Markt</German>
@@ -2452,7 +2456,7 @@
     </Key>
     <Key ID="STR_NOTF_NoLootingPerson">
       <Original>You are not allowed to loot dead bodies</Original>
-      <German>Du darfst keine Leichen durchsuchen</German>
+      <German>Du schaust dir die Leiche an. Eine Sekunde lang willst du zugreifen, aber Leichen zu schänden? So weit bist du nicht gesunken.</German>
       <Portuguese>Você não está liberado para lootiar corpos mortos</Portuguese>
       <Polish>Nie możesz przeszukiwać martwych ciał</Polish>
     </Key>
@@ -3873,6 +3877,22 @@
       <Portuguese>Pepita de Cobre</Portuguese>
       <Polish>Ruda miedzi</Polish>
     </Key>
+    <Key ID="STR_Item_Eichenholz">
+      <Original>Eichenholz</Original>
+      <German>Eichenholz</German>
+    </Key>
+	<Key ID="STR_Item_Eichenholzbretter">
+      <Original>Eichenholzbretter</Original>
+      <German>Eichenholzbretter</German>
+    </Key>
+	<Key ID="STR_Item_Tropenholz">
+      <Original>Tropenholz</Original>
+      <German>Tropenholz</German>
+    </Key>
+	<Key ID="STR_Item_Tropenholzbretter">
+      <Original>Tropenholzbretter</Original>
+      <German>Tropenholzbretter</German>
+    </Key>
     <Key ID="STR_Item_IronOre">
       <Original>Iron Ore</Original>
       <German>Eisenerz</German>
@@ -4182,6 +4202,10 @@
       <Italian>Processo Rame</Italian>
       <Portuguese>Processamento de Cobre</Portuguese>
       <Polish>Wytapianie miedzi</Polish>
+    </Key>
+	<Key ID="STR_License_Schreiner">
+      <Original>Schreiner</Original>
+      <German>Schreiner</German>
     </Key>
     <Key ID="STR_License_Iron">
       <Original>Iron Processing</Original>
@@ -4642,6 +4666,14 @@
       <Italian>Processando Cemento</Italian>
       <Portuguese>Misturando Cimento</Portuguese>
       <Polish>Mielenie cementu</Polish>
+    </Key>
+	<Key ID="STR_Process_Eichenholz">
+      <Original>Eichenholz wird gesägt</Original>
+      <German>Eichenholz wird gesägt</German>
+    </Key>
+	<Key ID="STR_Process_Tropenholz">
+      <Original>Tropenholz wird gesägt</Original>
+      <German>Tropenholz wird gesägt</German>
     </Key>
     <Key ID="STR_Process_Koralle">
       <Original>Korallen werden verpackt</Original>

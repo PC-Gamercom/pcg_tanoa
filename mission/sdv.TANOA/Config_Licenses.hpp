@@ -64,7 +64,7 @@ class Licenses {
         side = "civ";
     };
 	
-	      class einwohner {
+	class einwohner {
         variable = "einwohner";
         displayName = "STR_License_einwohner";
         price = 0;
@@ -120,7 +120,15 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+	
+	class schreiner {
+		variable = "schreiner"
+		displayName = "STR_License_Schreiner";
+		price = 15000;
+		illegal = false;
+		side = "civ";
+	};
+	
     class cement {
         variable = "cement";
         displayName = "STR_License_Cement";
@@ -144,6 +152,8 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+
+	
 
     //Illegal Licenses
     class cocaine {

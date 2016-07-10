@@ -29,8 +29,6 @@ switch(true) do {
 	case (_zone in ["hopfen_1"]): {_gather = ["hopfen",3];};
 	case (_zone in ["weizen_1"]): {_gather = ["weizen",3];};
 	case (_zone in ["wasser_1"]): {_gather = ["wasser",1];};
-	case (_zone in ["eichenholz_1","eichenholz_2","eichenholz_3","eichenholz_4"]): {_gather = ["eichenholz",2];};
-	case (_zone in ["tropenholz_1","tropenholz_2","tropenholz_3","tropenholz_4"]): {_gather = ["tropenholz",2];};
 	case (_zone in ["heroin_1"]): {_gather = ["heroin_unprocessed",1];};
 	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
 	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
