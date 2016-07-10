@@ -24,8 +24,8 @@ if(_vid in serv_sv_use) exitWith {};
 serv_sv_use pushBack _vid;
 _servIndex = serv_sv_use find _vid;
 
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
-//_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+//_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
 
 
 _tickTime = diag_tickTime;
@@ -137,9 +137,9 @@ if(EQUAL(SEL(_vInfo,1),"med") && EQUAL(SEL(_vInfo,2),"C_Offroad_01_F")) then {
 };
 //[1,"Your vehicle is ready!"] remoteExecCall ["life_fnc_broadcast",_unit];
 if((_vInfo select 9) == 1) then {
-[1,"Votre véhicule est prêt et assurer!"] remoteExecCall ["life_fnc_broadcast",_unit];
+[1,"Ihr Fahrzeug ist bereit und versichert"] remoteExecCall ["life_fnc_broadcast",_unit];
 }
 else {
-[1,"Votre véhicule est prêt!"] remoteExecCall ["life_fnc_broadcast",_unit];
+[1,"Ihr Fahrzeug ist bereit!"] remoteExecCall ["life_fnc_broadcast",_unit];
 };
 serv_sv_use deleteAt _servIndex;

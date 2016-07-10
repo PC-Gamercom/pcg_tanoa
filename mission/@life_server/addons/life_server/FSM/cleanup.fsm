@@ -85,7 +85,7 @@ class FSM
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " if(_insureSystem == 1) then " \n
  " { " \n
- " diag_log "" Assurer !"";" \n
+ " diag_log "" gewährleistet !"";" \n
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " _query_0 = format[""UPDATE vehicles SET alive='1', insure='0', active='0' WHERE pid='%1' AND plate='%2'"",_uid,_plate]; " \n
  " _query_0 spawn " \n
@@ -96,7 +96,7 @@ class FSM
  " } " \n
  " else " \n
  " { " \n
- " diag_log "" Pas Assurer !"";" \n
+ " diag_log "" nicht gewährleistet !"";" \n
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " _query = format[""UPDATE vehicles SET alive='0' WHERE pid='%1' AND plate='%2'"",_uid,_plate]; " \n
  " _query spawn " \n
@@ -123,7 +123,7 @@ class FSM
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " if(_insureSystem == 1) then " \n
  " { " \n
- " diag_log "" Assurer !"";" \n
+ " diag_log "" gewährleistet !"";" \n
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " _query_0 = format[""UPDATE vehicles SET alive='1', insure='0', active='0' WHERE pid='%1' AND plate='%2'"",_uid,_plate]; " \n
  " _query_0 spawn " \n
@@ -134,7 +134,7 @@ class FSM
  " } " \n
  " else " \n
  " { " \n
- " diag_log "" Pas Assurer !"";" \n
+ " diag_log "" nicht gewährleistet !"";" \n
  " diag_log format[""insureSystem = %1 "", _insureSystem];" \n
  " _query = format[""UPDATE vehicles SET alive='0' WHERE pid='%1' AND plate='%2'"",_uid,_plate]; " \n
  " _query spawn " \n
