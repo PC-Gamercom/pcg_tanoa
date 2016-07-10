@@ -651,6 +651,27 @@ class eichenholz {
         icon = "";
     };
 	
+	class zinnerz {
+        variable = "zinnerz";
+        displayName = "STR_Item_Zinnerz";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	
+	class zinnbarren {
+        variable = "zinnbarren";
+        displayName = "STR_Item_Zinnbarren";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 1900;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
 	
 
     //Drugs

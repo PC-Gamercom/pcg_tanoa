@@ -3495,7 +3495,7 @@
   <Package name="Life_Items">
     <Key ID="STR_Item_Cannabis">
       <Original>Cannabis</Original>
-      <German>Kannabis</German>
+      <German>Cannabis</German>
       <French>Cannabis</French>
       <Italian>Cannabis</Italian>
       <Portuguese>Maconha não Processada</Portuguese>
@@ -3596,6 +3596,22 @@
       <Italian>Olio processato</Italian>
       <Portuguese>Petróleo Refinado</Portuguese>
       <Polish>Olej napędowy</Polish>
+    </Key>
+    <Key ID="STR_Item_Golderz">
+      <Original>Golderz</Original>
+      <German>Golderz</German>
+    </Key>
+    <Key ID="STR_Item_Goldbarren">
+      <Original>Goldbarren</Original>
+      <German>Goldbarren</German>
+    </Key>
+	<Key ID="STR_Item_Zinnerz">
+      <Original>Zinnerz</Original>
+      <German>Zinnerz</German>
+    </Key>
+	<Key ID="STR_Item_Zinnbarren">
+      <Original>Zinnbarren</Original>
+      <German>Zinnbarren</German>
     </Key>
     <Key ID="STR_Item_HeroinU">
       <Original>Unprocessed Heroin</Original>
@@ -4207,6 +4223,10 @@
       <Original>Schreiner</Original>
       <German>Schreiner</German>
     </Key>
+	<Key ID="STR_License_Zinn">
+      <Original>Zinnverarbeitung</Original>
+      <German>Zinnverarbeitung</German>
+    </Key>
     <Key ID="STR_License_Iron">
       <Original>Iron Processing</Original>
       <German>Eisenverarbeitung</German>
@@ -4606,10 +4626,10 @@
     <Key ID="STR_Process_Copper">
       <Original>Processing Copper</Original>
       <German>Kupfer wird verarbeitet</German>
-      <French>Fonte de Cuivre</French>
-      <Italian>Processando Rame</Italian>
-      <Portuguese>Processando Cobre</Portuguese>
-      <Polish>Wytop miedzi</Polish>
+    </Key>
+    <Key ID="STR_Process_Zinn">
+      <Original>Zinn wird geschmolzen</Original>
+      <German>Zinn wird geschmolzen</German>
     </Key>
     <Key ID="STR_Process_Iron">
       <Original>Processing Iron</Original>

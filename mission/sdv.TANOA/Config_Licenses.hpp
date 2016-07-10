@@ -121,6 +121,14 @@ class Licenses {
         side = "civ";
     };
 	
+    class zinn {
+        variable = "zinn";
+        displayName = "STR_License_Zinn";
+        price = 12000;
+        illegal = false;
+        side = "civ";
+    };
+	
 	class schreiner {
 		variable = "schreiner";
 		displayName = "STR_License_Schreiner";
