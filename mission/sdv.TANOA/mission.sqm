@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5111.2466,30.584595,11538.851};
+		pos[]={6686.0059,28.228981,7017.1299};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -80011,6 +80011,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Iron_Copper_Trader"",life_fnc_virt_menu,""iron""];";
 			};
 			id=2528;
 			type="Land_InfoStand_V2_F";
@@ -81401,7 +81402,7 @@ class Mission
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11031151;
+			atlOffset=0.22604942;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -85100,14 +85101,13 @@ class Mission
 				angles[]={0,4.355504,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_schiff_1"",""civ"",""Big Mikes Boot-Shop""]]; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_1""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide isEqualTo civilian'];  ";
 			};
 			id=2931;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0016815662;
+			atlOffset=4.6750002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114585,7 +114585,7 @@ class Mission
 			position[]={2272.1702,1.4737248e+027,8592.042};
 			name="garage_21";
 			type="Empty";
-			angle=91.101234;
+			angle=91.101219;
 			id=3791;
 			atlOffset=1.4737248e+027;
 		};
@@ -114595,7 +114595,7 @@ class Mission
 			position[]={2272.2434,1.4796149,8594.374};
 			name="garage_22";
 			type="Empty";
-			angle=91.101227;
+			angle=91.101212;
 			id=3792;
 		};
 		class Item2396
@@ -114604,7 +114604,7 @@ class Mission
 			position[]={2271.853,1.465852,8589.3945};
 			name="garage_23";
 			type="Empty";
-			angle=91.101227;
+			angle=91.101212;
 			id=3793;
 		};
 		class Item2397
@@ -114613,7 +114613,7 @@ class Mission
 			position[]={2271.9272,1.5128626,8587.2461};
 			name="garage_24";
 			type="Empty";
-			angle=91.101227;
+			angle=91.101212;
 			id=3794;
 		};
 		class Item2398
@@ -114622,7 +114622,7 @@ class Mission
 			position[]={2296.7676,0.62654299,8610.5049};
 			name="garage_25";
 			type="Empty";
-			angle=91.101219;
+			angle=91.101212;
 			id=3795;
 		};
 		class Item2399
@@ -114631,7 +114631,7 @@ class Mission
 			position[]={2296.7388,1.14,8609.041};
 			name="garage_26";
 			type="Empty";
-			angle=91.101219;
+			angle=91.101212;
 			id=3796;
 		};
 		class Item2400
@@ -114640,7 +114640,7 @@ class Mission
 			position[]={2296.7102,1.14,8607.6924};
 			name="garage_27";
 			type="Empty";
-			angle=91.101219;
+			angle=91.101212;
 			id=3797;
 		};
 		class Item2401
@@ -114649,7 +114649,7 @@ class Mission
 			position[]={2296.5955,1.14,8606.2871};
 			name="garage_28";
 			type="Empty";
-			angle=91.101219;
+			angle=91.101212;
 			id=3798;
 		};
 		class Item2402
