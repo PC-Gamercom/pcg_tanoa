@@ -121,11 +121,13 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Beret_grn", "", 75, { "life_coplevel", "SCALAR", 1 } },
-            { "H_Beret_red", "", 120, { "life_coplevel", "SCALAR", 2 } },
-			{ "H_Beret_blk", "", 120, { "life_coplevel", "SCALAR", 4 } },
-			{ "H_Beret_blk_POLICE", "", 120, { "life_coplevel", "SCALAR", 5 } },
-            { "H_Beret_Colonel", "", 100, { "life_coplevel", "SCALAR", 7 } }
+			
+            { "H_Beret_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_MilCap_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 3 } },
+			{ "H_Cap_blk_CMMG", "", 75, { "life_coplevel", "SCALAR", 8 } },
+			{ "H_HelmetB_Light_tna_F", "", 75, { "life_coplevel", "SCALAR", 8 } },
+			{ "H_Cap_oli_hs", "", 75, { "life_coplevel", "SCALAR", 9 } } 
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -145,8 +147,11 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_TacVest_blk", "", 800, { "life_coplevel", "SCALAR", 1 } },
-            { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } }
+            { "V_Rangemaster_belt", "", 800, { "life_coplevel", "SCALAR", 1 } },
+			{ "V_TacVest_gen_F", "", 800, { "life_coplevel", "SCALAR", 2 } },
+			{ "V_TacVest_blk_POLICE", "", 1500, { "life_coplevel", "SCALAR", 3 } },
+			{ "V_PlateCarrier1_rgr", "", 1500, { "life_coplevel", "SCALAR", 8 } },
+			
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
