@@ -28,6 +28,11 @@ switch (_side) do
 	
 	case civilian:
 	{
+	//Ohne Lizenz nix auf Hauptinsel :)
+	_return = [
+			["erstspawn","Erst Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+	if(license_civ_einwohner && playerSide == civilian) then {
 	 //Spawn-Anpassen an Tanoa Zivil
 		_return = [
 			["KAT_01","Katkoula","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -36,7 +41,7 @@ switch (_side) do
 			["BALA_01","Balavu","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["MOD_01","Moddergat","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
-		
+		};
 		if(license_civ_rebel && playerSide == civilian) then {
         _return = [
 			["REB_01","Rebellen-Insel","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
