@@ -609,9 +609,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 8, "Du musst 1st Lieutenant sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -633,7 +636,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
 	
@@ -644,9 +649,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 9, "Du musst Captain sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -668,10 +676,11 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
-	
     class cop_inspector {
         name = "Polizei Shop";
         side = "cop";
@@ -679,9 +688,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 10, "Du musst Inspector sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -703,7 +715,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
     class cop_2ndchief {
@@ -713,9 +727,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 11, "Du musst Deputy Chief sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -737,7 +754,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
     class cop_chief {
@@ -747,9 +766,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 12, "Du musst Chief o. Police sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -771,7 +793,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
 	
@@ -782,9 +806,12 @@ class WeaponShops {
         level[] = { "license_cop_sniper", "BOOL", true, "Du musst Polizei Sniper sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -806,7 +833,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
 	
@@ -817,9 +846,12 @@ class WeaponShops {
         level[] = { "license_cop_fbi", "BOOL", true, "Du musst FBI Mitglied sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
+			{ "SMG_05_F","",15000, -1 },
+			{ "arifle_MXM_Black_F","",15000, -1 },
+			{ "arifle_SPAR_03_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -841,7 +873,9 @@ class WeaponShops {
             { "16Rnd_9x21_Mag","Taser 16rnd",100, -1 },
 			{"30Rnd_65x39_caseless_mag","",500,-1},
 			{"30Rnd_556x45_Stanag","",500,-1},
-			{"30Rnd_762x39_Mag_F","",500,-1}
+			{"30Rnd_762x39_Mag_F","",500,-1},
+			{"20Rnd_762x51_Mag","",500,-1}
+			
         };
     };
 };

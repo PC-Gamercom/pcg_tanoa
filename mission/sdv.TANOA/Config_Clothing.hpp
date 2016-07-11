@@ -113,15 +113,18 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Cop Uniform", 25, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_CombatUniform_mcam_worn", "", 550, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_NikosAgedBody", "Casual Wears", 5000, { "life_coplevel", "SCALAR", 4 } }
+            { "U_Marshal", "Cop Uniform", 25, { "", "", -1 } },
+            { "U_BG_Guerrilla_6_1", "", 350, { "life_coplevel", "SCALAR", 2 } },
+            { "U_B_GEN_Commander_F", "", 1250, { "life_coplevel", "SCALAR", 3 } },
+            { "U_C_Man_casual_1_F", "", 550, { "life_coplevel", "SCALAR", 8 } },
+			{ "U_C_Man_casual_2_F", "", 550, { "life_coplevel", "SCALAR", 8 } },
+			{ "U_C_Man_casual_3_F", "", 550, { "life_coplevel", "SCALAR", 8 } },
+			{ "U_B_CTRG_Soldier_urb_1_F", "", 550, { "life_coplevel", "SCALAR", 8 } },
+			{ "U_B_CombatUniform_mcam_tshirt", "", 550, { "life_coplevel", "SCALAR", 10 } },
+			{ "U_B_GEN_Commander_F", "", 550, { "life_coplevel", "SCALAR", 10 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-			
             { "H_Beret_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
 			{ "H_MilCap_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
 			{ "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 3 } },
@@ -143,14 +146,16 @@ class Clothing {
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } }
+            { "G_Combat", "", 55, { "", "", -1 } },
+			{ "G_Balaclava_TI_G_blk_F", "", 75, { "life_coplevel", "SCALAR", 8 } },
+			{ "G_Balaclava_TI_blk_F", "", 75, { "life_coplevel", "SCALAR", 8 } } 
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "life_coplevel", "SCALAR", 1 } },
 			{ "V_TacVest_gen_F", "", 800, { "life_coplevel", "SCALAR", 2 } },
 			{ "V_TacVest_blk_POLICE", "", 1500, { "life_coplevel", "SCALAR", 3 } },
-			{ "V_PlateCarrier1_rgr", "", 1500, { "life_coplevel", "SCALAR", 8 } },
+			{ "V_PlateCarrier1_rgr", "", 1500, { "life_coplevel", "SCALAR", 8 } }
 			
         };
         backpacks[] = {
