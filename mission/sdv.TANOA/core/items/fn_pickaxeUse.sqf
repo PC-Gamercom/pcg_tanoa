@@ -51,4 +51,4 @@ if(([true,SEL(_mine,0),_diff] call life_fnc_handleInv)) then {
 };
 /*};*/
 life_action_inUse = false;
-life_action_pickaxeInUse = false;
+/*life_action_pickaxeInUse = false;*/
