@@ -2101,6 +2101,14 @@
       <Original>Copper Ore</Original>
       <German>Kupfererz</German>
     </Key>
+	 <Key ID="STR_Item_Wolframu">
+      <Original>Wolframerz</Original>
+      <German>Wolframerz</German>
+    </Key>
+	<Key ID="STR_Item_Wolframp">
+      <Original>Wolframbarren</Original>
+      <German>Wolframbarren</German>
+    </Key>
     <Key ID="STR_Item_Eichenholz">
       <Original>Eichenholz</Original>
       <German>Eichenholz</German>
@@ -2302,6 +2310,10 @@
     <Key ID="STR_License_Iron">
       <Original>Iron Processing</Original>
       <German>Eisenverarbeitung</German>
+    </Key>
+	 <Key ID="STR_License_wolfram">
+      <Original>Iron Processing</Original>
+      <German>Wolframverarbeitung</German>
     </Key>
     <Key ID="STR_License_Sand">
       <Original>Sand Processing</Original>
@@ -3375,6 +3387,10 @@
       <Original>Copper Processing</Original>
       <German>Kupfer schmelzen...</German>
     </Key>
+	 <Key ID="STR_MAR_wolfram_Processing">
+      <Original>Copper Processing</Original>
+      <German>Wolfram schmelzen...</German>
+    </Key>
     <Key ID="STR_MAR_Cocaine_Field">
       <Original>Cocaine Field</Original>
       <German>Koks Plantage</German>
@@ -3406,6 +3422,10 @@
     <Key ID="STR_MAR_Iron_Copper_Trader">
       <Original>Iron / Copper Trader</Original>
       <German>Händler für Eisen/ Kupfer</German>
+    </Key>
+	 <Key ID="STR_MAR_wolframp_Trader">
+      <Original>Wolfram Trader</Original>
+      <German>Händler für Wolframbarren</German>
     </Key>
     <Key ID="STR_MAR_Sand_Processing">
       <Original>Sand Processing</Original>

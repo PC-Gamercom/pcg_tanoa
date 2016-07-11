@@ -175,6 +175,20 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach" };
     };
+	class wolframp{
+        name = "STR_MAR_wolframp_Trader";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "wolframp"};
+    };
+	class alup{
+        name = "STR_MAR_Alu_Trader";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "alubarren"};
+    };
 };
 
 /*
@@ -417,7 +431,7 @@ class hanf {
         icon = "";
     };
 	
-class eichenholz {
+	class eichenholz {
         variable = "eichenholz";
         displayName = "STR_Item_Eichenholz";
         weight = 3;
@@ -439,6 +453,26 @@ class eichenholz {
         icon = "";
     };
 	
+	class wolframu {
+        variable = "wolframu";
+        displayName = "STR_Item_Wolframu";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	class wolframp {
+        variable = "wolframp";
+        displayName = "STR_Item_Wolframp";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
 	class aluerz {
         variable = "aluerz";
         displayName = "STR_Item_Aluerz";

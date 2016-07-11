@@ -128,7 +128,13 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-	
+	class wolfram {
+        variable = "wolfram";
+        displayName = "STR_License_wolfram";
+        price = 15000;
+        illegal = false;
+        side = "civ";
+    };
     class zinn {
         variable = "zinn";
         displayName = "STR_License_Zinn";

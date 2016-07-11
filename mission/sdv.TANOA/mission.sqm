@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=2;
+	toggles=130;
 	class ItemIDProvider
 	{
 		nextID=3986;
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5804.7808,6.6342683,10592.452};
+		pos[]={5581.519,201.61475,10626.289};
 		dir[]={0.91523135,-0.40282333,-0.012911522};
 		up[]={0.40280175,0.9152692,-0.0056828703};
 		aside[]={-0.014107661,4.9821756e-007,-0.99993443};
@@ -28236,8 +28236,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28246,10 +28246,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -28293,8 +28293,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28303,10 +28303,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -81061,16 +81061,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9914.5273,123.98944,9395.5215};
-				angles[]={0,3.0618255,0};
+				position[]={9914.5273,123.98895,9395.5215};
+				angles[]={0,3.061831,0};
 			};
 			side="Empty";
 			class Attributes
 			{
+				init=" this allowDamage false;     " \n "this addAction[localize""STR_MAR_wolfram_Processing"",life_fnc_processAction,""wolframu"",0,false,false,"""",   " \n "' life_inv_wolframu > 0 && !life_is_processing && !life_action_inUse'];    " \n " this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""wolfram"" >> ""displayName""))   " \n " , [(getNumber(missionConfigFile >> ""Licenses"" >> ""wolfram"" >> ""price""))]    " \n " call life_fnc_numberText],life_fnc_buyLicense,""wolfram"",0,false,false,"""",'    " \n " !license_civ_wolfram && playerSide isEqualTo civilian '];";
 			};
 			id=2561;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.4764938;
+			atlOffset=1.4759979;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81131,17 +81132,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13303.719,3.0301824,12038.629};
-				angles[]={0,5.0834074,0};
+				position[]={13303.719,3.0302579,12038.629};
+				angles[]={0,5.0834107,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_MAR_wolframp_Trader"",life_fnc_virt_menu,""wolframp""];";
 			};
 			id=2563;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-7.557869e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81213,17 +81214,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7389.7432,3.2803502,7898.1191};
-				angles[]={0,6.1042671,0};
+				position[]={7389.7432,3.2805004,7898.1196};
+				angles[]={0,6.1042714,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false;     " \n "this addAction[localize""STR_MAR_wolfram_Processing"",life_fnc_processAction,""aluerz"",0,false,false,"""",   " \n "' life_inv_aluerz > 0 && !life_is_processing && !life_action_inUse'];    " \n " this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""alu"" >> ""displayName""))   " \n " , [(getNumber(missionConfigFile >> ""Licenses"" >> ""alu"" >> ""price""))]    " \n " call life_fnc_numberText],life_fnc_buyLicense,""alu"",0,false,false,"""",'    " \n " !license_civ_alu && playerSide isEqualTo civilian '];";
 			};
 			id=2566;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.022815466;
+			atlOffset=0.023000002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81283,17 +81285,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4076.4314,1.8109183,9166.248};
-				angles[]={0,3.3518336,0};
+				position[]={4076.4319,1.8113291,9166.248};
+				angles[]={0,3.351835,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_MAR_Alu_Trader"",life_fnc_virt_menu,""alup""];";
 			};
 			id=2568;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00259161;
+			atlOffset=0.003000021;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81490,17 +81493,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8412.373,20.009342,10252.053};
-				angles[]={0,0.59714597,0};
+				position[]={8412.373,20.010258,10252.053};
+				angles[]={0,0.59714693,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this allowDamage false;   " \n "this addAction[localize""STR_Process_Iron"",life_fnc_processAction,""iron_unrefined"",0,false,false,"""", " \n "' life_inv_iron_unrefined > 0 && !life_is_processing && !life_action_inUse'];  " \n " this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""iron"" >> ""displayName"")) " \n " , [(getNumber(missionConfigFile >> ""Licenses"" >> ""iron"" >> ""price""))]  " \n " call life_fnc_numberText],life_fnc_buyLicense,""iron"",0,false,false,"""",'  " \n " !license_civ_iron && playerSide isEqualTo civilian '];";
 			};
 			id=2574;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.00091552734;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81571,17 +81574,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12324.146,109.32473,1866.0065};
-				angles[]={0,0.50733215,0};
+				position[]={12324.146,109.32507,1866.006};
+				angles[]={0,0.50733232,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_MAR_Iron_Copper_Trader"",life_fnc_virt_menu,""iron""];";
 			};
 			id=2577;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0036392212;
+			atlOffset=0.0039901733;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81819,17 +81823,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5919.9644,8.419014,10551.131};
-				angles[]={0,1.9569981,0};
+				position[]={5919.9639,8.4189568,10551.131};
+				angles[]={0,1.9570028,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_Shops_Schreiner"",life_fnc_virt_menu,""schreiner""];";
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11031151;
+			atlOffset=0.11024761;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -82051,17 +82056,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11389.419,110.20972,12353.943};
-				angles[]={0,2.2196202,0};
+				position[]={11389.419,110.20975,12353.944};
+				angles[]={0,2.2196226,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="removeAllWeapons this; " \n " this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_MAR_Drug_Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; " \n " this addAction[localize""STR_MAR_Question_Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];";
 			};
 			id=2596;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.0041046143;
+			atlOffset=-0.0039978027;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -87101,7 +87107,7 @@ class Mission
 			};
 			id=3037;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.204;
+			atlOffset=0.20399976;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -87161,7 +87167,7 @@ class Mission
 			};
 			id=3039;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.049000025;
+			atlOffset=0.048999786;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -102741,7 +102747,7 @@ class Mission
 			};
 			id=3361;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.23899996;
+			atlOffset=0.23900008;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -111304,7 +111310,7 @@ class Mission
 			};
 			id=3683;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.52240944;
+			atlOffset=0.52271032;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -112927,7 +112933,7 @@ class Mission
 			};
 			id=3722;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00051093102;
+			atlOffset=0.0004901886;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114692,17 +114698,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9101.8262,26.188572,10160.152};
-				angles[]={0,5.1112337,0};
+				position[]={9101.8262,26.188633,10160.152};
+				angles[]={0,5.1112313,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this allowDamage false;    " \n "this addAction[localize""STR_Process_Kakaobohnen"",life_fnc_processAction,""kakaobohnen"",0,false,false,"""",  " \n "' life_inv_kakaobohnen > 0 && !life_is_processing && !life_action_inUse'];   " \n " this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""kakao"" >> ""displayName""))  " \n " , [(getNumber(missionConfigFile >> ""Licenses"" >> ""kakao"" >> ""price""))]   " \n " call life_fnc_numberText],life_fnc_buyLicense,""kakao"",0,false,false,"""",'   " \n " !license_civ_kakao && playerSide isEqualTo civilian '];";
 			};
 			id=3858;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-6.1035156e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114749,13 +114755,13 @@ class Mission
 		class Item2406
 		{
 			dataType="Marker";
-			position[]={9101.9619,0,10159.999};
+			position[]={9101.9619,330999.38,10160};
 			name="marker_296";
 			text="Kakaoverarbeiter";
 			type="mil_box";
 			colorName="ColorCIV";
 			id=3859;
-			atlOffset=-25.60903;
+			atlOffset=330973.78;
 		};
 		class Item2407
 		{
@@ -114833,17 +114839,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5654.1807,3.3973584,10331.237};
-				angles[]={0,1.9836776,0};
+				position[]={5654.1807,3.3972571,10331.237};
+				angles[]={0,1.9836714,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_Shops_KakaoUndKaffee"",life_fnc_virt_menu,""kakaoundkaffee""];";
 			};
 			id=3862;
 			type="Land_InfoStand_V2_F";
-			atlOffset=8.7499619e-005;
+			atlOffset=0.11109376;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114890,13 +114897,13 @@ class Mission
 		class Item2410
 		{
 			dataType="Marker";
-			position[]={5655.2612,-2.4005146e-029,10329.989};
+			position[]={5655.2612,331199.88,10329.989};
 			name="marker_298";
-			text="Kaffee & Kakao";
+			text="Kaffee & Kakao Händler";
 			type="mil_triangle";
 			colorName="ColorCIV";
 			id=3863;
-			atlOffset=-2.2970483;
+			atlOffset=331189.47;
 		};
 		class Item2411
 		{
@@ -114914,7 +114921,7 @@ class Mission
 			};
 			id=3865;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0001680851;
+			atlOffset=0.00016784668;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -116473,7 +116480,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=3920;
-			atlOffset=2.5731249;
+			atlOffset=2.4233727;
 		};
 		class Item2465
 		{
@@ -117042,7 +117049,7 @@ class Mission
 			};
 			id=3940;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00893116;
+			atlOffset=0.0089309216;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -118544,7 +118551,7 @@ class Mission
 			};
 			id=3971;
 			type="Land_InfoStand_V2_F";
-			atlOffset=7.3268623;
+			atlOffset=7.3268557;
 			class CustomAttributes
 			{
 				class Attribute0
