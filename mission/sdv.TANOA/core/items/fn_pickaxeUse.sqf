@@ -30,9 +30,9 @@ switch (true) do {
 
 if(EQUAL(_mine,"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
 
-while{true} do {
+/*while{true} do { */
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
-if(life_interrupted) exitWith {life_interrupted = false;};
+/*if(life_interrupted) exitWith {life_interrupted = false;};*/
 
 _diff = [SEL(_mine,0),SEL(_mine,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 
@@ -49,6 +49,6 @@ if(([true,SEL(_mine,0),_diff] call life_fnc_handleInv)) then {
 	_itemName = M_CONFIG(getText,"VirtualItems",SEL(_mine,0),"displayName");
 	titleText[format[localize "STR_ISTR_Pick_Success",(localize _itemName),_diff],"PLAIN"];
 };
-};
+/*};*/
 life_action_inUse = false;
 life_action_pickaxeInUse = false;
