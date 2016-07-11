@@ -8,7 +8,7 @@ class EditorData
 	toggles=130;
 	class ItemIDProvider
 	{
-		nextID=4006;
+		nextID=4007;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5737.7974,252.82092,10779.676};
+		pos[]={5738.7627,457.81784,11050.281};
 		dir[]={-0.17386903,-0.61781007,-0.7669239};
 		up[]={-0.13660038,0.78631598,-0.6025328};
 		aside[]={-0.97528815,8.9559762e-007,0.22110862};
@@ -745,7 +745,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2526;
+		items=2527;
 		class Item0
 		{
 			dataType="Object";
@@ -10680,11 +10680,11 @@ class Mission
 		class Item145
 		{
 			dataType="Marker";
-			position[]={2159.2598,0,4605.1558};
+			position[]={2156.9541,0,4611.582};
 			name="CERE_CIV_01";
 			type="Empty";
 			id=349;
-			atlOffset=-4.2570081;
+			atlOffset=-3.0086076;
 		};
 		class Item146
 		{
@@ -28235,8 +28235,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28245,10 +28245,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -28292,8 +28292,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28302,10 +28302,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -103506,17 +103506,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2174.2156,12.82533,4545.6675};
-				angles[]={6.211309,0.53517032,0.029326396};
+				position[]={2174.2158,12.825068,4545.6675};
+				angles[]={6.2113123,0.53517032,0.029321531};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init=" this allowDamage false; " \n " this enableSimulation false;this addAction[""Quad Händler"",life_fnc_vehicleShopMenu,[""quad_car"",civilian,[""firstpawn""],""civ"",""Garage""]];";
 			};
 			id=3395;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.0017318726;
+			atlOffset=-0.001999855;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -118923,7 +118924,7 @@ class Mission
 			position[]={10946.438,0,6278.6533};
 			name="kotomicar";
 			type="Empty";
-			angle=236.30994;
+			angle=236.30992;
 			id=3993;
 			atlOffset=-7.4000001;
 		};
@@ -119067,12 +119068,21 @@ class Mission
 		class Item2525
 		{
 			dataType="Marker";
-			position[]={2263.686,-0.004571205,8599.3857};
+			position[]={2167.1711,0,4649.6113};
 			name="erstspawn";
 			type="Empty";
-			angle=91.10099;
+			angle=91.100983;
 			id=4005;
-			atlOffset=-1.1445712;
+			atlOffset=-1.135;
+		};
+		class Item2526
+		{
+			dataType="Marker";
+			position[]={2166.5371,-0.0095238499,4533.3989};
+			name="firstpawn";
+			type="Empty";
+			id=4006;
+			atlOffset=-11.910636;
 		};
 	};
 	class Connections
