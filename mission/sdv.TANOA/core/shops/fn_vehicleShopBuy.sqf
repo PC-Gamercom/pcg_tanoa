@@ -43,9 +43,9 @@ if((SEL(life_veh_shop,0) == "med_air_hs")) then {
 	//Check if there is multiple spawn points and find a suitable spawnpoint.
 	if(EQUAL(typeName _spawnPoints,typeName [])) then {
 		//Find an available spawn point.
-		{if(count(nearestObjects[(getMarkerPos _x),["Car","Ship","Air"],5]) == 0) exitWith {_spawnPoint = _x};} foreach _spawnPoints;
+		{if(count(nearestObjects[(getMarkerPos _x),["Car","Ship","Air"],10]) == 0) exitWith {_spawnPoint = _x};} foreach _spawnPoints;
 	} else {
-		if(count(nearestObjects[(getMarkerPos _spawnPoints),["Car","Ship","Air"],5]) == 0) exitWith {_spawnPoint = _spawnPoints};
+		if(count(nearestObjects[(getMarkerPos _spawnPoints),["Car","Ship","Air"],10]) == 0) exitWith {_spawnPoint = _spawnPoints};
 	};
 };
 
@@ -76,11 +76,13 @@ _vehicle lock 2;
 [_vehicle,"trunk_in_use",false,true] remoteExecCall ["TON_fnc_setObjVar",RSERV];
 [_vehicle,"vehicle_info_owners",[[getPlayerUID player,profileName]],true] remoteExecCall ["TON_fnc_setObjVar",RSERV];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
+_vehicle setDamage 0; //damage auf 0 falls Kolision beim Spawn
 
 //Side Specific actions.
 switch(playerSide) do {
 	case west: {
 		[_vehicle,"cop_offroad",true] spawn life_fnc_vehicleAnimate;
+		_vehicle addItemCargoGlobal ["ToolKit",2];
 	};
 
 	case civilian: {
@@ -91,12 +93,16 @@ switch(playerSide) do {
 
 	case independent: {
 		[_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
+		_vehicle addItemCargoGlobal ["ToolKit",2];
 	};
 };
 
 _vehicle allowDamage true;
+//Extra Repkit für neugekaufte Fahrzeuge
+if(!(_className in ["B_UAV_01_F","B_Quadbike_01_F"])) then {
+	_vehicle addItemCargoGlobal ["ToolKit",1];
+};
 
-//life_vehicles set[count life_vehicles,_vehicle]; //Add err to the chain.
 life_vehicles pushBack _vehicle;
 [getPlayerUID player,playerSide,_vehicle,1] remoteExecCall ["TON_fnc_keyManagement",RSERV];
 
