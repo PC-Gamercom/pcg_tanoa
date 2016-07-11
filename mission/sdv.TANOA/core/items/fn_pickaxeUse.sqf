@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+/*#include "..\..\script_macros.hpp"*/
 /*
  File: fn_pickaxeUse.sqf
  Author: Bryan "Tonic" Boardwine
@@ -8,6 +8,7 @@
 closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = "";
+
 switch (true) do {
 	case (player distance (getMarkerPos "kupfer_mine") < 30): {_mine = ["copper_unrefined",2];};
 	case (player distance (getMarkerPos "gold_mine") < 30): {_mine = ["golderz",2];};
@@ -23,7 +24,9 @@ switch (true) do {
 	case (player distance (getMarkerPos "tropenholz_1") < 50): {_mine = ["tropenholz",2];};
 	default {""};
 };
+
 //Mine check
+
 if(EQUAL(_mine,"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
 
 while{true} do {

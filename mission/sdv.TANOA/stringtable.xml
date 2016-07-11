@@ -4607,6 +4607,10 @@
       <Portuguese>Processando Petróleo</Portuguese>
       <Polish>Rafinacja ropy</Polish>
     </Key>
+	<Key ID="STR_Process_Goldbarren">
+	  <Original>Golderz wird geschmolzen</Original>
+	  <German>Golderz wird geschmolzen</Original>
+	</Key>
     <Key ID="STR_Process_Diamond">
       <Original>Cutting Diamonds</Original>
       <German>Diamanten werden geschliffen</German>
