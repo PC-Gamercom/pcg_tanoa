@@ -1,5 +1,10 @@
 Briefing = 0;
+
 author = "Big Mike";
+onLoadName = "Staat der Visonäre";
+onLoadMission = "Ein Rollenspielserver von Staat der Visonäre";
+onLoadIntro = "Eure deutschsprachige Altis Life Enklave. Viel Spaß!";
+
 loadScreen = "textures\logo.paa";
 joinUnassigned = 1;
 respawn = BASE;

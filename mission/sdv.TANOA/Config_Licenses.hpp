@@ -182,7 +182,28 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+	    class gold {
+        variable = "gold";
+        displayName = "STR_License_Gold";
+        price = 20000;
+        illegal = false;
+        side = "civ";
+    };
+	class tropenholzverarbeitung {
+		variable = "tropenholzverarbeitung";
+		displayName = "STR_License_Tropenholzverarbeitung";
+		price = 15000;
+		illegal = false;
+		side = "civ";
+	};
+		class eichenholzverarbeitung {
+		variable = "eichenholzverarbeitung";
+		displayName = "STR_License_Eichenholzverarbeitung";
+		price = 15000;
+		illegal = false;
+		side = "civ";
+	};
+	
 	
 
     //Illegal Licenses

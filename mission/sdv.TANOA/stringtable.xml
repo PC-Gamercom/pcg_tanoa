@@ -2239,6 +2239,14 @@
       <Original>Driver License</Original>
       <German>Führerschein</German>
     </Key>
+	    <Key ID="STR_License_Tropenholzverarbeitung">
+      <Original>Tropenholzverarbeitung</Original>
+      <German>Tropenholzverarbeitung</German>
+    </Key>
+		    <Key ID="STR_License_Eichenholzverarbeitung">
+      <Original>Eichenholzverarbeitung</Original>
+      <German>Eichenholzverarbeitung</German>
+    </Key>
     <Key ID="STR_License_Pilot">
       <Original>Pilot License</Original>
       <German>Pilotenschein</German>
@@ -2346,6 +2354,10 @@
 	 <Key ID="STR_License_Kakao">
       <Original>Kakaoverarbeitung</Original>
       <German>Kakaoverarbeitung</German>
+    </Key>
+	<Key ID="STR_License_Gold">
+      <Original>Goldverarbeitung</Original>
+      <German>Goldverarbeitung</German>
     </Key>
   </Package>
   <Package name="More_Item_Strings">
@@ -2514,10 +2526,6 @@
 	<Key ID="STR_Process_Goldbarren">
 	  <Original>Golderz wird geschmolzen</Original>
 	  <German>Golderz wird geschmolzen</Original>
-	</Key>
-	<Key ID="STR_Process_Goldbarren">
-	  <Original>Hanffasern werden hergestellt</Original>
-	  <German>Hanffasern werden hergestellt</Original>
 	</Key>
 	<Key ID="STR_Process_Aluerz">
 	  <Original>Aluminiumerz wird geschmolzen</Original>

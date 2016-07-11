@@ -189,6 +189,13 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "alubarren"};
     };
+		class alup{
+        name = "STR_MAR_Alu_Trader";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "alubarren"};
+    };
 };
 
 /*
