@@ -360,7 +360,7 @@ class birnen {
         edible = 10;
         icon = "";
     };
-class muschel {
+	class muschel {
         variable = "muschel";
         displayName = "STR_Item_Muschel";
         weight = 1;
