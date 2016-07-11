@@ -225,6 +225,7 @@ class Life_Client_Core
 		class playerSkins {};
 		class nearestObjects {};
 		class Opener {};
+		class loggedOut {};
 	};
 
 
