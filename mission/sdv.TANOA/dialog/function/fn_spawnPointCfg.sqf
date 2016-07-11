@@ -32,7 +32,6 @@ switch (_side) do
 		_return = [
 			["KAT_01","Katkoula","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["GEO_01","Georgtown","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["LUG_01","Luganville","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["TUVA_01","Tuvanaka","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["BALA_01","Balavu","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["MOD_01","Moddergat","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
@@ -43,7 +42,6 @@ switch (_side) do
 			["REB_01","Rebellen-Insel","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["KAT_01","Katkoula","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["GEO_01","Georgtown","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["LUG_01","Luganville","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["TUVA_01","Tuvanaka","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["BALA_01","Balavu","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["MOD_01","Moddergat","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

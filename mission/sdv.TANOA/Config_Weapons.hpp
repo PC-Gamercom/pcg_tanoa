@@ -345,6 +345,29 @@ class WeaponShops {
         };
         mags[] = {};
     };
+	class zubehoer {
+        name = "Zubehoer";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "ItemRadio", "Handy",800, -1 },
+            { "Binocular", "",150, -1 },
+			{ "ItemGPS", "",100, -1 },
+			{ "ToolKit", "",3500, -1 }
+        };
+        mags[] = {};
+    };
+	class apotheke {
+        name = "apotheke";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+		{ "FirstAidKit", "",50, -1 }
+        };
+        mags[] = {};
+    };
 
     //Cop Shops
     class cop_basic {
