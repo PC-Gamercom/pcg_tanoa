@@ -2587,14 +2587,6 @@
       <Original>Processing Marijuana</Original>
       <German>Marihuana wird verarbeitet</German>
     </Key>
-	<Key ID="STR_Process_Hanf">
-      <Original>Processing Hanf</Original>
-      <German>Hanf wird verarbeitet</German>
-    </Key>
-	<Key ID="STR_Process_Zinn">
-      <Original>Processing Zinn</Original>
-      <German>Zinn wird verarbeitet</German>
-    </Key>
     <Key ID="STR_Process_Cement">
       <Original>Mixing Cement</Original>
       <German>Zement wird gemischt</German>
@@ -2871,6 +2863,7 @@
     <Key ID="STR_vInAct_GetInHeli">
       <Original>Get In Helicopter</Original>
       <German>In den Helikopter einsteigen</German>
+	  </Key>
     <Key ID="STR_vInAct_PushBoat">
       <Original>Push Boat</Original>
       <German>Boot schieben</German>
