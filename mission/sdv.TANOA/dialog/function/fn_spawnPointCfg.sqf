@@ -19,11 +19,10 @@ switch (_side) do
 	{
 		_return = [
 			["KAT_COP_01","Katkoula Check-Point","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["KAT_COP_02","Katkoula HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+			["TUVA_COP_01","Tuvanaka Airbase HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["GEO_COP_01","Georgtown HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["TUVA_COP_1","Tuvanaka Airbase","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
-			["SGA_COP_01","Saint-George-Airbase","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["AIRP_COP_01","Airport Tanoa","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["KAT_COP_02","Katoula HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["AIRP_COP_01","Küstenwache Industriehafen","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
 	

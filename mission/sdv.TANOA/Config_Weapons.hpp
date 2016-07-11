@@ -399,9 +399,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "Du musst bei Gendarmerie sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -434,9 +434,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "Du musst Trooper sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -469,9 +469,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 4, "Du musst State Trooper sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -504,9 +504,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 5, "Du musst Sergeant sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -539,9 +539,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 6, "Du musst Staff Sergeant sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },
@@ -574,9 +574,9 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 7, "Du musst Lieutenant sein!" };
         items[] = {
             { "hgun_P07_snds_F","Taser Pistole",500, -1 },
-            { "arifle_MX_F","MX",15000, -1 },
-			{ "arifle_AK12_F","MX",15000, -1 },
-			{ "arifle_SPAR_01_GL_blk_F","MX",15000, -1 },
+            { "arifle_MX_F","",15000, -1 },
+			{ "arifle_AK12_F","",15000, -1 },
+			{ "arifle_SPAR_01_GL_blk_F","",15000, -1 },
             { "NONE", "---------------------------------------------------------------------------",0, -1 },
             { "acc_flashlight", "",500, -1 },
             { "acc_pointer_IR", "",500, -1 },

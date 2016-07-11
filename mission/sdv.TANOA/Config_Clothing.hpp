@@ -125,8 +125,10 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_Beret_Colonel", "", 75, { "life_coplevel", "SCALAR", 1 } },
             { "H_Beret_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
 			{ "H_MilCap_gen_F", "", 75, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_Beret_02", "", 75, { "life_coplevel", "SCALAR", 3 } },
 			{ "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 3 } },
 			{ "H_Cap_blk_CMMG", "", 75, { "life_coplevel", "SCALAR", 8 } },
 			{ "H_HelmetB_Light_tna_F", "", 75, { "life_coplevel", "SCALAR", 8 } },

@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=130;
+	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=3967;
+		nextID=3968;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10777.763,255.31934,5025.5527};
+		pos[]={10758.704,272.05612,5017.6279};
 		dir[]={0.87215155,-0.47326678,0.1240565};
 		up[]={0.46855637,0.88091761,0.066648386};
 		aside[]={0.14082509,8.9567038e-009,-0.99004358};
@@ -746,7 +746,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2515;
+		items=2516;
 		class Item0
 		{
 			dataType="Object";
@@ -10690,11 +10690,11 @@ class Mission
 		class Item146
 		{
 			dataType="Marker";
-			position[]={4791.4175,0,5115.7656};
+			position[]={4792.9326,0,5122.8218};
 			name="KAT_COP_01";
 			type="Empty";
 			id=350;
-			atlOffset=-14.702165;
+			atlOffset=-14.805301;
 		};
 		class Item147
 		{
@@ -10717,7 +10717,7 @@ class Mission
 		class Item149
 		{
 			dataType="Marker";
-			position[]={2215.2644,0,13376.617};
+			position[]={2215.2639,-6.0245219e-023,13376.617};
 			name="TUVA_COP_01";
 			type="Empty";
 			id=353;
@@ -10735,7 +10735,7 @@ class Mission
 		class Item151
 		{
 			dataType="Marker";
-			position[]={14005.126,0,12326.61};
+			position[]={13913.203,0,12537.772};
 			name="AIRP_COP_01";
 			type="Empty";
 			id=355;
@@ -11448,9 +11448,9 @@ class Mission
 		class Item175
 		{
 			dataType="Marker";
-			position[]={5623.7905,0,4028.5967};
+			position[]={5623.791,-6.1702882e-023,4028.5969};
 			name="marker_11";
-			text="Polizei Außenposten";
+			text="Polizei Station Katoula";
 			type="loc_WaterTower";
 			colorName="ColorWEST";
 			id=827;
@@ -28236,8 +28236,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28246,10 +28246,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -28293,8 +28293,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28303,10 +28303,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -43503,7 +43503,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.8898821,13510.989};
+				position[]={13232.703,-5.889883,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -43511,7 +43511,7 @@ class Mission
 			};
 			id=1536;
 			type="Land_WavePowerPlant_F";
-			atlOffset=0.39873695;
+			atlOffset=0.39873505;
 		};
 		class Item863
 		{
@@ -118488,6 +118488,15 @@ class Mission
 			type="Empty";
 			id=3966;
 			atlOffset=-14.741255;
+		};
+		class Item2515
+		{
+			dataType="Marker";
+			position[]={5632.9038,-6.1702882e-023,4032.1431};
+			name="KAT_COP_02";
+			type="Empty";
+			id=3967;
+			atlOffset=-1.39;
 		};
 	};
 	class Connections
