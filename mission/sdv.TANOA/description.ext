@@ -41,6 +41,29 @@ class RscTitles {
 	#include "dialog\hud_nameTags.hpp"
 	#include "dialog\statusBar.hpp"
 	#include "dialog\hud_stats.hpp"
+	
+	 class SDVIntro {
+ idd = -1;
+ duration = 6;
+ class controls {
+ class ExampleControl {
+ idc = -1;
+ type = 0;
+ style = 2192;
+ x = 0.125;
+ y = 0.125;
+ h = 0.75;
+ w = 0.75;
+ font = "EtelkaNarrowMediumPro";
+ sizeEx = 0.05; 
+ colorBackground[] = {1,1,1,0};
+ colorText[] = {1,1,1,1};
+ text = "introMag\rccover.paa";
+ lineSpacing = 1;
+ }; 
+ }; 
+ }; 
+};
 };
 
 class CfgFunctions {

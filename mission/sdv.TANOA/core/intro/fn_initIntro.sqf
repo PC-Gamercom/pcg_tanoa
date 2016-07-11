@@ -41,7 +41,7 @@ camUseNVG false;
 
 
 for "_x" from 0 to 20 do {
- _x cutRsc ["Staat der Visionäre","PLAIN"];
+ _x cutRsc ["SDVIntro","PLAIN"];
 };
 
 
