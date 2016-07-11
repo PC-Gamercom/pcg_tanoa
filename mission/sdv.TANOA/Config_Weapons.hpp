@@ -354,7 +354,11 @@ class WeaponShops {
             { "ItemRadio", "Handy",800, -1 },
             { "Binocular", "",150, -1 },
 			{ "ItemGPS", "",100, -1 },
-			{ "ToolKit", "",3500, -1 }
+			{ "ToolKit", "",3500, -1 },
+			{ "NVGoggles", "",1500, -1 },
+			{ "NVGoggles_INDEP", "",1500, -1 },
+			{ "NVGoggles_OPFOR", "",1500, -1 },
+			{ "NVGoggles_tna_F", "",1500, -1 }
         };
         mags[] = {};
     };
