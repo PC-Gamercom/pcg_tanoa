@@ -67,7 +67,7 @@ class Licenses {
 	class einwohner {
         variable = "einwohner";
         displayName = "STR_License_einwohner";
-        price = 0;
+        price = 40000;
         illegal = false;
         side = "civ";
     };

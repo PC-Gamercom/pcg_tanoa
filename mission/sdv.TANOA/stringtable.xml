@@ -1913,6 +1913,26 @@
       <Original>Banane</Original>
       <German>Banane</German>
     </Key>
+	<Key ID="STR_Item_Oliven">
+      <Original>Oliven</Original>
+      <German>Oliven</German>
+    </Key>
+		<Key ID="STR_Item_Olivenöl">
+      <Original>Oliven ÖL</Original>
+      <German>Oliven ÖL</German>
+    </Key>
+	<Key ID="STR_Item_Erdbeeren">
+      <Original>Erdbeeren</Original>
+      <German>Erdbeeren</German>
+    </Key>
+		<Key ID="STR_Item_Muschel">
+      <Original>Muschel</Original>
+      <German>Muschel</German>
+    </Key>
+	<Key ID="STR_Item_Birnen">
+      <Original>Birnen</Original>
+      <German>Birnen</German>
+    </Key>
 	<Key ID="STR_Item_Kiwi">
       <Original>Kiwi</Original>
       <German>Kiwi</German>

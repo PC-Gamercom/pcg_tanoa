@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=130;
+	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=4007;
+		nextID=4011;
 	};
 	class MarkerIDProvider
 	{
@@ -745,7 +745,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2527;
+		items=2531;
 		class Item0
 		{
 			dataType="Object";
@@ -28235,8 +28235,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28245,10 +28245,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -28292,8 +28292,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28302,10 +28302,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -119071,7 +119071,7 @@ class Mission
 			position[]={2167.1711,0,4649.6113};
 			name="erstspawn";
 			type="Empty";
-			angle=91.100983;
+			angle=91.100975;
 			id=4005;
 			atlOffset=-1.135;
 		};
@@ -119083,6 +119083,50 @@ class Mission
 			type="Empty";
 			id=4006;
 			atlOffset=-11.910636;
+		};
+		class Item2527
+		{
+			dataType="Marker";
+			position[]={4598.6851,-6.0802608e-007,5126.0928};
+			name="oliv_1";
+			text="Olivenbäume";
+			type="mil_dot";
+			colorName="ColorBrown";
+			id=4007;
+			atlOffset=-7.7185211;
+		};
+		class Item2528
+		{
+			dataType="Marker";
+			position[]={3042.979,-6.0529032e-007,2549.8569};
+			name="birne_1";
+			text="Birnenbäume";
+			type="mil_dot";
+			colorName="ColorBrown";
+			id=4008;
+			atlOffset=-81.212807;
+		};
+		class Item2529
+		{
+			dataType="Marker";
+			position[]={4434.5688,-6.0492562e-007,4354.8242};
+			name="muschel_1";
+			text="Muschelfang";
+			type="mil_dot";
+			colorName="ColorBrown";
+			id=4009;
+			atlOffset=-1.9588287;
+		};
+		class Item2530
+		{
+			dataType="Marker";
+			position[]={3092.2229,-6.0529032e-007,2943.3931};
+			name="erdbeeren_1";
+			text="Erdbeeren";
+			type="mil_dot";
+			colorName="ColorBrown";
+			id=4010;
+			atlOffset=-53.461864;
 		};
 	};
 	class Connections

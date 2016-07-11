@@ -13,7 +13,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "banane", "redgull", "tbacon","kirsche", "lockpick", "pickaxe", "fuelFull", "kiwi", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit","muschel","birnen","oliven","erdbeeren", "banane", "redgull", "tbacon","kirsche", "lockpick", "pickaxe", "fuelFull", "kiwi", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class rebel {
@@ -333,6 +333,46 @@ class VirtualItems {
 	 class banane {
         variable = "banane";
         displayName = "STR_Item_Banane";
+        weight = 1;
+        buyPrice = 40;
+        sellPrice = 38;
+        illegal = false;
+        edible = 10;
+        icon = "";
+    };
+class oliven {
+        variable = "oliven";
+        displayName = "STR_Item_Oliven";
+        weight = 1;
+        buyPrice = 40;
+        sellPrice = 38;
+        illegal = false;
+        edible = 10;
+        icon = "";
+    };
+class birnen {
+        variable = "birnen";
+        displayName = "STR_Item_Birnen";
+        weight = 1;
+        buyPrice = 40;
+        sellPrice = 38;
+        illegal = false;
+        edible = 10;
+        icon = "";
+    };
+class muschel {
+        variable = "muschel";
+        displayName = "STR_Item_Muschel";
+        weight = 1;
+        buyPrice = 40;
+        sellPrice = 38;
+        illegal = false;
+        edible = 10;
+        icon = "";
+    };
+	class erdbeeren {
+        variable = "erdbeeren";
+        displayName = "STR_Item_Erdbeeren";
         weight = 1;
         buyPrice = 40;
         sellPrice = 38;
