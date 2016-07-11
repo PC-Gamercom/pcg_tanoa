@@ -56,6 +56,14 @@ class VirtualShops {
         items[] = { "korallever" };
     };
 	
+	class apotheke {
+		name = "STR_Shops_Apotheke";
+		side = "civ";
+		license = "";
+		level[] = { "", "", -1, "" };
+        items[] = { "hanffaser" };
+    };
+	
 	class kakaoundkaffee {
         name = "STR_Shops_KakaoUndKaffee";
         side = "civ";
@@ -389,22 +397,22 @@ class VirtualItems {
 
 class hanf {
         variable = "hanf";
-        displayName = "STR_Item_hanF";
+        displayName = "STR_Item_Hanf";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 20;
-        illegal = true;
+        sellPrice = -1;
+        illegal = false;
         edible = -1;
         icon = "";
     };
 
-	class hanfver {
-        variable = "hanfver";
-        displayName = "STR_Item_hanFver";
+	class hanffaser {
+        variable = "hanffaser";
+        displayName = "STR_Item_Hanffaser";
         weight = 2;
         buyPrice = -1;
         sellPrice = 20;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "";
     };
@@ -424,6 +432,28 @@ class eichenholz {
         variable = "eichenholzbretter";
         displayName = "STR_Item_Eichenholzbretter";
         weight = 2;
+        buyPrice = -1;
+        sellPrice = 60;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	
+	class aluerz {
+        variable = "aluerz";
+        displayName = "STR_Item_Aluerz";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+	
+	class alubarren {
+        variable = "alubarren";
+        displayName = "STR_Item_Alubarren";
+        weight = 4;
         buyPrice = -1;
         sellPrice = 60;
         illegal = false;

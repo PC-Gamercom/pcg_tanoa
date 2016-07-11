@@ -8,7 +8,7 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_resourceZones","_zone"];
-_resourceZones = ["banane_1","banane_2","kiwi_1","kirsche_1","gerste_1","hopfen_1","weizen_1","wasser_1","heroin_1","cocaine_1","weed_1","eichenholz_1","eichenholz_2","eichenholz_3","eichenholz_4","tropenholz_1","tropenholz_2","tropenholz_3","tropenholz_4","koralle_1","kakao_1"];
+_resourceZones = ["banane_1","banane_2","kiwi_1","kirsche_1","gerste_1","hopfen_1","weizen_1","wasser_1","heroin_1","cocaine_1","weed_1","eichenholz_1","tropenholz_1","koralle_1","kakao_1","hanf_1"];
 _zone = "";
 
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -34,6 +34,7 @@ switch(true) do {
 	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
 	case (_zone in ["koralle_1"]): {_gather = ["koralle",1];};
 	case (_zone in ["kakao_1"]): {_gather = ["kakaobohnen",2];};
+	case (_zone in ["hanf_1"]): {_gather = ["hanf",2];};
 	default {""};
 };
 //gather check??

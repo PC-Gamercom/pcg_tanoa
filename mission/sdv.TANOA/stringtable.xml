@@ -3,54 +3,35 @@
   <Package name="Shop_Names">
     <Key ID="STR_Shops_C_Bruce">
       <Original>Bruce's Outback Outfits</Original>
-      <Portuguese>Loja de Roupas</Portuguese>
-      <Polish>Sklep odzieżowy</Polish>
+	  <German>Bruce's Outback Outfits</German>
     </Key>
     <Key ID="STR_Shops_C_Police">
-      <Original>Tanoa Police Department Shop</Original>
-      <Portuguese>Loja de Roupas Policiais</Portuguese>
-      <Polish>Sklep Policyjny</Polish>
+      <Original>Tanoa Polizei HQ Shop</Original>
+      <German>Tanoa Polizei HQ Shop</German>
     </Key>
     <Key ID="STR_Shops_C_Rebel">
-      <Original>Mohammed's Jihadi Shop</Original>
-      <Portuguese>Loja de Roupas Rebeldes</Portuguese>
-      <Polish>Sklep samobójców AKBAR</Polish>
+      <Original>Rebellen Shop</Original>
+      <German>Rebellen Shop</Polish>
     </Key>
     <Key ID="STR_Shops_C_Diving">
-      <Original>Steve's Diving Shop</Original>
+      <Original>Steve's Taucherequipment</Original>
       <German>Steve's Taucherequipment</German>
-      <Portuguese>Loja de equipamentos para Mergulho</Portuguese>
-      <Polish>Sklep dla nurków</Polish>
     </Key>
     <Key ID="STR_Shops_C_Gun">
-      <Original>Billy Joe's Clothing</Original>
+      <Original>Billy Joe's Bekleidung</Original>
       <German>Billy Joe Bekleidung</German>
-      <Italian>Abbigliamento di Billy Joe</Italian>
-      <French>Vêtements pour Billy Joe</French>
-      <Portuguese>Roupa Billy Joe</Portuguese>
-      <Polish>Billy Joe Odzież</Polish>
     </Key>
     <Key ID="STR_Shops_W_Gun">
-      <Original>Billy Joe's Firearms</Original>
+      <Original>Billy Joe's Schusswaffen</Original>
       <German>Billy Joe Schusswaffen</German>
-      <Italian>Le armi da fuoco di Billy Joe</Italian>
-      <French>Les armes à feu de Billy Joe</French>
-      <Portuguese>Armas de fogo Billy Joe</Portuguese>
-      <Polish>Broń palna Billy Joe</Polish>
     </Key>
     <Key ID="STR_Shops_C_Kart">
-      <Original>Bobby's Kart-Racing Outfits</Original>
+      <Original>Bobby's Go-Kart Rennklamotten</Original>
       <German>Bobby's Go-Kart Rennklamotten</German>
-      <Portuguese>Loja de equipamentos para Kart</Portuguese>
-      <Polish>Sklep Kartingowy</Polish>
     </Key>
     <Key ID="STR_Shops_Market">
-      <Original>Tanoa Market</Original>
+      <Original>Tanoa Markt</Original>
       <German>Tanoa Markt</German>
-      <Italian>Mercato</Italian>
-      <French>Marché</French>
-      <Portuguese>Mercado</Portuguese>
-      <Polish>Market Tanoa</Polish>
     </Key>
 	<Key ID="STR_Shops_Korallenexport">
       <Original>Korallenexport</Original>
@@ -61,7 +42,7 @@
       <German>Schreiner</German>
     </Key>
 	<Key ID="STR_Shops_Market">
-      <Original>Tanoa Market</Original>
+      <Original>Tanoa Markt</Original>
       <German>Tanoa Markt</German>
     </Key>
 	<Key ID="STR_Shops_KakaoUndKaffee">
@@ -69,1308 +50,693 @@
       <German>Kakao und Kaffee</German>
     </Key>
     <Key ID="STR_Shops_Rebel">
-      <Original>Rebel Market</Original>
+      <Original>Rebellen Markt</Original>
       <German>Rebellen Markt</German>
-      <Italian>Mercato Ribelle</Italian>
-      <French>Marché Rebel</French>
-      <Portuguese>Mercado Rebelde</Portuguese>
-      <Polish>Market Rebeliantów</Polish>
     </Key>
     <Key ID="STR_Shops_Gang">
-      <Original>Gang Market</Original>
+      <Original>Gang Markt</Original>
       <German>Gang Markt</German>
-      <Italian>Mercato Gang</Italian>
-      <French>Marché de Gang</French>
-      <Portuguese>Mercado da Gangue</Portuguese>
-      <Polish>Market Gangu</Polish>
     </Key>
     <Key ID="STR_Shops_C_Gang">
-      <Original>Gang Clothing</Original>
+      <Original>Gang Kleidung</Original>
       <German>Gang Kleidung</German>
-      <Italian>Gang Abbigliamento</Italian>
-      <French>Gang Vêtements</French>
-      <Portuguese>Roupa Gang</Portuguese>
-      <Polish>Gang Odzież</Polish>
     </Key>
     <Key ID="STR_Shops_Wongs">
-      <Original>Wong's Food Cart</Original>
+      <Original>Wong's Spezialitäten</Original>
       <German>Wong's Spezialitäten</German>
-      <Italian>Alimentari</Italian>
-      <French>Wong Alimentation</French>
-      <Portuguese>Praça de Alimentação</Portuguese>
-      <Polish>Przysmaki Wonga</Polish>
     </Key>
     <Key ID="STR_Shops_Coffee">
-      <Original>Gyro's Coffee</Original>
+      <Original>Gyro's Café</Original>
       <German>Gyro's Café</German>
-      <Italian>Caffè</Italian>
-      <French>Café de Gyro</French>
-      <Portuguese>Café do Gyro</Portuguese>
-      <Polish>Kawiarnia</Polish>
     </Key>
     <Key ID="STR_Shops_DrugDealer">
-      <Original>Tonic's Narcotics</Original>
+      <Original>Drogendealer</Original>
       <German>Drogendealer</German>
-      <Italian>Spacciatore</Italian>
-      <French>Dealer de Drogue</French>
-      <Portuguese>Traficante</Portuguese>
-      <Polish>Sprzedawca 'Trawy'</Polish>
     </Key>
     <Key ID="STR_Shops_Oil">
-      <Original>Oil Trader</Original>
+      <Original>Ölhändler</Original>
       <German>Ölhändler</German>
-      <Italian>Vendita Petrolio</Italian>
-      <French>Acheteur de Pétrole</French>
-      <Portuguese>Comprador de Petróleo</Portuguese>
-      <Polish>Skup Ropy</Polish>
     </Key>
     <Key ID="STR_Shops_FishMarket">
-      <Original>Local Fish Market</Original>
+      <Original>Fischmarkt</Original>
       <German>Fischmarkt</German>
-      <Italian>Pescivendolo</Italian>
-      <French>Marché de Poissons</French>
-      <Portuguese>Mercado de Peixes</Portuguese>
-      <Polish>Sklep Rybny</Polish>
     </Key>
     <Key ID="STR_Shops_Glass">
-      <Original>Glass Trader</Original>
+      <Original>Glashändler</Original>
       <German>Glashändler</German>
-      <Italian>Vendita Vetro</Italian>
-      <French>Acheteur de Verre</French>
-      <Portuguese>Comprador de Vidro</Portuguese>
-      <Polish>Skup Szkła</Polish>
     </Key>
     <Key ID="STR_Shops_Minerals">
-      <Original>Tanoa Industrial Trader</Original>
+      <Original>Tanoa Industriehandel</Original>
       <German>Tanoa Industriehandel</German>
-      <Italian>Vendita materiali industriali</Italian>
-      <French>Acheteur Industriel</French>
-      <Portuguese>Comprador de Material Indústrial</Portuguese>
-      <Polish>Skup materiałów przemysłowych</Polish>
     </Key>
     <Key ID="STR_Shops_Cop">
-      <Original>APD Item Shop</Original>
+      <Original>APD Gegenstände</Original>
       <German>APD Gegenstände</German>
-      <Italian>Negozio Polizia</Italian>
-      <French>Equipement de Police</French>
-      <Portuguese>Equipamentos da Polícia</Portuguese>
-      <Polish>Zbrojownia Policji</Polish>
     </Key>
 	<Key ID="STR_Shops_Med">
       <Original>MedMittel</Original>
       <German>MedMittel</German>
     </Key>
     <Key ID="STR_Shops_Cement">
-      <Original>Juan's Cement Laying</Original>
+      <Original>Juan's Zementleger</Original>
       <German>Juan's Zementleger</German>
-      <Italian>Vendita Cemento</Italian>
-      <French>Poseur de Ciment</French>
-      <Portuguese>Comprador de Cimento</Portuguese>
-      <Polish>Wytwórnia cementu</Polish>
     </Key>
     <Key ID="STR_Shops_Gold">
-      <Original>Cash 4 Gold</Original>
+      <Original>Goldhändler</Original>
       <German>Goldhändler</German>
-      <Italian>Vendita Oro</Italian>
-      <French>Acheteur d'Or</French>
-      <Portuguese>Comprador de Ouro</Portuguese>
-      <Polish>Skup złota</Polish>
     </Key>
     <Key ID="STR_Shops_Diamond">
-      <Original>Diamond Dealer</Original>
+      <Original>Juwelier</Original>
       <German>Juwelier</German>
-      <Italian>Gioielleria</Italian>
-      <French>Bijouterie</French>
-      <Portuguese>Comprador de Diamante</Portuguese>
-      <Polish>Skup Diamentów</Polish>
     </Key>
     <Key ID="STR_Shops_Salt">
-      <Original>Salt Trader</Original>
+      <Original>Salzhändler</Original>
       <German>Salzhändler</German>
-      <Italian>Vendita Sale</Italian>
-      <French>Acheteur de Sel</French>
-      <Portuguese>Comprador de Sal</Portuguese>
-      <Polish>Skup soli</Polish>
     </Key>
     <Key ID="STR_Shop_Station_Coffee">
-      <Original>Fuel Station Coffee</Original>
+      <Original>Tankstellen Café</Original>
       <German>Tankstellen Café</German>
-      <Polish>Caffe OLLEN</Polish>
     </Key>
   </Package>
   <Package name="Global">
     <Key ID="STR_Global_Close">
-      <Original>Close</Original>
+      <Original>Schließen</Original>
       <German>Schließen</German>
-      <French>Fermer</French>
-      <Italian>Chiudi</Italian>
-      <Portuguese>Fechar</Portuguese>
-      <Polish>Zamknij</Polish>
     </Key>
     <Key ID="STR_Global_Sell">
-      <Original>Sell</Original>
+      <Original>Verkaufen</Original>
       <German>Verkaufen</German>
-      <French>Vendre</French>
-      <Italian>Vendi</Italian>
-      <Portuguese>Vender</Portuguese>
-      <Polish>Sprzedaj</Polish>
     </Key>
     <Key ID="STR_Global_Buy">
-      <Original>Buy</Original>
+      <Original>Kaufen</Original>
       <German>Kaufen</German>
-      <French>Acheter</French>
-      <Italian>Compra</Italian>
-      <Portuguese>Comprar</Portuguese>
-      <Polish>Kup</Polish>
     </Key>
     <Key ID="STR_Global_Mags">
-      <Original>Magazines</Original>
-      <Portuguese>Munições</Portuguese>
+      <Original>Magazine</Original>
+      <German>Magazine</German>
     </Key>
     <Key ID="STR_Global_Weapons">
-      <Original>Weapons</Original>
-      <Portuguese>Armas</Portuguese>
+      <Original>Waffen</Original>
+      <German>Waffen</German>
     </Key>
     <Key ID="STR_Global_Give">
-      <Original>Give</Original>
+      <Original>Geben</Original>
       <German>Geben</German>
-      <French>Donner</French>
-      <Italian>Dai</Italian>
-      <Portuguese>Dar</Portuguese>
-      <Polish>Daj</Polish>
     </Key>
     <Key ID="STR_Global_Use">
-      <Original>Use</Original>
-      <German>Benutzen</German>
-      <French>Utiliser</French>
-      <Italian>Usa</Italian>
-      <Portuguese>Usar</Portuguese>
-      <Polish>Użyj</Polish>
+      <Original>Verwenden</Original>
+      <German>Verwenden</German>
     </Key>
     <Key ID="STR_Global_Remove">
-      <Original>Remove</Original>
-      <German>Entfernen</German>
-      <French>Supprimer</French>
-      <Italian>Rimuovi</Italian>
-      <Portuguese>Remover</Portuguese>
-      <Polish>Usuń</Polish>
+      <Original>Wegschmeißen</Original>
+      <German>Wegschmeißen</German>
     </Key>
     <Key ID="STR_Global_Settings">
-      <Original>Settings</Original>
-      <German>Einstellungen</German>
-      <French>Paramètres</French>
-      <Italian>Impostazioni</Italian>
-      <Portuguese>Configurar</Portuguese>
-      <Polish>Opcje</Polish>
+      <Original>Optionen</Original>
+      <German>Optionen</German>
     </Key>
     <Key ID="STR_Global_RentVeh">
-      <Original>Rent</Original>
+      <Original>Mieten</Original>
       <German>Mieten</German>
-      <French>Louer</French>
-      <Italian>Affitta</Italian>
-      <Portuguese>Alugar</Portuguese>
-      <Polish>Wynajmij</Polish>
     </Key>
     <Key ID="STR_Global_Retrieve">
-      <Original>Retrieve</Original>
+      <Original>Abrufen</Original>
       <German>Abrufen</German>
-      <French>Récupérer</French>
-      <Italian>Ritira</Italian>
-      <Portuguese>Recuperar</Portuguese>
-      <Polish>Odzyskaj</Polish>
     </Key>
     <Key ID="STR_Global_NoSelection">
-      <Original>You did not select anything.</Original>
-      <German>Du hast nichts ausgewählt.</German>
-      <French>Vous n'avez rien sélectionné.</French>
-      <Italian>Non hai selezionato nulla.</Italian>
-      <Portuguese>Você não selecionou nada.</Portuguese>
-      <Polish>Niczego nie zaznaczyłeś.</Polish>
+      <Original>Aber was?</Original>
+      <German>Aber was?</German>
     </Key>
     <Key ID="STR_Global_Yes">
-      <Original>Yes</Original>
-      <German>Ja</German>
-      <French>Oui</French>
-      <Italian>Si</Italian>
-      <Portuguese>Sim</Portuguese>
-      <Polish>Tak</Polish>
+      <Original>Ja!</Original>
+      <German>Ja!</German>
     </Key>
     <Key ID="STR_Global_No">
-      <Original>No</Original>
-      <German>Nein</German>
-      <French>Aucun</French>
-      <Italian>No</Italian>
-      <Portuguese>Não</Portuguese>
-      <Polish>Nie</Polish>
+      <Original>Nein!</Original>
+      <German>Nein!</German>
     </Key>
     <Key ID="STR_Global_Cancel">
-      <Original>Cancel</Original>
+      <Original>Abbrechen</Original>
       <German>Abbrechen</German>
-      <French>Annulée</French>
-      <Italian>Annulla</Italian>
-      <Portuguese>Cancelar</Portuguese>
-      <Polish>Anuluj</Polish>
     </Key>
   </Package>
   <Package name="Admin_Menu">
     <Key ID="STR_Admin_Title">
-      <Original>Admin Menu</Original>
+      <Original>Admin Menü</Original>
       <German>Admin Menü</German>
-      <Italian>Menu Admin</Italian>
-      <French>Menu Admin</French>
-      <Portuguese>Menu Admin</Portuguese>
-      <Polish>Admin Menu</Polish>
     </Key>
     <Key ID="STR_Admin_Amount">
-      <Original>Put the amount you want to compensate:</Original>
+      <Original>Trage den Wert zum Entschädigen des Spielers ein:</Original>
       <German>Trage den Wert zum Entschädigen des Spielers ein:</German>
-      <Portuguese>Coloque a quantidade que você quer compensar:</Portuguese>
-      <Polish>Wprowadź wartość rekompensaty</Polish>
     </Key>
     <Key ID="STR_Admin_GetID">
-      <Original>Get ID</Original>
+      <Original>ID abfragen</Original>
       <German>ID abfragen</German>
-      <French>Obtenir ID</French>
-      <Italian>Vedi ID</Italian>
-      <Portuguese>Obter ID</Portuguese>
-      <Polish>ID gracza</Polish>
     </Key>
     <Key ID="STR_Admin_Spectate">
-      <Original>Spectate</Original>
+      <Original>Zuschauen</Original>
       <German>Zuschauen</German>
-      <French>Regardez</French>
-      <Portuguese>Observar</Portuguese>
-      <Polish>Obserwuj</Polish>
     </Key>
     <Key ID="STR_Admin_Teleport">
       <Original>Teleport</Original>
       <German>Teleport</German>
-      <French>Teleport</French>
-      <Portuguese>Teleportar</Portuguese>
-      <Polish>Teleport</Polish>
     </Key>
     <Key ID="STR_Admin_TpHere">
-      <Original>TP Here</Original>
+      <Original>TP Hier</Original>
       <German>TP Hier</German>
-      <French>TP Ici</French>
-      <Portuguese>TP Aqui</Portuguese>
-      <Polish>Do Mnie</Polish>
     </Key>
     <Key ID="STR_Admin_Debug">
       <Original>Debug</Original>
       <German>Debug</German>
-      <French>Debug</French>
-      <Portuguese>Depuração</Portuguese>
-      <Polish>Debug</Polish>
     </Key>
     <Key ID="STR_Admin_Compensate">
-      <Original>Comp</Original>
+      <Original>Entschädigen</Original>
       <German>Entschädigen</German>
-      <French>Comp</French>
-      <Portuguese>Compensar</Portuguese>
-      <Polish>Comp</Polish>
     </Key>
     <Key ID="STR_Admin_God">
       <Original>GodMode</Original>
-      <German>Gott</German>
-      <French>Dieu</French>
-      <Portuguese>Modo Deus</Portuguese>
-      <Polish>GodMode</Polish>
+      <German>GodMode</German>
     </Key>
     <Key ID="STR_Admin_Freeze">
       <Original>Freeze</Original>
       <German>Freeze</German>
-      <French>Geler</French>
-      <Portuguese>Congelar</Portuguese>
-      <Polish>Zamroź</Polish>
     </Key>
     <Key ID="STR_Admin_Markers">
-      <Original>Markers</Original>
+      <Original>Spieler Markierungen</Original>
       <German>Spieler Markierungen</German>
-      <French>Markers</French>
-      <Portuguese>Marcações</Portuguese>
-      <Polish>Markery</Polish>
     </Key>
   </Package>
   <Package name="Admin_Notifications">
     <Key ID="STR_ANOTF_Query">
-      <Original>Querying...</Original>
+      <Original>Abfrage läuft...</Original>
       <German>Abfrage läuft...</German>
-      <French>Interrogation...</French>
-      <Italian>Ricerca...</Italian>
-      <Portuguese>Pesquisando...</Portuguese>
-      <Polish>Wyszukuję...</Polish>
     </Key>
     <Key ID="STR_ANOTF_QueryGarage">
-      <Original>Searching Database for vehicles...</Original>
+      <Original>Durchsuche nach Fahrzeugen...</Original>
       <German>Durchsuche nach Fahrzeugen...</German>
-      <French>Recherche des véhicules dans le garage...</French>
-      <Italian>Ricerca di veicoli nel Database...</Italian>
-      <Portuguese>Buscando por veículo no banco de dados...</Portuguese>
-      <Polish>Szukam pojazdu w bazie danych...</Polish>
     </Key>
     <Key ID="STR_ANOTF_Query_2">
-      <Original>You are already querying a player.</Original>
+      <Original>Du fragst bereits einen Spieler ab.</Original>
       <German>Du fragst bereits einen Spieler ab.</German>
-      <French>Vous avez déjà interrogé ce joueur.</French>
-      <Italian>Stai già ispezionando un giocatore.</Italian>
-      <Portuguese>Você já está buscando por um jogador.</Portuguese>
-      <Polish>Przeszukujesz gracza</Polish>
     </Key>
     <Key ID="STR_ANOTF_QueryFail">
-      <Original>Player no longer exists?</Original>
+      <Original>Spieler existiert nicht mehr?</Original>
       <German>Spieler existiert nicht mehr?</German>
-      <French>Le joueur ne semble pas exister</French>
-      <Italian>Il giocatore non esiste più</Italian>
-      <Portuguese>Jogador não existe mais?</Portuguese>
-      <Polish>Gracz już nie istnieje?</Polish>
     </Key>
     <Key ID="STR_ANOTF_CompWarn">
-      <Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
+      <Original>Du bist dabei dir selbst $%1 zu geben um einen anderen Spieler zu entschädigen.&lt;br/&gt;&lt;br/&gt;Gib das Geld dann an den Spieler weiter.</Original>
       <German>Du bist dabei dir selbst $%1 zu geben um einen anderen Spieler zu entschädigen.&lt;br/&gt;&lt;br/&gt;Gib das Geld dann an den Spieler weiter.</German>
-      <French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
-      <Portuguese>Você está prestes a dar para você mesmo R$%1 para compensar outro jogador &lt;br/&gt;&lt;br/&gt;Você deve dar este dinheiro para a pessoa que você está compensando manualmente.</Portuguese>
-      <Polish>Właśnie przydzieliłeś sobie $%1 w celu rekompensaty graczowi &lt;br/&gt;&lt;br/&gt;Musisz przekazać te środki osobiście osobie poszkodowanej.</Polish>
     </Key>
     <Key ID="STR_ANOTF_Success">
-      <Original>You have added $%1 to your account.</Original>
+      <Original>Dir wurden $%1 auf deinem Bankkonto gutgeschrieben.</Original>
       <German>Dir wurden $%1 auf deinem Bankkonto gutgeschrieben.</German>
-      <French>Vous avez ajouté $%1 à votre compte</French>
-      <Portuguese>Você adicionou R$%1 em sua conta.</Portuguese>
-      <Polish>Przekazałeś na konto $%1 </Polish>
     </Key>
     <Key ID="STR_ANOTF_Fail">
-      <Original>You can not go above $999,999</Original>
+      <Original>Maximaler Wert $999,999!</Original>
       <German>Maximaler Wert $999,999!</German>
-      <French>Vous ne pouvez pas aller au-dessus $999,999!</French>
-      <Portuguese>Você não pode ir além de $999,999!</Portuguese>
-      <Polish>Nie można obracać kwotami wyższymi niż $999,999!</Polish>
     </Key>
     <Key ID="STR_ANOTF_Amount">
-      <Original>Please type in the amount to compensate.</Original>
+      <Original>Bitte Entschädigungs Betrag eingeben.</Original>
       <German>Bitte Entschädigungs Betrag eingeben.</German>
-      <French>S'il vous plaît entrer la quantité pour compenser</French>
-      <Portuguese>Por favor, insira a quantidade para compensar.</Portuguese>
-      <Polish>Wprowadź kwotę rekompensaty</Polish>
     </Key>
     <Key ID="STR_ANOTF_Frozen">
-      <Original>You have disabled %1's input.</Original>
+      <Original>Du hast %1 Schock-Gefrostet. Er kann sich nichtmehr bewegen.</Original>
       <German>Du hast %1 Schock-Gefrostet. Er kann sich nichtmehr bewegen.</German>
-      <French>Vous avez désactivé %1's contrôles</French>
-      <Portuguese>Você desabilitou as entradas de %1.</Portuguese>
-      <Polish>Zablokowałeś grę gracza $%1 </Polish>
     </Key>
     <Key ID="STR_ANOTF_Unfrozen">
-      <Original>You have enabled %1's input.</Original>
-      <German>du hast %1 wieder aufgetaut.</German>
-      <French>Vous avez permis %1's contrôles</French>
-      <Portuguese>Você habilitou as entradas de %1.</Portuguese>
-      <Polish>Odblokowałeś grę gracza $%1 </Polish>
+      <Original>Du hast %1 wieder aufgetaut.</Original>
+      <German>Du hast %1 wieder aufgetaut.</German>
     </Key>
     <Key ID="STR_ANOTF_Error">
-      <Original>You can't do that dumbass.</Original>
+      <Original>Das geht gerade nicht.</Original>
       <German>Das geht gerade nicht.</German>
-      <French>Vous ne pouvez pas le faire sur vous-même</French>
-      <Portuguese>Você não pode fazer isso, idiota.</Portuguese>
-      <Polish>Tak nie można!</Polish>
     </Key>
     <Key ID="STR_ANOTF_ErrorLevel">
-      <Original>Your Admin Level is not high enough.</Original>
+      <Original>Dein Admin Level ist nicht hoch genug.</Original>
       <German>Dein Admin Level ist nicht hoch genug.</German>
-      <French>Votre Niveau admin n'est pas suffisamment élevée</French>
-      <Portuguese>Seu nível de Admin não é alto o bastante.</Portuguese>
-      <Polish>Nie masz wystarczających uprawnień, za niski poziom administracyjny</Polish>
     </Key>
     <Key ID="STR_ANOTF_MDisabled">
-      <Original>Player Markers Disabled.</Original>
+      <Original>Spieler Markierungen ausgeschaltet.</Original>
       <German>Spieler Markierungen ausgeschaltet.</German>
-      <Portuguese>Marcações dos jogadores desabilitada.</Portuguese>
-      <Polish>Markery 'OFF' graczy Wyłączone</Polish>
     </Key>
     <Key ID="STR_ANOTF_MEnabled">
-      <Original>Player Markers Enabled.</Original>
+      <Original>Spieler Markierungen aktiviert.</Original>
       <German>Spieler Markierungen aktiviert.</German>
-      <Portuguese>Marcações dos jogadores habilitada.</Portuguese>
-      <Polish>Markery 'ON' graczy Włączone </Polish>
     </Key>
     <Key ID="STR_NOTF_ActionCancel">
-      <Original>Action Cancelled</Original>
+      <Original>Aktion abgebrochen</Original>
       <German>Aktion abgebrochen</German>
-      <French>Action Annulée</French>
-      <Italian>Azione Annullata</Italian>
-      <Portuguese>Ação Cancelada</Portuguese>
-      <Polish>Anulowano akcję</Polish>
     </Key>
   </Package>
   <Package name="ATM_Strings">
     <Key ID="STR_ATM_Title">
-      <Original>Bank Account Management</Original>
+      <Original>Bankkonto verwalten</Original>
       <German>Bankkonto verwalten</German>
-      <French>Gestion du Compte Bancaire</French>
-      <Italian>Gestione Bancaria</Italian>
-      <Portuguese>Conta Bancária</Portuguese>
-      <Polish>Bankomat Tanoa</Polish>
     </Key>
     <Key ID="STR_ATM_Withdraw">
-      <Original>Withdraw</Original>
+      <Original>Abheben</Original>
       <German>Abheben</German>
-      <French>Retirer</French>
-      <Italian>Preleva</Italian>
-      <Portuguese>Sacar</Portuguese>
-      <Polish>Wypłać</Polish>
     </Key>
     <Key ID="STR_ATM_Deposit">
-      <Original>Deposit</Original>
+      <Original>Einzahlen</Original>
       <German>Einzahlen</German>
-      <French>Déposer</French>
-      <Italian>Deposita</Italian>
-      <Portuguese>Depositar</Portuguese>
-      <Polish>Deopozyt</Polish>
     </Key>
     <Key ID="STR_ATM_WithdrawGang">
-      <Original>Withdraw: Gang</Original>
-      <Portuguese>Sacar: gangue</Portuguese>
+      <Original>Abheben: Gangkonto</Original>
+      <German>Abheben: Gangkonto</German>
     </Key>
     <Key ID="STR_ATM_DepositGang">
-      <Original>Deposit: Gang</Original>
-      <Portuguese>Depositar: Gangue</Portuguese>
+      <Original>Einzahlen: Gang</Original>
+      <German>Einzahlen: Gang</German>
     </Key>
     <Key ID="STR_ATM_Transfer">
-      <Original>Transfer</Original>
+      <Original>Überweisen</Original>
       <German>Überweisen</German>
-      <French>Transférer</French>
-      <Italian>Trasferisci</Italian>
-      <Portuguese>Transferir</Portuguese>
-      <Polish>Przelew</Polish>
     </Key>
     <Key ID="STR_ATM_GreaterThan">
-      <Original>You can't deposit more then $999,999 at a time</Original>
-      <German>Du kannst nicht mehr als $999,999 gleichzeitig einzahlen</German>
-      <French>Vous ne pouvez pas déposer plus de $999,999</French>
-      <Italian>Non puoi depositare più di €999,999 alla volta</Italian>
-      <Portuguese>Você não pode transferir mais de R$999.999 em uma transação</Portuguese>
-      <Polish>Możesz jednorazowo zdeponować nie więcej niż $999,999 </Polish>
+      <Original>Ich kann nicht mehr als $999,999 gleichzeitig einzahlen. So viele Scheine passen da nicht rein.</Original>
+      <German>Ich kann nicht mehr als $999,999 gleichzeitig einzahlen. So viele Scheine passen da nicht rein.</German>
     </Key>
     <Key ID="STR_ATM_notnumeric">
-      <Original>The amount entered isn't a numeric value.</Original>
-      <German>Die eingegebene Zahl ist keine richtige Zahl</German>
-      <French>Vous devez entrer un nombre.</French>
-      <Italian>L'importo inserito non è numerico.</Italian>
-      <Portuguese>O valor digitado não é um número.</Portuguese>
-      <Polish>Wprwadzona wartość nie jest liczbą</Polish>
+      <Original>Das ist doch keine richtige Zahl.</Original>
+      <German>Das ist doch keine richtige Zahl.</German>
     </Key>
     <Key ID="STR_ATM_NoneSelected">
-      <Original>You need to select someone to transfer to</Original>
-      <German>Du hast niemanden für den Transfer ausgewählt</German>
-      <French>Sélectionnez une personne pour le transfert</French>
-      <Italian>Devi selezionare qualcuno per trasferire fondi</Italian>
-      <Portuguese>Você tem que selecionar para quem deseja transferir</Portuguese>
-      <Polish>Musisz wybrać odbiorcę przelewu</Polish>
+      <Original>Ich sollte erstmal die Kontodaten des Empfängers eingeben.</Original>
+      <German>Ich sollte erstmal die Kontodaten des Empfängers eingeben.</German>
     </Key>
     <Key ID="STR_ATM_DoesntExist">
-      <Original>The player selected doesn't seem to exist?</Original>
-      <German>Der Spieler scheint nicht zu existieren?</German>
-      <Italian>Sembra che il giocatore selezionato non esista</Italian>
-      <Portuguese>O jogador selecionado parece não existir!</Portuguese>
-      <Polish>Wybrany gracz wydaje się nie występować w grze</Polish>
+      <Original>Wie der Typ existiert nicht?!</Original>
+      <German>Wie der Typ existiert nicht?!</German>
     </Key>
     <Key ID="STR_ATM_TransferMax">
-      <Original>You can't transfer more then $999,999</Original>
-      <German>Du kannst nicht mehr als $999,999 überweisen</German>
-      <French>Vous ne pouvez pas transférer plus de $999,999</French>
-      <Italian>Non puoi trasferire più di €999.000 alla volta</Italian>
-      <Portuguese>Você pode trasferir no máximo R$999.999.</Portuguese>
-      <Polish>Możesz jednorazowo przelać nie więcej niż $999,999 </Polish>
+      <Original>Schon wieder ein Limit von $999,999. Diesmal für Überweisungen...</Original>
+      <German>Schon wieder ein Limit von $999,999. Diesmal für Überweisungen...</German>
     </Key>
     <Key ID="STR_ATM_NotEnoughFunds">
-      <Original>You don't have that much in your bank account!</Original>
-      <German>Du hast nicht so viel Geld auf deinem Bankkonto!</German>
-      <French>Vous n'avez pas autant dans votre compte bancaire</French>
-      <Italian>Non hai fondi sufficienti nel tuo conto in banca!</Italian>
-      <Portuguese>Você não tem todo esse dinhero na sua conta bancária</Portuguese>
-      <Polish>Nie masz tyle środków na koncie!</Polish>
+      <Original>Ich sollte mal wieder arbeiten gehen. Ich habe nicht so viel Geld auf dem Konto...</Original>
+      <German>Ich sollte mal wieder arbeiten gehen. Ich habe nicht so viel Geld auf dem Konto...</German>
     </Key>
     <Key ID="STR_ATM_NotEnoughFundsG">
-      <Original>You don't have that much in your gang bank account!</Original>
-      <French>Vous n'avez pas autant dans votre gang!</French>
-      <Portuguese>Você não tem todo esse dinhero na sua gangue!</Portuguese>
+      <Original>Mein Gangkonto hat nicht so viel Geld...</Original>
+      <German>Mein Gangkonto hat nicht so viel Geld...</German>
     </Key>
     <Key ID="STR_ATM_SentMoneyFail">
-      <Original>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</Original>
-      <German>Du hast nicht genug Geld auf deinem Konto, es kostet $%2, um $%1 zu überweisen.</German>
-      <French>Vous n'avez pas assez d'agent dans votre compte bancaire, pour transférer $%1 vous devez payer $%2 de taxe</French>
-      <Italian>Non hai fondi sufficienti nel tuo conto in banca, per trasferire €%1 necessiti di €%2 per pagare la tassa di traferimento.</Italian>
-      <Portuguese>Você não tem dinheiro suficiente na suca conta bancária. Para trasferir R$%1 você irá pagar R$%2 de taxa</Portuguese>
-      <Polish>Nie masz wystarczająco dużo środków na końcie, do przelewu $%1 będziesz potrzebował jeszcze $%2 na opłatę</Polish>
+      <Original>Natürlich kann ich die Summe $%2 überweisen, weil die verdammt Bank $%1 dafür haben will, die ich nicht habe...</Original>
+      <German>Natürlich kann ich die Summe $%2 überweisen, weil die verdammt Bank $%1 dafür haben will, die ich nicht habe...</German>
     </Key>
     <Key ID="STR_ATM_SentMoneySuccess">
-      <Original>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</Original>
-      <German>Du hast $%1 an %2 überwiesen.\n\nEine Gebühr von $%3 wurde verrechnet.</German>
-      <French>Vous avez transférer $%1 à %2.\n\nA La taxe de $%3 vous à été prélevée pendant le transfert.</French>
-      <Italian>Hai trasferito €%1 a €%2.\n\nSono stati trattenuti €%3 di tassa per il trasferimento.</Italian>
-      <Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferência foi de: R$%3.</Portuguese>
-      <Polish>Przelałeś $%1 do %2.\n\nA opłata $%3 pobrana przez WIRE TRANSFER </Polish>
+      <Original>Ich habe $%1 an %2 überwiesen.\n\nEine Gebühr von $%3 wurde mir abgezogen. Das ist ja kriminell!</Original>
+      <German>Ich habe $%1 an %2 überwiesen.\n\nEine Gebühr von $%3 wurde mir abgezogen. Das ist ja kriminell!</German>
     </Key>
     <Key ID="STR_ATM_WithdrawMax">
-      <Original>You can't withdraw more then $999,999</Original>
-      <German>Du kannst nicht mehr als $999,999 abheben</German>
-      <French>Vous ne pouvez pas retirer plus de $999,999</French>
-      <Italian>Non puoi prelevare più di €999.000 in una volta</Italian>
-      <Portuguese>Você pode sacar no máximo R$999.999</Portuguese>
-      <Polish>Możesz jednorazowo pobrać maks $999,999 </Polish>
+      <Original>Ich kann nicht so viel Geld abheben. Hier steht, dass es ein Limit von 999,999$ gibt. Nervig...</Original>
+      <German>Ich kann nicht so viel Geld abheben. Hier steht, dass es ein Limit von 999,999$ gibt. Nervig...</German>
     </Key>
     <Key ID="STR_ATM_WithdrawMin">
-      <Original>You can't withdraw less then $100</Original>
-      <German>Du kannst nicht weniger als $100 abheben</German>
-      <French>Vous ne pouvez pas retirer moins de $100</French>
-      <Italian>Non puoi prelevare meno di €100</Italian>
-      <Portuguese>Você não pode sacar menos de R$100.</Portuguese>
-      <Polish>Nie możesz pobrać mniej niż $100 </Polish>
+      <Original>Der Automat spuckt nur hunderter Scheine aus...</Original>
+      <German>Der Automat spuckt nur hunderter Scheine aus...</German>
     </Key>
     <Key ID="STR_ATM_WithdrawSuccess">
-      <Original>You have withdrawn $%1 from your bank account</Original>
-      <German>Du hast $%1 von deinem Bankkonto abgehoben</German>
-      <French>Vous avez retiré $%1 de votre compte en banque</French>
-      <Italian>Hai prelevato €%1 dal tuo conto in banca</Italian>
-      <Portuguese>Você sacou R$%1 de sua conta bancária.</Portuguese>
-      <Polish>Pobrałeś z konta kwotę $%1 </Polish>
+      <Original>Ich habe $%1 von meinem Konto abgehoben. Erstmal einkaufen gehen!</Original>
+      <German>Ich habe $%1 von meinem Konto abgehoben. Erstmal einkaufen gehen!</German>
     </Key>
     <Key ID="STR_ATM_WithdrawSuccessG">
-      <Original>You have withdrawn $%1 from your gang</Original>
-      <French>Vous avez retiré $%1 de votre gang</French>
-      <Portuguese>Você sacou R$%1 da sua gangue</Portuguese>
+      <Original>Du hast $%1 von deinem Gangkonto abgehoben!</Original>
+      <German>Du hast $%1 von deinem Gangkonto abgehoben!</German>
     </Key>
     <Key ID="STR_ATM_NotEnoughCash">
-      <Original>You do not have that much cash on you.</Original>
-      <German>Du hast nicht so viel Geld bei dir.</German>
-      <French>Vous n'avez pas autant d'agent sur vous.</French>
-      <Italian>Non hai abbastanza fondi con te.</Italian>
-      <Portuguese>Você não tem todo esse dinheiro.</Portuguese>
-      <Polish>Nie masz przy sobie tyle pieniędzy</Polish>
+      <Original>Ich trage nicht so viel Geld bei mir.</Original>
+      <German>Ich trage nicht so viel Geld bei mir.</German>
     </Key>
     <Key ID="STR_ATM_DepositSuccess">
-      <Original>You have deposited $%1 into your bank account</Original>
-      <German>Du hast $%1 auf dein Bankkonto überwiesen</German>
-      <French>Vous avez déposé $%1 dans votre compte bancaire</French>
-      <Italian>Hai despositato €%1 nel tuo conto bancario</Italian>
-      <Portuguese>Você depositou R$%1 na sua conta bancária</Portuguese>
-      <Polish>Zdeponowałeś na koncie bankowym $%1</Polish>
+      <Original>Ich habe $%1 auf mein Konto eingezahlt.</Original>
+      <German>Ich habe $%1 auf mein Konto eingezahlt.</German>
     </Key>
     <Key ID="STR_ATM_DepositSuccessG">
-      <Original>You have deposited $%1 into your gangs bank account</Original>
-      <German>Du hast $%1 auf dein Gang Konto überwiesen</German>
-      <French>Vous avez déposé $%1 sur le compte bancaire de votre gang.</French>
-      <Italian>Hai despoitato €%1 nel conto bancario della tua gang</Italian>
-      <Portuguese>Você depositou R$%1 na conta da sua gangue.</Portuguese>
-      <Polish>Zdeponowałeś na koncie gangu kwotę $%1 </Polish>
+      <Original>Ich habe $%1 auf mein Gangkonto überwiesen.</Original>
+      <German>Ich habe $%1 auf mein Gangkonto überwiesen.</German>
     </Key>
   </Package>
   <Package name="Cell_Phone">
     <Key ID="STR_CELL_Title">
-      <Original>Tanoa Mobile</Original>
+      <Original>Tanoa Mobilfunk</Original>
       <German>Tanoa Mobilfunk</German>
-      <French>Tanoa mobile</French>
-      <Italian>Cellulare Tanoa</Italian>
-      <Portuguese>Celular</Portuguese>
-      <Polish>Telefon</Polish>
     </Key>
     <Key ID="STR_CELL_TextToSend">
-      <Original>Message To Send:</Original>
+      <Original>Deine Nachricht:</Original>
       <German>Deine Nachricht:</German>
-      <French>SMS à Envoyer :</French>
-      <Italian>Messaggio da mandare:</Italian>
-      <Portuguese>Mensagem à enviar:</Portuguese>
-      <Polish>Treść wiadomości</Polish>
     </Key>
     <Key ID="STR_CELL_TextMSGBtn">
-      <Original>Text Message:</Original>
+      <Original>Nachricht:</Original>
       <German>Nachricht:</German>
-      <French>Text Message:</French>
-      <Italian>Msg Giocatore:</Italian>
-      <Portuguese>Mensagem:</Portuguese>
-      <Polish>Do: Gracz</Polish>
     </Key>
     <Key ID="STR_CELL_TextPolice">
-      <Original>Text Police</Original>
+      <Original>An die Polizei</Original>
       <German>An die Polizei</German>
-      <French>Text Police</French>
-      <Italian>Msg Polizia</Italian>
-      <Portuguese>Polícia</Portuguese>
-      <Polish>Do: Policja</Polish>
     </Key>
     <Key ID="STR_CELL_TextAdmins">
-      <Original>Text Admins</Original>
+      <Original>An die Admins</Original>
       <German>An die Admins</German>
-      <French>Text Admins</French>
-      <Italian>Msg Admin</Italian>
-      <Portuguese>Msg Admins</Portuguese>
-      <Polish>Do: Admin</Polish>
     </Key>
     <Key ID="STR_CELL_AdminMsg">
-      <Original>Admin Message</Original>
+      <Original>Admin-Nachricht</Original>
       <German>Admin-Nachricht</German>
-      <French>Admin Message</French>
-      <Italian>Admin Msg</Italian>
-      <Portuguese>Admin Msg</Portuguese>
-      <Polish>AdmGracz</Polish>
     </Key>
     <Key ID="STR_CELL_AdminMSGAll">
-      <Original>Admin Msg All</Original>
+      <Original>Admin-Nachricht an alle</Original>
       <German>Admin-Nachricht an alle</German>
-      <French>Admin Msg ALL</French>
-      <Italian>Admin Msg</Italian>
-      <Portuguese>Admin Msg All</Portuguese>
-      <Polish>SMS do Wszyscy</Polish>
     </Key>
     <Key ID="STR_CELL_EMSRequest">
-      <Original>Request EMS</Original>
-      <German>An die Sanitäter</German>
-      <French>Requête Medecin</French>
-      <Italian>Msg medici</Italian>
-      <Portuguese>Chamar SAMU</Portuguese>
-      <Polish>MEDYK</Polish>
+      <Original>An die Feuerwehr</Original>
+      <German>An die Feuerwehr</German>
     </Key>
   </Package>
   <Package name="Chop_Shop">
     <Key ID="STR_ChopShop_Title">
-      <Original>Local Chop Shop</Original>
-      <German>Illegaler Fahrzeughändler</German>
-      <French>Concessionnaire de véhicule volé</French>
-      <Italian>Ricettatore</Italian>
-      <Portuguese>Desmanche</Portuguese>
-      <Polish>Dziupla</Polish>
+      <Original>Chop-Shop</Original>
+      <German>Chop-Shop</German>
     </Key>
   </Package>
   <Package name="Gang_Menu">
     <Key ID="STR_Gang_Title">
-      <Original>Gang Management</Original>
+      <Original>Gang Verwaltung</Original>
       <German>Gang Verwaltung</German>
-      <French>Gestion du Gang</French>
-      <Italian>Gestione Gang</Italian>
-      <Portuguese>Gerenciar Gangue</Portuguese>
-      <Polish>Gang Menu</Polish>
     </Key>
     <Key ID="STR_Gang_Title2">
-      <Original>Gang Management - Current Gangs</Original>
+      <Original>Gang Übersicht - Aktuelle Gangs</Original>
       <German>Gang Übersicht - Aktuelle Gangs</German>
-      <French>Gestion de Gangs - Liste des Gangs Actuels</French>
-      <Italian>Gestione Gang - Gang Attuali</Italian>
-      <Portuguese>Gerenciar Gangue - Gangue atual</Portuguese>
-      <Polish>Gang - zarządzaj</Polish>
     </Key>
     <Key ID="STR_Gang_Join">
-      <Original>Join</Original>
+      <Original>Beitreten</Original>
       <German>Beitreten</German>
-      <French>Rejoindre</French>
-      <Italian>Unisciti</Italian>
-      <Portuguese>Entrar</Portuguese>
-      <Polish>Dołącz</Polish>
     </Key>
     <Key ID="STR_Gang_Leave">
-      <Original>Leave</Original>
+      <Original>Verlassen</Original>
       <German>Verlassen</German>
-      <French>Quitter</French>
-      <Italian>Abbandona</Italian>
-      <Portuguese>Sair</Portuguese>
-      <Polish>Opuść</Polish>
     </Key>
     <Key ID="STR_Gang_UpgradeSlots">
-      <Original>Upgrade Slots</Original>
+      <Original>Slots erweitern</Original>
       <German>Slots erweitern</German>
-      <French>Augmenter Slots</French>
-      <Italian>Aumenta Posti</Italian>
-      <Portuguese>Aumentar o número de Slots</Portuguese>
-      <Polish>Powiększ gang</Polish>
     </Key>
     <Key ID="STR_Gang_Kick">
-      <Original>Kick</Original>
+      <Original>Kicken</Original>
       <German>Kicken</German>
-      <French>Virer</French>
-      <Italian>Espelli</Italian>
-      <Portuguese>Expulsar</Portuguese>
-      <Polish>Wykop</Polish>
     </Key>
     <Key ID="STR_Gang_SetLeader">
-      <Original>Set Leader</Original>
+      <Original>Neuer Anführer</Original>
       <German>Neuer Anführer</German>
-      <French>Passer Chef</French>
-      <Italian>Imposta Capo</Italian>
-      <Portuguese>Passar Liderança</Portuguese>
-      <Polish>Ustaw lidera</Polish>
     </Key>
     <Key ID="STR_Gang_PriceTxt">
-      <Original>To create a gang it costs $%1</Original>
-      <German>Eine Gang zu erstellen kostet $%1</German>
-      <French>Pour créer un gang ça coute %1$</French>
-      <Italian>Creare una gang costa €%1</Italian>
-      <Portuguese>Criar uma Gangue custa R$%1</Portuguese>
-      <Polish>Koszt ustanowienia gangu to $%1</Polish>
+      <Original>Eine Gang zu gründen kostet $%1</Original>
+      <German>Eine Gang zu gründen kostet $%1</German>
     </Key>
     <Key ID="STR_Gang_Create">
-      <Original>Create</Original>
-      <German>Erstellen</German>
-      <French>Créer</French>
-      <Italian>Crea</Italian>
-      <Portuguese>Criar</Portuguese>
-      <Polish>Stwórz</Polish>
+      <Original>Gründen</Original>
+      <German>Gründen</German>
     </Key>
     <Key ID="STR_Gang_YGN">
-      <Original>Your Gang Name</Original>
+      <Original>Dein Gang Name</Original>
       <German>Dein Gang Name</German>
-      <French>Nom de ton Gang</French>
-      <Italian>Nome della tua Gang</Italian>
-      <Portuguese>Nome da Gangue</Portuguese>
-      <Polish>Nazwa gangu</Polish>
     </Key>
     <Key ID="STR_Gang_MainMenu">
-      <Original>You aren't in a gang currently, what do you want to do?</Original>
+      <Original>Du bist in keiner Gang, was möchtest du machen?</Original>
       <German>Du bist in keiner Gang, was möchtest du machen?</German>
-      <French>Tu n'as pas de gang actuellement</French>
-      <Italian>Non sei in una gang, cosa intendi fare?</Italian>
-      <Portuguese>Você não está em uma Gangue, o que deseja fazer?</Portuguese>
-      <Polish>Jesteś już w gangu co chcesz zrobić</Polish>
     </Key>
     <Key ID="STR_Gang_Browse">
-      <Original>Browse</Original>
+      <Original>Durchsuchen</Original>
       <German>Durchsuchen</German>
-      <French>Parcourir</French>
-      <Italian>Cerca</Italian>
-      <Portuguese>Navegar</Portuguese>
-      <Polish>Przeglądaj</Polish>
     </Key>
     <Key ID="STR_Gang_Invite_Player">
-      <Original>Invite Player</Original>
+      <Original>Spieler einladen</Original>
       <German>Spieler einladen</German>
-      <French>Inviter joueur</French>
-      <Italian>Invita Giocatore</Italian>
-      <Portuguese>Convidar Jogador</Portuguese>
-      <Polish>Zaproś</Polish>
     </Key>
     <Key ID="STR_Gang_Disband_Gang">
-      <Original>Disband Gang</Original>
+      <Original>Gang auflösen</Original>
       <German>Gang auflösen</German>
-      <French>Dissoudre Gang</French>
-      <Italian>Sciogli Gang</Italian>
-      <Portuguese>Desfazer Gangue</Portuguese>
-      <Polish>Opuść gang</Polish>
     </Key>
     <Key ID="STR_Gang_Invitation">
-      <Original>Gang Invitation</Original>
+      <Original>Gang Einladung</Original>
       <German>Gang Einladung</German>
-      <French>Invitation de Gang</French>
-      <Italian>Invito Gang</Italian>
-      <Portuguese>Convite para Gangue</Portuguese>
-      <Polish>Zaproszenie do gangu</Polish>
     </Key>
     <Key ID="STR_Gang_Transfer">
-      <Original>Transfer Gang Leadership</Original>
+      <Original>Gangleitung übertragen</Original>
       <German>Gangleitung übertragen</German>
-      <French>Transfert du commandement du Gang</French>
-      <Italian>Trasferisci Comando</Italian>
-      <Portuguese>Transferir Liderança</Portuguese>
-      <Polish>Przekaż kierowanie gangiem</Polish>
     </Key>
     <Key ID="STR_Gang_UpgradeMax">
-      <Original>Upgrade Maximum Allowed Gang Members</Original>
+      <Original>Maximale Anzahl an Gang Mitgliedern erhöhen</Original>
       <German>Maximale Anzahl an Gang Mitgliedern erhöhen</German>
-      <French>Augmentation du nombre de membre acceptés</French>
-      <Italian>Aumenta numero massimo membri della Gang</Italian>
-      <Portuguese>Atualizar limite máximo de membros</Portuguese>
-      <Polish>Zwiększ maksymalną liczbę członków gangu</Polish>
     </Key>
   </Package>
   <Package name="Gang_Notification">
     <Key ID="STR_GNOTF_CreateGang">
-      <Original>You must create a gang first before capturing it!</Original>
-      <German>Du musst erst in einer Gang sein, um diesen Bereich einnehmen zu können!</German>
-      <French>Vous devez créer un gang avant de le capturer!</French>
-      <Italian>Devi creare una gang prima di catturarla!</Italian>
-      <Portuguese>Você precisa criar uma gangue antes de tentar capturar!</Portuguese>
-      <Polish>Przed przechwyceniem musisz stworzyć gang</Polish>
+      <Original>Alleine ein Ganggebiet einnehmen? Niemals, die durchsieben mich mit Kugeln, wenn die mich sehen!</Original>
+      <German>Alleine ein Ganggebiet einnehmen? Niemals, die durchsieben mich mit Kugeln, wenn die mich sehen!</German>
     </Key>
     <Key ID="STR_GNOTF_Controlled">
-      <Original>Your gang already has control over this hideout!</Original>
-      <German>Deine Gang hat bereits die Kontrolle über dieses Versteck!</German>
-      <French>Votre bande a déjà le contrôle de cette cachette!</French>
-      <Italian>La tua Gang ha già il controllo di questo Covo</Italian>
-      <Portuguese>Sua gangue já tem controle sobre esse esconderijo!</Portuguese>
-      <Polish>Twój gang aktualnie kontroluje tę kryjówkę !</Polish>
+      <Original>Meine Gang kontrolliert doch schon dieses Gebiet?!</Original>
+      <German>Meine Gang kontrolliert doch schon dieses Gebiet?!</German>
     </Key>
     <Key ID="STR_GNOTF_Captured">
-      <Original>Only one person shall capture at once!</Original>
-      <German>Nur eine Person kann das Versteck einnehmen!</German>
-      <French>Une seule personne doit capturer à la fois!</French>
-      <Italian>Può conquistare solo una persona alla volta!</Italian>
-      <Portuguese>Somente uma pessoa pode capturar!</Portuguese>
-      <Polish>Przejmowanie powinna przeprowadzić na raz tylko jedna osoba</Polish>
+      <Original>Na, wenn er das schon macht sollte ich meine Zeit hier nicht verschwenden!</Original>
+      <German>Na, wenn er das schon macht sollte ich meine Zeit hier nicht verschwenden!</German>
     </Key>
     <Key ID="STR_GNOTF_AlreadyControlled">
-      <Original>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</Original>
-      <German>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du ihr Gang Gebiet übernehmen möchtest?</German>
-      <French>Cette cachette est contrôlée par %1.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr que vous voulez prendre en charge leur zone de gang?</French>
-      <Italian>Questo Covo è controllato da %1.&lt;br/&gt;&lt;br/&gt;Sicuro di voler prendere il controllo della loro area?</Italian>
-      <Portuguese>Esse esconderijo é controlado por %1.&lt;br/&gt;&lt;br/&gt;Você tem certeza que deseja tomar essa área?</Portuguese>
-      <Polish>Ta kryjówka jest kontrolowana przez %1.&lt;br/&gt;&lt;br/&gt;Jesteś pewny że chcesz przjąć ten rejon.</Polish>
+      <Original>Das Versteck wird von %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Soll ich wirklich deren Gang Gebiet einnehmen?</Original>
+      <German>Das Versteck wird von %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Soll ich wirklich deren Gang Gebiet einnehmen?</German>
     </Key>
     <Key ID="STR_GNOTF_CurrentCapture">
-      <Original>Hideout is currently under control...</Original>
-      <German>Versteck ist derzeit unter Kontrolle...</German>
-      <French>La cachette est actuellement sous contrôle ...</French>
-      <Italian>Il Covo è già sotto controllo...</Italian>
-      <Portuguese>Esconderijo sobre controle....</Portuguese>
-      <Polish>Kryjówka pod kontrolą ...</Polish>
+      <Original>Das Versteck wird zurzeit Kontrolliert von</Original>
+      <German>Das Versteck wird zurzeit Kontrolliert von</German>
     </Key>
     <Key ID="STR_GNOTF_CaptureCancel">
-      <Original>Capturing cancelled</Original>
+      <Original>Einnehmen abgebrochen</Original>
       <German>Einnehmen abgebrochen</German>
-      <French>Capture annulée</French>
-      <Italian>Cattura annullata</Italian>
-      <Portuguese>Ação concelada</Portuguese>
-      <Polish>Przejmowanie anulowane</Polish>
     </Key>
     <Key ID="STR_GNOTF_Capturing">
-      <Original>Capturing Hideout</Original>
+      <Original>Versteck einnehmen</Original>
       <German>Versteck einnehmen</German>
-      <French>Capture cachette</French>
-      <Italian>Catturando il Covo</Italian>
-      <Portuguese>Capturando Esconderijo</Portuguese>
-      <Polish>Przejmowanie kryjówki</Polish>
     </Key>
     <Key ID="STR_GNOTF_CaptureSuccess">
-      <Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
-      <German>%1 und seine Gang: 2% - haben die Kontrolle über ein lokales Versteck übernommen!</German>
-      <French>%1 et sa gang: %2 ont pris le controle de la cachette !</French>
-      <Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
-      <Portuguese>%1 e sua gangue: %2 - agora têm o controle de um esconderijo!</Portuguese>
-      <Polish>%1 i jego gang: %2 - przejął kontrolę nad kryjówką!</Polish>
+      <Original>%1 und seine Gang: %2 - kontrollieren nun ein lokales Versteck!</Original>
+      <German>%1 und seine Gang: %2 - kontrollieren nun ein lokales Versteck!</German>
     </Key>
     <Key ID="STR_GNOTF_Over32">
-      <Original>You can't have a gang name longer then 32 characters.</Original>
+      <Original>Dein Gang Name kann nicht länger als 32 Zeichen sein.</Original>
       <German>Dein Gang Name kann nicht länger als 32 Zeichen sein.</German>
-      <French>Vous ne pouvez pas avoir un nom de gang de plus de 32 caractères.</French>
-      <Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
-      <Portuguese>O nome de sua gangue não pode ter mais de 32 caracteres.</Portuguese>
-      <Polish>Nazwa gangu może posiadać maksymalnie 32 znaki</Polish>
     </Key>
     <Key ID="STR_GNOTF_IncorrectChar">
-      <Original>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</Original>
+      <Original>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</Original>
       <German>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</German>
-      <French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</French>
-      <Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
-      <Portuguese>O nome da sua gangue tem caracteres inválidos. O nome so pode conter caracteres e números separados por underline</Portuguese>
-      <Polish>Masz nieprawidłowe znaki w nazwie gangu - tylko litery i cyfry oraz podkreślnik</Polish>
     </Key>
     <Key ID="STR_GNOTF_NotEnoughMoney">
-      <Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
-      <German>Du hast nicht genug Geld auf deinem Bankkonto.\n\nDir fehlen: $%1</German>
-      <French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nVous manquez de: $%1</French>
-      <Italian>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: €%1</Italian>
-      <Portuguese>Você não tem dinheiro suficiente na sua conta bancária.\n\nFaltam: R$%1</Portuguese>
-      <Polish>Nie masz tyle pieniędzy na koncie.\n\nYou brakuje: $%1</Polish>
+      <Original>Ich habe nicht genug Geld auf meinem Konto.\n\nMir fehlen noch $%1...</Original>
+      <German>Ich habe nicht genug Geld auf meinem Konto.\n\nMir fehlen noch $%1...</German>
     </Key>
     <Key ID="STR_GNOTF_CreateSuccess">
-      <Original>You have created the gang %1 for $%2</Original>
-      <German>Du hast die Gang %1 für $%2 erstellt</German>
-      <French>Vous avez créé la bande %1 pour $%2</French>
-      <Italian>Hai creato la Gang %1 al costo di €%2</Italian>
-      <Portuguese>Você criou a gangue %1 por R$%2</Portuguese>
-      <Polish>Stworzyłeś gang %1 za $%2</Polish>
+      <Original>Ich habe %1 gegründet! Das hat mich $%2 kostet. Was für 'ne Abzocke...</Original>
+      <German>Ich habe %1 gegründet! Das hat mich $%2 kostet. Was für 'ne Abzocke...</German>
     </Key>
     <Key ID="STR_GNOTF_DisbandWarn">
-      <Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
-      <German>Du bist dabei, die Gang aufzulösen. Durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
-      <French>Vous vous apprêtez à dissoudre le gang, en démantelant le gang, il sera supprimé de la base de données et le groupe sera supprimé. &lt;br/&gt;&lt;br/&gt;Etes-vous sûr de vouloir dissoudre le groupe? Vous ne serez pas remboursé le prix de sa création</French>
-      <Italian>Stai per sciogliere la Gang, facendolo sarà rimossa dal Database e il gruppo verrà cancellato. &lt;br/&gt;&lt;br/&gt;Sei sicuro di voler sciogliere il gruppo? Non verrai rimborsato dei fondi spesi per crearlo.</Italian>
-      <Portuguese>Você vai desfazer a sua gangue, ela será apagada do banco de dados. &lt;br/&gt;&lt;br/&gt;Você tem certeza que quer desfazer a gangue? Você não será reembolsado.</Portuguese>
-      <Polish>Chcesz rozwiązać gang, po jego rozwiązaniu zostanie on usunięty z bazy danych i cała grupa zostanie rozwiązana. &lt;br/&gt;&lt;br/&gt;Naprawdę chcesz rozwiązać grupę? Nie dostaniesz zwrotu środków za przeznaczonych na stworzenie gangu.</Polish>
+      <Original>Willst du wirklich deine Gang auflösen? Beachte, dass sie dadurch aus der Datenbank entfernt wird! &lt;br/&gt;&lt;br/&gt;Die Kosten der Gründung werden nicht zurückerstattet! Willst du fortfahren?</Original>
+      <German>Willst du wirklich deine Gang auflösen? Beachte, dass sie dadurch aus der Datenbank entfernt wird! &lt;br/&gt;&lt;br/&gt;Die Kosten der Gründung werden nicht zurückerstattet! Willst du fortfahren?</German>
     </Key>
     <Key ID="STR_GNOTF_DisbandGangPro">
-      <Original>Disbanding the gang...</Original>
-      <German>Gang wird aufgelöst...</German>
-      <French>Démantèlement du gang ...</French>
-      <Italian>Sciogliendo la Gang...</Italian>
-      <Portuguese>Desfazendo a gangue...</Portuguese>
-      <Polish>Rozwiąż gang</Polish>
+      <Original>Die Gang wird aufgelöst. Rest in Peace...</Original>
+      <German>Die Gang wird aufgelöst. Rest in Peace...</German>
     </Key>
     <Key ID="STR_GNOTF_DisbandGangCanc">
-      <Original>Disbanding cancelled</Original>
-      <German>Auflösung abgebrochen</German>
-      <French>Démantèlement annulé</French>
-      <Italian>Scioglimento annullato</Italian>
-      <Portuguese>Desfazer gangue cancelado</Portuguese>
-      <Polish>Rozwiązywanie gangu anulowane</Polish>
+      <Original>Auflösung abgebrochen!</Original>
+      <German>Auflösung abgebrochen!</German>
     </Key>
     <Key ID="STR_GNOTF_DisbandWarn_2">
-      <Original>The leader has disbanded the gang.</Original>
-      <German>Der Anführer hat die Gang aufgelöst.</German>
-      <French>Le chef a démantelé le gang.</French>
-      <Italian>Il Capo ha sciolto la Gang</Italian>
-      <Portuguese>O lider desfez a gangue.</Portuguese>
-      <Polish>Szef rozwiązał gang</Polish>
+      <Original>Mein Anführer hat die Gang aufgegeben?!</Original>
+      <German>Mein Anführer hat die Gang aufgegeben?!</German>
     </Key>
     <Key ID="STR_GNOTF_InviteMSG">
-      <Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
-      <German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
-      <French>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
-      <Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
-      <Portuguese>%1 convidou você para a gangue %2&lt;br/&gt;Se você aceitar terá acesso aos recursos da gangue e os esconderijos controlados pela mesma.</Portuguese>
-      <Polish>%1 zaprosił cię do gangu o nazwie %2&lt;br/&gt;Jeżeli zaakceptujesz zaproszenie będziesz członkiem gangu i uzyskasz dostęp do funduszy gangu oraz jego kryjówek</Polish>
+      <Original>%1 hat mich zu %2 eingeladen! &lt;br/&gt; Sollte ich die Einladung annehmen, werde ich Zugang auf deren Gangkonto und Verstecken haben. Eigentlich ganz ok!</Original>
+      <German>%1 hat mich zu %2 eingeladen! &lt;br/&gt; Sollte ich die Einladung annehmen, werde ich Zugang auf deren Gangkonto und Verstecken haben. Eigentlich ganz ok!</German>
     </Key>
     <Key ID="STR_GNOTF_InvitePlayerMSG">
-      <Original>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</Original>
-      <German>Du bist dabei, %1 in deine Gang einzuladen. Wenn die Einladung angenommen wird, hat der Spieler Zugang zu den Mitteln der Gang.</German>
-      <French>Vous êtes sur le point d'inviter %1 à votre gang, s'ils acceptent l'invitation, ils auront accès à des fonds du gang.</French>
-      <Italian>Stai per invitare %1 nella tua Gang, se accetterà l'invito avrà accesso ai fondi della Gang.</Italian>
-      <Portuguese>Você está prestes a convidar %1 para a gangue, ele terá acesso aos recursos da gangue.</Portuguese>
-      <Polish>Właśnie zaprosiłeś %1 do gangu, jeśli zaakceptuje zaproszenie będzie miał dostęp do funduszy gangu.</Polish>
+      <Original>Ich bin dabei, %1 in meine Gang einzuladen. Wenn er annimmt, hat er Zugang zu den Mitteln der Gang. Das sollte mir bewusst sein!</Original>
+      <German>Ich bin dabei, %1 in meine Gang einzuladen. Wenn er annimmt, hat er Zugang zu den Mitteln der Gang. Das sollte mir bewusst sein!</German>
     </Key>
     <Key ID="STR_GNOTF_SelectPerson">
-      <Original>You need to select a person to invite!</Original>
-      <German>Du musst einen Spieler zum Einladen auswählen!</German>
-      <French>Vous devez sélectionner une personne à inviter!</French>
-      <Italian>Devi selezionare una persona da invitare!</Italian>
-      <Portuguese>Você tem que selecionar um jogador para convidar!</Portuguese>
-      <Polish>Musisz zaznaczyć osobę aby ją zaprosić</Polish>
+      <Original>Ja, aber wen will ich denn einladen?</Original>
+      <German>Ja, aber wen will ich denn einladen?</German>
     </Key>
     <Key ID="STR_GNOTF_InviteSent">
-      <Original>You have sent a invite to your gang to %1</Original>
-      <German>Du hast eine Einladung in deine Gang an %1 gesendet</German>
-      <French>Vous avez envoyé une invitation à votre gang à %1</French>
-      <Italian>Hai mandato l'invito alla tua Gang a %1</Italian>
-      <Portuguese>Você enviou um convite para %1 se juntar a sua gangue</Portuguese>
-      <Polish>Wysłałeś zaproszenie do twojego gangu do %1</Polish>
+      <Original>Ich habe %1 dazu aufgerufen meiner Gang beizutreten.</Original>
+      <German>Ich habe %1 dazu aufgerufen meiner Gang beizutreten.</German>
     </Key>
     <Key ID="STR_GNOTF_InviteCancel">
-      <Original>Invitation Cancelled</Original>
+      <Original>Einladung abgebrochen</Original>
       <German>Einladung abgebrochen</German>
-      <French>Invitation Annulées</French>
-      <Italian>Invito Annullato</Italian>
-      <Portuguese>Convite Cancelado</Portuguese>
-      <Polish>Zaproszenie anulowane</Polish>
     </Key>
     <Key ID="STR_GNOTF_KickSelf">
-      <Original>You cannot kick yourself!</Original>
-      <German>Du kannst dich nicht selbst kicken!</German>
-      <French>Vous ne pouvez pas kicker vous-même!</French>
-      <Italian>Non puoi espellerti da solo!</Italian>
-      <Portuguese>Você não pode kickar você mesmo!</Portuguese>
-      <Polish>Nie możesz sam się wykopać!</Polish>
+      <Original>Warum sich selbst rausschmeißen, wenn ich auch einfach gehen kann?</Original>
+      <German>Warum sich selbst rausschmeißen, wenn ich auch einfach gehen kann?</German>
     </Key>
     <Key ID="STR_GNOTF_MaxSlot">
-      <Original>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</Original>
-      <German>Deine Gang hat die maximale Anzahl an Plätzen erreicht, bitte erhöhe das Limit deiner Gang.</German>
-      <French>Votre gang à atteint le nombre de membre maximum, veuillez augmenter cette limite.</French>
-      <Italian>la tua Gang ha raggiungo il numero massimo di posti consentiti, aumentane il limite.</Italian>
-      <Portuguese>Sua gangue está lotada, você deve aumentar o número máximo de jogadores.</Portuguese>
-      <Polish>Twój gang osiągnął maksymalną pojemność, powiększ swój gang!</Polish>
+      <Original>Meine Gang kann nicht mehr Leute behausen... Ich sollte die Anzahl der Gangslots erhöhen...</Original>
+      <German>Meine Gang kann nicht mehr Leute behausen... Ich sollte die Anzahl der Gangslots erhöhen...</German>
     </Key>
     <Key ID="STR_GNOTF_SelectKick">
-      <Original>You need to select a person to kick!</Original>
-      <German>Du musst einen Spieler auswählen, um ihn kicken zu können!</German>
-      <French>Vous devez choisir une personne pour le kick!</French>
-      <Italian>Devi selezionare una persona da espellere!</Italian>
-      <Portuguese>Você tem que selecionar um jogador para kickar!</Portuguese>
-      <Polish>Musisz zaznaczyć osobę do wykopania</Polish>
+      <Original>Aber wen will ich denn rausschmeißen?</Original>
+      <German>Aber wen will ich denn rausschmeißen?</German>
     </Key>
     <Key ID="STR_GNOTF_LeaderLeave">
-      <Original>You cannot leave the gang without appointing a new leader first!</Original>
-      <German>Du kannst die Gang nicht verlassen, ohne einen neuen Anführer zu ernennen!</German>
-      <French>Vous ne pouvez pas quitter le gang sans la nomination d'un nouveau chef d'abord!</French>
-      <Italian>Non puoi abbandonare la Gang prima di aver selezionato un nuovo Capo!</Italian>
-      <Portuguese>Você não pode sair da gangue sem transferir a liderança antes!</Portuguese>
-      <Polish>Nie możesz opuścić gangu bez przekazania komuś szefostwa nad gangiem</Polish>
+      <Original>Es gehört sich nicht einfach abzuhauen, bevor ich einen neuen Clanleader ernenne.</Original>
+      <German>Es gehört sich nicht einfach abzuhauen, bevor ich einen neuen Clanleader ernenne.</German>
     </Key>
     <Key ID="STR_GNOTF_TransferMSG">
-      <Original>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</Original>
-      <German>Du bist dabei, die Führung an %1 zu übertragen&lt;br/&gt;Durch die Übertragung der Leitung der Gang hast du keine Kontrolle mehr.</German>
-      <French>Vous allez transférer le commandement à %1&lt;br/&gt;En transférant le commandement, vous ne serez plus le chef du gang, sauf si le commandement est transféré de nouveau.</French>
-      <Italian>Stai per traferire il comando a %1&lt;br/&gt;Facendolo non avrai più il controllo della Gang fino a quando non ti verrà restituito il comando.</Italian>
-      <Portuguese>Você vai transferir a liderança da gangue para %1&lt;br/&gt;Você não será mais o lider, a não ser que a liderança seja transferida novamente.</Portuguese>
-      <Polish>Przekazałeś kierowanie gangiem %1&lt;br/&gt; W związku z tym nie będzesz od tej chwili kontroli nad gangiem chyba, że kierowownictwo zostanie ci powierzone ponownie. </Polish>
+      <Original>Will ich wirklich %1 die Clanleitung übertragen?&lt;br/&gt;Dadurch habe ich keine Kontrolle mehr über meine Gang, hmm...</Original>
+      <German>Will ich wirklich %1 die Clanleitung übertragen?&lt;br/&gt;Dadurch habe ich keine Kontrolle mehr über meine Gang, hmm...</German>
     </Key>
     <Key ID="STR_GNOTF_TransferCancel">
-      <Original>Transfer of leadership cancelled.</Original>
+      <Original>Übertragung der Leitung abgebrochen.</Original>
       <German>Übertragung der Leitung abgebrochen.</German>
-      <French>Transfert du commandement annulée.</French>
-      <Italian>Trasferimento del comando annullato.</Italian>
-      <Portuguese>Transferencia de liderança cancelada.</Portuguese>
-      <Polish>Przkazanie kierownictwa anulowane.</Polish>
     </Key>
     <Key ID="STR_GNOTF_TransferSelf">
-      <Original>You are already the leader!</Original>
-      <German>Du bist bereits der Anführer!</German>
-      <French>Vous êtes déjà leader!</French>
-      <Italian>Sei già il Capo!</Italian>
-      <Portuguese>Você já está na liderança!</Portuguese>
-      <Polish>Jesteś już liderem!</Polish>
+      <Original>Ich bin bereits der Anführer!</Original>
+      <German>Ich bin bereits der Anführer!</German>
     </Key>
     <Key ID="STR_GNOTF_TransferSelect">
-      <Original>You need to select a person first!</Original>
-      <German>Du musst erst eine Person auswählen!</German>
-      <French>Vous devez choisir une personne d'abord!</French>
-      <Italian>Devi selezionare una persona!</Italian>
-      <Portuguese>Você tem que selecionar um jogador antes!</Portuguese>
-      <Polish>Musisz najpierw zaznaczyć osobę!</Polish>
+      <Original>Ich sollte erstmal eine Person auswählen!</Original>
+      <German>Ich sollte erstmal eine Person auswählen!</German>
     </Key>
     <Key ID="STR_GNOTF_MaxMemberMSG">
-      <Original>You are about to upgrade the maximum members allowed for your gang.</Original>
-      <German>Du bist dabei, die maximale Anzahl an Mitgliedern zu erhöhen.</German>
-      <French>Vous êtes sur le point de mettre à niveau la limite de membre autorisées pour votre gang.</French>
-      <Italian>Stai aumentando il numero massimo di membri consentiti all'interno della tua Gang</Italian>
-      <Portuguese>Você vai atualizar o limite de membros da gangue.</Portuguese>
-      <Polish>Chcesz zwiększyć maksymalną ilość członków w gangu.</Polish>
+      <Original>Soll ich wirklich noch mehr Betten für mein Gang zulegen?</Original>
+      <German>Soll ich wirklich noch mehr Betten für mein Gang zulegen?</German>
     </Key>
     <Key ID="STR_GNOTF_CurrentMax">
-      <Original>Current Max: %1</Original>
+      <Original>Aktuelles Maximum: %1</Original>
       <German>Aktuelles Maximum: %1</German>
-      <French>Max actuelle: %1</French>
-      <Italian>Attuali Max: %1</Italian>
-      <Portuguese>Número máximo atual: %1</Portuguese>
-      <Polish>Aktualnie Max: %1</Polish>
     </Key>
     <Key ID="STR_GNOTF_UpgradeMax">
-      <Original>Upgraded Max: %2</Original>
+      <Original>Maximum erhöhen: %2</Original>
       <German>Maximum erhöhen: %2</German>
-      <French>Mise à niveau Max: %2</French>
-      <Italian>Aumento Max: %2</Italian>
-      <Portuguese>Novo número máximo: %2</Portuguese>
-      <Polish>Po ulepszeniu Max: %2</Polish>
     </Key>
     <Key ID="STR_GNOTF_Price">
-      <Original>Price:</Original>
+      <Original>Preis:</Original>
       <German>Preis:</German>
-      <French>Prix:</French>
-      <Italian>Costo:</Italian>
-      <Portuguese>Preço:</Portuguese>
-      <Polish>Koszt:</Polish>
     </Key>
     <Key ID="STR_GNOTF_NotEoughMoney_2">
-      <Original>You do not have enough money in your bank account to upgrade the gangs maximum member limit.</Original>
-      <German>Du hast nicht genug Geld auf deinem Bankkonto, um das Mitgliederlimit deiner Gang zu erhöhen.</German>
-      <French>Vous n'avez pas assez d'argent dans votre compte de banque pour mettre à niveau la limite de membre maximale.</French>
-      <Italian>Non hai abbastanza fondi nel tuo conto in banca per aumentare il limite massimo di membri.</Italian>
-      <Portuguese>Você não dinheiro suficiente para aumentar o limite da gangue.</Portuguese>
-      <Polish>Nie posiadasz wystarczającej ilości środków na koncie aby powiększyć gang</Polish>
+      <Original>Ich besitze nicht so viel Geld, um die Betten zu bezahlen...</Original>
+      <German>Ich besitze nicht so viel Geld, um die Betten zu bezahlen...</German>
     </Key>
     <Key ID="STR_GNOTF_Current">
-      <Original>Current:</Original>
+      <Original>Aktuell:</Original>
       <German>Aktuell:</German>
-      <French>Actuel:</French>
-      <Italian>Attuale:</Italian>
-      <Portuguese>Atual:</Portuguese>
-      <Polish>Aktualny:</Polish>
     </Key>
     <Key ID="STR_GNOTF_Lacking">
-      <Original>Lacking:</Original>
+      <Original>Fehlend:</Original>
       <German>Fehlend:</German>
-      <French>Manquant:</French>
-      <Italian>Mancanza:</Italian>
-      <Portuguese>Faltando:</Portuguese>
-      <Polish>Brakuje:</Polish>
     </Key>
     <Key ID="STR_GNOTF_UpgradeSuccess">
-      <Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
-      <German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
-      <French>Vous avez mis à niveau à partir de %1 à %2 membres maximum for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
-      <Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
-      <Portuguese>Limite de membros atualizado de %1 para %2 por &lt;t color='#8cff9b'&gt;R$%3&lt;/t&gt;</Portuguese>
-      <Polish>Zwiększyłeś ilość możliwych członków gangu z %1 do %2 for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Polish>
+      <Original>Ich habe für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; die Anzahl der Betten von %1 auf %2 erhöht! Teure Angelegenheit...</Original>
+      <German>Ich habe für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; die Anzahl der Betten von %1 auf %2 erhöht! Teure Angelegenheit...</German>
     </Key>
     <Key ID="STR_GNOTF_UpgradeCancel">
-      <Original>Upgrade cancelled.</Original>
+      <Original>Aufwertung abgebrochen.</Original>
       <German>Aufwertung abgebrochen.</German>
-      <French>Mise à jour annulée.</French>
-      <Italian>Aumento annullato.</Italian>
-      <Portuguese>Cancelar Upgrade.</Portuguese>
-      <Polish>Ulepszanie anulowane.</Polish>
     </Key>
     <Key ID="STR_GNOTF_Funds">
-      <Original>Funds:</Original>
+      <Original>Geld:</Original>
       <German>Geld:</German>
-      <French>Fonds:</French>
-      <Italian>Fondi</Italian>
-      <Portuguese>Recursos:</Portuguese>
-      <Polish>Środki:</Polish>
     </Key>
     <Key ID='STR_GNOTF_GangLeader'>
-      <Original>(Gang Leader)</Original>
+      <Original>(Anführer)</Original>
       <German>(Anführer)</German>
-      <French>(Gang Leader)</French>
-      <Italian>(Capo Gang)</Italian>
-      <Portuguese>(Lider da Gangue)</Portuguese>
-      <Polish>(Szef gangu)</Polish>
     </Key>
   </Package>
   <Package name="Garage_Strings">
     <Key ID="STR_Garage_Title">
-      <Original>Vehicle Garage</Original>
-      <German>Fahrzeug Garage</German>
-      <French>Garage Vehicule</French>
-      <Italian>Garage Veicoli</Italian>
-      <Portuguese>Garagem de Veículos</Portuguese>
-      <Polish>Garaż</Polish>
+      <Original>Parkhaus</Original>
+      <German>Parkhaus</German>
     </Key>
     <Key ID="STR_Garage_GetVehicle">
-      <Original>Get Vehicle</Original>
+      <Original>Ausparken</Original>
       <German>Ausparken</German>
-      <French>Récupérer</French>
-      <Italian>Ritira Veicolo</Italian>
-      <Portuguese>Pegar Veículo</Portuguese>
-      <Polish>Wyciągnij pojazd:</Polish>
     </Key>
     <Key ID="STR_Garage_SellVehicle">
-      <Original>Sell Vehicle</Original>
+      <Original>Fahrzeug verkaufen</Original>
       <German>Fahrzeug verkaufen</German>
-      <French>Vendre</French>
-      <Italian>Vendi Veicolo</Italian>
-      <Portuguese>Vender Veículo</Portuguese>
-      <Polish>Sprzedaj pojazd</Polish>
     </Key>
     <Key ID="STR_Garage_SellPrice">
-      <Original>Sell Price</Original>
+      <Original>Verkaufspreis</Original>
       <German>Verkaufspreis</German>
-      <French>Prix de vente</French>
-      <Italian>Prezzo di vendita</Italian>
-      <Portuguese>Preço de Venda</Portuguese>
-      <Polish>Cena sprzedaży</Polish>
     </Key>
     <Key ID="STR_Garage_SFee">
-      <Original>Storage Fee</Original>
-      <German>Lagergebühr</German>
-      <French>Frais de Stockage</French>
-      <Italian>Costo ritiro</Italian>
-      <Portuguese>Taxa de Armazenamento</Portuguese>
-      <Polish>Opłata parkingowa</Polish>
+      <Original>Lagerkosten</Original>
+      <German>Lagerkosten</German>
     </Key>
     <Key ID="STR_Garage_NoVehicles">
-      <Original>No vehicles found in garage.</Original>
-      <German>Keine Fahrzeuge in der Garage gefunden.</German>
-      <French>Aucuns Vehicules.</French>
-      <Italian>Non hai veicoli nel Garage.</Italian>
-      <Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
-      <Polish>Nie znaleziono pojazdów w garażu</Polish>
+      <Original>Hmm, ich habe keine Fahrzeuge in der Garage.</Original>
+      <German>Hmm, ich habe keine Fahrzeuge in der Garage.</German>
     </Key>
     <Key ID="STR_Garage_CashError">
-      <Original>You don't have $%1 in your bank account</Original>
-      <German>Du hast keine $%1 auf deinem Bankkonto</German>
-      <French>Tu n'as pas %1$ sur ton compte en banque.</French>
-      <Italian>Non hai €%1 nel tuo conto in banca</Italian>
-      <Portuguese>Você não tem R$%1 na sua conta bancária</Portuguese>
-      <Polish>Nie masz %1 na koncie bankowym:</Polish>
+      <Original>Mir fehlen $%1 auf meinem Konto? Wie jetzt?!</Original>
+      <German>Mir fehlen $%1 auf meinem Konto? Wie jetzt?!</German>
     </Key>
     <Key ID="STR_Garage_SpawningVeh">
-      <Original>Spawning vehicle please wait...</Original>
-      <German>Fahrzeug wird bereitgestellt, bitte warten...</German>
-      <French>Mise en place du Véhicule, merci de patienter...</French>
-      <Italian>Creazione veicolo attendere...</Italian>
-      <Portuguese>Obtendo veiculo, aguarde por favor...</Portuguese>
-      <Polish>Wyciągam pojazd, proszę czekać ...</Polish>
+      <Original>Ah, da kommt schon mein Fahrzeug. Kann der Parkjunge sich mal beeilen?</Original>
+      <German>Ah, da kommt schon mein Fahrzeug. Kann der Parkjunge sich mal beeilen?</German>
     </Key>
     <Key ID="STR_Garage_SQLError_Destroyed">
-      <Original>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</Original>
-      <German>Entschuldigung, aber dein %1 wurde zerstört und auf den Schrottplatz geschickt.</German>
-      <French>Désolé mais votre %1 à été détruit et vendu à la casse.</French>
-      <Italian>Purtroppo %1 è stato classificato come veicolo distrutto ed è stato mandato allo sfascio.</Italian>
-      <Portuguese>O veículo %1 foi mandado para o ferro velho pois foi classificado como destroido.</Portuguese>
-      <Polish>Przepraszamy ale %1 został sklasyfikowany jako zniszczony i został odesłany na złom.</Polish>
+      <Original>Ach ja... Mein %1 wurde zerstört und befindet sich jetzt auf dem Schrottplatz. Perfekt...</Original>
+      <German>Ach ja... Mein %1 wurde zerstört und befindet sich jetzt auf dem Schrottplatz. Perfekt...</German>
     </Key>
     <Key ID="STR_Garage_SQLError_Active">
-      <Original>Sorry but %1 is already active somewhere in the world and cannot be spawned.</Original>
-      <German>Entschuldigung, aber dein %1 ist bereits ausgeparkt worden und kann darum nicht bereitgestellt werden.</German>
-      <French>Désolé mais votre %1 à déjà été sortit du garage.</French>
-      <Italian>Purtroppo %1 è già presente nella mappa e non può essere ricreato</Italian>
-      <Portuguese>O veículo %1 já está presente no mapa e não pode ser retirado novamente</Portuguese>
-      <Polish>Przepraszamy ale %1 jest aktywny gdzieś na mapie i nie może zostać wyciągnięty.</Polish>
+      <Original>Ich habe schon mein %1 ausgeparkt. Sie müsste irgendwo stehen.</Original>
+      <German>Ich habe schon mein %1 ausgeparkt. Es müsste irgendwo stehen.</German>
     </Key>
     <Key ID="STR_Garage_SpawnPointError">
-      <Original>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</Original>
-      <German>Es steht ein Fahrzeug auf dem Spawnpunkt. Die Kosten für das Ausparken werden dir erstattet.</German>
-      <French>Il y a déjà un véhicule sur le point de spawn. Le coût de sortie du véhicule vous sera remboursé.</French>
-      <Italian>C'è già un veicolo nel punto di creazione. Verrai rimborsato della spesa appena effettuata.</Italian>
-      <Portuguese>Existe um outro veiculo na area de spawn. Você será reembolsado.</Portuguese>
-      <Polish>W strefie parkowania znajduje się już pojazd. Środki za parkowanie zostaną zwrócone.</Polish>
+      <Original>Der Typ sagt mir ernsthaft, dass die Ausfahrt blockiert ist? Kann jemand mal das Auto hier abschleppen? Falschparker...</Original>
+      <German>Der Typ sagt mir ernsthaft, dass die Ausfahrt blockiert ist? Kann jemand mal das Auto hier abschleppen? Falschparker...</German>
     </Key>
     <Key ID="STR_Garage_SoldCar">
-      <Original>You sold that vehicle for $%1</Original>
-      <German>Du verkaufst dein Fahrzeug für $%1</German>
-      <French>Vous avez vendu votre véhicule pour $%1</French>
-      <Italian>Hai venduto il veicolo per €%1</Italian>
-      <Portuguese>Você vendeu um veículo por R$%1</Portuguese>
-      <Polish>Sprzedałeś pojazd za %1</Polish>
+      <Original>Für $%1 musste ich das Fahrzeug verticken. Ich konnte nicht mal mit ihm handeln.</Original>
+      <German>Für $%1 musste ich das Fahrzeug verticken. Ich konnte nicht mal mit ihm handeln.</German>
     </Key>
     <Key ID="STR_Garage_Store_NotPersistent">
-      <Original>That vehicle is a rental and cannot be stored in your garage.</Original>
-      <German>Mietwagen können nicht in der Garage geparkt werden.</German>
-      <French>Ce véhicule est une location et ne peut pas être stockée dans votre garage.</French>
-      <Italian>Il veicolo è in affitto e non può essere depositato in garage.</Italian>
-      <Portuguese>Esse veículo é alugado e não pode ser armazenado na garagem.</Portuguese>
-      <Polish>Pojazd wynajęty, nie możesz go schować w garażu.</Polish>
+      <Original>Stimmt, ich habe das Fahrzeug gemietet und sollte es abgeben.</Original>
+      <German>Stimmt, ich habe das Fahrzeug gemietet und sollte es abgeben.</German>
     </Key>
     <Key ID="STR_Garage_Store_NoOwnership">
-      <Original>That vehicle doesn't belong to you therefor you cannot store it in your garage.</Original>
-      <German>Das Fahrzeug gehört nicht dir und kann deshalb nicht in der Garage geparkt werden.</German>
-      <French>Ce véhicule ne vous appartient pas, vous ne pouvez pas le stocker dans votre garage.</French>
-      <Italian>Il veicolo non ti appartiene e quindi non puoi depositarlo nel tuo garage.</Italian>
-      <Portuguese>Você não é o proprietário desse veiculo, logo não poderá guarda-lo na garagem.</Portuguese>
-      <Polish>Pojazd nie należy do ciebie nie możesz go schować w garażu. Ale zawsze możesz podjechać do dziupli!</Polish>
+      <Original>Ich sollte das nicht tun. Falls es auffliegt, dass es nicht mein Auto ist, ruft der bestimmt die Polizei.</Original>
+      <German>Ich sollte das nicht tun. Falls es auffliegt, dass es nicht mein Auto ist, ruft der bestimmt die Polizei.</German>
     </Key>
     <Key ID="STR_Garage_Store_Success">
-      <Original>The vehicle has been stored in your garage.</Original>
-      <German>Das Fahrzeug wurde in der Garage geparkt.</German>
-      <French>Le véhicule a été entreposé dans le garage.</French>
-      <Italian>Il veicolo è stato depositato nel tuo garage.</Italian>
-      <Portuguese>O veículo foi guardado na sua garagem.</Portuguese>
-      <Polish>Pojazd został zaparkowany.</Polish>
+      <Original>Der Parkjunge schaut so, als will er Trinkgeld...</Original>
+      <German>Der Parkjunge schaut so, als will er Trinkgeld...</German>
     </Key>
     <Key ID="STR_Garage_Store_Server">
-      <Original>The server is trying to store the vehicle...</Original>
-      <German>Der Server versucht, das Fahrzeug zu speichern...</German>
-      <French>Le serveur tente de stocker le véhicule ...</French>
-      <Italian>Il server cercando di depositare il veicolo...</Italian>
-      <Portuguese>O servidor está guardando o veiculo...</Portuguese>
+      <Original>Der Parkjunge versucht, das Fahrzeug zu parken und ich hoffe ohne Kratzer.</Original>
+      <German>Der Parkjunge versucht, das Fahrzeug zu parken und ich hoffe ohne Kratzer.</German>
       <Polish>Serwer próbuje schować pojazd w garażu ...</Polish>
     </Key>
     <Key ID="STR_Garage_Selection_Error">
-      <Original>The selection had a error...</Original>
-      <German>Die Auswahl hat einen Fehler...</German>
-      <French>La selection à une erreur...</French>
-      <Italian>La selezione ha avuto un errore...</Italian>
-      <Portuguese>Erro ao selecionar....</Portuguese>
-      <Polish>Ten wybór powoduje błąd</Polish>
+      <Original>Irgendwas ist da falsch gelaufen.</Original>
+      <German>Irgendwas ist da falsch gelaufen.</German>
     </Key>
     <Key ID="STR_Garage_NoNPC">
-      <Original>There isn't a vehicle near the NPC.</Original>
-      <German>Es befindet sich kein Fahrzeug in der Nähe des NPC.</German>
-      <French>Il n'y a pas de véhicule près du PNJ</French>
-      <Italian>Non c'è alcun veicolo vicino all'NPC.</Italian>
-      <Portuguese>Não existe um veículo proximo ao NPC</Portuguese>
-      <Polish>Nie ma pojazdu w pobliżu NPC</Polish>
+      <Original>Ich soll das Fahrzeug näher ranfahren? Kannst du nicht einfach die paar Meter rüberlaufen...</Original>
+      <German>Ich soll das Fahrzeug näher ranfahren? Kannst du nicht einfach die paar Meter rüberlaufen...</German>
     </Key>
   </Package>
   <Package name="Key_Chain">
     <Key ID="STR_Keys_Title">
-      <Original>Key Chain - Current List of Keys</Original>
-      <German>Schlüsselbund - Aktuelle Liste</German>
-      <French>Porte-clés - Liste actuelle des clés</French>
-      <Italian>Portachiavi - Lista delle Chiavi</Italian>
-      <Portuguese>Chaves - Atual Lista de Chaves</Portuguese>
-      <Polish>Lista kluczyków</Polish>
+      <Original>Meine Schlüssel</Original>
+      <German>Meine Schlüssel</German>
     </Key>
     <Key ID="STR_Keys_DropKey">
-      <Original>Drop Key</Original>
+      <Original>Schlüssel wegwerfen</Original>
       <German>Schlüssel wegwerfen</German>
-      <French>Jeter Clef</French>
-      <Italian>Abbandona Chiave</Italian>
-      <Portuguese>Remover Chave</Portuguese>
-      <Polish>Wyrzuć klucz</Polish>
     </Key>
     <Key ID="STR_Keys_GiveKey">
-      <Original>Give Key</Original>
+      <Original>Schlüssel geben</Original>
       <German>Schlüssel geben</German>
-      <French>Donner Clef</French>
-      <Italian>Dai Chiave</Italian>
-      <Portuguese>Dar Chave</Portuguese>
-      <Polish>Daj klucz</Polish>
     </Key>
   </Package>
   <Package name="Player_Menu">
@@ -1378,444 +744,250 @@
 <Key ID="STR_PM_Craft">
  <Original>Craft</Original>
  <English>Craft</English>
- <German>Craft</German>
- <French>Craft</French>
- <Italian>Craft</Italian>
- <Portuguese>Craft</Portuguese>
 </Key>
     <Key ID="STR_PM_Title">
-      <Original>Player Menu</Original>
+      <Original>Spieler Menü</Original>
       <German>Spieler Menü</German>
-      <French>Menu du Joueur</French>
-      <Italian>Menu Giocatore</Italian>
-      <Portuguese>Menu Jogador</Portuguese>
-      <Polish>Menu gracza</Polish>
     </Key>
     <Key ID="STR_PM_cItems">
-      <Original>Current Items</Original>
-      <German>Aktuelle Items</German>
-      <French>Objets Actuels</French>
-      <Italian>Oggetti Attuali</Italian>
-      <Portuguese>Items Atuais</Portuguese>
-      <Polish>Aktualne wyposażenie:</Polish>
+      <Original>Meine Items</Original>
+      <German>Meine Items</German>
     </Key>
     <Key ID="STR_PM_Licenses">
-      <Original>Licenses</Original>
-      <German>Lizenzen</German>
-      <French>Licences</French>
-      <Italian>Licenze</Italian>
-      <Portuguese>Licenças</Portuguese>
-      <Polish>Licencje</Polish>
+      <Original>Meine Lizenzen</Original>
+      <German>Meine Lizenzen</German>
     </Key>
     <Key ID="STR_PM_MoneyStats">
-      <Original>Money Stats</Original>
+      <Original>Geld Statistiken</Original>
       <German>Geld Statistiken</German>
-      <French>Stats Monétaires</French>
-      <Italian>Statistiche Fondi</Italian>
-      <Portuguese>Dinheiro</Portuguese>
-      <Polish>Twoje środki</Polish>
     </Key>
     <Key ID="STR_PM_MyGang">
-      <Original>My Gang</Original>
+      <Original>Meine Gang</Original>
       <German>Meine Gang</German>
-      <French>Mon Gang</French>
-      <Italian>Mia Gang</Italian>
-      <Portuguese>Gangue</Portuguese>
-      <Polish>Gang</Polish>
     </Key>
     <Key ID="STR_PM_WantedList">
-      <Original>Wanted List</Original>
+      <Original>Fahndungsliste</Original>
       <German>Fahndungsliste</German>
-      <French>Interpol</French>
-      <Italian>Lista Ricercati</Italian>
-      <Portuguese>Lista de Foragidos</Portuguese>
-      <Polish>Poszukiwani</Polish>
     </Key>
     <Key ID="STR_PM_CellPhone">
-      <Original>Cell Phone</Original>
-      <German>Telefon</German>
-      <French>Téléphone</French>
-      <Italian>Cellulare</Italian>
-      <Portuguese>Celular</Portuguese>
-      <Polish>Telefon</Polish>
+      <Original>Smartphone</Original>
+      <German>Smartphone</German>
     </Key>
     <Key ID="STR_PM_KeyChain">
-      <Original>Key Chain</Original>
+      <Original>Schlüsselbund</Original>
       <German>Schlüsselbund</German>
-      <French>Porte-clés</French>
-      <Italian>Portachiavi</Italian>
-      <Portuguese>Chaves</Portuguese>
-      <Polish>Klucze</Polish>
     </Key>
     <Key ID="STR_PM_AdminMenu">
-      <Original>Admin Menu</Original>
+      <Original>Admin Menü</Original>
       <German>Admin Menü</German>
-      <French>Menu Admin</French>
-      <Italian>Menu Admin</Italian>
-      <Portuguese>Menu Admin</Portuguese>
-      <Polish>Admin Menu</Polish>
     </Key>
     <Key ID="STR_PM_SyncData">
-      <Original>Sync Data</Original>
-      <German>saven</German>
-      <French>Sync Data</French>
-      <Italian>Salva Dati</Italian>
-      <Portuguese>Sincronizar Dados</Portuguese>
-      <Polish>Synchronizuj</Polish>
+      <Original>Speichern</Original>
+      <German>Spreichern</German>
     </Key>
   </Package>
   <Package name="Settings_Menu">
     <Key ID="STR_SM_Title">
-      <Original>Settings Menu</Original>
-      <German>Einstellungen</German>
-      <French>Menu Paramètres</French>
-      <Italian>Menu Impostazioni</Italian>
-      <Portuguese>Configurações</Portuguese>
-      <Polish>Ustawienia:</Polish>
+      <Original>Optionen</Original>
+      <German>Optionen</German>
     </Key>
     <Key ID="STR_SM_onFoot">
-      <Original>On Foot:</Original>
+      <Original>Zu Fuß:</Original>
       <German>Zu Fuß:</German>
-      <French>A Pied:</French>
-      <Italian>A piedi:</Italian>
-      <Portuguese>A Pé:</Portuguese>
-      <Polish>Na nogach:</Polish>
     </Key>
     <Key ID="STR_SM_inCar">
-      <Original>In Car:</Original>
+      <Original>Im Auto:</Original>
       <German>Im Auto:</German>
-      <French>Terre:</French>
-      <Italian>Auto:</Italian>
-      <Portuguese>No Carro:</Portuguese>
-      <Polish>W aucie:</Polish>
     </Key>
     <Key ID="STR_SM_inAir">
-      <Original>In Air:</Original>
+      <Original>In der Luft:</Original>
       <German>In der Luft:</German>
-      <French>Air:</French>
-      <Italian>Aria:</Italian>
-      <Portuguese>No Ar:</Portuguese>
-      <Polish>W powietrzu:</Polish>
     </Key>
     <Key ID="STR_SM_ToolTip1">
-      <Original>View distance while on foot</Original>
+      <Original>Sichtweite zu Fuß</Original>
       <German>Sichtweite zu Fuß</German>
-      <French>Distance de vue à pied</French>
-      <Italian>Distanza visiva a piedi</Italian>
-      <Portuguese>Visualizar distância enquanto a pé</Portuguese>
-      <Polish>Widoczność gdy na nogach</Polish>
     </Key>
     <Key ID="STR_SM_ToolTip2">
-      <Original>View distance while in a land vehicle</Original>
+      <Original>Sichtweite in Fahrzeugen</Original>
       <German>Sichtweite in Fahrzeugen</German>
-      <French>Distance de vue en voiture</French>
-      <Italian>Distanza visiva su veicolo di terra</Italian>
-      <Portuguese>Visualizar distância enquanto em veículos terrestres</Portuguese>
-      <Polish>Widoczność gdy w aucie</Polish>
     </Key>
     <Key ID="STR_SM_ToolTip3">
-      <Original>View distance while in a air vehicle</Original>
+      <Original>Sichtweite in Helikoptern</Original>
       <German>Sichtweite in Helikoptern</German>
-      <French>Distance de vue dans les airs</French>
-      <Italian>Distanza visiva su velivolo</Italian>
-      <Portuguese>Visualisar distância enquanto em veículos aéreos</Portuguese>
-      <Polish>Widoczność gdy w powietrzu</Polish>
     </Key>
     <Key ID="STR_SM_PlayerTags">
-      <Original>Player Tags</Original>
+      <Original>Spielernamen</Original>
       <German>Spielernamen</German>
-      <French>Tags Joueurs</French>
-      <Italian>Tag Giocatore</Italian>
-      <Portuguese>Tags de Jogadores</Portuguese>
-      <Polish>Tagi graczy</Polish>
     </Key>
     <Key ID="STR_SM_TagsON">
-      <Original>Tags ON</Original>
+      <Original>Namen AN</Original>
       <German>Namen AN</German>
-      <French>Tags ON</French>
-      <Italian>Tags ON</Italian>
-      <Portuguese>Tags ON</Portuguese>
-      <Polish>Tagi ON</Polish>
     </Key>
     <Key ID="STR_SM_TagsOFF">
-      <Original>Tags OFF</Original>
+      <Original>Namen AUS</Original>
       <German>Namen AUS</German>
-      <French>Tags OFF</French>
-      <Italian>Tags OFF</Italian>
-      <Portuguese>Tags OFF</Portuguese>
-      <Polish>Tagi OFF</Polish>
     </Key>
     <Key ID="STR_SM_SC">
-      <Original>Sidechat Switch</Original>
-      <Portuguese>Habilitar Sidechat</Portuguese>
+      <Original>Sidechat</Original>
+	  <German>Sidechat</German>
     </Key>
     <Key ID="STR_SM_RNObj">
-      <Original>Reveal Nearest Objects</Original>
-      <Portuguese>Mostrar Objetos Próximos</Portuguese>
+      <Original>Naheliegende Objekte anzeigen</Original>
+      <German>Naheliegende Objekte anzeigen</German>
     </Key>
     <Key ID="STR_SM_SCOFF">
-      <Original>Sidechat OFF</Original>
+      <Original>Sidechat AUS</Original>
       <German>Sidechat AUS</German>
-      <French>Sidechat OFF</French>
-      <Italian>Chat fazione OFF</Italian>
-      <Portuguese>Sidechat OFF</Portuguese>
-      <Polish>Czat strony OFF</Polish>
     </Key>
     <Key ID="STR_SM_SCON">
-      <Original>Sidechat ON</Original>
+      <Original>Sidechat AN</Original>
       <German>Sidechat AN</German>
-      <French>Sidechat ON</French>
-      <Italian>Chat fazione ON</Italian>
-      <Portuguese>Sidechat ON</Portuguese>
-      <Polish>Czat strony ON</Polish>
     </Key>
   </Package>
   <Package name="Virt_Shop">
     <Key ID="STR_VS_SI">
-      <Original>Shop Inventory</Original>
+      <Original>Ladeninventar</Original>
       <German>Ladeninventar</German>
-      <French>Boutique</French>
-      <Italian>Inventario Negozio</Italian>
-      <Portuguese>Loja de Inventário</Portuguese>
-      <Polish>Oferta sklepu</Polish>
     </Key>
     <Key ID="STR_VS_PI">
-      <Original>Your Inventory</Original>
-      <German>Eigenes Inventar</German>
-      <French>Ton Inventaire</French>
-      <Italian>Inventario Personale</Italian>
-      <Portuguese>Seu Inventário</Portuguese>
-      <Polish>Twoje wyposażenie</Polish>
+      <Original>Mein Inventory</Original>
+      <German>Mein Inventar</German>
     </Key>
     <Key ID="STR_VS_BuyItem">
-      <Original>Buy Item</Original>
+      <Original>Kaufen</Original>
       <German>Kaufen</German>
-      <French>Acheter Objet</French>
-      <Italian>Compra Oggetto</Italian>
-      <Portuguese>Comprar Item</Portuguese>
-      <Polish>Kup objekt</Polish>
     </Key>
     <Key ID="STR_VS_SellItem">
-      <Original>Sell Item</Original>
+      <Original>Verkaufen</Original>
       <German>Verkaufen</German>
-      <French>Vendre Objet</French>
-      <Italian>Vendi Oggetto</Italian>
-      <Portuguese>Vender Item</Portuguese>
-      <Polish>Sprzedaj obiekt</Polish>
     </Key>
   </Package>
   <Package name="Spawn_Menu">
     <Key ID="STR_Spawn_Title">
-      <Original>Spawn Selection</Original>
+      <Original>Spawn Auswahl</Original>
       <German>Spawn Auswahl</German>
-      <French>Selection du Spawn</French>
-      <Italian>Selezione Spawn</Italian>
-      <Portuguese>Locais para Começar</Portuguese>
-      <Polish>Wybierz punkt odrodzenia</Polish>
     </Key>
     <Key ID="STR_Spawn_Spawn">
-      <Original>Spawn</Original>
+      <Original>Spawnen</Original>
       <German>Spawnen</German>
-      <French>Spawn</French>
-      <Italian>Spawn</Italian>
-      <Portuguese>Começar</Portuguese>
-      <Polish>Odradzanie</Polish>
     </Key>
     <Key ID="STR_Spawn_CSP">
-      <Original>Current Spawn Point</Original>
+      <Original>Aktueller Spawnpunkt</Original>
       <German>Aktueller Spawnpunkt</German>
-      <French>Point de Spawn Actuel</French>
-      <Italian>Punto di Spawn corrente</Italian>
-      <Portuguese>Ponto de início Atual</Portuguese>
-      <Polish>Aktualny punkt odrodzenia</Polish>
     </Key>
     <Key ID="STR_Spawn_Spawned">
-      <Original>You have spawned at</Original>
-      <German>Du bist gespawnt in</German>
-      <French>Tu as spawn à</French>
-      <Italian>Ti trovi a</Italian>
-      <Portuguese>Você irá começar em</Portuguese>
-      <Polish>Odrodziłeś się w</Polish>
+      <Original>Ich bin hier in</Original>
+      <German>Ich bin hier in</German>
     </Key>
   </Package>
   <Package name="Ticket_Menu">
     <Key ID="STR_Ticket_GiveTicket">
-      <Original>Give Ticket</Original>
-      <German>Ticket geben</German>
-      <French>Verbaliser</French>
-      <Italian>Dai Multa</Italian>
-      <Portuguese>Dar Multa</Portuguese>
-      <Polish>Wystaw mandat</Polish>
+      <Original>Strafzettel ausstellen</Original>
+      <German>Strafzettel ausstellen</German>
     </Key>
     <Key ID="STR_Ticket_PayTicket">
-      <Original>Pay Ticket</Original>
-      <German>Ticket bezahlen</German>
-      <French>Payer l'amende</French>
-      <Italian>Paga Multa</Italian>
-      <Portuguese>Pagar Multa</Portuguese>
-      <Polish>Zapłać mandat</Polish>
+      <Original>Zahlen</Original>
+      <German>Zahlen</German>
     </Key>
     <Key ID="STR_Ticket_RefuseTicket">
-      <Original>Refuse Ticket</Original>
-      <German>Ticket ablehnen</German>
-      <French>Contester l'amende</French>
-      <Italian>Rifiuta Multa</Italian>
-      <Portuguese>Recusar Multa</Portuguese>
-      <Polish>Odmów przyjęcia mandatu</Polish>
+      <Original>Ablehnen</Original>
+      <German>Ablehnen</German>
     </Key>
   </Package>
   <Package name="Trunk_Menu">
     <Key ID="STR_Trunk_TInventory">
-      <Original>Trunk Inventory</Original>
+      <Original>Kofferraum</Original>
       <German>Kofferraum</German>
-      <French>Coffre</French>
-      <Italian>Inventario Veicolo</Italian>
-      <Portuguese>Inventário do Veículo</Portuguese>
-      <Polish>Zawartość</Polish>
     </Key>
     <Key ID="STR_Trunk_PInventory">
-      <Original>Player Inventory</Original>
-      <German>Spielerinventar</German>
-      <French>Inventaire Joueur</French>
-      <Italian>Inventario Giocatore</Italian>
-      <Portuguese>Inventário do Jogador</Portuguese>
-      <Polish>Wyposażenie gracza</Polish>
+      <Original>Mein Inventar</Original>
+      <German>Mein Inventar</German>
     </Key>
     <Key ID="STR_Trunk_Take">
-      <Original>Take</Original>
+      <Original>Nehmen</Original>
       <German>Nehmen</German>
-      <French>Récupérer</French>
-      <Italian>Prendi</Italian>
-      <Portuguese>Pegar</Portuguese>
-      <Polish>Weź</Polish>
     </Key>
     <Key ID="STR_Trunk_Store">
-      <Original>Store</Original>
+      <Original>Lagern</Original>
       <German>Lagern</German>
-      <French>Déposer</French>
-      <Italian>Deposita</Italian>
-      <Portuguese>Depositar</Portuguese>
-      <Polish>Schowaj</Polish>
     </Key>
   </Package>
   <Package name="Wanted_Menu">
     <Key ID="STR_Wanted_Title">
-      <Original>APD Wanted List</Original>
+      <Original>Fahndungsliste</Original>
       <German>Fahndungsliste</German>
-      <French>Interpol</French>
-      <Italian>Lista Ricercati</Italian>
-      <Portuguese>Lista de Procurados</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Pardon">
-      <Original>Pardon</Original>
-      <German>Erlassen</German>
-      <French>Excuser</French>
-      <Italian>Perdona</Italian>
-      <Portuguese>Perdão</Portuguese>
+      <Original>Freisprechen</Original>
+      <German>Freisprechen</German>
     </Key>
     <Key ID="STR_Wanted_Add">
-      <Original>hinzufügen</Original>
-      <Portuguese>Adicionar</Portuguese>
+      <Original>Fahnden nach...</Original>
+      <German>Fahnden nach...</German>
     </Key>
     <Key ID="STR_Wanted_People">
-      <Original>gesuchte Personen</Original>
-      <Portuguese>Pessoas Procuradas</Portuguese>
+      <Original>Gesucht</Original>
+      <German>Gesucht</German>
     </Key>
     <Key ID="STR_Wanted_Citizens">
-      <Original>Zivil</Original>
-      <Portuguese>Cidadãos</Portuguese>
+      <Original>Zivilisten</Original>
+      <German>Zivilisten</German>
     </Key>
     <Key ID="STR_Wanted_Crimes">
       <Original>Verbrechen</Original>
-      <Portuguese>Crimes</Portuguese>
+      <German>Verbrechen</German>
     </Key>
     <Key ID="STR_Wanted_AddP">
-      <Original>%1 has been added to the wanted list.</Original>
-      <Portuguese>%1 foi adicionado a lista de procurados.</Portuguese>
+      <Original>Nach %1 wird jetzt gefahndet.</Original>
+      <German>Nach %1 wird jetzt gefahndet.</German>
     </Key>
     <Key ID="STR_Wanted_Count">
       <Original>%1 count(s) of %2</Original>
       <Portuguese>%1 contagem(s) de %2</Portuguese>
     </Key>
     <Key ID="STR_Wanted_Bounty">
-      <Original>Current Bounty Price: $%1</Original>
-      <Portuguese>Atual recompensa: R$%1</Portuguese>
+      <Original>Kopfgeld: $%1</Original>
+      <German>Kopfgeld: $%1</German>
     </Key>
 	</Package>
   <Package name="Animals">
     <Key ID="STR_ANIM_Salema">
       <Original>Salema</Original>
       <German>Salema</German>
-      <French>Saumon</French>
-      <Italian>Salmone</Italian>
-      <Portuguese>Salema</Portuguese>
-      <Polish>Salema</Polish>
     </Key>
     <Key ID="STR_ANIM_Ornate">
       <Original>Ornate</Original>
       <German>Ornate</German>
-      <French>Ornate</French>
-      <Italian>Orata</Italian>
-      <Portuguese>Ornamentado</Portuguese>
-      <Polish>Dorada</Polish>
     </Key>
     <Key ID="STR_ANIM_Mackerel">
-      <Original>Mackerel</Original>
+      <Original>Makrele</Original>
       <German>Makrele</German>
-      <French>Maquereau</French>
-      <Italian>Sgombro</Italian>
-      <Portuguese>Cavalinha</Portuguese>
-      <Polish>Makrela</Polish>
     </Key>
     <Key ID="STR_ANIM_Tuna">
-      <Original>Tuna</Original>
+      <Original>Thunfisch</Original>
       <German>Thunfisch</German>
-      <French>Thon</French>
-      <Italian>Tonno</Italian>
-      <Portuguese>Atum</Portuguese>
-      <Polish>Tuńczyk</Polish>
     </Key>
     <Key ID="STR_ANIM_Mullet">
-      <Original>Mullet</Original>
+      <Original>Barbe</Original>
       <German>Barbe</German>
-      <French>Mulet</French>
-      <Italian>Triglia</Italian>
-      <Portuguese>Tainha</Portuguese>
-      <Polish>Cefal</Polish>
     </Key>
     <Key ID="STR_ANIM_Catshark">
-      <Original>Cat Shark</Original>
+      <Original>Katzenhai</Original>
       <German>Katzenhai</German>
-      <French>Poisson Chat</French>
-      <Italian>Squalo</Italian>
-      <Portuguese>Tubarão Gato</Portuguese>
-      <Polish>Rekin</Polish>
     </Key>
     <Key ID="STR_ANIM_Rabbit">
-      <Original>Rabbit</Original>
+      <Original>Hase</Original>
       <German>Hase</German>
-      <French>Lapin</French>
-      <Italian>Coniglio</Italian>
-      <Portuguese>Coelho</Portuguese>
-      <Polish>Zając</Polish>
     </Key>
   </Package>
   <Package name="Notifications">
     <Key ID="STR_NOTF_NE_1">
-      <Original>You do not have $%1 for a %2</Original>
-      <German>Du hast keine $%1 für einen %2</German>
-      <French>Tu n'as pas %1$ pour cet élément : %2</French>
-      <Italian>Non hai €%1 per $2</Italian>
-      <Portuguese>Você não tem R$%1 para %2</Portuguese>
-      <Polish>Nie masz $%1 na %2</Polish>
+      <Original>$%1? Ich habe nicht genug Geld, um %2 zu kaufen.</Original>
+      <German>$%1? Ich habe nicht genug Geld, um %2 zu kaufen.</German>
     </Key>
     <Key ID="STR_NOTF_B_1">
-      <Original>You bought a %1 for $%2</Original>
-      <German>Du hast einen %1 für $%2 gekauft</German>
-      <French>Tu as acheté cet élément : %1 pour %2$</French>
-      <Italian>Hai comprato un %1 per €%2</Italian>
-      <Portuguese>Você comprou %1 por R$%2</Portuguese>
-      <Polish>Kupiłeś %1 za $%2</Polish>
+      <Original>Ich habe einen %1 für $%2 gekauft.</Original>
+      <German>Ich habe einen %1 für $%2 gekauft.</German>
     </Key>
     <Key ID="STR_NOTF_Arrested_1">
       <Original>%1 was arrested by %2</Original>
@@ -3501,6 +2673,22 @@
       <Portuguese>Maconha não Processada</Portuguese>
       <Polish>Konopie</Polish>
     </Key>
+    <Key ID="STR_Item_Hanf">
+      <Original>Hanfpflanze</Original>
+      <German>Hanfpflanze</German>
+    </Key>
+	<Key ID="STR_Item_Hanffaser">
+      <Original>Hanffaser</Original>
+      <German>Hanffaser</German>
+    </Key>
+	<Key ID="STR_Item_Aluerz">
+      <Original>Aluminium Erz</Original>
+      <German>Aluminium Erz</German>
+    </Key>
+	<Key ID="STR_Item_Alubarren">
+      <Original>Aluminium Barren</Original>
+      <German>Aluminium Barren</German>
+    </Key>
     <Key ID="STR_Item_Apple">
       <Original>Apple</Original>
       <German>Apfel</German>
@@ -4128,16 +3316,20 @@
       <Polish>Licencja Pilota</Polish>
     </Key>
     <Key ID="STR_License_Heroin">
-      <Original>Heroin Training</Original>
-      <German>Heroinausbildung</German>
-      <French>Transformation du Pavot</French>
-      <Italian>Processo Eroina</Italian>
-      <Portuguese>Treinamento de Heroina</Portuguese>
-      <Polish>Wytwarzanie Heroiny</Polish>
+      <Original>Heroinherstellung - Ausbildung</Original>
+      <German>Heroinherstellung - Ausbildung</German>
     </Key>
 	<Key ID="STR_License_Korallen">
-      <Original>Korallenverpackung</Original>
-      <German>Korallenverpackung</German>
+      <Original>Korallenverpackung - Ausbildung</Original>
+      <German>Korallenverpackung - Ausbildung</German>
+    </Key>
+	<Key ID="STR_License_Hanf">
+      <Original>Hanfverarbeitung - Ausbildung</Original>
+      <German>Hanfverarbeitung - Ausbildung</German>
+    </Key>
+	<Key ID="STR_License_Alu">
+      <Original>Aluminiumschmelze - Ausbildung</Original>
+      <German>Aluminiumschmelze - Ausbildung</German>
     </Key>
     <Key ID="STR_License_Oil">
       <Original>Oil Processing</Original>
@@ -4213,7 +3405,7 @@
     </Key>
     <Key ID="STR_License_Copper">
       <Original>Copper Processing</Original>
-      <German>Kupferverarbeitung</German>
+      <German>Kupferschmelze - Ausbildung</German>
       <French>Fonte du Cuivre</French>
       <Italian>Processo Rame</Italian>
       <Portuguese>Processamento de Cobre</Portuguese>
@@ -4601,15 +3793,19 @@
     <Package name="Process_Action">
     <Key ID="STR_Process_Oil">
       <Original>Processing Oil</Original>
-      <German>Öl wird verarbeite</German>
-      <French>Raffinage de Pétrole</French>
-      <Italian>Processando l'Olio</Italian>
-      <Portuguese>Processando Petróleo</Portuguese>
-      <Polish>Rafinacja ropy</Polish>
+      <German>Öl wird verarbeitet</German>
     </Key>
 	<Key ID="STR_Process_Goldbarren">
 	  <Original>Golderz wird geschmolzen</Original>
 	  <German>Golderz wird geschmolzen</Original>
+	</Key>
+	<Key ID="STR_Process_Goldbarren">
+	  <Original>Hanffasern werden hergestellt</Original>
+	  <German>Hanffasern werden hergestellt</Original>
+	</Key>
+	<Key ID="STR_Process_Aluerz">
+	  <Original>Aluminiumerz wird geschmolzen</Original>
+	  <German>Aluminiumerz wird geschmolzen</Original>
 	</Key>
     <Key ID="STR_Process_Diamond">
       <Original>Cutting Diamonds</Original>
@@ -5937,8 +5133,10 @@
     <Key ID="STR_MAR_Oil_Processing">
       <Original>Oil Processing</Original>
       <German>Öl Verarbeiter</German>
-      <Portuguese>Processador de Petróleo</Portuguese>
-      <Polish>Rafineria ropy naftowej</Polish>
+    </Key>
+	<Key ID="STR_MAR_Hanf_Processing">
+      <Original>Hanffasern herstellen...</Original>
+      <German>Hanffasern herstellen...</German>
     </Key>
     <Key ID="STR_MAR_Iron_processing">
       <Original>Iron Processing</Original>
@@ -6119,6 +5317,10 @@
       <Portuguese>Processador de Maconha</Portuguese>
       <Polish>Suszarnia marihuany</Polish>
     </Key>
+	<Key ID="STR_MAR_Alu_Processing">
+      <Original>Aluminium schmelzen...</Original>
+      <German>Aluminium schmelzen...</German>
+    </Key>
     <Key ID="STR_MAR_Boat_Spawn">
       <Original>Boat Spawn</Original>
       <German>Boot Spawn</German>
@@ -6127,7 +5329,7 @@
     </Key>
     <Key ID="STR_MAR_Copper_Processing">
       <Original>Copper Processing</Original>
-      <German>Kupferschmelze</German>
+      <German>Kupfer schmelzen...</German>
       <Portuguese>Processador de Cobre</Portuguese>
       <Polish>Huta miedzi</Polish>
     </Key>
@@ -6140,14 +5342,20 @@
     <Key ID="STR_MAR_Oil_Trader">
       <Original>Oil Trader</Original>
       <German>Öl Händler</German>
-      <Portuguese>Comprador de Petróleo</Portuguese>
-      <Polish>Skup benzyny</Polish>
     </Key>
-    <Key ID="STR_MAR_Salt_Trader">
+    <Key ID="STR_MAR_Apotheke">
+      <Original>Apotheke</Original>
+      <German>Apotheke</German>
+    </Key>
+	<Key ID="STR_MAR_Salt_Trader">
       <Original>Salt Trader</Original>
       <German>Salz Händler</German>
       <Portuguese>Comprador de Sal</Portuguese>
       <Polish>Skup soli</Polish>
+    </Key>
+    <Key ID="STR_MAR_Alu_Trader">
+      <Original>Aluminium Händler</Original>
+      <German>Aluminium Händler</German>
     </Key>
     <Key ID="STR_MAR_Diamond_Trader">
       <Original>Diamond Trader</Original>
@@ -6163,7 +5371,7 @@
     </Key>
     <Key ID="STR_MAR_Iron_Copper_Trader">
       <Original>Iron / Copper Trader</Original>
-      <German>Händler für Eisen / Kupfer</German>
+      <German>Händler für Eisen/ Kupfer</German>
       <Portuguese>Comprador de Ferro e Cobre</Portuguese>
       <Polish>Skup metali</Polish>
     </Key>

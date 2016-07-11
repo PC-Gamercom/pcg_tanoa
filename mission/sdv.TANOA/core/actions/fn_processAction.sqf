@@ -29,6 +29,8 @@ _itemInfo = switch (_type) do {
 	case "eichenholz": {["eichenholz","eichenholzbretter",590,(localize "STR_Process_Eichenholz")];};
 	case "tropenholz": {["tropenholz","tropenholzbretter",590,(localize "STR_Process_Tropenholz")];};
 	case "golderz": {["golderz","goldbarren",1800,(localize "STR_Process_Goldbarren")];};
+	case "aluerz": {["aluerz","alubarren",1600,(localize "STR_Process_Aluerz")];};
+	case "hanf": {["hanf","hanffaser",1000,(localize "STR_Process_Hanf")];};
 	default {[];};
 };
 

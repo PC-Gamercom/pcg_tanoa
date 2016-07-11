@@ -121,10 +121,26 @@ class Licenses {
         side = "civ";
     };
 	
+    class alu {
+        variable = "alu";
+        displayName = "STR_License_Alu";
+        price = 12000;
+        illegal = false;
+        side = "civ";
+    };
+	
     class zinn {
         variable = "zinn";
         displayName = "STR_License_Zinn";
         price = 12000;
+        illegal = false;
+        side = "civ";
+    };
+    
+	class hanf {
+        variable = "hanf";
+        displayName = "STR_License_Hanf";
+        price = 11500;
         illegal = false;
         side = "civ";
     };
