@@ -13,7 +13,7 @@ _mine = "";
 switch (true) do {
 	case (player distance (getMarkerPos "copper_mine") < 30): {_mine = ["copper_unrefined",2];};
 	case (player distance (getMarkerPos "gold_mine") < 30): {_mine = ["golderz",2];};
-	case (player distance (getMarkerPos "zinn_mine") < 120) : {_mine = ["zinnerz",1];};
+	case (player distance (getMarkerPos "zinn_mine") < 40) : {_mine = ["zinnerz",1];};
 	case (player distance (getMarkerPos "alu_mine") < 75) : {_mine = ["aluerz",2];};
 	case (player distance (getMarkerPos "wolfram_mine") < 50): {_mine = ["wolframu",1];};
 	case (player distance (getMarkerPos "eisen_mine") < 50): {_mine = ["iron_unrefined",1];};

@@ -2587,6 +2587,14 @@
       <Original>Processing Marijuana</Original>
       <German>Marihuana wird verarbeitet</German>
     </Key>
+	<Key ID="STR_Process_Hanf">
+      <Original>Processing Hanf</Original>
+      <German>Hanf wird verarbeitet</German>
+    </Key>
+	<Key ID="STR_Process_Zinn">
+      <Original>Processing Zinn</Original>
+      <German>Zinn wird verarbeitet</German>
+    </Key>
     <Key ID="STR_Process_Cement">
       <Original>Mixing Cement</Original>
       <German>Zement wird gemischt</German>

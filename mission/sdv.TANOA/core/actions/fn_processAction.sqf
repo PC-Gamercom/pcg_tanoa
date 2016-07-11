@@ -31,6 +31,7 @@ _itemInfo = switch (_type) do {
 	case "golderz": {["golderz","goldbarren",1800,(localize "STR_Process_Goldbarren")];};
 	case "aluerz": {["aluerz","alubarren",1600,(localize "STR_Process_Aluerz")];};
 	case "hanf": {["hanf","hanffaser",1000,(localize "STR_Process_Hanf")];};
+	case "zinnerz": {["zinnerz","zinnbarren",1000,(localize "STR_Process_Zinn")];};
 	default {[];};
 };
 
