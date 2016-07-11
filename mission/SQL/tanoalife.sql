@@ -33,7 +33,7 @@ CREATE TABLE `containers` (
   `active` tinyint(1) NOT NULL DEFAULT '0',
   `owned` tinyint(4) DEFAULT '0',
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB AUTO_INCREMENT=158 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of containers
@@ -67,7 +67,7 @@ CREATE TABLE `gangs` (
   `active` tinyint(4) DEFAULT '1',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_UNIQUE` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of gangs
@@ -83,7 +83,7 @@ CREATE TABLE `houses` (
   `pos` varchar(64) DEFAULT NULL,
   `owned` tinyint(4) DEFAULT '0',
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of houses
@@ -119,7 +119,7 @@ CREATE TABLE `players` (
   UNIQUE KEY `playerid` (`playerid`),
   KEY `name` (`name`),
   KEY `blacklist` (`blacklist`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Table structure for `users`
@@ -155,15 +155,13 @@ CREATE TABLE `vehicles` (
   `color` int(20) NOT NULL,
   `inventory` varchar(500) NOT NULL,
   `insure` int(1) NOT NULL DEFAULT '0',
+  `gear` varchar(500) NOT NULL,
+  `fuel` int(2) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `side` (`side`),
   KEY `pid` (`pid`),
   KEY `type` (`type`)
-) ENGINE=InnoDB AUTO_INCREMENT=152 DEFAULT CHARSET=latin1;
-
--- ----------------------------
--- Records of vehicles
--- ----------------------------
+) ENGINE=InnoDB AUTO_INCREMENT=165 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Table structure for `wanted`
@@ -187,7 +185,7 @@ CREATE TABLE `wanted` (
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `deleteDeadVehicles`;
 DELIMITER ;;
-CREATE DEFINER=`tanoalife`@`localhost` PROCEDURE `deleteDeadVehicles`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteDeadVehicles`()
 BEGIN
   DELETE FROM `vehicles` WHERE `alive` = 0;
 END
@@ -199,7 +197,7 @@ DELIMITER ;
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `deleteOldContainers`;
 DELIMITER ;;
-CREATE DEFINER=`tanoalife`@`localhost` PROCEDURE `deleteOldContainers`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldContainers`()
 BEGIN
   DELETE FROM `containers` WHERE `owned` = 0;
 END
@@ -211,7 +209,7 @@ DELIMITER ;
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `deleteOldGangs`;
 DELIMITER ;;
-CREATE DEFINER=`tanoalife`@`localhost` PROCEDURE `deleteOldGangs`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldGangs`()
 BEGIN
   DELETE FROM `gangs` WHERE `active` = 0;
 END
@@ -223,7 +221,7 @@ DELIMITER ;
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `deleteOldHouses`;
 DELIMITER ;;
-CREATE DEFINER=`tanoalife`@`localhost` PROCEDURE `deleteOldHouses`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldHouses`()
 BEGIN
   DELETE FROM `houses` WHERE `owned` = 0;
 END
@@ -235,7 +233,7 @@ DELIMITER ;
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `resetLifeVehicles`;
 DELIMITER ;;
-CREATE DEFINER=`tanoalife`@`localhost` PROCEDURE `resetLifeVehicles`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `resetLifeVehicles`()
 BEGIN
   UPDATE `vehicles` SET `active`= 0;
 END
