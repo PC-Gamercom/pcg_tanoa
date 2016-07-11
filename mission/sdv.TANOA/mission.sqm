@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=2;
+	toggles=130;
 	class ItemIDProvider
 	{
-		nextID=3965;
+		nextID=3967;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11278.476,7.3085766,5173.3037};
+		pos[]={10777.763,255.31934,5025.5527};
 		dir[]={0.87215155,-0.47326678,0.1240565};
 		up[]={0.46855637,0.88091761,0.066648386};
 		aside[]={0.14082509,8.9567038e-009,-0.99004358};
@@ -746,7 +746,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2513;
+		items=2515;
 		class Item0
 		{
 			dataType="Object";
@@ -28236,8 +28236,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28246,10 +28246,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -28293,8 +28293,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28303,10 +28303,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -83431,7 +83431,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Ordnungsamt"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Gendarmerie"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Polizeimeister"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Polizeiobermeister"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Polizeihauptmeister"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Polizeikommissar"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Polizeihauptkommissar"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""FBI Agent"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Chef des Ordnungsamt"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Chef der Gendarmerie"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""Chef des FBI"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Polizeivizepräsident"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Polizeipräsident"",life_fnc_weaponShopMenu,""cop_sniper""];";
 			};
 			id=2647;
 			type="Land_InfoStand_V2_F";
@@ -84051,7 +84051,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Ordnungsamt"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Gendarmerie"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Polizeimeister"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Polizeiobermeister"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Polizeihauptmeister"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Polizeikommissar"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Polizeihauptkommissar"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""FBI Agent"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Chef des Ordnungsamt"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Chef der Gendarmerie"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""Chef des FBI"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Polizeivizepräsident"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Polizeipräsident"",life_fnc_weaponShopMenu,""cop_sniper""];";
 			};
 			id=2883;
 			type="Land_InfoStand_V2_F";
@@ -85023,17 +85023,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2205.2051,14.030437,13407.137};
-				angles[]={0,5.6373281,0};
+				position[]={2205.2051,14.030258,13407.137};
+				angles[]={0,5.6373262,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Ordnungsamt"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Gendarmerie"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Polizeimeister"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Polizeiobermeister"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Polizeihauptmeister"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Polizeikommissar"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Polizeihauptkommissar"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""FBI Agent"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Chef des Ordnungsamt"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Chef der Gendarmerie"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""Chef des FBI"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Polizeivizepräsident"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Polizeipräsident"",life_fnc_weaponShopMenu,""cop_sniper""];";
 			};
 			id=2919;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00017929077;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -86314,7 +86314,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Ordnungsamt"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Gendarmerie"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Polizeimeister"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Polizeiobermeister"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Polizeihauptmeister"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Polizeikommissar"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Polizeihauptkommissar"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""FBI Agent"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Chef des Ordnungsamt"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Chef der Gendarmerie"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""Chef des FBI"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Polizeivizepräsident"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Polizeipräsident"",life_fnc_weaponShopMenu,""cop_sniper""];";
 			};
 			id=3009;
 			type="Land_InfoStand_V2_F";
@@ -87147,13 +87147,13 @@ class Mission
 		class Item1782
 		{
 			dataType="Marker";
-			position[]={1,-1.6570898e-038,1};
+			position[]={2227.7109,0,13342.993};
 			name="marker_153";
 			text="Markt";
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=3038;
-			atlOffset=60.892002;
+			atlOffset=-13.45;
 		};
 		class Item1783
 		{
@@ -87667,13 +87667,12 @@ class Mission
 				angles[]={0,1.9624624,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3056;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.003162384;
+			atlOffset=0.65201187;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -105610,7 +105609,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Cadet"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Officer"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Trooper"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Statetrooper"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Sergeant"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Staffsergeant"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""1stLieutenant"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Captain"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Inspector"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""2ndChief"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Chief"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Sniper"",life_fnc_weaponShopMenu,""cop_sniper""]; " \n "this addAction[""FBI"",life_fnc_weaponShopMenu,""cop_fbi""];";
+				init="this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[""Cop-Basic"",life_fnc_weaponShopMenu,""cop_basic""]; " \n "this addAction[""Ordnungsamt"",life_fnc_weaponShopMenu,""cop_cadet""]; " \n "this addAction[""Gendarmerie"",life_fnc_weaponShopMenu,""cop_officer""]; " \n "this addAction[""Polizeimeister"",life_fnc_weaponShopMenu,""cop_trooper""]; " \n "this addAction[""Polizeiobermeister"",life_fnc_weaponShopMenu,""cop_statetrooper""]; " \n "this addAction[""Polizeihauptmeister"",life_fnc_weaponShopMenu,""cop_sergeant""]; " \n "this addAction[""Polizeikommissar"",life_fnc_weaponShopMenu,""cop_staffsergeant""]; " \n "this addAction[""Polizeihauptkommissar"",life_fnc_weaponShopMenu,""cop_lieutenant""]; " \n "this addAction[""FBI Agent"",life_fnc_weaponShopMenu,""cop_1stlieutenant""]; " \n "this addAction[""Chef des Ordnungsamt"",life_fnc_weaponShopMenu,""cop_captain""]; " \n "this addAction[""Chef der Gendarmerie"",life_fnc_weaponShopMenu,""cop_inspector""]; " \n "this addAction[""Chef des FBI"",life_fnc_weaponShopMenu,""cop_2ndchief""]; " \n "this addAction[""Polizeivizepräsident"",life_fnc_weaponShopMenu,""cop_chief""]; " \n "this addAction[""Polizeipräsident"",life_fnc_weaponShopMenu,""cop_sniper""];";
 			};
 			id=3461;
 			type="Land_InfoStand_V2_F";
@@ -112984,13 +112983,12 @@ class Mission
 				angles[]={0,2.8651438,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3722;
 			type="Land_InfoStand_V2_F";
-			atlOffset=2.0503998e-005;
+			atlOffset=0.53250957;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113625,14 +113623,13 @@ class Mission
 				angles[]={0,5.2402115,6.2826962};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide isEqualTo civilian ']; this setVariable [""realname"",""License Shop""];";
 			};
 			id=3771;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00044798851;
+			atlOffset=0.3069998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -115818,7 +115815,7 @@ class Mission
 			};
 			id=3898;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.48700047;
+			atlOffset=0.48698711;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -116152,7 +116149,7 @@ class Mission
 			};
 			id=3907;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.34585524;
+			atlOffset=0.34587049;
 		};
 		class Item2456
 		{
@@ -116325,7 +116322,7 @@ class Mission
 			};
 			id=3914;
 			type="Land_Atm_01_F";
-			atlOffset=0.00031208992;
+			atlOffset=0.0003118515;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -116525,7 +116522,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=3920;
-			atlOffset=2.4233727;
+			atlOffset=2.5731249;
 		};
 		class Item2469
 		{
@@ -116689,6 +116686,7 @@ class Mission
 			};
 			id=3926;
 			type="Land_InfoStand_V2_F";
+			atlOffset=-0.00022888184;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -116825,6 +116823,7 @@ class Mission
 			};
 			id=3930;
 			type="Land_InfoStand_V2_F";
+			atlOffset=4.7683716e-007;
 		};
 		class Item2479
 		{
@@ -116991,7 +116990,7 @@ class Mission
 			};
 			id=3936;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00045585632;
+			atlOffset=0.00037360191;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -117060,6 +117059,7 @@ class Mission
 			};
 			id=3938;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.22949028;
 		};
 		class Item2487
 		{
@@ -117070,7 +117070,7 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorGUER";
 			id=3939;
-			atlOffset=1.0573349;
+			atlOffset=1.251997;
 		};
 		class Item2488
 		{
@@ -117087,7 +117087,7 @@ class Mission
 			};
 			id=3940;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00893116;
+			atlOffset=0.0089309216;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -117215,6 +117215,7 @@ class Mission
 			};
 			id=3943;
 			type="Land_Stone_Gate_F";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -118419,6 +118420,74 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item2513
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4791.084,15.248779,5113.7671};
+				angles[]={0,3.4971859,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction[""COP-Auto"",life_fnc_vehicleShopMenu,[""cop_car"",cop,[""granz""],""west"",""Garage""]]; " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",west] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""granz"";}]; " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n "";
+			};
+			id=3965;
+			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="enableSimulation";
+					expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item2514
+		{
+			dataType="Marker";
+			position[]={4794.7739,-2.2307409e-036,5122.8149};
+			name="granz";
+			type="Empty";
+			id=3966;
+			atlOffset=-14.741255;
 		};
 	};
 	class Connections
