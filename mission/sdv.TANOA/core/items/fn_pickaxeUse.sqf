@@ -1,16 +1,17 @@
+
 /*#include "..\..\script_macros.hpp"*/
 /*
- File: fn_pickaxeUse.sqf
- Author: Bryan "Tonic" Boardwine
- Description:
- Main functionality for pickaxe in mining.
+	File: fn_pickaxeUse.sqf
+	Author: Bryan "Tonic" Boardwine
+	Description:
+	Main functionality for pickaxe in mining.
 */
 closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = "";
 
 switch (true) do {
-	case (player distance (getMarkerPos "kupfer_mine") < 30): {_mine = ["copper_unrefined",2];};
+	case (player distance (getMarkerPos "copper_mine") < 30): {_mine = ["copper_unrefined",2];};
 	case (player distance (getMarkerPos "gold_mine") < 30): {_mine = ["golderz",2];};
 	case (player distance (getMarkerPos "zinn_mine") < 120) : {_mine = ["zinnerz",1];};
 	case (player distance (getMarkerPos "alu_mine") < 75) : {_mine = ["aluerz",2];};

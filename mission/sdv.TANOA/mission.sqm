@@ -28236,8 +28236,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -28246,10 +28246,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="GreekHead_A3_09";
+									value=0;
 								};
 							};
 						};
@@ -28293,8 +28293,8 @@ class Mission
 						};
 						class Attribute4
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -28303,10 +28303,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="GreekHead_A3_09";
 								};
 							};
 						};
@@ -43503,7 +43503,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889883,13510.989};
+				position[]={13232.703,-5.8898821,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -80278,8 +80278,8 @@ class Mission
 		class Item1543
 		{
 			dataType="Marker";
-			position[]={12183.188,-3.7185853e-019,3816.085};
-			name="kupfer_mine";
+			position[]={12183.188,-2.5301362e-018,3816.085};
+			name="copper_mine";
 			text="Kupfermine";
 			type="mil_dot";
 			colorName="ColorOrange";
@@ -106691,7 +106691,6 @@ class Mission
 			};
 			id=3497;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00089669228;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -110621,7 +110620,7 @@ class Mission
 			};
 			id=3666;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.55400085;
+			atlOffset=0.55395699;
 			class CustomAttributes
 			{
 				class Attribute0
