@@ -550,7 +550,7 @@ class eichenholz {
     };
 
     class copper_unrefined {
-        variable = "copperUnrefined";
+        variable = "copper_unrefined";
         displayName = "STR_Item_CopperOre";
         weight = 4;
         buyPrice = -1;
@@ -561,7 +561,7 @@ class eichenholz {
     };
 
     class copper_refined {
-        variable = "copperRefined";
+        variable = "copper_refined";
         displayName = "STR_Item_CopperIngot";
         weight = 3;
         buyPrice = -1;
