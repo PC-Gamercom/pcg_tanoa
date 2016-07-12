@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=2;
+	toggles=130;
 	class ItemIDProvider
 	{
-		nextID=4027;
+		nextID=4028;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13601.002,631.90192,13284.418};
+		pos[]={13723.008,1025.106,13507.987};
 		dir[]={0.025788888,-0.81569952,-0.57795566};
 		up[]={0.036362384,0.57844794,-0.8149088};
 		aside[]={-0.99903661,-5.4450356e-007,-0.044579357};
@@ -737,7 +737,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2539;
+		items=2540;
 		class Item0
 		{
 			dataType="Object";
@@ -860,15 +860,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15206.673,1.9824407,86.994942};
-						angles[]={0,3.154681,0};
+						position[]={15206.673,1.9828842,86.995003};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_2";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -881,22 +881,45 @@ class Mission
 					};
 					id=3;
 					type="I_medic_F";
-					atlOffset=68.318558;
+					atlOffset=68.319;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15204.47,1.9735696,92.364937};
-						angles[]={0,3.154681,0};
+						position[]={15204.47,1.973706,92.365005};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_3";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -909,22 +932,45 @@ class Mission
 					};
 					id=4;
 					type="I_medic_F";
-					atlOffset=67.809875;
+					atlOffset=67.809998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15204.44,1.9765995,90.529701};
-						angles[]={0,3.154681,0};
+						position[]={15204.44,1.9766433,90.530006};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_4";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -937,22 +983,45 @@ class Mission
 					};
 					id=5;
 					type="I_medic_F";
-					atlOffset=68.27903;
+					atlOffset=68.278999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15204.227,1.979461,88.796539};
-						angles[]={0,3.154681,0};
+						position[]={15204.227,1.9795272,88.797005};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_5";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -965,22 +1034,45 @@ class Mission
 					};
 					id=6;
 					type="I_medic_F";
-					atlOffset=68.384926;
+					atlOffset=68.385002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15205.439,1.9796855,88.655396};
-						angles[]={0,3.154681,0};
+						position[]={15205.439,1.9799697,88.655006};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_6";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -993,22 +1085,45 @@ class Mission
 					};
 					id=7;
 					type="I_medic_F";
-					atlOffset=68.366722;
+					atlOffset=68.366997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15206.768,1.9796674,88.670166};
-						angles[]={0,3.154681,0};
+						position[]={15206.768,1.9800918,88.670006};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_7";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1021,22 +1136,45 @@ class Mission
 					};
 					id=8;
 					type="I_medic_F";
-					atlOffset=68.339569;
+					atlOffset=68.339996;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15205.595,1.9766281,90.502472};
-						angles[]={0,3.154681,0};
+						position[]={15205.595,1.9770172,90.502007};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_8";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1049,22 +1187,45 @@ class Mission
 					};
 					id=9;
 					type="I_medic_F";
-					atlOffset=68.2705;
+					atlOffset=68.271004;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15205.557,1.9735258,92.376366};
-						angles[]={0,3.154681,0};
+						position[]={15205.557,1.9736907,92.375999};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_9";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1077,22 +1238,45 @@ class Mission
 					};
 					id=10;
 					type="I_medic_F";
-					atlOffset=67.780731;
+					atlOffset=67.780998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15206.879,1.9767416,90.438019};
-						angles[]={0,3.154681,0};
+						position[]={15206.879,1.9765975,90.438004};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_10";
-						description="Feuerwehr";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1105,22 +1289,45 @@ class Mission
 					};
 					id=11;
 					type="I_medic_F";
-					atlOffset=68.262146;
+					atlOffset=68.262001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15208.065,1.9798529,88.534782};
-						angles[]={0,3.154681,0};
+						position[]={15208.065,1.9797943,88.535004};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_11";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1133,22 +1340,45 @@ class Mission
 					};
 					id=12;
 					type="I_medic_F";
-					atlOffset=68.300064;
+					atlOffset=68.300011;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15208.1,1.9771492,90.180618};
-						angles[]={0,3.154681,0};
+						position[]={15208.1,1.9772079,90.181};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_12";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1161,22 +1391,45 @@ class Mission
 					};
 					id=13;
 					type="I_medic_F";
-					atlOffset=68.307037;
+					atlOffset=68.306999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15208.021,1.9744174,91.844391};
-						angles[]={0,3.154681,0};
+						position[]={15208.021,1.9743621,91.844002};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_13";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1189,22 +1442,45 @@ class Mission
 					};
 					id=14;
 					type="I_medic_F";
-					atlOffset=67.870956;
+					atlOffset=67.871002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15209.041,1.9748752,91.567657};
-						angles[]={0,3.154681,0};
+						position[]={15209.04,1.9751861,91.568001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_16";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1217,22 +1493,45 @@ class Mission
 					};
 					id=15;
 					type="I_medic_F";
-					atlOffset=67.918747;
+					atlOffset=67.918999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15209.366,1.9776623,89.869339};
-						angles[]={0,3.154681,0};
+						position[]={15209.366,1.977948,89.869003};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_15";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1245,22 +1544,45 @@ class Mission
 					};
 					id=16;
 					type="I_medic_F";
-					atlOffset=68.312737;
+					atlOffset=68.313011;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15209.272,1.9802115,88.318253};
-						angles[]={0,3.154681,0};
+						position[]={15209.272,1.9806793,88.318001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_14";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1273,22 +1595,45 @@ class Mission
 					};
 					id=17;
 					type="I_medic_F";
-					atlOffset=68.271553;
+					atlOffset=68.272011;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15210.776,1.9803445,88.236923};
-						angles[]={0,3.154681,0};
+						position[]={15210.776,1.9803512,88.237};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_17";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1301,22 +1646,45 @@ class Mission
 					};
 					id=18;
 					type="I_medic_F";
-					atlOffset=68.234993;
+					atlOffset=68.235001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15210.983,1.9778869,89.734589};
-						angles[]={0,3.154681,0};
+						position[]={15210.983,1.9779022,89.735001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_18";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1329,22 +1697,45 @@ class Mission
 					};
 					id=19;
 					type="I_medic_F";
-					atlOffset=68.245987;
+					atlOffset=68.245995;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item18
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15211.085,1.9760125,91.540855};
-						angles[]={0,3.154681,0};
+						position[]={15211.085,1.9764907,91.541};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_20";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1357,22 +1748,45 @@ class Mission
 					};
 					id=20;
 					type="I_medic_F";
-					atlOffset=67.829559;
+					atlOffset=67.830002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15213.227,1.9752691,91.318832};
-						angles[]={0,3.154681,0};
+						position[]={15213.227,1.9752014,91.319};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_25";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1385,22 +1799,45 @@ class Mission
 					};
 					id=21;
 					type="I_medic_F";
-					atlOffset=67.762115;
+					atlOffset=67.762001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item20
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15214.24,1.9755981,91.118744};
-						angles[]={0,3.154681,0};
+						position[]={15214.24,1.9760559,91.119003};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_28";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1413,22 +1850,45 @@ class Mission
 					};
 					id=22;
 					type="I_medic_F";
-					atlOffset=67.757614;
+					atlOffset=67.758003;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item21
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15215.584,1.9756958,91.058762};
-						angles[]={0,3.154681,0};
+						position[]={15215.584,1.9759643,91.059006};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_29";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1441,22 +1901,45 @@ class Mission
 					};
 					id=23;
 					type="I_medic_F";
-					atlOffset=67.690796;
+					atlOffset=67.691002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item22
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15215.402,1.9783924,89.420288};
-						angles[]={0,3.154681,0};
+						position[]={15215.402,1.9786422,89.420006};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_30";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1469,22 +1952,45 @@ class Mission
 					};
 					id=24;
 					type="I_medic_F";
-					atlOffset=67.99073;
+					atlOffset=67.99099;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item23
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15214.258,1.9782622,89.49823};
-						angles[]={0,3.154681,0};
+						position[]={15214.258,1.9779556,89.498001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_27";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1497,22 +2003,45 @@ class Mission
 					};
 					id=25;
 					type="I_medic_F";
-					atlOffset=68.056305;
+					atlOffset=68.056;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item24
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15214.188,1.9812806,87.665558};
-						angles[]={0,3.154681,0};
+						position[]={15214.188,1.9812591,87.666};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_26";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1525,22 +2054,45 @@ class Mission
 					};
 					id=26;
 					type="I_medic_F";
-					atlOffset=68.076027;
+					atlOffset=68.075996;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15220.995,1.9803674,88.885376};
-						angles[]={0,3.154681,0};
+						position[]={15220.995,1.9799469,88.885002};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_39";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1553,22 +2105,45 @@ class Mission
 					};
 					id=27;
 					type="I_medic_F";
-					atlOffset=67.708389;
+					atlOffset=67.708;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item26
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15219.77,1.980334,88.903008};
-						angles[]={0,3.154681,0};
+						position[]={15219.77,1.9799926,88.903};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_36";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1581,22 +2156,45 @@ class Mission
 					};
 					id=28;
 					type="I_medic_F";
-					atlOffset=67.785347;
+					atlOffset=67.785004;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item27
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15218.303,1.9815052,88.193207};
-						angles[]={0,3.154681,0};
+						position[]={15218.303,1.9814498,88.193001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_33";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1609,22 +2207,45 @@ class Mission
 					};
 					id=29;
 					type="I_medic_F";
-					atlOffset=67.895042;
+					atlOffset=67.894997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item28
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15217.516,1.9810855,88.444618};
-						angles[]={0,3.154681,0};
+						position[]={15217.516,1.9806335,88.445};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_42";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1637,22 +2258,45 @@ class Mission
 					};
 					id=30;
 					type="I_medic_F";
-					atlOffset=67.903465;
+					atlOffset=67.903;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item29
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15217.496,1.9756429,91.754135};
-						angles[]={0,3.154681,0};
+						position[]={15217.496,1.9753463,91.754005};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_40";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1665,22 +2309,45 @@ class Mission
 					};
 					id=31;
 					type="I_medic_F";
-					atlOffset=67.416252;
+					atlOffset=67.415993;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15218.506,1.9754684,91.861496};
-						angles[]={0,3.154681,0};
+						position[]={15218.506,1.9751861,91.861};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_31";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1693,22 +2360,45 @@ class Mission
 					};
 					id=32;
 					type="I_medic_F";
-					atlOffset=67.325157;
+					atlOffset=67.324997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15221.505,1.9743145,92.555481};
-						angles[]={0,3.154681,0};
+						position[]={15221.505,1.9745758,92.555};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_37";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1721,22 +2411,45 @@ class Mission
 					};
 					id=33;
 					type="I_medic_F";
-					atlOffset=67.002625;
+					atlOffset=67.002998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item32
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15219.962,1.9750926,92.089264};
-						angles[]={0,3.154681,0};
+						position[]={15219.962,1.97527,92.089005};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_34";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1749,22 +2462,45 @@ class Mission
 					};
 					id=34;
 					type="I_medic_F";
-					atlOffset=67.187775;
+					atlOffset=67.188011;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item33
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15218.377,1.9790552,89.677406};
-						angles[]={0,3.154681,0};
+						position[]={15218.377,1.9787872,89.677002};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_32";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1777,22 +2513,45 @@ class Mission
 					};
 					id=35;
 					type="I_medic_F";
-					atlOffset=67.811234;
+					atlOffset=67.810997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item34
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15217.418,1.9785488,89.98336};
-						angles[]={0,3.154681,0};
+						position[]={15217.418,1.9787567,89.983002};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_41";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1805,22 +2564,45 @@ class Mission
 					};
 					id=36;
 					type="I_medic_F";
-					atlOffset=67.844772;
+					atlOffset=67.844994;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item35
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15219.838,1.9778764,90.392715};
-						angles[]={0,3.154681,0};
+						position[]={15219.838,1.9782379,90.393005};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_35";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1833,22 +2615,45 @@ class Mission
 					};
 					id=37;
 					type="I_medic_F";
-					atlOffset=67.602715;
+					atlOffset=67.602997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item36
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15221.295,1.9775188,90.610107};
-						angles[]={0,3.154681,0};
+						position[]={15221.295,1.9776657,90.610001};
+						angles[]={0,3.1546826,0};
 					};
 					side="Independent";
 					class Attributes
 					{
 						skill=0.60000002;
 						name="thw_38";
-						description="Feuerwehr Leader";
+						description="Feuerwehr - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1861,7 +2666,30 @@ class Mission
 					};
 					id=38;
 					type="I_medic_F";
-					atlOffset=67.464828;
+					atlOffset=67.464996;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
@@ -1885,16 +2713,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15241.183,1.9737651,88.259735};
-						angles[]={0,4.7081699,0};
+						position[]={15241.183,1.9740798,88.260002};
+						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_1";
-						description="WhiteListed - Polizist Leader";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1906,14 +2735,37 @@ class Mission
 					};
 					id=40;
 					type="B_medic_F";
-					atlOffset=67.341705;
+					atlOffset=67.342003;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.424,1.9754059,91.874893};
+						position[]={15239.424,1.9756439,91.875};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
@@ -1921,7 +2773,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_2";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1933,22 +2785,46 @@ class Mission
 					};
 					id=41;
 					type="B_medic_F";
-					atlOffset=66.872787;
+					atlOffset=66.873001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15242.748,1.9704955,90.442795};
+						position[]={15242.748,1.9706619,90.443001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_3";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1960,22 +2836,46 @@ class Mission
 					};
 					id=42;
 					type="B_medic_F";
-					atlOffset=67.20787;
+					atlOffset=67.208;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15242.741,1.9708774,89.337341};
+						position[]={15242.74,1.9708984,89.337006};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_4";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1987,22 +2887,46 @@ class Mission
 					};
 					id=43;
 					type="B_medic_F";
-					atlOffset=67.318985;
+					atlOffset=67.319;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15242.594,1.9714434,88.359329};
+						position[]={15242.594,1.9712112,88.359001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_5";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2014,22 +2938,46 @@ class Mission
 					};
 					id=44;
 					type="B_medic_F";
-					atlOffset=67.372215;
+					atlOffset=67.372002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15236.688,1.9794748,92.998138};
+						position[]={15236.688,1.9794204,92.998001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_6";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2041,22 +2989,46 @@ class Mission
 					};
 					id=45;
 					type="B_medic_F";
-					atlOffset=66.683029;
+					atlOffset=66.682999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15243.032,1.9696596,91.564903};
+						position[]={15243.032,1.9693801,91.565002};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_7";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2068,22 +3040,46 @@ class Mission
 					};
 					id=46;
 					type="B_medic_F";
-					atlOffset=67.029297;
+					atlOffset=67.028999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15242.882,1.9694455,92.931778};
+						position[]={15242.882,1.9695556,92.932007};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_8";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2095,22 +3091,46 @@ class Mission
 					};
 					id=47;
 					type="B_medic_F";
-					atlOffset=66.799934;
+					atlOffset=66.800003;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15241.144,1.9734218,89.473099};
+						position[]={15241.144,1.972966,89.473};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_9";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2122,22 +3142,46 @@ class Mission
 					};
 					id=48;
 					type="B_medic_F";
-					atlOffset=67.262451;
+					atlOffset=67.262001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15240.98,1.9732759,90.705338};
+						position[]={15240.98,1.9733169,90.705002};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_10";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2149,14 +3193,37 @@ class Mission
 					};
 					id=49;
 					type="B_medic_F";
-					atlOffset=67.107903;
+					atlOffset=67.108002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15241.011,1.9728525,91.818359};
+						position[]={15241.011,1.9732406,91.818001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
@@ -2164,7 +3231,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_11";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2176,22 +3243,46 @@ class Mission
 					};
 					id=50;
 					type="B_medic_F";
-					atlOffset=66.912552;
+					atlOffset=66.913002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15240.921,1.9726055,92.993179};
+						position[]={15240.92,1.9724166,92.993004};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_12";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2203,22 +3294,46 @@ class Mission
 					};
 					id=51;
 					type="B_medic_F";
-					atlOffset=66.704201;
+					atlOffset=66.704002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.581,1.9763381,88.332062};
+						position[]={15239.581,1.9758575,88.332001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_13";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2230,22 +3345,46 @@ class Mission
 					};
 					id=52;
 					type="B_medic_F";
-					atlOffset=67.318474;
+					atlOffset=67.318001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.45,1.9760931,89.69873};
+						position[]={15239.45,1.976239,89.699005};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_14";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2257,22 +3396,46 @@ class Mission
 					};
 					id=53;
 					type="B_medic_F";
-					atlOffset=67.224869;
+					atlOffset=67.224998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.445,1.9757164,90.847275};
+						position[]={15239.445,1.9757125,90.847};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_15";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2284,22 +3447,46 @@ class Mission
 					};
 					id=54;
 					type="B_medic_F";
-					atlOffset=67.053955;
+					atlOffset=67.054001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.356,1.9751742,92.945969};
+						position[]={15239.356,1.9751327,92.946007};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_16";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2311,22 +3498,46 @@ class Mission
 					};
 					id=55;
 					type="B_medic_F";
-					atlOffset=66.684036;
+					atlOffset=66.683998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15238.48,1.9781163,88.356209};
+						position[]={15238.48,1.9777801,88.356003};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_17";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2338,22 +3549,46 @@ class Mission
 					};
 					id=56;
 					type="B_medic_F";
-					atlOffset=67.330322;
+					atlOffset=67.330002;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15238.237,1.9780428,89.747467};
+						position[]={15238.237,1.9776351,89.747002};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_18";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2365,22 +3600,46 @@ class Mission
 					};
 					id=57;
 					type="B_medic_F";
-					atlOffset=67.236366;
+					atlOffset=67.236;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item18
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15238.006,1.9780223,90.92865};
+						position[]={15238.006,1.9782531,90.929001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_19";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2392,14 +3651,37 @@ class Mission
 					};
 					id=58;
 					type="B_medic_F";
-					atlOffset=67.053833;
+					atlOffset=67.054001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15237.992,1.9777052,91.943497};
+						position[]={15237.992,1.977391,91.943001};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
@@ -2407,7 +3689,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_20";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2419,22 +3701,46 @@ class Mission
 					};
 					id=59;
 					type="B_medic_F";
-					atlOffset=66.86422;
+					atlOffset=66.863998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item20
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15237.784,1.9777348,92.889069};
+						position[]={15237.784,1.9781005,92.889};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_21";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2446,14 +3752,37 @@ class Mission
 					};
 					id=60;
 					type="B_medic_F";
-					atlOffset=66.696617;
+					atlOffset=66.696999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item21
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15236.661,1.9798601,91.952454};
+						position[]={15236.661,1.9798706,91.952003};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
@@ -2461,7 +3790,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_22";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2473,22 +3802,46 @@ class Mission
 					};
 					id=61;
 					type="B_medic_F";
-					atlOffset=66.878906;
+					atlOffset=66.878998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item22
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15237.046,1.980427,88.394547};
+						position[]={15237.046,1.9800231,88.395004};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_23";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2500,22 +3853,46 @@ class Mission
 					};
 					id=62;
 					type="B_medic_F";
-					atlOffset=67.354431;
+					atlOffset=67.353996;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item23
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15236.945,1.9801538,89.700356};
+						position[]={15236.945,1.9805877,89.700005};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_26";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2527,22 +3904,46 @@ class Mission
 					};
 					id=63;
 					type="B_medic_F";
-					atlOffset=67.255531;
+					atlOffset=67.255997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item24
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15236.712,1.9801047,90.974335};
+						position[]={15236.712,1.9798477,90.974007};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_27";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2554,22 +3955,46 @@ class Mission
 					};
 					id=64;
 					type="B_medic_F";
-					atlOffset=67.061195;
+					atlOffset=67.060997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15235.21,1.9826419,90.674507};
+						position[]={15235.21,1.9826858,90.675003};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_28";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2581,14 +4006,37 @@ class Mission
 					};
 					id=65;
 					type="B_medic_F";
-					atlOffset=67.129051;
+					atlOffset=67.128998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item26
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15235.304,1.9821179,91.78492};
+						position[]={15235.304,1.9822967,91.785004};
 						angles[]={0,4.7081652,0};
 					};
 					side="West";
@@ -2596,7 +4044,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_29";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2608,7 +4056,30 @@ class Mission
 					};
 					id=66;
 					type="B_medic_F";
-					atlOffset=66.916832;
+					atlOffset=66.916992;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item27
 				{
@@ -2622,8 +4093,9 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_30";
-						description="WhiteListed - Polizist";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2665,15 +4137,16 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15240.995,2.2746871,87.275482};
-						angles[]={0,4.7081699,0};
+						position[]={15240.995,2.2747924,87.275002};
+						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_24";
-						description="WhiteListed - Polizist Leader";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2685,22 +4158,46 @@ class Mission
 					};
 					id=68;
 					type="B_medic_F";
-					atlOffset=67.706863;
+					atlOffset=67.707001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item29
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15239.639,2.2746031,87.33609};
-						angles[]={0,4.7081699,0};
+						position[]={15239.639,2.2744186,87.336006};
+						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_25";
-						description="WhiteListed - Polizist Leader";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2712,22 +4209,46 @@ class Mission
 					};
 					id=69;
 					type="B_medic_F";
-					atlOffset=67.685173;
+					atlOffset=67.684998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15238.039,2.2746375,87.299706};
-						angles[]={0,4.7081699,0};
+						position[]={15238.039,2.274617,87.300003};
+						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_31";
-						description="WhiteListed - Polizist Leader";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2739,22 +4260,46 @@ class Mission
 					};
 					id=70;
 					type="B_medic_F";
-					atlOffset=67.715042;
+					atlOffset=67.714996;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15236.931,2.2749217,87.125137};
-						angles[]={0,4.7081699,0};
+						position[]={15236.931,2.2749755,87.125};
+						angles[]={0,4.7081652,0};
 					};
 					side="West";
 					class Attributes
 					{
 						skill=0.60000002;
+						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_32";
-						description="WhiteListed - Polizist Leader";
+						description="Polizeibeamte(r) - Bewerbung unter www.board.pc-gamercom.de";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2766,7 +4311,30 @@ class Mission
 					};
 					id=71;
 					type="B_medic_F";
-					atlOffset=67.752937;
+					atlOffset=67.752998;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
@@ -2774,7 +4342,7 @@ class Mission
 				combatMode="BLUE";
 			};
 			id=39;
-			atlOffset=67.341705;
+			atlOffset=67.342003;
 		};
 		class Item3
 		{
@@ -81321,7 +82889,7 @@ class Mission
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11024714;
+			atlOffset=0.2259922;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -101671,7 +103239,7 @@ class Mission
 			};
 			id=3343;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11070871;
+			atlOffset=0.14900005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -101735,14 +103303,13 @@ class Mission
 				angles[]={0,0.34880406,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3345;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.012064457;
+			atlOffset=0.48175669;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104636,12 +106203,13 @@ class Mission
 				angles[]={0,5.3271637,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=3433;
 			type="RoadCone_L_F";
-			atlOffset=2.7224569;
+			atlOffset=0.018478394;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104681,7 +106249,7 @@ class Mission
 			};
 			id=3434;
 			type="RoadCone_L_F";
-			atlOffset=0.025733948;
+			atlOffset=0.044610977;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -110661,7 +112229,7 @@ class Mission
 			};
 			id=3683;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.52271032;
+			atlOffset=0.52240944;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114168,14 +115736,13 @@ class Mission
 				angles[]={0,1.9836714,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_Shops_KakaoUndKaffee"",life_fnc_virt_menu,""kakaoundkaffee""];";
 			};
 			id=3862;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11109376;
+			atlOffset=0.54990935;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114228,7 +115795,7 @@ class Mission
 			type="mil_triangle";
 			colorName="ColorCIV";
 			id=3863;
-			atlOffset=331189.47;
+			atlOffset=331197.56;
 		};
 		class Item2397
 		{
@@ -114761,7 +116328,7 @@ class Mission
 			};
 			id=3883;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=0.15707636;
 		};
 		class Item2414
 		{
@@ -114771,6 +116338,7 @@ class Mission
 			text="Parkhaus";
 			type="o_service";
 			id=3884;
+			atlOffset=0.15715647;
 		};
 		class Item2415
 		{
@@ -116334,6 +117902,7 @@ class Mission
 			};
 			id=3938;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.22949028;
 		};
 		class Item2467
 		{
@@ -116344,7 +117913,7 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorGUER";
 			id=3939;
-			atlOffset=1.0573349;
+			atlOffset=1.251997;
 		};
 		class Item2468
 		{
@@ -118794,6 +120363,15 @@ class Mission
 			type="mil_triangle";
 			id=4026;
 			atlOffset=9.6587204e+013;
+		};
+		class Item2539
+		{
+			dataType="Marker";
+			position[]={15226.05,-4.50452e-012,93.438004};
+			name="respawn_independent";
+			type="Empty";
+			id=4027;
+			atlOffset=64.63929;
 		};
 	};
 };
