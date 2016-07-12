@@ -48,16 +48,16 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-			{ "C_Offroad_01_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 1 } },
-			{ "C_Van_01_box_F", 29000, { "" }, { "life_mediclevel", "SCALAR", 2 } },
-			{ "B_Truck_01_mover_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 3 } },
-			{ "B_Truck_01_covered_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 3 } },
-			{ "O_Truck_02_covered_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 3 } },
-			{ "O_Truck_02_medical_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "B_Truck_01_medical_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "O_Truck_03_fuel_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "B_MRAP_01_hmg_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 6 } },
-			{ "C_SUV_01_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 6 } }
+			{ "C_Offroad_01_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 1 } },
+			{ "C_Van_01_box_F", 29000, { "" }, { "life_medicLevel", "SCALAR", 2 } },
+			{ "B_Truck_01_mover_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 3 } },
+			{ "B_Truck_01_covered_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 3 } },
+			{ "O_Truck_02_covered_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 3 } },
+			{ "O_Truck_02_medical_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 4 } },
+			{ "B_Truck_01_medical_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 4 } },
+			{ "O_Truck_03_fuel_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 4 } },
+			{ "B_MRAP_01_hmg_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 6 } },
+			{ "C_SUV_01_F", 3000, { "" }, { "life_medicLevel", "SCALAR", 6 } }
         };
     };
 
