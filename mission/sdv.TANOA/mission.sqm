@@ -8,11 +8,11 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=4027;
+		nextID=4025;
 	};
 	class MarkerIDProvider
 	{
-		nextID=315;
+		nextID=313;
 	};
 	class Camera
 	{
@@ -745,7 +745,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2542;
+		items=2540;
 		class Item0
 		{
 			dataType="Object";
@@ -118439,7 +118439,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11179.898,6.877017,5148.9653};
+				position[]={11179.898,6.8770175,5148.9653};
 				angles[]={0,1.5519468,0};
 			};
 			side="Empty";
@@ -118449,7 +118449,11 @@ class Mission
 			};
 			id=3977;
 			type="Land_InfoStand_V2_F";
+<<<<<<< HEAD
 			atlOffset=3.2800801;
+=======
+			atlOffset=3.2800806;
+>>>>>>> parent of 094ec47... Mission - Lizenz
 			class CustomAttributes
 			{
 				class Attribute0
@@ -119078,7 +119082,11 @@ class Mission
 			position[]={2155.854,-6.1173614e-006,4701.5112};
 			name="civ_ship_1";
 			type="Empty";
+<<<<<<< HEAD
 			angle=91.100967;
+=======
+			angle=91.100983;
+>>>>>>> parent of 094ec47... Mission - Lizenz
 			id=4011;
 			atlOffset=4.6286807;
 		};
@@ -119172,6 +119180,7 @@ class Mission
 			id=4024;
 			atlOffset=64.192619;
 		};
+<<<<<<< HEAD
 		class Item2540
 		{
 			dataType="Object";
@@ -119242,6 +119251,8 @@ class Mission
 			id=4026;
 			atlOffset=9.6587204e+013;
 		};
+=======
+>>>>>>> parent of 094ec47... Mission - Lizenz
 	};
 	class Connections
 	{
