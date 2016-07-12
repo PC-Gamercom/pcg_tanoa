@@ -671,6 +671,9 @@
       <Original>Lagerkosten</Original>
       <German>Lagerkosten</German>
     </Key>
+	<Key ID="STR_Garage_NoImpVehicles">
+ <Original>Keine beschlagnahmten Fahrzeuge gefunden.</Original>
+ </Key>
     <Key ID="STR_Garage_NoVehicles">
       <Original>Hmm, ich habe keine Fahrzeuge in der Garage.</Original>
       <German>Hmm, ich habe keine Fahrzeuge in der Garage.</German>
@@ -2720,10 +2723,19 @@
     </Key>
   </Package>
   <Package name="Other_GUI_Stuff">
-    <Key ID="STR_GUI_Garage">
-      <Original>Garage</Original>
-      <German>Garage</German>
-    </Key>
+	<Key ID="STR_GUI_Garage">
+	<Original>Garage</Original>
+	<German>Garage</German>
+	</Key>
+	<Key ID="STR_GUI_ImpGarage">
+	 <Original>Verwahrungsstelle</Original>
+	 </Key>
+	<Key ID="STR_GUI_YourImpVeh">
+	 <Original>Beschlagnahmte Fahrzeuge</Original>
+	 </Key>
+	 <Key ID="STR_GUI_VehInfo">
+	 <Original>Und nun?!</Original>
+	 </Key>
     <Key ID="STR_GUI_YourVeh">
       <Original>Your Vehicles</Original>
       <German>Deine Fahrzeuge</German>
@@ -2928,6 +2940,9 @@
     </Key>
   </Package>
   <Package name="Shop_Strings">
+	<Key ID="STR_Shop_IMPVEH">
+	  <Original>Um dein Beschlagnahmtes Fahrzeug wieder zu bekommen verlangen wir eine Gebühr von</Original>
+	</Key>
     <Key ID="STR_Shop_ATMRobbed">
       <Original>Because you robbed the bank you can't use the ATM for %1 minutes.</Original>
       <German>Da du die Bank ausgeraubt hast, kannst du für %1 Minuten keine Bankomaten benutzen.</German>

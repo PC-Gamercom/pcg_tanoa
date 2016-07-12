@@ -34,7 +34,7 @@ if(_impound) then {
  deleteVehicle _vehicle;
  };
  } else {
- _query = format["UPDATE vehicles SET active='0', impound='0', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,fuel _vehicle];
+ _query = format["UPDATE vehicles SET active='0',impound='1', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,fuel _vehicle];
  _thread = [_query,1] call DB_fnc_asyncCall;
  //waitUntil {scriptDone _thread};
  if(!isNil "_vehicle" && {!isNull _vehicle}) then {
@@ -47,20 +47,20 @@ if(_impound) then {
  if(count _vInfo == 0) exitWith {
  [1,(localize "STR_Garage_Store_NotPersistent")] remoteExecCall ["life_fnc_broadcast",(owner _unit)];
  life_garage_store = false;
- (owner _unit) publicVariableClient "life_garage_store";
+ (owner _unit) publicVariableClient "life_impound_inuse";
  };
  if(_uid != getPlayerUID _unit) exitWith {
  [1,(localize "STR_Garage_Store_NoOwnership")] remoteExecCall ["life_fnc_broadcast",(owner _unit)];
  life_garage_store = false;
- (owner _unit) publicVariableClient "life_garage_store";
+ (owner _unit) publicVariableClient "life_impound_inuse";
  };
- _query = format["UPDATE vehicles SET active='0',impound='0', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,fuel _vehicle];
+ _query = format["UPDATE vehicles SET active='0',impound='1', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,fuel _vehicle];
  _thread = [_query,1] call DB_fnc_asyncCall;
  //waitUntil {scriptDone _thread};
  if(!isNil "_vehicle" && {!isNull _vehicle}) then {
  deleteVehicle _vehicle;
  };
  life_garage_store = false;
- (owner _unit) publicVariableClient "life_garage_store";
+ (owner _unit) publicVariableClient "life_impound_inuse";
  [1,(localize "STR_Garage_Store_Success")] remoteExecCall ["life_fnc_broadcast",(owner _unit)];
 };

@@ -101,6 +101,8 @@ class CfgFunctions {
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
+			class getImpoundedvehicles {};
+			class vehicleImpound {};
 		};
 
 		class Housing {

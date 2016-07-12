@@ -27,7 +27,7 @@ class LifeCfgVehicles {
         vItemSpace = -1;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
-        insurance = 2500;
+        impound = 2500;
         chopShop = 1200;
         textures[] = {};
     };
@@ -36,7 +36,7 @@ class LifeCfgVehicles {
         vItemSpace = 150;
         storageFee[] = { 0, 0, 1500, 0 };
         garageSell[] = { 0, 0, 5000, 0 };
-        insurance = 2500;
+        impound = 2500;
         chopShop = 12500;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
@@ -46,7 +46,7 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         storageFee[] = { 0, 0, 3000, 0 };
         garageSell[] = { 0, 0, 10000, 0 };
-        insurance = 2500;
+        impound = 2500;
         chopShop = 22500;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
@@ -56,7 +56,7 @@ class LifeCfgVehicles {
         vItemSpace = 250;
         storageFee[] = { 0, 0, 6500, 0 };
         garageSell[] = { 0, 0, 25000, 0 };
-        insurance = 2500;
+        impound = 2500;
         chopShop = 30000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
@@ -66,7 +66,7 @@ class LifeCfgVehicles {
         vItemSpace = 45;
         storageFee[] = { 400, 300, 0, 0 };
         garageSell[] = { 950, 350, 0, 0 };
-        insurance = 2500;
+        impound = 2500;
         chopShop = 2500;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
@@ -76,7 +76,7 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         storageFee[] = { 0, 50000, 0, 0 };
         garageSell[] = { 0, 85000, 0, 0 };
-        insurance = 16000;
+        impound = 16000;
         chopShop = 45000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {};
@@ -86,7 +86,7 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 100000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = {
@@ -103,7 +103,7 @@ class LifeCfgVehicles {
         vItemSpace = 175;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 21000, 21000, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
@@ -113,7 +113,7 @@ class LifeCfgVehicles {
         vItemSpace = 175;
         storageFee[] = { 0, 16500, 0, 0 };
         garageSell[] = { 0, 21000, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
@@ -123,7 +123,7 @@ class LifeCfgVehicles {
         vItemSpace = 175;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 21000, 21000, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         textures[] = { };
@@ -133,7 +133,7 @@ class LifeCfgVehicles {
         vItemSpace = 45;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 0, 850, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
 		assurPrice[] = { 1000, 1000, 1000, 1000 };// Versicherungen
         textures[] = { };
@@ -144,7 +144,7 @@ class LifeCfgVehicles {
         storageFee[] = { 0, 450, 0, 0 };
         garageSell[] = { 0, 850, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -164,7 +164,7 @@ class LifeCfgVehicles {
         storageFee[] = { 95000, 0, 0, 0 };
         garageSell[] = { 185000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 25000;
+        impound = 25000;
         chopShop = 225000;
         textures[] = { };
     };
@@ -173,7 +173,7 @@ class LifeCfgVehicles {
         vItemSpace = 5000;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 1200;
         textures[] = {};
     };
@@ -183,7 +183,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 1200;
         textures[] = {};
     };
@@ -193,7 +193,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 1200;
         textures[] = {};
     };
@@ -203,7 +203,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 6250;
         textures[] = { };
     };
@@ -213,7 +213,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 4000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 100000;
         textures[] = { };
     };
@@ -223,7 +223,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -233,7 +233,7 @@ class LifeCfgVehicles {
         storageFee[] = { 4500, 2500, 0, 0 };
         garageSell[] = { 6800, 3500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 11000;
         textures[] = { };
     };
@@ -243,7 +243,7 @@ class LifeCfgVehicles {
         storageFee[] = { 0, 3500, 0, 0 };
         garageSell[] = { 0, 4950, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -253,7 +253,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -263,7 +263,7 @@ class LifeCfgVehicles {
         storageFee[] = { 35000, 0, 0, 0 };
         garageSell[] = { 150000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 175000;
         textures[] = { };
     };
@@ -273,7 +273,7 @@ class LifeCfgVehicles {
         storageFee[] = { 35000, 0, 0, 0 };
         garageSell[] = { 150000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 175000;
         textures[] = { };
     };
@@ -283,7 +283,7 @@ class LifeCfgVehicles {
         storageFee[] = { 25650, 0, 0, 0 };
         garageSell[] = { 135000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 127500;
         textures[] = { };
     };
@@ -293,7 +293,7 @@ class LifeCfgVehicles {
         storageFee[] = { 45000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 75000;
         textures[] = { };
     };
@@ -303,7 +303,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -313,7 +313,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 6250;
         textures[] = {
             { "Red", "civ", {
@@ -357,7 +357,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        inusrance = 1650;
+        impound = 16000;
         chopShop = 7500;
         textures[] = {};
     };
@@ -367,7 +367,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        inusrance = 1650;
+        impound = 16000;
         chopShop = 7500;
         textures[] = {};
     };
@@ -377,7 +377,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        inusrance = 1650;
+        impound = 16000;
         chopShop = 7500;
         textures[] = {};
     };
@@ -387,7 +387,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        inusrance = 1650;
+        impound = 16000;
         chopShop = 7500;
         textures[] = {};
     };
@@ -397,7 +397,7 @@ class LifeCfgVehicles {
         storageFee[] = { 2500, 1000, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 5500;
+        impound = 16000;
         chopShop = 15000;
         textures[] = {
             { "Red", "civ", {
@@ -438,7 +438,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 950, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 1250;
         textures[] = {
             { "Brown", "cop", {
@@ -476,7 +476,7 @@ class LifeCfgVehicles {
         storageFee[] = { 14500, 0, 0, 0 };
         garageSell[] = { 62000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 6500;
+        impound = 16000;
         chopShop = 50000;
         textures[] = {
             { "Orange", "civ", {
@@ -494,7 +494,7 @@ class LifeCfgVehicles {
         storageFee[] = { 12000, 0, 0, 0 };
         garageSell[] = { 49800, 3500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 6500;
+        impound = 16000;
         chopShop = 37500;
         textures[] = {
             { "Orange", "civ", {
@@ -512,7 +512,7 @@ class LifeCfgVehicles {
         storageFee[] = { 25000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 65000, 0, 0, 0 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 125000;
         textures[] = {};
     };
@@ -522,7 +522,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 4500, 3500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 4750;
         textures[] = {
             { "Beige", "civ", {
@@ -557,7 +557,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+       impound = 16000;
         chopShop = 15000;
         textures[] = {
             { "Dark Red", "civ", {
@@ -595,7 +595,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 25000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 22500;
         textures[] = {
             { "White", "civ", {
@@ -612,7 +612,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 35000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 30000;
         textures[] = {
             { "White", "civ", {
@@ -633,7 +633,7 @@ class LifeCfgVehicles {
         storageFee[] = { 0, 7500, 0, 0 };
         garageSell[] = { 0, 10000, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 15000;
         textures[] = {
             { "Black", "cop", {
@@ -648,7 +648,7 @@ class LifeCfgVehicles {
         storageFee[] = { 45000, 19500, 0, 0 };
         garageSell[] = { 57000, 35000, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 125000;
         textures[] = {
             { "Police", "cop", {
@@ -704,7 +704,7 @@ class LifeCfgVehicles {
         storageFee[] = { 55000, 0, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 375000;
         textures[] = {
             { "Black", "cop", {
@@ -730,7 +730,7 @@ class LifeCfgVehicles {
         storageFee[] = { 75000, 0, 0, 0 };
         garageSell[] = { 125000, 0, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 5000;
         textures[] = {
             { "Ion", "civ", {
@@ -751,7 +751,7 @@ class LifeCfgVehicles {
         storageFee[] = { 37500, 10000, 0, 0 };
         garageSell[] = { 75000, 50000, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 75000;
         textures[] = {};
     };
@@ -761,7 +761,7 @@ class LifeCfgVehicles {
         storageFee[] = { 45000, 10000, 0, 0 };
         garageSell[] = { 35000, 25000, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        inusrance = 165000;
+        impound = 16000;
         chopShop = 75000;
         textures[] = {};
     };
@@ -771,7 +771,7 @@ class LifeCfgVehicles {
         storageFee[] = { 37500, 10000, 0, 0 };
         garageSell[] = { 75000, 50000, 0, 0 };
 		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        insurance = 2500;
+        impound = 16000;
         chopShop = 75000;
         textures[] = {};
     };
