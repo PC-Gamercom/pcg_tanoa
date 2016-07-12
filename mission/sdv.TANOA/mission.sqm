@@ -817,7 +817,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_1";
-						description="Feuerwehrlpräsident";
+						description="Feuerwehrpräsident";
 						isPlayable=1;
 						class Inventory
 						{
@@ -868,7 +868,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_2";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -896,7 +896,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_3";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -924,7 +924,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_4";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -952,7 +952,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_5";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -980,7 +980,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_6";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1008,7 +1008,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_7";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1036,7 +1036,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_8";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1064,7 +1064,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_9";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1092,7 +1092,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_10";
-						description="WhiteListed - THW";
+						description="Feuerwehr";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1120,7 +1120,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_11";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1148,7 +1148,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_12";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1176,7 +1176,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_13";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1204,7 +1204,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_16";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1232,7 +1232,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_15";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1260,7 +1260,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_14";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1288,7 +1288,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_17";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1316,7 +1316,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_18";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1344,7 +1344,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_20";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1372,7 +1372,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_25";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1400,7 +1400,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_28";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1428,7 +1428,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_29";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1456,7 +1456,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_30";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1484,7 +1484,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_27";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1512,7 +1512,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_26";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1540,7 +1540,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_39";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1568,7 +1568,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_36";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1596,7 +1596,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_33";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1624,7 +1624,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_42";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1652,7 +1652,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_40";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1680,7 +1680,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_31";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1708,7 +1708,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_37";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1736,7 +1736,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_34";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1764,7 +1764,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_32";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1792,7 +1792,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_41";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1820,7 +1820,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_35";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1848,7 +1848,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="thw_38";
-						description="WhiteListed - THW Leader";
+						description="Feuerwehr Leader";
 						isPlayable=1;
 						class Inventory
 						{
@@ -16183,7 +16183,7 @@ class Mission
 			};
 			id=996;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.00012969971;
+			atlOffset=0.00012207031;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16299,7 +16299,7 @@ class Mission
 			};
 			id=998;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.66044164;
+			atlOffset=0.66044211;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17755,6 +17755,7 @@ class Mission
 			};
 			id=1026;
 			type="Land_FlatTV_01_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17929,7 +17930,7 @@ class Mission
 			};
 			id=1029;
 			type="Land_RattanChair_01_F";
-			atlOffset=11.690878;
+			atlOffset=11.694237;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17987,7 +17988,7 @@ class Mission
 			};
 			id=1030;
 			type="Land_RattanChair_01_F";
-			atlOffset=11.690878;
+			atlOffset=11.694237;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18640,7 +18641,7 @@ class Mission
 			};
 			id=1047;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.65498304;
+			atlOffset=0.65498352;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22120,7 +22121,7 @@ class Mission
 			};
 			id=1115;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0019443035;
+			atlOffset=0.0019364357;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22238,7 +22239,7 @@ class Mission
 			};
 			id=1117;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0011949539;
+			atlOffset=0.0011954308;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22475,7 +22476,7 @@ class Mission
 			};
 			id=1121;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0019423962;
+			atlOffset=0.0019347668;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22593,7 +22594,7 @@ class Mission
 			};
 			id=1123;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0011906624;
+			atlOffset=0.0011911392;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22770,7 +22771,7 @@ class Mission
 			};
 			id=1126;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item465
 		{
@@ -22787,7 +22788,7 @@ class Mission
 			};
 			id=1127;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item466
 		{
@@ -22803,7 +22804,7 @@ class Mission
 			};
 			id=1128;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item467
 		{
@@ -22820,7 +22821,7 @@ class Mission
 			};
 			id=1129;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item468
 		{
@@ -23239,7 +23240,7 @@ class Mission
 			};
 			id=1139;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046343803;
+			atlOffset=0.0046308041;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23357,7 +23358,7 @@ class Mission
 			};
 			id=1141;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012981892;
+			atlOffset=0.001298666;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23534,7 +23535,7 @@ class Mission
 			};
 			id=1144;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23593,7 +23594,7 @@ class Mission
 			};
 			id=1145;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item484
 		{
@@ -23670,7 +23671,7 @@ class Mission
 			};
 			id=1147;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046315193;
+			atlOffset=0.004627943;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23788,7 +23789,7 @@ class Mission
 			};
 			id=1149;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012962818;
+			atlOffset=0.0012967587;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23965,7 +23966,7 @@ class Mission
 			};
 			id=1152;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item491
 		{
@@ -23982,7 +23983,7 @@ class Mission
 			};
 			id=1153;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item492
 		{
@@ -24059,7 +24060,7 @@ class Mission
 			};
 			id=1155;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046329498;
+			atlOffset=0.0046272278;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24177,7 +24178,7 @@ class Mission
 			};
 			id=1157;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012896061;
+			atlOffset=0.0012900829;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24354,7 +24355,7 @@ class Mission
 			};
 			id=1160;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item499
 		{
@@ -24371,7 +24372,7 @@ class Mission
 			};
 			id=1161;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item500
 		{
@@ -24448,7 +24449,7 @@ class Mission
 			};
 			id=1163;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046300888;
+			atlOffset=0.0046265125;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24566,7 +24567,7 @@ class Mission
 			};
 			id=1165;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.001295805;
+			atlOffset=0.0012962818;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24743,7 +24744,7 @@ class Mission
 			};
 			id=1168;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item507
 		{
@@ -24760,7 +24761,7 @@ class Mission
 			};
 			id=1169;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item508
 		{
@@ -24837,7 +24838,7 @@ class Mission
 			};
 			id=1171;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046350956;
+			atlOffset=0.0046257973;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24955,7 +24956,7 @@ class Mission
 			};
 			id=1173;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012977123;
+			atlOffset=0.0012981892;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25132,7 +25133,7 @@ class Mission
 			};
 			id=1176;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item515
 		{
@@ -25149,7 +25150,7 @@ class Mission
 			};
 			id=1177;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item516
 		{
@@ -25226,7 +25227,7 @@ class Mission
 			};
 			id=1179;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046303272;
+			atlOffset=0.0046224594;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25344,7 +25345,7 @@ class Mission
 			};
 			id=1181;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012962818;
+			atlOffset=0.0012967587;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25520,7 +25521,7 @@ class Mission
 			};
 			id=1184;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item523
 		{
@@ -25537,7 +25538,7 @@ class Mission
 			};
 			id=1185;
 			type="Land_RattanChair_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=0.0033588409;
 		};
 		class Item524
 		{
@@ -25614,7 +25615,7 @@ class Mission
 			};
 			id=1187;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046322346;
+			atlOffset=0.0046260357;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25732,7 +25733,7 @@ class Mission
 			};
 			id=1189;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.001298666;
+			atlOffset=0.0012991428;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25909,7 +25910,7 @@ class Mission
 			};
 			id=1192;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item531
 		{
@@ -25926,7 +25927,7 @@ class Mission
 			};
 			id=1193;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item532
 		{
@@ -26003,7 +26004,7 @@ class Mission
 			};
 			id=1195;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.0046312809;
+			atlOffset=0.0046255589;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26121,7 +26122,7 @@ class Mission
 			};
 			id=1197;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.0012931824;
+			atlOffset=0.0012936592;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26298,7 +26299,7 @@ class Mission
 			};
 			id=1200;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 		};
 		class Item539
 		{
@@ -26315,7 +26316,7 @@ class Mission
 			};
 			id=1201;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.18155456;
+			atlOffset=0.0033183098;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -52169,7 +52170,7 @@ class Mission
 			};
 			id=1708;
 			type="Land_FlatTV_01_F";
-			atlOffset=0.8234787;
+			atlOffset=0.82348633;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57329,7 +57330,7 @@ class Mission
 			};
 			id=1797;
 			type="Land_Cargo20_grey_F";
-			atlOffset=8.0430546;
+			atlOffset=8.0429964;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57388,7 +57389,7 @@ class Mission
 			};
 			id=1798;
 			type="Land_Cargo20_sand_F";
-			atlOffset=0.0087590218;
+			atlOffset=0.0087610483;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57446,7 +57447,7 @@ class Mission
 			};
 			id=1799;
 			type="Land_Cargo20_white_F";
-			atlOffset=8.322298;
+			atlOffset=8.3222446;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57505,7 +57506,7 @@ class Mission
 			};
 			id=1800;
 			type="Land_Cargo20_red_F";
-			atlOffset=0.0063614845;
+			atlOffset=0.0063619614;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57563,7 +57564,7 @@ class Mission
 			};
 			id=1801;
 			type="Land_Cargo40_orange_F";
-			atlOffset=8.4013596;
+			atlOffset=8.4011879;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57621,7 +57622,7 @@ class Mission
 			};
 			id=1802;
 			type="Land_Cargo40_brick_red_F";
-			atlOffset=2.472367;
+			atlOffset=2.4723682;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57796,7 +57797,7 @@ class Mission
 			};
 			id=1805;
 			type="Land_Cargo20_light_blue_F";
-			atlOffset=2.6395781;
+			atlOffset=2.6395802;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -60670,7 +60671,7 @@ class Mission
 			};
 			id=1854;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.22655487;
+			atlOffset=0.2268486;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72384,13 +72385,12 @@ class Mission
 				angles[]={0,0.082920589,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2067;
 			type="Land_Printer_01_F";
-			atlOffset=0.0005569458;
+			atlOffset=0.48672485;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72448,7 +72448,7 @@ class Mission
 			};
 			id=2068;
 			type="Land_Laptop_device_F";
-			atlOffset=0.99934387;
+			atlOffset=0.99884796;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72506,7 +72506,7 @@ class Mission
 			};
 			id=2069;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.99899292;
+			atlOffset=0.99849701;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72564,7 +72564,7 @@ class Mission
 			};
 			id=2070;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.99860382;
+			atlOffset=0.99779129;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72622,7 +72622,7 @@ class Mission
 			};
 			id=2071;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.99931335;
+			atlOffset=0.99840164;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72679,7 +72679,7 @@ class Mission
 			};
 			id=2072;
 			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.99778366;
+			atlOffset=0.99775696;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72737,7 +72737,7 @@ class Mission
 			};
 			id=2073;
 			type="Land_PCSet_01_mouse_F";
-			atlOffset=0.99846649;
+			atlOffset=0.99837875;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72795,7 +72795,7 @@ class Mission
 			};
 			id=2074;
 			type="Land_PCSet_01_case_F";
-			atlOffset=0.42770004;
+			atlOffset=0.42855072;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72848,13 +72848,12 @@ class Mission
 				angles[]={0,0.082920589,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2075;
 			type="Land_Printer_01_F";
-			atlOffset=0.00058364868;
+			atlOffset=0.46341705;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72912,7 +72911,7 @@ class Mission
 			};
 			id=2076;
 			type="Land_MobilePhone_old_F";
-			atlOffset=0.9989624;
+			atlOffset=0.9989357;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73067,7 +73066,7 @@ class Mission
 			};
 			id=2083;
 			type="Land_TripodScreen_01_dual_v1_F";
-			atlOffset=0.25689697;
+			atlOffset=0.25976181;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73125,7 +73124,7 @@ class Mission
 			};
 			id=2084;
 			type="Land_SurvivalRadio_F";
-			atlOffset=1.0014725;
+			atlOffset=1.0011024;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73184,7 +73183,7 @@ class Mission
 			};
 			id=2085;
 			type="Land_PortableGenerator_01_F";
-			atlOffset=0.0006942749;
+			atlOffset=0.24744415;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73242,7 +73241,7 @@ class Mission
 			};
 			id=2086;
 			type="Land_FMradio_F";
-			atlOffset=0.7436142;
+			atlOffset=0.74347687;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73301,7 +73300,6 @@ class Mission
 			};
 			id=2087;
 			type="Land_TripodScreen_01_large_F";
-			atlOffset=0.00015258789;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73359,7 +73357,7 @@ class Mission
 			};
 			id=2088;
 			type="Land_Tablet_02_F";
-			atlOffset=0.99650192;
+			atlOffset=0.99643707;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73412,13 +73410,12 @@ class Mission
 				angles[]={0,5.4992218,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2089;
 			type="Land_SatellitePhone_F";
-			atlOffset=0.00059509277;
+			atlOffset=0.41854858;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73476,7 +73473,7 @@ class Mission
 			};
 			id=2090;
 			type="Land_PortableSpeakers_01_F";
-			atlOffset=0.99786377;
+			atlOffset=0.99774933;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73534,7 +73531,7 @@ class Mission
 			};
 			id=2091;
 			type="Land_PortableSpeakers_01_F";
-			atlOffset=0.99727249;
+			atlOffset=0.99716949;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73587,13 +73584,12 @@ class Mission
 				angles[]={0,5.7081013,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2092;
 			type="Land_SatelliteAntenna_01_F";
-			atlOffset=0.0033035278;
+			atlOffset=2.966011;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73646,13 +73642,12 @@ class Mission
 				angles[]={0,0.086985543,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2093;
 			type="Land_WaterCooler_01_new_F";
-			atlOffset=0.0025482178;
+			atlOffset=0.34284592;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73710,7 +73705,7 @@ class Mission
 			};
 			id=2094;
 			type="Land_PortableLongRangeRadio_F";
-			atlOffset=0.99603271;
+			atlOffset=0.99597931;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73763,13 +73758,12 @@ class Mission
 				angles[]={0,4.7945943,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2095;
 			type="Fridge_01_closed_F";
-			atlOffset=5.7220459e-005;
+			atlOffset=0.51273346;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73827,7 +73821,7 @@ class Mission
 			};
 			id=2096;
 			type="Land_Microwave_01_F";
-			atlOffset=1.0302773;
+			atlOffset=1.0302658;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73884,7 +73878,7 @@ class Mission
 			};
 			id=2097;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=1.0242462;
+			atlOffset=1.0242386;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73941,7 +73935,7 @@ class Mission
 			};
 			id=2098;
 			type="Land_BottlePlastic_V1_F";
-			atlOffset=1.031765;
+			atlOffset=1.0317497;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74050,13 +74044,12 @@ class Mission
 				position[]={12306.309,48.477974,14217.653};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2100;
 			type="Land_Bucket_F";
-			atlOffset=0.0005645752;
+			atlOffset=0.35935211;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74114,7 +74107,7 @@ class Mission
 			};
 			id=2101;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.056213379;
+			atlOffset=0.056037903;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74173,7 +74166,7 @@ class Mission
 			};
 			id=2102;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.044883728;
+			atlOffset=0.044708252;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74231,7 +74224,7 @@ class Mission
 			};
 			id=2103;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.34586716;
+			atlOffset=0.34601593;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74290,7 +74283,7 @@ class Mission
 			};
 			id=2104;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.013031006;
+			atlOffset=0.01285553;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74349,7 +74342,7 @@ class Mission
 			};
 			id=2105;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.010269165;
+			atlOffset=0.010093689;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74407,7 +74400,7 @@ class Mission
 			};
 			id=2106;
 			type="Land_Tableware_01_cup_F";
-			atlOffset=0.0083847046;
+			atlOffset=0.0082092285;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74466,7 +74459,7 @@ class Mission
 			};
 			id=2107;
 			type="Land_ChairPlastic_F";
-			atlOffset=0.083427429;
+			atlOffset=0.084041595;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74525,7 +74518,7 @@ class Mission
 			};
 			id=2108;
 			type="Land_ChairPlastic_F";
-			atlOffset=0.11647797;
+			atlOffset=0.11709976;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74583,7 +74576,7 @@ class Mission
 			};
 			id=2109;
 			type="Land_WoodenLog_F";
-			atlOffset=0.00033950806;
+			atlOffset=0.19498825;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74872,7 +74865,7 @@ class Mission
 			};
 			id=2114;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.0010910034;
+			atlOffset=0.00010681152;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81321,7 +81314,7 @@ class Mission
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11024714;
+			atlOffset=0.2259922;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113870,7 +113863,7 @@ class Mission
 			};
 			id=3852;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.66100001;
+			atlOffset=0.66146868;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114167,14 +114160,13 @@ class Mission
 				angles[]={0,1.9836714,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_Shops_KakaoUndKaffee"",life_fnc_virt_menu,""kakaoundkaffee""];";
 			};
 			id=3862;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.11109376;
+			atlOffset=0.54990935;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114227,7 +114219,7 @@ class Mission
 			type="mil_triangle";
 			colorName="ColorCIV";
 			id=3863;
-			atlOffset=331189.47;
+			atlOffset=331197.56;
 		};
 		class Item2397
 		{
@@ -114760,7 +114752,7 @@ class Mission
 			};
 			id=3883;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=0.15707636;
 		};
 		class Item2414
 		{
@@ -114770,6 +114762,7 @@ class Mission
 			text="Parkhaus";
 			type="o_service";
 			id=3884;
+			atlOffset=0.15715647;
 		};
 		class Item2415
 		{
@@ -116333,6 +116326,7 @@ class Mission
 			};
 			id=3938;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.22949028;
 		};
 		class Item2467
 		{
@@ -116343,7 +116337,7 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorGUER";
 			id=3939;
-			atlOffset=1.0573349;
+			atlOffset=1.251997;
 		};
 		class Item2468
 		{
@@ -118630,7 +118624,7 @@ class Mission
 			position[]={2155.854,-6.1173614e-006,4701.5112};
 			name="civ_ship_1";
 			type="Empty";
-			angle=91.10096;
+			angle=91.100952;
 			id=4011;
 			atlOffset=4.6286807;
 		};
