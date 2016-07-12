@@ -131,6 +131,20 @@ class CfgFunctions {
 			file = "\life_server\Functions\Actions";
 			class pickupAction {};
 		};
+		class scripts
+		{
+		file = "\life_server\Functions\Scripts";
+		class diesel {};
+		class fuel {};
+		class fuelAir {};
+		class fuelCheck {};
+		class fuelConfig {};
+		class fuelPrices {};
+		class initFuelAction {};
+		class super {};
+		class vehicleCheck {};
+		class scriptsave {postInit=1;};
+		};
 	};
 };
 

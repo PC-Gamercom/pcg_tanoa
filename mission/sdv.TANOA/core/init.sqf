@@ -43,6 +43,9 @@ diag_log "::Life Client:: Eventhandlers completed";
 diag_log "::Life Client:: Setting up user actions";
 [] call life_fnc_setupActions;
 
+[] spawn life_fnc_fuelCheck;
+[] spawn life_fnc_fuelConfig;
+[] spawn life_fnc_initFuelAction; 
 [] execVM "core\fn_welcomeMessage.sqf";
 
 diag_log "::Life Client:: User actions completed";
