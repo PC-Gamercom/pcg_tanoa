@@ -377,7 +377,6 @@ class Life_Client_Core
 	class Dialog_Controls
 	{
 		file = "dialog\function";
-		class insureCar{};
 		class setMapPosition {};
 		class displayHandler {};
 		class spawnConfirm {};

@@ -24,8 +24,7 @@ if(_vid in serv_sv_use) exitWith {};
 serv_sv_use pushBack _vid;
 _servIndex = serv_sv_use find _vid;
 
-//_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, insure, gear, fuel FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
 
 
 _tickTime = diag_tickTime;
@@ -97,7 +96,7 @@ _vehicle lock 2;
 //Reskin the vehicle
 [_vehicle,_vInfo select 8] remoteExecCall ["life_fnc_colorVehicle",_unit];
 _vehicle setVariable["vehicle_info_owners",[[_pid,_name]],true];
-_vehicle setVariable["dbInfo",[(_vInfo select 4),_vInfo select 7,_vInfo select 9]];
+_vehicle setVariable["dbInfo",[(_vInfo select 4),_vInfo select 7]];
 _vehicle setVariable["Trunk",_trunk,true];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 
@@ -135,11 +134,5 @@ if(EQUAL(SEL(_vInfo,1),"cop") && (SEL(_vInfo,2)) in ["C_Offroad_01_F","B_MRAP_01
 if(EQUAL(SEL(_vInfo,1),"med") && EQUAL(SEL(_vInfo,2),"C_Offroad_01_F")) then {
 	[_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
-//[1,"Your vehicle is ready!"] remoteExecCall ["life_fnc_broadcast",_unit];
-if((_vInfo select 9) == 1) then {
-[1,"Ihr Fahrzeug ist bereit und versichert"] remoteExecCall ["life_fnc_broadcast",_unit];
-}
-else {
 [1,"Ihr Fahrzeug ist bereit!"] remoteExecCall ["life_fnc_broadcast",_unit];
-};
 serv_sv_use deleteAt _servIndex;
