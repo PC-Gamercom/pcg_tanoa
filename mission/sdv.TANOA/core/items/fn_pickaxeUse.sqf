@@ -25,7 +25,7 @@ switch (true) do {
 
 //Mine check
 
-//if(EQUAL(_mine,"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
+if(EQUAL(_mine,"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
 
 while{true} do {
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
