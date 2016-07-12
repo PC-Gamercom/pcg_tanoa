@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={13601.002,631.90192,13284.418};
-		dir[]={-0.19137008,-0.42620102,-0.88419062};
-		up[]={-0.090169176,0.90460217,-0.41661227};
-		aside[]={-0.97740048,2.4659676e-007,0.21154247};
+		dir[]={0.025788888,-0.81569952,-0.57795566};
+		up[]={0.036362384,0.57844794,-0.8149088};
+		aside[]={-0.99903661,-5.4450356e-007,-0.044579357};
 	};
 };
 binarizationWanted=0;
@@ -58,7 +58,6 @@ addons[]=
 	"A3_Structures_F_Exp_Military_Flags",
 	"A3_Structures_F_Households_House_Small01",
 	"A3_Soft_F_Gamma_SUV_01",
-	"A3_Modules_F_ObjectModifiers",
 	"A3_Structures_F_Exp_Walls_Net",
 	"A3_Soft_F_Exp_LSV_01",
 	"A3_Structures_F_Mil_Cargo",
@@ -138,7 +137,6 @@ addons[]=
 	"A3_Rocks_F_Exp_LavaStones",
 	"A3_Rocks_F_Water",
 	"A3_Structures_F_EPB_Civ_Dead",
-	"A3_Structures_F_Exp_Industrial_Stockyard_01",
 	"A3_Structures_F_Exp_Civilian_House_Big_03",
 	"A3_Structures_F_Exp_Naval_Piers",
 	"A3_Props_F_Exp_Naval_Boats",
@@ -146,7 +144,6 @@ addons[]=
 	"A3_Boat_F_Exp",
 	"A3_Structures_F_Ind_DieselPowerPlant",
 	"A3_Structures_F_Ind_ReservoirTank",
-	"A3_Structures_F_Ind_Shed",
 	"A3_Structures_F_Research",
 	"A3_Structures_F_EPC_Civ_Playground",
 	"A3_Structures_F_Exp_Walls_BackAlleys",
@@ -154,13 +151,14 @@ addons[]=
 	"A3_Structures_F_Households_Addons",
 	"A3_Structures_F_Exp_Commercial_Advertisements",
 	"A3_Structures_F_Mil_Barracks",
-	"A3_Structures_F_Mark_Items_Military"
+	"A3_Structures_F_Mark_Items_Military",
+	"A3_Structures_F_Exp_Commercial_Warehouses"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=39;
+		items=38;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -289,145 +287,138 @@ class AddonsMetaData
 		};
 		class Item18
 		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item19
-		{
 			className="A3_Soft_F_Exp";
 			name="Arma 3 Apex - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="A3_Rocks_F_Exp";
 			name="Arma 3 Apex - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item22
+		class Item21
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Boat_F_Gamma";
 			name="Arma 3 - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="A3_Boat_F";
 			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item27
+		class Item26
 		{
 			className="A3_Structures_F_Mark";
 			name="Arma 3 Marksmen - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item28
+		class Item27
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item29
+		class Item28
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item31
+		class Item30
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item32
+		class Item31
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item33
+		class Item32
 		{
 			className="A3_Misc_F";
 			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item34
+		class Item33
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item35
+		class Item34
 		{
 			className="A3_Air_F_Exp";
 			name="Arma 3 Apex - Aircrafts";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item36
+		class Item35
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item37
+		class Item36
 		{
 			className="A3_Rocks_F";
 			name="Arma 3 - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item38
+		class Item37
 		{
 			className="A3_Boat_F_Exp";
 			name="Arma 3 Apex - Boats and Submersibles";
@@ -43064,7 +43055,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889884,13510.989};
+				position[]={13232.703,-5.889883,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -81330,7 +81321,7 @@ class Mission
 			};
 			id=2588;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.2259922;
+			atlOffset=0.11024714;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -82996,7 +82987,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[""COP-Auto"",life_fnc_vehicleShopMenu,[""cop_car"",cop,[""kat1""],""west"",""Garage""]]; " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",west] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""kat1"";}]; " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " " \n "";
+				init="this enableSimulation false; " \n "  this allowDamage false; " \n "this addAction[localize""STR_MAR_W_E_Vehicle_Shop"",life_fnc_vehicleShopMenu, " \n "[""cop_car"",west,""kat1"",""cop"",""Gorgetown Polcice""]];   " \n "this addAction[localize""STR_Garage_Title"",   " \n "{   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];    " \n "createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   " \n " life_garage_sp = ""kat1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  " \n " this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " this setVariable[""realname"",""Cop Vehicle Store""];";
 			};
 			id=2648;
 			type="Land_InfoStand_V2_F";
@@ -84479,7 +84470,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init=" " \n "this enableSimulation false; " \n " this allowDamage false; " \n " this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",cop,[""cop_air_1""],""cop"",""Bughatis Flugcenter""]];";
+				init="this enableSimulation false; " \n "  this allowDamage false; " \n "this addAction[localize""STR_MAR_W_E_Vehicle_Shop"",life_fnc_vehicleShopMenu, " \n "[""cop_car"",west,""cop_air_1"",""cop"",""Gorgetown Polcice""]];   " \n "this addAction[localize""STR_Garage_Title"",   " \n "{   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];    " \n "createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   " \n " life_garage_sp = ""cop_air_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  " \n " this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " this setVariable[""realname"",""Cop Vehicle Store""]; " \n " this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",cop,[""cop_air_1""],""cop"",""Bughatis Flugcenter für Cops""]]; " \n "  " \n " ";
 			};
 			id=2918;
 			type="Land_InfoStand_V2_F";
@@ -101680,7 +101671,7 @@ class Mission
 			};
 			id=3343;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.14900005;
+			atlOffset=0.11070871;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -101744,13 +101735,14 @@ class Mission
 				angles[]={0,0.34880406,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this addAction[""Markt"",life_fnc_virt_menu,""market""];";
 			};
 			id=3345;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.48175669;
+			atlOffset=0.012064457;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104644,13 +104636,12 @@ class Mission
 				angles[]={0,5.3271637,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3433;
 			type="RoadCone_L_F";
-			atlOffset=0.018478394;
+			atlOffset=2.7224569;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104690,7 +104681,7 @@ class Mission
 			};
 			id=3434;
 			type="RoadCone_L_F";
-			atlOffset=0.044610977;
+			atlOffset=0.025733948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -110670,7 +110661,7 @@ class Mission
 			};
 			id=3683;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.52240944;
+			atlOffset=0.52271032;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113791,13 +113782,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5619.2769,5226.7451,4030.7119};
+				position[]={5619.2764,5226.7451,4030.7114};
 				angles[]={0,0.74919999,0};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction[""COP-Auto"",life_fnc_vehicleShopMenu,[""cop_car"",cop,[""kat2""],""west"",""Garage""]];  " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",west] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""kat2"";}];  " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  " \n "  " \n "";
+				init="this enableSimulation false; " \n "  this allowDamage false; " \n "this addAction[localize""STR_MAR_W_E_Vehicle_Shop"",life_fnc_vehicleShopMenu, " \n "[""cop_car"",west,""kat2"",""cop"",""Gorgetown Polcice""]];   " \n "this addAction[localize""STR_Garage_Title"",   " \n "{   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];    " \n "createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   " \n " life_garage_sp = ""kat2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  " \n " this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " this setVariable[""realname"",""Cop Vehicle Store""];";
 			};
 			id=3848;
 			type="Land_InfoStand_V2_F";
@@ -114177,13 +114168,14 @@ class Mission
 				angles[]={0,1.9836714,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" this allowDamage false; " \n " this enableSimulation false; " \n " this addAction[localize""STR_Shops_KakaoUndKaffee"",life_fnc_virt_menu,""kakaoundkaffee""];";
 			};
 			id=3862;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.54990935;
+			atlOffset=0.11109376;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -114236,7 +114228,7 @@ class Mission
 			type="mil_triangle";
 			colorName="ColorCIV";
 			id=3863;
-			atlOffset=331197.56;
+			atlOffset=331189.47;
 		};
 		class Item2397
 		{
@@ -114769,7 +114761,7 @@ class Mission
 			};
 			id=3883;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.15707636;
+			atlOffset=1.9073486e-006;
 		};
 		class Item2414
 		{
@@ -114779,7 +114771,6 @@ class Mission
 			text="Parkhaus";
 			type="o_service";
 			id=3884;
-			atlOffset=0.15715647;
 		};
 		class Item2415
 		{
@@ -116343,7 +116334,6 @@ class Mission
 			};
 			id=3938;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.22949028;
 		};
 		class Item2467
 		{
@@ -116354,7 +116344,7 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorGUER";
 			id=3939;
-			atlOffset=1.251997;
+			atlOffset=1.0573349;
 		};
 		class Item2468
 		{
@@ -117718,7 +117708,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[""COP-Auto"",life_fnc_vehicleShopMenu,[""cop_car"",cop,[""granz""],""west"",""Garage""]]; " \n "this addAction[""Fahrzeug Garage"",{[getPlayerUID player,playerSide,""Car"",west] remoteExecCall [""TON_fnc_getVehicles"",2];life_garage_type = ""Car"";createDialog ""life_impound_menu"";disableSerialization;ctrlSetText[2802,""Suche Fahrzeuge....""];life_garage_sp = ""granz"";}]; " \n "this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n "";
+				init="this enableSimulation false; " \n "  this allowDamage false; " \n "this addAction[localize""STR_MAR_W_E_Vehicle"",life_fnc_vehicleShopMenu, " \n "[""cop_car"",west,""granz"",""cop"",""Gorgetown Polcice""]];   " \n "this addAction[localize""STR_Garage_Title"",   " \n "{   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];    " \n "createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   " \n " life_garage_sp = ""granz""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  " \n " this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; " \n " this setVariable[""realname"",""Cop Vehicle Store""];";
 			};
 			id=3965;
 			type="Land_InfoStand_V2_F";
