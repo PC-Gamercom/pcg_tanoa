@@ -4,7 +4,7 @@ StartProgress = false;
 
 [] execVM "KRON_Strings.sqf";
 [] execVM "scripts\fn_statusBar.sqf";
-[] execVM "randomDDPos.sqf";
+//[] execVM "randomDDPos.sqf";
 StartProgress = true;
 
 0 enableChannel false;
