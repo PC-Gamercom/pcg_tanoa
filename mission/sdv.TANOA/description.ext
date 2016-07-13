@@ -42,9 +42,6 @@ class RscTitles {
 	#include "dialog\statusBar.hpp"
 	#include "dialog\hud_stats.hpp"
 	
-
-
-
 class SDVIntro {
 	idd = -1;
 	duration = 6;
