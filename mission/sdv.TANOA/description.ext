@@ -43,7 +43,7 @@ class RscTitles {
 	#include "dialog\hud_stats.hpp"
 	
 
-};
+
 
 class SDVIntro {
 	idd = -1;
@@ -66,6 +66,7 @@ class SDVIntro {
 	}; 
 	}; 
  }; 
+ };
 
 class CfgFunctions {
 	#include "Functions.hpp"
