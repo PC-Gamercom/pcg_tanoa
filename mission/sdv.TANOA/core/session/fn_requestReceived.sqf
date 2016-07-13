@@ -91,5 +91,5 @@ switch(playerSide) do {
 if(count (SEL(_this,13)) > 0) then {
 	{life_vehicles pushBack _x;} foreach (SEL(_this,13));
 };
-
+[] call life_fnc_initPayChecks;
 life_session_completed = true;
