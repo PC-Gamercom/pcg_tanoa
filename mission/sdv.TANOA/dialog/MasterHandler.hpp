@@ -29,3 +29,6 @@
 #include "craft.hpp"
 #include "agb.hpp"
 #include "impunded.hpp"
+#include "AH_buy.hpp"
+#include "AH_vsell.hpp"
+

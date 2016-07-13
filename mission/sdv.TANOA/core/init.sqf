@@ -42,10 +42,7 @@ diag_log "::Life Client:: Setting up Eventhandlers";
 diag_log "::Life Client:: Eventhandlers completed";
 diag_log "::Life Client:: Setting up user actions";
 [] call life_fnc_setupActions;
-
-[] spawn life_fnc_fuelCheck;
-[] spawn life_fnc_fuelConfig;
-[] spawn life_fnc_initFuelAction; 
+ 
 [] execVM "core\fn_welcomeMessage.sqf";
 
 diag_log "::Life Client:: User actions completed";
@@ -136,6 +133,22 @@ life_fnc_moveIn = compileFinal
 		(findDisplay 49) closeDisplay 2; // Close ESC dialog
 		(findDisplay 602) closeDisplay 2; // Close Inventory dialog
 	};
+};
+
+
+/* vAH */
+waitUntil {vAH_loaded};
+private["_total","_uid","_toDel"];
+_total = 0;
+_toDel = [];
+_uid = getPlayerUID player;
+{if ((_x select 5 == _uid) && (_x select 7 == 2)) then {_total = _total + (_x select 4);_toDel pushBack (_x select 0)};}forEach all_ah_items;
+
+ if (_total > 0) then {
+ {[[1,_x],"TON_fnc_vAH_update",false,false] spawn life_fnc_MP;}forEach _toDel;
+[[0,format["While you were offline you sold $%1 worth of items at Fat Tony's Shop",[_total]call life_fnc_numberText]],"life_fnc_broadcast",player,false] spawn life_fnc_MP;
+BANK = BANK + _total;
+[1] call SOCK_fnc_updatePartial;
 };
 
 CONSTVAR(life_paycheck); //Make the paycheck static.

@@ -51,6 +51,22 @@ if(!(EQUAL(life_server_extDB_notLoaded,""))) exitWith {}; //extDB did not fully 
 ["CALL deleteOldHouses",1] call DB_fnc_asyncCall;
 ["CALL deleteOldGangs",1] call DB_fnc_asyncCall;
 
+
+
+all_ah_items = [];
+publicVariable "all_ah_items";
+[] spawn TON_fnc_vAH_init;
+[] spawn
+{
+	while {true} do
+	{
+	sleep (20 * 60);
+	if (count all_ah_items > 0) then
+		{
+			[] spawn TON_fnc_vAH_update;
+		};
+	};
+};
 /* Map-based server side initialization. */
 /*
 master_group attachTo[bank_obj,[0,0,0]];
@@ -120,7 +136,9 @@ life_wanted_list = [];
 };
 
 [] spawn TON_fnc_initHouses;
-
+[] spawn life_fnc_fuelCheck;
+[] spawn life_fnc_fuelConfig;
+[] spawn life_fnc_initFuelAction;
 /* Setup the federal reserve building(s) */
 private["_dome","_rsb"];
 _dome = nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"];

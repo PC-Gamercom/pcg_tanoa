@@ -145,6 +145,12 @@ class CfgFunctions {
 		class vehicleCheck {};
 		class scriptsave {postInit=1;};
 		};
+		class vAH {
+			file = "\life_server\Functions\vAH";
+			class vAH_init {};
+			class vAH_update {};
+		};
+
 	};
 };
 

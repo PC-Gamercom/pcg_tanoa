@@ -19,3 +19,4 @@ if(life_is_arrested) then {
 player addRating 9999999;
 // IntroCam included for Civilian
 [] spawn life_fnc_IntroCam;
+[] execVM "scripts\fn_statusBar.sqf";
