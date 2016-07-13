@@ -126,7 +126,7 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] spawn life_fnc_survival;
-
+[] execVM "scripts\fn_statusBar.sqf";
 [] spawn {
 	while {true} do {
 		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open

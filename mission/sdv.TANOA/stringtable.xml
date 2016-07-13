@@ -3616,6 +3616,10 @@
       <Original>Vehicle Shop</Original>
       <German>Autohändler</German>
     </Key>
+	 <Key ID="STR_MAR_W_E_Vehicle">
+      <Original>Vehicle Shop</Original>
+      <German>Autohändler</German>
+    </Key>
     <Key ID="STR_MAR_Process_Sand">
       <Original>Process Sand</Original>
       <German>Verarbeite Sand</German>
