@@ -31,6 +31,29 @@ class LifeCfgVehicles {
         chopShop = 1200;
         textures[] = {};
     };
+	
+	  class C_Offroad_02_unarmed_F {
+        vItemSpace = 150;
+        storageFee[] = { 0, 0, 1500, 0 };
+        garageSell[] = { 0, 0, 5000, 0 };
+        impound = 3400;
+        chopShop = 12500;
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
+        textures[] = {
+			 { "Graffiti", "civ", {
+                "vehskin\MB_4WD_Skins\graffiti.jpg"
+            } },
+			{ "Space", "civ", {
+                "vehskin\MB_4WD_Skins\space.jpg"
+            } },
+			{ "Tanmed", "civ", {
+                "vehskin\MB_4WD_Skins\tanmed.jpg"
+            } },
+				{ "Zombie", "civ", {
+                "vehskin\MB_4WD_Skins\zombie.jpg"
+            } },
+		};
+    };
 
     class I_Truck_02_medical_F {
         vItemSpace = 150;
