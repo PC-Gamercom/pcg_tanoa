@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5650.9858,44.29023,11085.874};
-		dir[]={0.57616633,-0.68752092,-0.44226202};
-		up[]={0.54542184,0.72608125,-0.41866475};
-		aside[]={-0.60895401,4.6187779e-008,-0.79333401};
+		pos[]={4218.8325,622.25836,2562.7109};
+		dir[]={0.24896194,-0.48880008,-0.83618754};
+		up[]={0.13948797,0.87237889,-0.46849674};
+		aside[]={-0.95847231,3.5605626e-007,-0.28536987};
 	};
 };
 binarizationWanted=0;
@@ -43532,7 +43532,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13232.703,-5.889884,13510.989};
+				position[]={13232.703,-5.889883,13510.989};
 			};
 			side="Empty";
 			class Attributes
@@ -101997,7 +101997,7 @@ class Mission
 			};
 			id=3343;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.14900005;
+			atlOffset=0.11070871;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113245,13 +113245,14 @@ class Mission
 				angles[]={0,5.2402115,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide isEqualTo civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide isEqualTo civilian ']; this setVariable [""realname"",""License Shop""];";
 			};
 			id=3771;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.30656624;
+			atlOffset=3.2186508e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -116196,7 +116197,6 @@ class Mission
 			type="loc_BusStop";
 			colorName="ColorOrange";
 			id=3922;
-			atlOffset=0.11717033;
 		};
 		class Item2374
 		{
@@ -119891,13 +119891,13 @@ class Mission
 				position[]={2166.3269,3.5901511,4615.894};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 			};
 			id=4048;
 			type="Land_Stone_4m_F";
-			atlOffset=0.55099988;
+			atlOffset=0.00048947334;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -123834,34 +123834,36 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2158.1008,5.0991573,4615.585};
-				angles[]={0,3.1559007,0};
+				position[]={2158.1011,5.0987096,4615.585};
+				angles[]={0,3.1559045,0};
 			};
 			side="Empty";
 			flags=1;
 			class Attributes
 			{
+				init="this allowDamage false; this setObjectTexture [0, ""textures\signs\SV_Willkommen_01.jpg""]";
 			};
 			id=4122;
 			type="Land_Billboard_F";
-			atlOffset=0.85545278;
+			atlOffset=0.7079525;
 		};
 		class Item2552
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2185.4543,14.729737,4513.5132};
-				angles[]={0,2.7699168,0};
+				position[]={2185.4541,14.729952,4513.5132};
+				angles[]={0,2.7699249,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
+				init="this allowDamage false; this setObjectTexture [0, ""textures\signs\SV_Willkommen_02.jpg""]";
 			};
 			id=4123;
 			type="Land_Billboard_F";
-			atlOffset=-0.86922455;
+			atlOffset=-0.86899948;
 		};
 		class Item2553
 		{
