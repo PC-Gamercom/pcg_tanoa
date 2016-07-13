@@ -10,7 +10,7 @@
 private ["_vehicle","_trueorfalse"];
 _vehicle = param [0,ObjNull,[ObjNull]];
 if(isNull _vehicle) exitWith {}; //Bad entry!
-if(!(typeOf _vehicle in ["C_Offroad_01_F","I_Truck_02_medical_F","C_Van_01_box_F","O_Truck_03_medical_F","B_Truck_01_medical_F"])) exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
+if(!(typeOf _vehicle in ["C_Offroad_01_F"])) exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
 
 _trueorfalse = _vehicle GVAR ["lights",FALSE];
 
