@@ -35,7 +35,7 @@ _name = name player;
 
 [
      format[
-     "<t size='1.3' color='#00C10D'>Danke fürs Spielen!</t><br/>Bye %1 ! <br/><t size='1.1'>Data Synced und Gear Saved.</t>",_name],
+     "<t size='1.3' color='#00C10D'>Danke fürs Spielen!</t><br/>Bye %1 ! <br/><t size='1.1'>Körper wird in Kältestase gesetzt .</t>",_name],
      0,
      0.2,
      10,
