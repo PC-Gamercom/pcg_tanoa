@@ -27,6 +27,7 @@ class Life_Client_Core
 		class initMedic {};
 		class welcomeMessage {};
 		class survival {};
+		class initPayChecks {};
 	};
 	
 	/* Dynamisches Markt-System 
