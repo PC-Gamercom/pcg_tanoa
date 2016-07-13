@@ -254,7 +254,7 @@ switch (_code) do {
 				sdv_is_speaking = false;
 			};
 		};
-	}
+	};
 	
 	//O Key Schranken im Auto öffnen
 	case 44: {
