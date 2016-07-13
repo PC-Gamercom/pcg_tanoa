@@ -64,11 +64,11 @@ class CarShops {
     class med_air_hs {
         side = "med";
         vehicles[] = {
-			{ "C_Heli_Light_01_civil_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 3 } },
-			{ "O_Heli_Transport_04_medevac_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "O_Heli_Transport_04_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 4 } },
-			{ "O_Heli_Light_02_unarmed_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 6 } },
-			{ "O_T_VTOL_02_infantry_F", 3000, { "" }, { "life_mediclevel", "SCALAR", 6 } }
+			{ "C_Heli_Light_01_civil_F", 3000, { "mAir" }, { "life_mediclevel", "SCALAR", 3 } },
+			{ "O_Heli_Transport_04_medevac_F", 3000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } },
+			{ "O_Heli_Transport_04_F", 3000, { "mAir" }, { "life_mediclevel", "SCALAR", 4 } },
+			{ "O_Heli_Light_02_unarmed_F", 3000, { "mAir" }, { "life_mediclevel", "SCALAR", 6 } },
+			{ "O_T_VTOL_02_infantry_F", 3000, { "mAir" }, { "life_mediclevel", "SCALAR", 6 } }
         };
     };
 

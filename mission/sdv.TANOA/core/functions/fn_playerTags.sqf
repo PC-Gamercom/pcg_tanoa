@@ -40,7 +40,7 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 			if(count _sPos > 1 && {_distance < 15}) then {
 				_text = switch (true) do {
 					case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
-					case (side _x == west && {!isNil {_x GVAR "rank"}}): {format["<img image='%1' size='1'></img> %2",switch ((_x GVAR "rank")) do {
+					case (side _x == west && {!isNil {_x GVAR "rank"}}): {format["<t size='1'>%1<br/>%2</t>",switch ((_x GVAR "rank")) do {
 					case 2: {format["<t color='#2753a5'>Polizist</t>"];};
 					case 3: {format["<t color='#2753a5'>Polizeimeisteranwärter</t>"];};
 					case 4: {format["<t color='#2753a5'>Polizeimeister</t>"];};
@@ -55,15 +55,15 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 					case 13: {format["<t color='#2753a5'>Polizeihauptkommissar+</t>"];};
 					default {format["<t color='#2753a5'>Polizeianwärter</t>"];};
 						},_x GVAR ["realname",name _x]]};
-					case (side _x == independent && {!isNil {_x GVAR "rank"}}): {format["<img image='%1' size='1'></img> %2",switch ((_x GVAR "rank")) do {
+					case (side _x == independent && {!isNil {_x GVAR "medicrank"}}): {format["<t size='1'>%1<br/>%2</t>",switch ((_x GVAR "medicrank")) do {
 					case 2: {format["<t color='#2753a5'>Feuerwehr Anwärter/in</t>"];};
 					case 3: {format["<t color='#2753a5'>Feuerwehr Man/Frau</t>"];};
-					case 4: {format["<t color='#2753a5'></t>"];};
-					case 5: {format["<t color='#2753a5'>Hauptfeuerwehrman</t>"];};
+					case 4: {format["<t color='#2753a5'>Ober Feuerwehr Mann</t>"];};
+					case 5: {format["<t color='#2753a5'>Hauptfeuerwehrman/Frau</t>"];};
 					case 6: {format["<t color='#2753a5'>FW-Sani</t>"];};
-					case 7: {format["<t color='#2753a5'>St. Wehrführer</t>"];};
-					case 8: {format["<t color='#2753a5'>Wehrführer</t>"];};
-					default {format["<t color='#2753a5'>Praktikant</t>"];};
+					case 7: {format["<t color='#2753a5'>St. Wehrführer/in</t>"];};
+					case 8: {format["<t color='#2753a5'>Wehrführer/in</t>"];};
+					default {format["<t color='#2753a5'>Praktikant/in</t>"];};
 						},_x GVAR ["realname",name _x]]};
 					default {
 						if(!isNil {(group _x) GVAR "gang_name"}) then {
@@ -73,7 +73,9 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 						};
 					};
 				};
-
+			if(_x GVAR ["speaking",false]) then {
+				_text = format ["<img image='\A3\ui_f\data\igui\rscingameui\rscdisplayvoicechat\microphone_ca.paa' size='1.3'></img>"] + _text;
+			};
 				_idc ctrlSetStructuredText parseText _text;
 				_idc ctrlSetPosition [_sPos select 0, _sPos select 1, 0.4, 0.65];
 				_idc ctrlSetScale scale;

@@ -26,7 +26,7 @@ class WeaponShops {
             { "ItemGPS", "",50, -1 },
             { "ToolKit", "",100, -1 },
             { "FirstAidKit", "",50, -1 },
-            { "Medikit", "",1000, -1 },
+            { "Medikit", "",1000, { "life_mediclevel", "SCALAR", 2 } },
             { "NVGoggles", "",100, -1 }
         };
         mags[] = {};

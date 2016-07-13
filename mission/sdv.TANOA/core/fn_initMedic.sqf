@@ -28,6 +28,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_weapons"),0)) then
 };
 
 [] call life_fnc_spawnMenu;
+player setVariable["medicrank",(FETCH_CONST(life_medicLevel)),true];
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
