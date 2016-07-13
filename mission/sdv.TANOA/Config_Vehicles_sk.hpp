@@ -32,6 +32,50 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class C_Offroad_01_F {
+        vItemSpace = 65;
+        storageFee[] = { 1000, 500, 650, 1000 };
+        garageSell[] = { 6500, 2500, 0, 0 };
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
+        impound = 16000;
+        chopShop = 6250;
+        textures[] = {
+            { "Red", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa"
+            } },
+            { "White", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa"
+            } },
+            { "Blue", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa"
+            } },
+            { "Dark Red", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa"
+            } },
+            { "Blue / White", "civ", {
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
+                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
+            } },
+            { "Taxi", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Sani", "med", {
+                "vehskin\offroad.paa"
+            } },
+            { "Police", "cop", {
+                "vehskin\offroad_police_g.paa"
+            } }
+        };
+    };
+	
 	  class C_Offroad_02_unarmed_F {
         vItemSpace = 150;
         storageFee[] = { 0, 0, 1500, 0 };
@@ -51,7 +95,7 @@ class LifeCfgVehicles {
             } },
 				{ "Zombie", "civ", {
                 "vehskin\MB_4WD_Skins\zombie.jpg"
-            } },
+            } }
 		};
     };
 
@@ -329,50 +373,6 @@ class LifeCfgVehicles {
         impound = 16000;
         chopShop = 5000;
         textures[] = { };
-    };
-
-    class C_Offroad_01_F {
-        vItemSpace = 65;
-        storageFee[] = { 1000, 500, 650, 1000 };
-        garageSell[] = { 6500, 2500, 0, 0 };
-		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        impound = 16000;
-        chopShop = 6250;
-        textures[] = {
-            { "Red", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa"
-            } },
-            { "Yellow", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa"
-            } },
-            { "White", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa"
-            } },
-            { "Blue", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa"
-            } },
-            { "Dark Red", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa"
-            } },
-            { "Blue / White", "civ", {
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
-                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
-            } },
-            { "Taxi", "civ", {
-                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
-            } },
-			{ "Sani", "med", {
-                "vehskin\offroad.paa"
-            } },
-            { "Police", "cop", {
-                "vehskin\offroad_police_g.paa"
-            } }
-        };
     };
 
     class C_Kart_01_Blu_F {
