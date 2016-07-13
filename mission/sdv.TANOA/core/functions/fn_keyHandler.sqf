@@ -59,7 +59,7 @@ switch (_code) do {
 	//Space key for Jumping
 	case 57: {
 		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
-		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
+		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2.5} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
 			jumpActionTime = time; //Update the time.
 			[player,true] spawn life_fnc_jumpFnc; //Local execution
 			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
@@ -218,16 +218,43 @@ switch (_code) do {
 
 	//O Key
 	case 24: {
-		if(_shift) then {
-			if (soundVolume != 1) then {
-				1 fadeSound 1;
-				systemChat localize "STR_MISC_soundnormal";
-			} else {
-				1 fadeSound 0.1;
-				systemChat localize "STR_MISC_soundfade";
+			if(_shift) then {
+			_handled = true;
+			if (playerside in [west,civilian,independent]) then {
+				switch (player getVariable["SDV_Earplugs",0]) do {
+					case 0: {titleText ["Ear Plugs 90%", "PLAIN"]; 1 fadeSound 0.1; player setVariable ["SDV_Earplugs",10];};
+					case 10: {titleText ["Ear Plugs 60%", "PLAIN"]; 1 fadeSound 0.4; player setVariable ["SDV_Earplugs",40];};
+					case 40: {titleText ["Ear Plugs 30%", "PLAIN"]; 1 fadeSound 0.7; player setVariable ["SDV_Earplugs",70];};
+					case 70: {titleText ["Ear Plugs entfernt", "PLAIN"]; 1 fadeSound 1; player setVariable ["SDV_Earplugs",0];};
+				};
 			};
 		};
 	};
+	case _spricht: {
+		if(currentChannel == 7) then {
+			setCurrentChannel 5;
+			hint localize "STR_SDV_DirectChat";
+		};
+		if(!sdv_is_speaking) then {
+			sdv_is_speaking = true;
+			if (ctrlText ((findDisplay 55) displayCtrl 101) == "\A3\ui_f\data\igui\rscingameui\rscdisplayvoicechat\microphone_ca.paa") then {
+				if ((ctrlText ((findDisplay 63) displayCtrl 101) == localize "str_channel_direct")) then {
+					player setVariable["speaking", true, true];
+						[] spawn {
+							waitUntil {(isNull findDisplay 63) && (isNull findDisplay 55)};
+							player setVariable["speaking", false, true];
+							sdv_is_speaking = false;
+						};
+				} else {
+					player setVariable["speaking", false, true];
+					sdv_is_speaking = false;
+				};
+			} else {
+				player setVariable["speaking", false, true];
+				sdv_is_speaking = false;
+			};
+		};
+	}
 	
 	//O Key Schranken im Auto öffnen
 	case 44: {
@@ -288,6 +315,52 @@ switch (_code) do {
 				};
 			};
 		};
+	};
+	
+	
+		//(Shift + Num 1)
+	//Takwondo(Traditional Martial arts in korea)
+	case 79: {
+		if(_shift) then {_handled = true;};
+			if ((_shift) && {!life_is_arrested} && (vehicle player == player)) then {
+				cutText [format["Takwondo!!!"], "PLAIN DOWN"];
+				player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
+		};
+	};
+	//(Shift + Num 2)
+	//Kneebend Slow
+	case 80: {
+		if(_shift) then {_handled = true;};
+			if ((_shift) && {!life_is_arrested} && (vehicle player == player)) then {
+				cutText [format["KneeBend Slow baby~"], "PLAIN DOWN"];
+				player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
+			};
+	};
+	//(Shift + Num 3)
+	//Kneebend Fast
+	case 81: {
+		if(_shift) then {_handled = true;};
+			if ((_shift) && {!life_is_arrested} && (vehicle player == player)) then {
+				cutText [format["KneeBend more Hard!!!Move!!Move!!"], "PLAIN DOWN"];
+				player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+			};
+	};
+	//(Shift + Num 4)
+	//Pushup
+	case 75: {
+		if(_shift) then {_handled = true;};
+			if ((_shift) && {!life_is_arrested} && (vehicle player == player)) then {
+				cutText [format["Pushup!!!!!!"], "PLAIN DOWN"];
+				player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+			};
+	};
+	//(Shift + Num 5)
+	case 76: {
+		if(_shift) then {_handled = true;};
+			if ((_shift) && {!life_is_arrested} && (vehicle player == player)) then {
+				cutText [format["Erstmal das Revier markieren"], "PLAIN DOWN"];
+				player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";
+			};
 	};
 };
 

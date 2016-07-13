@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Tanoa Life RPG">
+<Package name="Extra">
+<Key ID="STR_SDV_DirectChat">
+<Original>Wechsel doch bitte zum Reden in die Direkte Kommunikation</Original>
+</Key>
+	</Package>
   <Package name="Shop_Names">
     <Key ID="STR_Shops_C_Bruce">
       <Original>Bruce's Outback Outfits</Original>

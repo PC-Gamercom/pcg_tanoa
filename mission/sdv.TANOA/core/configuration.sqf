@@ -43,6 +43,10 @@ life_disable_getIn = false;
 life_disable_getOut = false;
 life_action_pickaxeInUse = false;
 
+
+//SDV VARIS
+sdv_is_speaking = false;
+
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 /*
