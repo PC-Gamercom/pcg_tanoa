@@ -10,7 +10,7 @@ class VirtualShops {
     //Virtual Shops
     class market {
         name = "STR_Shops_Market";
-        side = "civ","cop";
+        side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit","muschel","birnen","oliven","erdbeeren", "banane", "redgull", "tbacon","kirsche", "lockpick", "pickaxe", "fuelFull", "kiwi", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
