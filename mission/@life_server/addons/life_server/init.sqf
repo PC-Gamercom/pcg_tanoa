@@ -120,7 +120,7 @@ addMissionEventHandler ["HandleDisconnect",{_this call TON_fnc_clientDisconnect;
 life_wanted_list = [];
 [] execFSM "\life_server\FSM\cleanup.fsm";
 //[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
-
+/*
 [] spawn {
 	private["_logic","_queue"];
 	while {true} do {
@@ -134,6 +134,7 @@ life_wanted_list = [];
 		} foreach [Dealer_1,Dealer_2,Dealer_3];
 	};
 };
+*/
 
 [] spawn TON_fnc_initHouses;
 [] spawn life_fnc_fuelCheck;
