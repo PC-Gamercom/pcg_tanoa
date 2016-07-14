@@ -32,6 +32,44 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class B_Quadbike_01_F {
+        vItemSpace = 20;
+        storageFee[] = { 1000, 0, 0, 0 };
+        garageSell[] = { 950, 0, 0, 0 };
+		assurPrice[] = { 1000, 1000, 1000, 1000 };
+        impound = 16000;
+        chopShop = 1250;
+        textures[] = {
+            { "Brown", "cop", {
+                "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
+            } },
+            { "Digi Desert", "reb", {
+                "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
+            } },
+            { "Black", "civ", {
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa"
+            } },
+            { "Red", "civ", {
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
+            } },
+            { "White", "civ", {
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_white_co.paa"
+            } },
+            { "Digi Green", "civ", {
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_indp_co.paa"
+            } },
+            { "Hunter Camo", "civ", {
+                "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
+            } },
+            { "Rebel Camo", "reb", {
+                "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
+            } }
+        };
+    };
+	
 	class C_Offroad_01_F {
         vItemSpace = 65;
         storageFee[] = { 1000, 500, 650, 1000 };
@@ -453,44 +491,6 @@ class LifeCfgVehicles {
             { "Redgul", "civ", {
                 "vehskin\limousine_sport_redgull.paa"
             } },
-        };
-    };
-
-    class B_Quadbike_01_F {
-        vItemSpace = 20;
-        storageFee[] = { 1000, 0, 0, 0 };
-        garageSell[] = { 950, 0, 0, 0 };
-		assurPrice[] = { 1000, 1000, 1000, 1000 };
-        impound = 16000;
-        chopShop = 1250;
-        textures[] = {
-            { "Brown", "cop", {
-                "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
-            } },
-            { "Digi Desert", "reb", {
-                "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
-            } },
-            { "Black", "civ", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa"
-            } },
-            { "Blue", "civ", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa"
-            } },
-            { "Red", "civ", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
-            } },
-            { "White", "civ", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_white_co.paa"
-            } },
-            { "Digi Green", "civ", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_indp_co.paa"
-            } },
-            { "Hunter Camo", "civ", {
-                "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
-            } },
-            { "Rebel Camo", "reb", {
-                "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
-            } }
         };
     };
 

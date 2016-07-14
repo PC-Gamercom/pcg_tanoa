@@ -3248,6 +3248,10 @@
       <Original>Fish Market</Original>
       <German>Fischmarkt</German>
     </Key>
+	<Key ID="STR_MAR_Klei_Shop">
+      <Original>Tommy Hilftnimmer</Original>
+      <German>Tommy Hilftnimmer</German>
+    </Key>
     <Key ID="STR_MAR_Hospital">
       <Original>Hospital</Original>
       <German>Krankenhaus</German>
