@@ -27,7 +27,7 @@ wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 320;
 corpseLimit = 150;
 corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
+corpseRemovalMaxTime = 999;
 
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"

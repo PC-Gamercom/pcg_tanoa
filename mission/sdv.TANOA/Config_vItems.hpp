@@ -10,7 +10,7 @@ class VirtualShops {
     //Virtual Shops
     class market {
         name = "STR_Shops_Market";
-        side = "civ";
+        side = "civ","cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit","muschel","birnen","oliven","erdbeeren", "banane", "redgull", "tbacon","kirsche", "lockpick", "pickaxe", "fuelFull", "kiwi", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
@@ -335,27 +335,27 @@ class VirtualItems {
         displayName = "STR_Item_Banane";
         weight = 1;
         buyPrice = 40;
-        sellPrice = 38;
+        sellPrice = 35;
         illegal = false;
         edible = 10;
         icon = "";
     };
-class oliven {
+	class oliven {
         variable = "oliven";
         displayName = "STR_Item_Oliven";
         weight = 1;
         buyPrice = 40;
-        sellPrice = 38;
+        sellPrice = 35;
         illegal = false;
         edible = 10;
         icon = "";
     };
-class birnen {
+	class birnen {
         variable = "birnen";
         displayName = "STR_Item_Birnen";
         weight = 1;
-        buyPrice = 40;
-        sellPrice = 38;
+        buyPrice = 70;
+        sellPrice = 50;
         illegal = false;
         edible = 10;
         icon = "";
@@ -365,7 +365,7 @@ class birnen {
         displayName = "STR_Item_Muschel";
         weight = 1;
         buyPrice = 40;
-        sellPrice = 38;
+        sellPrice = 30;
         illegal = false;
         edible = 10;
         icon = "";
@@ -374,8 +374,8 @@ class birnen {
         variable = "erdbeeren";
         displayName = "STR_Item_Erdbeeren";
         weight = 1;
-        buyPrice = 40;
-        sellPrice = 38;
+        buyPrice = 50;
+        sellPrice = 45;
         illegal = false;
         edible = 10;
         icon = "";
@@ -385,7 +385,7 @@ class birnen {
         variable = "kiwi";
         displayName = "STR_Item_Kiwi";
         weight = 1;
-        buyPrice = 29;
+        buyPrice = 30;
         sellPrice = 25;
         illegal = false;
         edible = 10;
@@ -397,7 +397,7 @@ class birnen {
         displayName = "STR_Item_Kirsche";
         weight = 1;
         buyPrice = 68;
-        sellPrice = 55;
+        sellPrice = 40;
         illegal = false;
         edible = 10;
         icon = "";
@@ -419,7 +419,7 @@ class birnen {
         displayName = "STR_Item_Hopfen";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 11;
+        sellPrice = 10;
         illegal = false;
         edible = 10;
         icon = "";
@@ -430,7 +430,7 @@ class birnen {
         displayName = "STR_Item_Weizen";
         weight = 1;
         buyPrice = -1;
-        sellPrice = 13;
+        sellPrice = 10;
         illegal = false;
         edible = 10;
         icon = "";
@@ -441,7 +441,7 @@ class birnen {
         displayName = "STR_Item_Wasser";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 4;
+        sellPrice = 5;
         illegal = false;
         edible = 10;
         icon = "";
@@ -449,7 +449,7 @@ class birnen {
 	
 // andere Sachen
 
-class hanf {
+	class hanf {
         variable = "hanf";
         displayName = "STR_Item_Hanf";
         weight = 3;
@@ -557,7 +557,7 @@ class hanf {
         icon = "";
     };
 	
-		class kakaobohnen {
+	class kakaobohnen {
         variable = "kakaobohnen";
         displayName = "STR_Item_Kakaobohnen";
         weight = 4;
@@ -568,7 +568,7 @@ class hanf {
         icon = "";
     };
 	
-		class kakaopulver {
+	class kakaopulver {
         variable = "kakaopulver";
         displayName = "STR_Item_Kakaopulver";
         weight = 2;
@@ -848,7 +848,7 @@ class hanf {
         icon = "icons\ico_cocaineProcessed.paa";
     };
 	
-		class koralle {
+	class koralle {
         variable = "koralle";
         displayName = "STR_Item_Koralle";
         weight = 4;
@@ -859,7 +859,7 @@ class hanf {
         icon = "";
     };
 	
-		class korallever {
+	class korallever {
         variable = "korallever";
         displayName = "STR_Item_Korallever";
         weight = 3;

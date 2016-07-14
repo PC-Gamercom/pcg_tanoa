@@ -149,12 +149,12 @@
       <German>Geben</German>
     </Key>
     <Key ID="STR_Global_Use">
-      <Original>Verwenden</Original>
-      <German>Verwenden</German>
+      <Original>Nutzen</Original>
+      <German>Nutzen</German>
     </Key>
     <Key ID="STR_Global_Remove">
-      <Original>Wegschmeißen</Original>
-      <German>Wegschmeißen</German>
+      <Original>Entf.</Original>
+      <German>Entf.</German>
     </Key>
     <Key ID="STR_Global_Settings">
       <Original>Optionen</Original>
@@ -778,12 +778,12 @@
       <German>Fahndungsliste</German>
     </Key>
     <Key ID="STR_PM_CellPhone">
-      <Original>Smartphone</Original>
-      <German>Smartphone</German>
+      <Original>Handy</Original>
+      <German>Handy</German>
     </Key>
     <Key ID="STR_PM_KeyChain">
-      <Original>Schlüsselbund</Original>
-      <German>Schlüsselbund</German>
+      <Original>Schlüssel</Original>
+      <German>Schlüssel</German>
     </Key>
     <Key ID="STR_PM_AdminMenu">
       <Original>Admin Menü</Original>
@@ -1322,8 +1322,8 @@
       <German>Wie soll das von hier aus gehen? Ich sitze in einem Fahrzeug!</German>
     </Key>
     <Key ID="STR_NOTF_NoLootingPerson">
-      <Original>"Du schaust dir die Leiche an. Eine Sekunde lang willst du zugreifen, aber Leichen zu schänden?"/n/nSoweit bin ich nicht gesunken.</Original>
-      <German>"Du schaust dir die Leiche an. Eine Sekunde lang willst du zugreifen, aber Leichen zu schänden?"/n/nSoweit bin ich nicht gesunken.</German>
+      <Original>Eine Sekunde lang wollte ich zugreifen, aber Leichen zu schänden? Soweit bin ich nicht gesunken.</Original>
+      <German>Eine Sekunde lang wollte ich zugreifen, aber Leichen zu schänden? Soweit bin ich nicht gesunken.</German>
     </Key>
     <Key ID="STR_NOTF_Frozen">
       <Original>Du wurdest von einem Admin eingefroren</Original>
@@ -1580,15 +1580,15 @@
       <German>Der Dealer meint, hier wäre niemand gewesen.</German>
     </Key>
     <Key ID="STR_Cop_DealerMSG">
-      <Original>The following people have been selling to this dealer recently.</Original>
-      <German>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</German>
+      <Original>Er gab mir eine Liste mit Namen von vermeintlichen Drogenlieferanten.</Original>
+      <German>Er gab mir eine Liste mit Namen von vermeintlichen Drogenlieferanten.</German>
     </Key>
     <Key ID="STR_Cop_Radar">
       <Original>Radar</Original>
       <German>Radar</German>
     </Key>
     <Key ID="STR_Cop_VehSpeed">
-      <Original>Vehicle Speed %1 km/h</Original>
+      <Original>Geschwindigkeit %1 km/h</Original>
       <German>Geschwindigkeit %1 km/h</German>
     </Key>
     <Key ID="STR_Cop_ExcessiveRestrain">
@@ -2870,8 +2870,8 @@
       <German>Fahrzeuginteraktionsmenü</German>
     </Key>
     <Key ID="STR_vInAct_Unflip">
-      <Original>Unflip Vehicle</Original>
-      <German>Fahrzeug umdrehen</German>
+      <Original>Umdrehen</Original>
+      <German>Umdrehen</German>
     </Key>
     <Key ID="STR_vInAct_GetInKart">
       <Original>Get In Kart</Original>
@@ -2883,11 +2883,11 @@
 	  </Key>
     <Key ID="STR_vInAct_PushBoat">
       <Original>Push Boat</Original>
-      <German>Boot schieben</German>
+      <German>Schieben</German>
     </Key>
     <Key ID="STR_vInAct_Repair">
-      <Original>Repair Vehicle</Original>
-      <German>Fahrzeug reparieren</German>
+      <Original>Reparieren</Original>
+      <German>Reparieren</German>
     </Key>
     <Key ID="STR_vInAct_Registration">
       <Original>Registration</Original>

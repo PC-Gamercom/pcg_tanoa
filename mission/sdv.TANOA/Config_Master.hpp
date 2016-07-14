@@ -46,7 +46,7 @@ class Life_Settings {
 
     /* Initial Bank Amount */
     bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 10000; //Amount of cash on bank for new civillians
+    bank_civ = 30000; //Amount of cash on bank for new civillians
     bank_med = 7000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
