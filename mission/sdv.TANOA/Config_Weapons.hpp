@@ -347,7 +347,7 @@ class WeaponShops {
     };
 	class zubehoer {
         name = "Zubehoer";
-        side = "civ","cop";
+        side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
@@ -364,7 +364,7 @@ class WeaponShops {
     };
 	class apotheke {
         name = "apotheke";
-        side = "civ","cop";
+        side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
