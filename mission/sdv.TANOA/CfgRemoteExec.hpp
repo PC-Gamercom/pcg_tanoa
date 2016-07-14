@@ -104,7 +104,8 @@ class CfgRemoteExec {
         F(TON_fnc_sellHouseContainer,SERVER)
         F(TON_fnc_deleteDBContainer,SERVER)
 		F(TON_fnc_vehicleimpound,SERVER)
-		F(life_fnc_vehicleImpound,SERVER)
+		F(TON_fnc_getimpoundedvehicles,SERVER)
+		
 
         /* Functions for everyone */
         F(life_fnc_broadcast,ANYONE)

@@ -86,14 +86,14 @@ switch (playerSide) do
 
 /* Police Changes */
 
-if(license_civ_cAir) then
+if(license_cop_cAir) then
 {
 	life_paycheck = life_paycheck + 0;
 };
 
 /* NHS Changes */
 
-if(license_civ_mAir) then
+if(license_med_mAir) then
 {
 	life_paycheck = life_paycheck + 0;
 };
