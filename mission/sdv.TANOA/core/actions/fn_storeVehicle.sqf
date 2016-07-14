@@ -29,7 +29,7 @@ if(isNil "_vehicle") exitWith {hint localize "STR_Garage_NoNPC"};
 if(isNull _vehicle) exitWith {};
 _exit = false;
 _displayName = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "_displayName");
-if(!(_vehicle getVariable ["Trunk",[]] isEqualTo [])then {
+if(!(_vehicle getVariable ["Trunk",[]] isEqualTo []))then {
 	_bool = [
 		format["Dein Fahrzeug %1 enthält noch Rohstoffe. Möchtest du es wirklich einparken?",_displayName],
 		"Einparken",
