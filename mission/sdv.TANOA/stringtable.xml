@@ -660,6 +660,14 @@
       <Original>Parkhaus</Original>
       <German>Parkhaus</German>
     </Key>
+	<Key ID="STR_Garage_Boot">
+      <Original>Hafen</Original>
+      <German>Hafen</German>
+    </Key>
+	<Key ID="STR_Garage_Hangar">
+      <Original>Hangar</Original>
+      <German>Hangar</German>
+    </Key>
     <Key ID="STR_Garage_GetVehicle">
       <Original>Ausparken</Original>
       <German>Ausparken</German>
@@ -3308,9 +3316,26 @@
       <Original>Hanffasern herstellen...</Original>
       <German>Hanffasern herstellen...</German>
     </Key>
-    <Key ID="STR_MAR_Iron_processing">
-      <Original>Iron Processing</Original>
-      <German>Eisenschmelze</German>
+    <Key ID="STR_MAR_Iron_Processing">
+      <Original>Eisen schmelzen...</Original>
+      <German>Eisen schmelzen...</German>
+    </Key>
+	<Key ID="STR_MAR_Zinn_Processing">
+      <Original>Zinn schmelzen...</Original>
+      <German>Zinn schmelzen...</German>
+    </Key>
+	<Key ID="STR_MAR_Koralle_Processing">
+      <Original>Korallen verpacken...</Original>
+      <German>Korallen verpacken...</German>
+    </Key>
+	</Key>
+	<Key ID="STR_MAR_Gold_Processing">
+      <Original>Gold schmelzen...</Original>
+      <German>Gold schmelzen...</German>
+    </Key>
+	<Key ID="STR_MAR_Cannabis_Processing">
+      <Original>Cannabis trocknen...</Original>
+      <German>Cannabis trocknen...</German>
     </Key>
     <Key ID="STR_MAR_Sand_Mine">
       <Original>Sand Mine</Original>
@@ -3321,7 +3346,7 @@
       <German>Schrotthändler</German>
     </Key>
     <Key ID="STR_MAR_Cocaine_Processing">
-      <Original>Cocaine Processing</Original>
+      <Original>Kokain Verarbeiter</Original>
       <German>Kokain Verarbeiter</German>
     </Key>
     <Key ID="STR_MAR_Copper_Mine">
@@ -3405,7 +3430,7 @@
       <German>Taucherladen</German>
     </Key>
     <Key ID="STR_MAR_Drug_Dealer">
-      <Original>Drug Dealer</Original>
+      <Original>Drogendealer</Original>
       <German>Drogendealer</German>
     </Key>
     <Key ID="STR_MAR_Sofia_Freight_Yard">
@@ -3437,11 +3462,11 @@
       <German>Boot Spawn</German>
     </Key>
     <Key ID="STR_MAR_Copper_Processing">
-      <Original>Copper Processing</Original>
+      <Original>Kupfer schmelzen...</Original>
       <German>Kupfer schmelzen...</German>
     </Key>
-	 <Key ID="STR_MAR_wolfram_Processing">
-      <Original>Copper Processing</Original>
+	 <Key ID="STR_MAR_Wolfram_Processing">
+      <Original>Wolfram schmelzen...</Original>
       <German>Wolfram schmelzen...</German>
     </Key>
     <Key ID="STR_MAR_Cocaine_Field">
@@ -3520,6 +3545,10 @@
       <Original>Cement Trader</Original>
       <German>Zement Händler</German>
     </Key>
+	    <Key ID="STR_MAR_Zinn_Trader">
+      <Original>Zinnhändler</Original>
+      <German>Zinnhändler</German>
+    </Key>
     <Key ID="STR_MAR_Turtle_Poaching">
       <Original>Turtle Poaching</Original>
       <German>Wilderei für Schildkröten</German>
@@ -3577,7 +3606,7 @@
       <German>Rebellen Markt</German>
     </Key>
     <Key ID="STR_MAR_Question_Dealer">
-      <Original>Question Dealer</Original>
+      <Original>Informant</Original>
       <German>Informant</German>
     </Key>
     <Key ID="STR_MAR_Service_helicopter">

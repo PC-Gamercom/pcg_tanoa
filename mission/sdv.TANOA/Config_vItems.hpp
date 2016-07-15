@@ -189,6 +189,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "alubarren"};
     };
+	
+	class zinn{
+        name = "STR_MAR_Zinn_Trader";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "zinnbarren"};
+    };
 };
 
 /*
@@ -508,7 +516,7 @@ class VirtualItems {
         displayName = "STR_Item_Wolframp";
         weight = 5;
         buyPrice = -1;
-        sellPrice = -1;
+        sellPrice = 1900;
         illegal = false;
         edible = -1;
         icon = "";
