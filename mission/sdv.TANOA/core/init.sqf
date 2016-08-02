@@ -135,7 +135,6 @@ life_fnc_moveIn = compileFinal
 	};
 };
 
-
 /* vAH */
 waitUntil {vAH_loaded};
 private["_total","_uid","_toDel"];
@@ -150,6 +149,8 @@ _uid = getPlayerUID player;
 BANK = BANK + _total;
 [1] call SOCK_fnc_updatePartial;
 };
+
+
 
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};

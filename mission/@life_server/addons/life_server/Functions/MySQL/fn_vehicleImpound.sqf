@@ -34,7 +34,7 @@ if(_impound) then {
  deleteVehicle _vehicle;
  };
  } else {
- _query = format["UPDATE vehicles SET active='0',impound='1', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,fuel _vehicle];
+ _query = format["UPDATE vehicles SET active='0',impound='1', inventory='%3', gear='%4', fuel='%5' WHERE pid='%1' AND plate='%2'",_uid,_plate,_trunk,_cargo,_fuel _vehicle];
  _thread = [_query,1] call DB_fnc_asyncCall;
  //waitUntil {scriptDone _thread};
  if(!isNil "_vehicle" && {!isNull _vehicle}) then {

@@ -82,23 +82,6 @@ switch (playerSide) do
 	};
 };
 
-/* Changes The Paycheck Depending On Licenses */
-
-/* Police Changes */
-/*
-if(license_cop_cAir) then
-{
-	life_paycheck = life_paycheck + 0;
-};
-
-/* NHS Changes */
-/*
-if(license_med_mAir) then
-{
-	life_paycheck = life_paycheck + 0;
-};
-*/
-/* Civilian Changes */
 
 if(license_civ_rebel) then
 {
