@@ -13,10 +13,13 @@ disableSerialization;
 switch(playerSide) do {
 	case west: {
 		ctrlShow[2011,false];
+		ctrlShow[40003,false]; //medic placeables
 	};
 
 	case civilian: {
 		ctrlShow[2012,false];
+		ctrlShow[20003,false];
+		ctrlShow[40003,false]; //medic placeables
 	};
 };
 

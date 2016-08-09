@@ -9,13 +9,13 @@ _onScreenTime = 10; //how long one role should stay on screen. Use value from 0 
 uisleep 12; //Wait in seconds before the credits start after player IS ingame
 
 _role1 = "Willkommen auf dem";
-_role1names = ["Staat der Visonäre Server"];
+_role1names = ["Staat der Visonäre Server","Ein Server der PC-Gamercom.de - Gamergemeinschaft e.V"];
 _role2 = "Polizei News";
 _role2names = ["Wir suchen immer neue Polizistinnen und Polizisten ab 16 Jahre","Bewerbung unter board.pc-gamercom.de"];
 _role3 = "Rettungsdienst";
 _role3names = ["Egal ob Feuerwehr- oder Pannendienst. Wir suchen fähige Mitarbeiter","Bewerbung unter board.pc-gamercom.de"];
 _role4 = "Features";
-_role4names = ["Deutsche Polizeikräfte"];
+_role4names = ["Marktsystem","Traffic-System","Auktionshaus"];
 _role5 = "TeamSpeak 3";
 _role5names = ["pc-gamercom.de:9999"];
 _role6 = "Anti Hack";
@@ -27,9 +27,9 @@ _role8names = ["Big Mike"];
 _role9 = "Admins";
 _role9names = ["Dr. Hippel", "Fettfingaz"];
 _role10 = "Support-Leitung";
-_role10names = ["Bewerb Dich dazu im Forum","Bewerbung unter board.pc-gamercom.de"];
+_role10names = ["Hightower","Bewerbung unter board.pc-gamercom.de"];
 _role11 = "Supporter";
-_role11names = ["Bewerb Dich dazu im Forum","Bewerbung unter board.pc-gamercom.de"];
+_role11names = ["Sameru Gamblo","Bewerbung unter board.pc-gamercom.de"];
 _role12 = "Community Team";
 _role12names = ["Bewerb Dich dazu im Forum","Bewerbung unter board.pc-gamercom.de"];
 _role13 = "besonderer Dank geht an";

@@ -24,9 +24,9 @@ _ownerID = owner _ownerID;
 	The other part is well the SQL statement.
 */
 _query = switch(_side) do {
-	case west: {_returnCount = 11; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='%1'",_uid];};
+	case west: {_returnCount = 11; format["SELECT playerid, name, westcash, westbankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='%1'",_uid];};
 	case civilian: {_returnCount = 10; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, civ_licenses, arrested, civ_gear, civ_stats FROM players WHERE playerid='%1'",_uid];};
-	case independent: {_returnCount = 10; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, med_licenses, mediclevel, med_gear, med_stats FROM players WHERE playerid='%1'",_uid];};
+	case independent: {_returnCount = 10; format["SELECT playerid, name, indcash, indbankacc, adminlevel, donatorlvl, med_licenses, mediclevel, med_gear, med_stats FROM players WHERE playerid='%1'",_uid];};
 };
 
 

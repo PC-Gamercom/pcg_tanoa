@@ -22,6 +22,7 @@ player SVAR ["transporting",false,true];
 titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
 player setPos (getMarkerPos "jail_marker");
+player setPosATL [getPosATL player select 0, getPosATL player select 1,((getPosATL player select 2) + 2.3)];
 
 if(_bad) then {
 	waitUntil {alive player};
@@ -29,9 +30,9 @@ if(_bad) then {
 };
 
 //Check to make sure they goto check
-if(player distance (getMarkerPos "jail_marker") > 40) then {
-	player setPos (getMarkerPos "jail_marker");
-};
+player setPos (getMarkerPos "jail_marker");
+player setPosATL [getPosATL player select 0, getPosATL player select 1,((getPosATL player select 2) + 2.3)];
+
 
 [1] call life_fnc_removeLicenses;
 
@@ -43,9 +44,13 @@ if(player distance (getMarkerPos "jail_marker") > 40) then {
 } forEach ["heroin_unprocessed","heroin_processed","cannabis","marijuana","cocaine_unprocessed","cocaine_processed","turtle_raw"];
 
 life_is_arrested = true;
-
 removeAllWeapons player;
-{player removeMagazine _x} forEach (magazines player);
-
+{player removeMagazine _x} foreach (magazines player);
+removeVest player;
+removeBackpack player;
+removeUniform player;
+player forceAddUniform "U_IG_Guerilla2_1";
+uisleep 0.2;
+player setObjectTextureGlobal [0,"#(argb,8,8,3)color(0.6,0.3,0.01,1)"];
 [player,_bad] remoteExecCall ["life_fnc_jailSys",RSERV];
 [5] call SOCK_fnc_updatePartial;

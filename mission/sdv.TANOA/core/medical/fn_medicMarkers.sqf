@@ -11,54 +11,48 @@ _markersMedecin = [];
 _units = [];
 _medics = [];
 
-sleep 0.25;
-if(visibleMap) then {
-	{if(side _x == independent) then {_medics pushBack _x;}} foreach playableUnits; //Fetch list of cops / blufor
+// waiiit for it
+uiSleep 0.3;
+
+if (visibleMap) then {
+	// ich sehe tote menschen
 	{
-		_name = _x getVariable "name";
-		_down = _x getVariable ["Revive",false];
-		if(!isNil "_name" && !_down) then {
-			_units pushBack _x;
+		if !(_x getVariable ["Revive", true]) then {
+			private _tmp_marker = createMarkerLocal [format["%1_dead_marker", _x], visiblePosition _x];
+			_tmp_marker setMarkerColorLocal "ColorRed";
+			_tmp_marker setMarkerTypeLocal "loc_Hospital";
+			_tmp_marker setMarkerTextLocal format ["Verwundeter: %1", (_x getVariable ["realname", "Unbekannte Person"])];
+			_markers pushBack _tmp_marker;
 		};
-	} foreach allDeadMen;
+		nil
+	} count allDeadMen;
 
+	// fw list
 	{
-		if(_x != player) then {
-			_markerss = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
-			_markerss setMarkerColorLocal "ColorIndependent";
-			_markerss setMarkerTypeLocal "Mil_dot";
-			_markerss setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
-
-			_markersMedecin pushBack [_markerss,_x];
+		if ( (side _x isEqualTo independent) && {!(isObjectHidden _x)} ) then {
+			_tmp_marker = createMarkerLocal [format["%1_marker", _x], visiblePosition _x];
+			_tmp_marker setMarkerColorLocal "ColorGreen";
+			_tmp_marker setMarkerTypeLocal "Mil_Dot";
+			_tmp_marker setMarkerTextLocal format ["%1", (_x getVariable ["realname", name _x])];
+			_markersMedecin pushBack [_tmp_marker, _x];
 		};
-	} foreach _medics;
+		nil
+	} count playableUnits;
 
-	//Loop through and create markers.
-	{
-		_marker = createMarkerLocal [format["%1_dead_marker",_x],visiblePosition _x];
-		_marker setMarkerColorLocal "ColorRed";
-		_marker setMarkerTypeLocal "loc_Hospital";
-		_marker setMarkerTextLocal format["%1",(_x getVariable["name","Unknown Player"])];
-		_markers pushBack _marker;
-	} foreach _units;
-
-	while {visibleMap} do {
+	// loop
+	waitUntil {
 		{
-			private["_marker","_unit"];
-			_markersss = _x select 0;
-			_unit = _x select 1;
-			if(!isNil "_unit") then {
-				if(!isNull _unit) then {
-					_markersss setMarkerPosLocal (visiblePosition _unit);
-				};
+			_x params ["_marker", "_unit"];
+			if !((isNil "_unit") && {!(isNull _unit)}) then {
+				_marker setMarkerPosLocal (visiblePosition _unit);
 			};
-		} foreach _markersMedecin;
-		if(!visibleMap) exitWith {};
-		sleep 0.02;
+			nil
+		} count _markersMedecin;
+		uiSleep 0.02;
+		!(visibleMap)
 	};
-	{deleteMarkerLocal (_x select 0);} foreach _markersMedecin;
-	_markersMedecin = [];
-	_medics = [];
-	waitUntil {!visibleMap};
-	{deleteMarkerLocal _x;} foreach _markers;
+
+	// sauber machen
+	{ deleteMarkerLocal _x; nil } count _markers;
+	{ deleteMarkerLocal (_x select 0); nil } count _markersMedecin;
 };

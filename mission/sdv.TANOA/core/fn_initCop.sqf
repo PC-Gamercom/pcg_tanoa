@@ -24,7 +24,9 @@ if((FETCH_CONST(life_coplevel) == 0) && (FETCH_CONST(life_adminlevel) == 0)) the
 player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 [] call life_fnc_copUniform;
+[] spawn life_fnc_placeablesInit;
 [] execVM "IgiLoad\IgiLoadInit.sqf";
+[] call life_fnc_hudUpdate;
 
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.

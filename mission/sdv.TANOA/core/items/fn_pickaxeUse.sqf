@@ -1,4 +1,3 @@
-
 #include "..\..\script_macros.hpp"
 /*
 	File: fn_pickaxeUse.sqf
@@ -12,14 +11,15 @@ _mine = "";
 
 switch (true) do {
 	case (player distance (getMarkerPos "copper_mine") < 30): {_mine = ["copper_unrefined",2];};
-	case (player distance (getMarkerPos "gold_mine") < 30): {_mine = ["golderz",2];};
 	case (player distance (getMarkerPos "zinn_mine") < 40) : {_mine = ["zinnerz",1];};
-	case (player distance (getMarkerPos "alu_mine") < 75) : {_mine = ["aluerz",2];};
+	case (player distance (getMarkerPos "alu_mine") < 45) : {_mine = ["aluerz",2];};
 	case (player distance (getMarkerPos "wolfram_mine") < 50): {_mine = ["wolframu",1];};
 	case (player distance (getMarkerPos "eisen_mine") < 50): {_mine = ["iron_unrefined",1];};
 	case (player distance (getMarkerPos "hanf_plan_01") < 40) : {_mine = ["hanf",2];};
-	case (player distance (getMarkerPos "eichenholz_1") < 50): {_mine = ["eichenholz",2];};
-	case (player distance (getMarkerPos "tropenholz_1") < 50): {_mine = ["tropenholz",2];};
+	case (player distance (getMarkerPos "rock_quarry") < 30): {_mine = ["rock",2];};
+	case (player distance (getMarkerPos "diamond_mine") < 30): {_mine = ["diamond_uncut",2];};
+	case (player distance (getMarkerPos "sand_mine") < 30) : {_mine = ["sand",2];};
+	
 	default {""};
 };
 

@@ -51,6 +51,15 @@ class playerSettings {
 			style = 1;
 			text = "";
 		};
+		class InvTablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "textures\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+		};
 	};
 	
 	class controls {
@@ -143,17 +152,6 @@ class playerSettings {
 			x = 0.62; y = 0.65;
 			w = 0.275; h = 0.03;
 		};
-		/*
-		Disabled till it can be redone
-		class moneyInput: life_RscCombo {
-			
-			idc = money_value;
-			
-			x  = 0.02; y = 0.402;
-			w = .1; h = .030;
-		};
-		*/
-		
 		class DropButton : life_RscButtonMenu {
 			
 			idc = 2002;
@@ -192,20 +190,7 @@ class playerSettings {
 			w = (5.25 / 40);
 			h = (1 / 25);
 			
-		};
-		/*
-		Disabled till it can be redone
-		class DropcButton : life_RscButtonMenu {
-
-			text = "Drop Money";
-			onButtonClick = "[] execVM 'player_system\money_fnc.sqf'";
-			
-			x = 0.13; y = 0.4;
-			w = 0.135; h = 0.05;
-			
-		};
-		*/
-		
+		};		
 		class ButtonClose : life_RscButtonMenu {
 			idc = -1;
 			//shortcuts[] = {0x00050000 + 2};
@@ -282,7 +267,7 @@ class playerSettings {
 		class ButtonCell : Life_RscButtonMenu {
 			idc = 2014;
 			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
+			onButtonClick = "createDialog ""Life_my_smartphone"";";
 			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
@@ -316,6 +301,26 @@ class playerSettings {
 			onButtonClick = "[] call SOCK_fnc_syncData;";
 			x = 0.1;
 			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		class ButtonPlaceables: Life_RscButtonMenu {
+			idc = 20003;
+			text = "Placeables"; //<----- TO:DO LOCALIZE POLICE SIDE
+			onButtonClick = "[] spawn life_fnc_placeablesMenu; closeDialog 0;";
+			//x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.801;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
+			idc = 40003;		
+			text = "Placeables"; //<----- TO:DO LOCALIZE POLICE SIDE
+			onButtonClick = "[] spawn life_fnc_placeablesMenuMEDIC; closeDialog 0;";
+			//x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.801;
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};

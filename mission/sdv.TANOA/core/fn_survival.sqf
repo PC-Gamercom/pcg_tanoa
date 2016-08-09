@@ -105,6 +105,6 @@ while {true} do {
 	};
 	uiSleep 1;
 };
-	
-	
+[] call life_fnc_medicUniform;	
+[] call life_fnc_playerSkins;	
 	

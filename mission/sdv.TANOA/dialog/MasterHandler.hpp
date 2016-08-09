@@ -31,5 +31,7 @@
 #include "impunded.hpp"
 #include "AH_buy.hpp"
 #include "AH_vsell.hpp"
-
-
+#include "placeables.hpp" //Maxi Cop objects
+#include "smartphone.hpp"
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"

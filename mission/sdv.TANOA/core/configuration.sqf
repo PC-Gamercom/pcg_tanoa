@@ -46,7 +46,9 @@ life_action_pickaxeInUse = false;
 
 //SDV VARIS
 sdv_is_speaking = false;
+life_flashlight = false;
 sdv_Earplugs = 0;
+sdv_uid = "???";
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
@@ -90,3 +92,34 @@ life_vehicles = [];
 
 	SVAR_MNS [LICENSE_VARNAME(_varName,_sideFlag),false];
 } foreach ("true" configClasses (missionConfigFile >> "Licenses"));
+
+
+
+
+if(playerSide == independent) then
+{
+profilenamespace setVariable ["GUI_BCG_RGB_R",0.5];
+profilenamespace setVariable ["GUI_BCG_RGB_G",0];
+profilenamespace setVariable ["GUI_BCG_RGB_B",0];
+};
+
+if(playerSide == east) then
+{
+profilenamespace setVariable ["GUI_BCG_RGB_R",0.5];
+profilenamespace setVariable ["GUI_BCG_RGB_G",0];
+profilenamespace setVariable ["GUI_BCG_RGB_B",0];
+};
+
+if(playerSide == west) then
+{
+profilenamespace setVariable ["GUI_BCG_RGB_R",0.2];
+profilenamespace setVariable ["GUI_BCG_RGB_G",0.5];
+profilenamespace setVariable ["GUI_BCG_RGB_B",1];
+};
+
+if(playerSide == civilian) then
+{
+profilenamespace setVariable ["GUI_BCG_RGB_R",0];
+profilenamespace setVariable ["GUI_BCG_RGB_G",0.3];
+profilenamespace setVariable ["GUI_BCG_RGB_B",0];
+};

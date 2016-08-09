@@ -12,12 +12,12 @@
 // █████████████████ DYNAMIC MARKET BASIC CONFIGURATION ██████████████████
 // ███████████████████████████████████████████████████████████████████████
 
-DYNMARKET_Serveruptime         = 05;   // Serveruptime after restart in hours
-DYNMARKET_UseExternalDatabase  = true; // Should the script use the External Database?
+DYNMARKET_Serveruptime         = 04;   // Serveruptime after restart in hours
+DYNMARKET_UseExternalDatabase  = false; // Should the script use the External Database?
 DYNMARKET_PriceUpdateInterval  = 01;   // After how many minutes should the price be updated?
-DYNMARKET_CreateBackups        = true; // Should the server save write the prices regulary into the Database? If false, it will save the prices before Server-restart?
+DYNMARKET_CreateBackups        = false; // Should the server save write the prices regulary into the Database? If false, it will save the prices before Server-restart?
 DYNMARKET_CreateBackupInterval = 03;   // After how many updates (PriceUpdateIntervals) should the prices be saved into the Database?
-DYNMARKET_UserNotification     = true; // Should the user be informed with a hint whenever the prices got updated?
+DYNMARKET_UserNotification     = false; // Should the user be informed with a hint whenever the prices got updated?
 
 // █████████████████ USER NOTIFICATION TEXTS  █████████████████
 
@@ -33,8 +33,8 @@ DYNMARKET_Items_Groups =
 [
 	["Legal",
 		[
-			["apple",-1,10,50],
-			["peach",-1,30,100]
+			["banane",-1,10,50],
+			["oliven",-1,30,100]
 		],
 		0.5
 	],
@@ -50,68 +50,85 @@ DYNMARKET_Items_Groups =
 
 DYNMARKET_Items_ToTrack        = 
 [
-
-	["banane",25],
-	["ananas",50],
-	["peach",125],
-	["donut",130],
-	["coffee",150],
-	["waterBottle",170],
-	["rabbit",190],
-	["painkillers",190],
-	["morphium",190],
-	["redgull",190],
-	["tbacon",190],
-	["lockpick",190],
-	["pickaxe",190],
+	//Misc
+	["pickaxe",200],
+	["flashlightshoulder",35],
+	["fuelEmpty",35],
 	["fuelFull",200],
-	["boltcutter",200],
-	["blastingcharge",200],
-	["zyankalikapsel",200],
-	["blindfold",200],
-	["handcuffs",200],
-	["gpstracker",210],
-	["protestSign",210],
-	["beer",155],
-	["bottledwhiskey",155],
-	["bottledshine",300],
+	["spikeStrip",35],
+	["lockpick",35],
+	["goldbar",200],
+	["blastingcharge",35],
+	["boltcutter",35],
+	["defusekit",35],
+	["storagesmall",200],
+	["storagebig",35],
+
+	//Drink
+	["redgull",200],
+	["coffee",35],
+	["waterBottle",35],
+
 	
-	["drakecocktail",1500],
-	["salema",10],
-	["ornate",10],
-	
-	["mackerel",350],
-	["mullet",500],
-	["tuna",1200],
-	["catshark",75],
-	["salema_raw",95000],
-	["ornate_raw",35000],
-	["mackerel_raw",7500],
-	["mullet_raw",2500],
-	["tuna_raw",75000],
-	["catshark_raw",15000],
-	
-	["goldbar",1200],
-	["meth",1700],
-	["marijuana",1650],
-	["kokosmilch",1850],
-	["kokosfleisch",1450],
-	["diamond_cut",2530],
-	["cement",2350],
-	
-	["zucker",5000],
-	["copper",5250],
-	["palmenOl",5300],
-	["zigaretten",5000],
-	["steel",5250],
-	["holz",5300],
-	["coal",5000],
-	["kristalle",5250],
-	["uranIL",5300],
-	
-	["antiqui",5000],
-	["crab",5250],
-	["coralP",5300]
+	//Food
+	["tbacon",200],
+	["donuts",35],
+	["rabbit_raw",35],
+	["rabbit",200],
+	["salema_raw",35],
+	["salema",35],
+	["ornate_raw",200],
+	["ornate",35],
+	["mackerel_raw",35],
+	["mackerel",35],
+	["tuna_raw",35],
+	["tuna",35],
+	["mullet_raw",35],
+	["mullet",35],
+	["catshark_raw",35],
+	["catshark",35],
+	["turtle_raw",35],
+	["turtle_soup",35],
+	["hen_raw",35],
+	["hen",35],
+	["rooster_raw",35],
+	["rooster",35],
+	["sheep_raw",35],
+	["sheep",35],
+	["goat_raw",35],
+	["goat",35],
+
+	//ROHSTOFFE
+	["banane",35],
+	["oliven",35],
+	["birnen",35],
+	["muschel",50],
+	["erdbeeren",35],
+	["kiwi",25],
+	["kirsche",35],
+	["gerste",10],
+	["hopfen",10],
+	["weizen",10],
+	["wasser",5],
+	["hanffaser",20],
+	["eichp",1900],
+	["wolframp",1500],
+	["alubarren",2200],
+	["tropp",750],
+	["kakaopulver",1350],
+	["oil_processed",3200],
+	["copper_refined",1600],
+	["iron_refined",2000],
+	["salt_refined",1450],
+	["glass",1900],
+	["gummip",750],
+	["diamond_cut",4950],
+	["cement",1350],
+	["zinnbarren",3100],
+	["heroin_processed",6000],
+	["marijuana",4000],
+	["cocaine_processed",7000],
+	["korallever",3000]
 ];
 
 //███████████████████████████████████████████████████████████████████████

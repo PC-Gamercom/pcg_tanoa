@@ -32,7 +32,15 @@ class Clothing {
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
+            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } },
+			{ "U_C_Man_casual_2_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_Man_casual_3_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_Man_casual_4_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_Man_casual_5_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_Man_casual_6_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_man_sport_1_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_man_sport_2_F", "Casual Wears", 5000, { "", "", -1 } }, //Apex DLC
+            { "U_C_man_sport_3_F", "Casual Wears", 5000, { "", "", -1 } } //Apex DLC
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -79,6 +87,8 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_OutdoorPack_blk", "", 50, { "", "", -1 } },
+			{ "tf_anprc155", "", 50, { "", "", -1 } }, // Funkrucksack
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
@@ -102,8 +112,9 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+			
+
         };
     };
 
@@ -162,6 +173,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "tf_rt1523g_black", "", 50, { "", "", -1 } }, // Funkrucksack
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
             { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
@@ -234,7 +246,8 @@ class Clothing {
             { "V_Rangemaster_belt", "", 1900, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "tf_anprc155", "", 50, { "", "", -1 } } // Funkrucksack
         };
     };
 
@@ -244,7 +257,9 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "EMS Uniform", 50, { "", "", -1 } }
+            { "U_Rangemaster", "EMS Uniform", 50, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "Feuerwehr Uniform", 50, { "", "", -1 } },
+			{ "U_I_CombatUniform", "Medic Uniform", 50, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -260,6 +275,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
 			{ "B_Carryall_cbr", "EMS BackbackBIG", 5000, { "", "", -1 } },
+			{ "tf_anprc155", "", 50, { "", "", -1 } }, // Funkrucksack
             { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } }
         };
     };
@@ -276,7 +292,12 @@ class Clothing {
             { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
             { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_2_F", "", 51000, { "", "", -1 } }, //Apex DLC
+            { "U_I_C_Soldier_Bandit_3_F", "", 50032, { "", "", -1 } }, //Apex DLC
+            { "U_I_C_Soldier_Bandit_4_F", "", 50020, { "", "", -1 } }, //Apex DLC
+            { "U_I_C_Soldier_Bandit_5_F", "", 50020, { "", "", -1 } }, //Apex DLC
+            { "U_I_C_Soldier_Camo_F", "", 52000, { "", "", -1 } } //Apex DLC
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -320,6 +341,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "tf_anprc155", "", 50, { "", "", -1 } }, // Funkrucksack
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },

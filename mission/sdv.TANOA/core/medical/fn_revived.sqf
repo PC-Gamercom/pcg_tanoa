@@ -22,12 +22,13 @@ life_deathCamera cameraEffect ["TERMINATE","BACK"];
 camDestroy life_deathCamera;
 
 //Take fee for services.
+if(license_civ_einwohner) then {
 if(BANK > _reviveCost) then {
 	SUB(BANK,_reviveCost);
 } else {
 	BANK = 0;
 };
-
+};
 //Bring me back to life.
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
@@ -39,5 +40,4 @@ deleteVehicle life_corpse;
 player SVAR ["Revive",nil,TRUE];
 player SVAR ["name",nil,TRUE];
 player SVAR ["Reviving",nil,TRUE];
-[] call life_fnc_playerSkins;
 [] call life_fnc_hudUpdate; //Request update of hud.

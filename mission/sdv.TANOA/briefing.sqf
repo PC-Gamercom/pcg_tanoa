@@ -64,196 +64,286 @@ player createDiarySubject ["controls","Controls"];
 
 	player createDiaryRecord ["serverrules",
 		[
+			"§1 Verhaltensregeln",
 			"
-			Alle Serverregeln entnehmen Sie bitte aus dem Forum.<br/>
+			<br/>
+			Keine Beleidigungen, rassistische Äußerungen, Parolen oder anderweitige destruktive Kommunikation (dieses gilt auch für Spielernamen)
+			(Ausnahme: Beleidigungen mit RP-Hintergrund im Spiel)<br/>
+			Kein Spammen
+			Jeder Spieler sollte zwischen Ingame Feindseeligkeiten und persönlichen Hintergründen im Ts bzw. im realen Leben differenzieren können.
+			Mit sofortiger Wirkung hat die Aussage “Allahu Akbar” und sämtliche weitere Aussagen, die mit solch extremer Gewalt (durch Religion)<br/> in der realen Welt verbunden sind hier nichts mehr zu suchen!<br/> Ein unmittelbarer Perm Ban kann als Konsequenz gezogen werden.<br/>
+			<br/>
+			Teamspeak
+			<br/>
+			Informationen aus dem Teamspeak dürfen nicht zu Spielzwecken genutzt werden<br/>
+			(z.B. “Polizist X” bekommt im Teamspeak mit, dass “Gang Y” beim Drogendealer ist.<br/> Polizist darf diese Information nicht nutzen / an seine Kollegen weitergeben)<br/>
+			Ausnahme: Kommunikation einzelner Gruppen untereinander (Zivilisten, Polizei, Feuerwehr)<br/>
+			Polizisten haben sich während ihres Dienstes grds. nicht in Zivilisten-/Gangchanneln aufzuhalten.<br/>
+			<br/>
+			Spiel
+			<br/>
+			Die Kommunikation via SMS ist grundsätzlich nicht RP-tüchtig,<br/> da nicht davon ausgegangen werden kann, dass der andere ein Handy besitzt<br/> (Ausnahmen sind hier in den Regeln aufgeführt).<br/> Zudem besitzt der Staat kein öffentliches Telefonbuch. Drohungen via SMS sind somit ungültig.<br/>
+<br/>
+
 			"
 				
 		]
 	];
 
 
-// Police Section
-	player createDiaryRecord ["policerules",
+// Server
+	player createDiaryRecord ["serverrules",
 		[
-			"Crisis Negotiation",
+			"§2 Banngründe",
+			"
+			<br/>
+			Supporter bzw. Admins entscheiden über passende Konsequenzen / Strafen.
+			<br/>
+			Hacken / Cheaten
+			<br/>
+			Hacker und Cheater werden mit einem permanenten Ban bestraft<br/>
+			Combatlogging<br/>
+			Spiel beenden/ Ausloggen während einer Kampf-/Rollenspielsituation oder im Todesbildschirm<br/>
+			Fremdwerbung<br/>
+			Werbung für andere TANOA Life Server auf dem Spielserver, im Forum oder auf dem Teamspeak wird mit einem permanenten Ban bestraft.<br/>
+			<br/>
+			Bugusing 
+			<br/>
+			·         z.B. Money/ Itemduping, Wall Glitch, aussteigen aus Fahrzeugen oder einsteigen mit Handschellen, Fasttravel, Waffen von Leichen Looten (auch von eigenen Gangmitgliedern ist Verboten) , Aus dem Fahrzeug heraus zu tanken oder auch sachen zu kaufen bzw. verkaufen 24H Ban<br/>
+			·         Das Schießen in/aus Schilfs ist verboten und wird als Bugusing geahndet!<br/>
+			<br/>
+			Random Deathmatch (RDM)
+			<br/>
+
+			·         Töten ohne Rollenspielhintergrund.<br/>
+			·         Kollateralschäden im Kreuzfeuer gelten nicht als RDM. Töten in Selbstverteidigung (z.B., wenn man überfallen wird) gilt nicht als RDM.<br/>
+			·         Das Töten von kooperativen Opfern ist untersagt. Es sei denn die Gangmitglieder/ Mitarbeiter schreiten zu einer Befreiungsaktion ein.<br/>
+			·         Situationen werden von Fall zu Fall beurteilt.<br/>
+
+
+			Die Entgültige Strafe liegt nichts desto trotz im Ermessen des Supporters/Admin! (Bei jedem Ban.)
+			<br/>
+
+			"
+		]
+	];
+	player createDiaryRecord ["serverrules",
+		[
+			"§3 Safezones",
 				"
-				Crisis Negotiation must be handled by a Sergeant. If one is not available, the person with the next highest rank must handle the situation.<br/><br/>
+				
+				<br/>
+				Safezones sind alle auf der Map (grün) markierten Bereiche.
+				<br/>
+				· In Safezones darf niemand überfallen oder getötet werden, ebenso ist der Diebstahl & Aufbrechen von Fahrzeugen verboten.<br/>
+				· Die Flucht, in eine Safezone ist Verboten.<br/>
+				· Safezones sind in einem Radius von 50 Metern um folgende Bereiche:<br/>
+				- Jeder auf der Karte Markierte ATM!<br/>
+				- Jeder offizielle Fahr-/ Flugzeugspawn (Shop/Garage)<br/>
+				- Händler (Markt, Gemischtwarenhändler, Kleidungshändler, Fahrzeughändler, Waffenhändler)<br/>
+				- Alle Polizei HQ´s und Checkpoints<br/>
+				- Jedes Krankenhaus ist eine Safezone, aus welcher nicht gespottet werden darf.<br/>
+				<br/>
+				·Das dauerhafte Schweben & Überfliegen über Polizeigelände ist untersagt, bei Zuwiderhandlung darf die Polizei das Feuer eröffnen!<br/>
+				·Katkoula, Georgtown, Tuvanka, Balavu und Moddergat sind Safezones, in diesen Städten ist erlaubt: Einbruch in Häuser und das Verteidigen <br/>von eignen Häusern durch Schusswaffengebrauch. Jeder andere Diebstahl in diesen Städten (Autos knacken usw.) ist Verboten..<br/>
+				·Bei einer Hausdurchsuchung von der Polizei in einer Safezone dürfen der Hausbesitzer und die zugehörige Gang (und keine andere Partei) das<br/> Haus mit Waffengewalt verteidigen. Sollte bei einem solchen Schusswechsel eine unbeteiligte Person zu Schaden kommen ist<br/> der Schaden durch den Auslöser komplett zu ersetzen, wird dies nicht getan wird der Vorfall als RDM gewertet.<br/>
+				·(kommt bald) Das Polizei Trainingsgelände ist absolutes Sperrgebiet, die Polizei besitzt sofortige Schießerlaubnis bei unbefugtem Betreten <br/>des Geländes, die Unbefugten, welche das Gelände betreten, sind nicht dazu befugt das Feuer zu erwidern.<br/>
+				<br/>
+				In Savezones ist folgendes NICHT gestattet:<br/>
+
+				·         Diebstahl von Fahrzeugen<br/>
+				·         Niederschlagen/Ausrauben anderer Personen<br/>
+				·         RDM/VDM<br/>
+				·         Das Zünden/Anbringen von Bomben<br/>
+				·         Entführen von Personen<br/>
+				·         Lösegeldübergabe<br/>
+				·         Trolling<br/>
+				<br/>
 				"
 		]
 	];
-	player createDiaryRecord ["policerules",
+	player createDiaryRecord ["serverrules",
 		[
-			"The Federal Reserve",
+			"§4 Luft- und Bodenfahrzeuge",
 				"
-				1. The Federal Reserve is illegal for civilians to enter, unless they have been given authorization. If civilians enter without authorization they are to be escorted off-site or arrested if they persist.
-				2. Helicopters flying over the Federal Reserve may be asked to leave and disabled if they refuse.<br/>
-				2. If the Federal Reserve is getting robbed, it is encouraged that all available officers move in to stop it.<br/>
-				3. Nearby officers should immediately head to the Federal Reserve to assist. Petty crimes can be dropped during a robbery.<br/>
-				4. Lethal force on bank robbers may be used if no other alternative is available. Every option to taze and arrest the person should be made first.<br/>
-				5. Police may not fire blindly into the building.<br/>
-				6. The police should evacuate the civilians from the building during a robbery.<br/>
-				7. Any civilian who actively makes an attempt to block the police from entering the building may be treated as an accomplice.<br/>
-				8. Supervisory officers may hire individuals or contract a group of people to work as security guards for the bank. See 'Contracting' section for more information.<br/><br/>
-				"
-		]
-	];
-	player createDiaryRecord ["policerules",
-		[
-			"Aviation",
-				"
-				1. No helicopter can land within city limits without authorization from the highest ranking officer online. (Exceptions being what is listed below.)<br/>
-				Kavala: The hospital helipad (037129) or docks (031128).<br/>
-				Athira: The sports field (138185) or behind the DMV (140188).<br/>
-				Pyrgos: The fields North/East of DMV (170127)<br/>
-				Sofia: Opposite the car shop (258214) or the fields Southeast of the garage (257212)<br/>
-				Small towns: An appropriate location may be chosen. This is to be judged by officers on a case by case basis.<br/><br/>
-
-				2. Helicopters may not land on roads.<br/>
-				3. Police may temporarily forbid landing at  but it cannot remain closed for a long period of time.<br/>
-				4. Helicopters cannot fly below 150m over the city without authorization.<br/>
-				5. Helicopters cannot hover over the city. Cops may only hover over the city if there is an active police operation going on.<br/><br/>
-
-				"
-		]
-	];
-
-	player createDiaryRecord ["policerules",
-		[
-			"Illegal Areas",
-				"
-				1. Gang areas are not considered illegal. Thus a cop may enter without a raid, but may not restrain or stop anyone inside without probable cause/illegal activity. (Talking to the gang NPC is NOT probable cause/illegal activity.)<br/>
-				2. Do not enter an illegal area unless it is part of a raid. see Raiding/Camping.<br/>
-				3. If you chase someone into an illegal area, call for backup.<br/>
-				4. Under no circumstances is an officer allowed to camp any illegal area.<br/><br/>
-				"
-		]
-	];
-
-	player createDiaryRecord ["policerules",
-		[
-			"Patrolling",
-				"
-				1. Police may patrol the island's roads and towns searching for abandoned vehicles and criminal activity.<br/>
-				2. Patrols can be done on foot inside of a town, or in a vehicle when outside.<br/>
-				3. Patrols do not include illegal areas. See Raiding/Camping.<br/><br/>
-				"
-		]
-	];
-
-	player createDiaryRecord ["policerules",
-		[
-			"Checkpoints",
-				"
-				Cops are encouraged to setup checkpoints in strategic areas to help combat illegal activity and promote safety on the road.<br/><br/>
-
-				1. A checkpoint must consist of 3 or more officers, utilizing 2 or more vehicles. An ATV does not count as one of the required vehicles, but may still be used.<br/>
-				2. A checkpoint can not be setup within 300m of an illegal area. Basically, you cannot set one up on top of an illegal area.<br/>
-				3. Checkpoints may only be setup on roads, but it does not have to be on a crossroad.<br/>
-				4. Checkpoints do not have to be marked on the map.<br/><br/>
-
-
-				Proper Checkpoint Procedure:<br/>
-				1. Have the driver stop the vehicle at a safe distance and turn off the engine.<br/>
-				2. Ask the driver and any passengers if they have any weapons.<br/>
-				3. Ask the driver and any passengers to exit the vehicle. If they have weapons, do not immediately restrain them when they get out, tell them to lower their weapons and given them a reasonable amount of time to do so.<br/>
-				4. Ask them where they are headed to and from.<br/>
-				5. Ask if they will submit to a search.<br/>
-				6. If they allow a search, you may restrain them and search them.<br/>
-				7. If they do not submit to a search, you must let them go, unless there is probable cause.<br/>
-				8. After the search is done, you may allow them to re-enter their vehicle and drive away.<br/>
-				9. In case anything illegal is found, the person may be ticketed or arrested depending on the crime.<br/><br/>
-				"
-		]
-	];
-
-	player createDiaryRecord ["policerules",
-		[
-			"Vehicles",
-				"
-				1. Vehicles in the parking lot, or are reasonably parked elsewhere should be left alone.<br/>
-				2. Vehicles that look abandoned, broken, with no driver, can be impounded.<br/>
-				3. Boats should be parked reasonably on shore.<br/>
-				4. Any vehicle that hasn't moved in a significant amount of time may be impounded.<br/>
-				5. Impounding is an essential job for a cop, it helps keep the server clean and less laggy.<br/>
-				6. If in doubt, always search the vehicle and message the owner(s) before impounding.<br/>
-				7. Police speedboats or Hunter HMGs may be used to assist in apprehending criminals. The weapon should be used to disable vehicles, not to blow them up.<br/><br/>
+				<br/>
+				· Absichtliches vor Fahrzeuge laufen kann zu einem Kick oder bei wiederholtem Male zum Ban führen. (Trolling)<br/>
+				· Absichtliches Überfahren von anderen Spielern ist verboten (VDM).<br/>
+				· Das Überfahren von Personen in Kampfsituationen ist erlaubt.<br/>
+				· Das Rammen von Fluggeräten ist verboten.<br/>
+				· Gepanzerte Fahrzeuge dürfen sich gegenseitig rammen<br/>
+				· Bei ein und aussteigen eines Fahrzeugs muss mindestens 10 Sek. Zeit gelassen werden um dieses abzuschließen.<br/>
+				· Das absichtliche Zerstören von gestohlenen Fahrzeugen jeglicher Art ist untersagt.<br/>
+				· Bei Ankündigung (Halt stehen bleiben etc.) darf erst dann auf die Reifen des flüchtenden Fahrzeuges geschossen <br/>werden wenn dieser nicht sofort anhält.<br/>
+				· Illegale Landfahrzeuge ( Ifrit, sowie bewaffnete Fahrzeuge) dürfen bei sofortiger Sichtung lahmgelegt werden.( Nur von der Polizei ! )<br/>
+				<br/>
+				<br/>
+				· In einer Verfolgungsjagd ist es erlaubt ein Fahrzeug von der Seite zu rammen, man darf sich auch vor ein Fahrzeug setzen und abrupt abbremsen.<br/>
+				· Jedoch nicht erlaubt ist es ein Fahrzeug frontal zu rammen und mit erhöhter Geschwindigkeit von hinten zu rammen. Es sollte versucht werden, <br/>das Fahrzeug zu stoppen und nicht zum explodieren zu bringen.<br/>
+				· Sollten bei diesem handeln eines der beiden bzw. alle Fahrzeuge in die Luft gehen, wird dies nicht ersetzt. Beide Parteien sollten wissen, <br/>ab wann eine Verfolgungsjagd im Gange ist.<br/>
+				<br/><br/>
 				"
 		]
 	];
 
-	player createDiaryRecord ["policerules",
+	player createDiaryRecord ["serverrules",
 		[
-			"Speeding",
+			"§5 Kommunikation",
 				"
-				The following speeds are to be enforced by the Altis Police Force for the absolute safety of the citizens of Kavala and all travelling beyond the city.<br/><br/>
-
-				Inside major cities:<br/>
-				Small roads: 50km/h<br/>
-				Main roads: 65km/h<br/>
-				Outside major cities:<br/>
-				Small roads: 80km/h<br/>
-				Main roads: 110km/h<br/><br/>
+				·Rollenspiel heißt Kommunikation und dafür spielen wir TANOA Life, also Sprich mit den Leuten!<br/>
+				·Spammen in jeglicher Form ist verboten.<br/>
+				·Beleidigungen etc. im Direktchat sind verboten!<br/>
+				·Jegliche SMS, welche eine Gewaltandrohung beinhaltet, wird nicht als RP-Eröffnung gewertet. <br/>[Ausnahmen: Banküberfall, Geiselnahme, Checkpoint/Stadteinnahme, Krieg]<br/>
+				<br/>
 				"
 		]
 	];
 
-	player createDiaryRecord ["policerules",
+	player createDiaryRecord ["serverrules",
 		[
-			"City Protocol",
+			"§6 New Life Regel",
 				"
-				1. Officers may patrol major cities - Kavala, Athira, Pyrgos and Sofia.<br/>
-				2. Officers may stop by the car shop to make sure there are no cars that need to be impounded.<br/>
-				3. Officers may not stand around or loiter in the centre of town.<br/>
-				4. Officers may enter the town in a large number should a rebellious act occur. After the area is clear, they need to leave the town again.<br/>
-				5. Martial law may not be declared at any time.<br/>
-				6. The Police HQ buildings are illegal for civilians to enter without authorization, however it is NOT illegal for civilians to be nearby unless they are causing a nuisance.<br/><br/>
+				
+				<br/>
+				·Die New Life Regel gilt für alle Fraktionen und wird nur durch eine RP- Situation ausgelöst.<br/>
+				·Beginnt ein neues Leben, sind alle vorherigen Straftaten, Drohungen etc. nur vergessen, wenn man durch einen Polizisten zu Tode kommt.<br/>
+				·Hat man vor dem Tod eine Morddrohung o.Ä. einer Gruppe bzw. einer Einzelperson erhalten, sollte man diese über sein New Life informieren.<br/>
+				·Wenn du getötet wurdest, darfst du dich dem Ort deines Todes 30 Minuten höchstens auf 2500m (2,5km) nähern. Wobei ein einmaliges schnelles<br/> daran vorbei fahren / fliegen erlaubt ist.<br/>
+				·Bei einen Banküberfall darf ein verstorbener nicht mehr in das Geschehen eingreifen. ( Funk, Gruppenchannel, Spielgeschehen).<br/>
+				·Die Verbrecherkartei kann nur durch die Tötung eines Polizisten oder eine Strafe der Cops gelöscht werden oder wenn man die Strafe im Gefängniss abgesessen hat.<br/>
+				·Sterben durch Bugs, löst die New Life Regel nicht aus(es muss ein Video vorliegen.<br/>
+				·Durch die Reanimation eines Medic tritt die New Life Regel nicht in Kraft. Der Feuerwehr/ Feuerwehr-beamte muss die Person zur Versorgung ins Krankenhaus mitnehmen.<br/>
+				·Liegt die Spielerzahl der Polizei bei unter 6 (Anzahl <= 6), und das Geschehen hat sich nicht zum Großteil aufgelöst, darf die Polizei nach 15 Minuten wieder ins Geschehen eingreifen.<br/>
+				·Wenn eine Person im Zuge eines Überfalls an der Mine/Verarbeiter stirbt, ist es dieser Person verboten am Ort des Todes und des folgenden Verarbeiter/Händler erneut in das Geschehen einzugreifen<br/> ( hierbei gillt ein Richtwert von 30Min ). Dies wird als New-Life-Bruch gewertet und entsprechend bestraft. <br/>(Beispiel1: Person X überfällt am Metallverarbeiter und stirbt. Es ist ihm verboten am Metallhändler die selbe Person noch einmal zu überfallen. Beispiel 2: Person X wird an der Mine überfallen und stirbt.<br/> Es ist dieser Person im Anschluss verboten ein geklautes Fahrzeug am Verarbeiter oder dem Händler zurückzuerobern.) <br/>Ist der Richtwert von 30 Min erreicht so darf man sich wieder ohne Probleme dem Ort nähern.<br/>
+				<br/>
 				"
 		]
 	];
 
-	player createDiaryRecord ["policerules",
+	player createDiaryRecord ["serverrules",
 		[
-			"Arresting and Ticketing",
+			"§7 Die Zentralbank",
 				"
-				Arresting should be done to criminals who are considered a danger to themselves or others.<br/><br/>
+				Zahl der benötigten Polizisten: 8<br/>
+				<br/>
+				<br/>
+				·Die Sperrzone um die Zentralbank (falls ausgeraubt) beträgt 1500 Meter (1,5 km).<br/>
+				·Die Zentralbank ist eine Sperrzone für Zivilisten.<br/>
+				·Sollten Zivilisten auf dem Gelände angetroffen werden, muss mit Verhaftung gerechnet werden, die Schussfreigabe muss vom Einsatzleiter genehmigt werden.<br/>
+				·Um die Zentralbank ausrauben zu können müssen min. 8 Polizisten im Dienst gemeldet sein.<br/>
+				·Fahrzeuge welche als Sperre dienen oder den Einsatz der Polizei gefährden/ behindern, dürfen in Gewahrsam genommen werden.<br/>
+				·Ab dem ersten Alarm besteht eine Sperrzone im Umkreis von 1,5km der Bank, welche erst nach Benachrichtigung durch die Polizei aufgehoben wird.<br/>
+				·Diese Sperrzone muss nicht zusätzlich von der Polizei angekündigt werden.<br/>
+				·Außerhalb der Rot markierten Zone ( Rote Linie ) ist es erlaubt , wenn eine ankündigung erfolgt , ein eingriff durch Dritte zu starten .<br/>
+				<br/>
 
-				1. You may not arrest someone if you have given them a ticket and they paid it.<br/>
-				2. You must tell the suspect why they are being arrested before you arrest them.<br/>
-				3. If a civilian is wanted, you may arrest them. Do not kill them, unless the situation falls under the 'Use of Lethal Force' section.<br/><br/>
-
-
-				Ticketing a civilian is considered a warning for the civilian. If they break a law, but do not pose a threat to anyone, you may ticket a civilian.<br/><br/>
-
-				1. Tickets must be a reasonable price.<br/>
-				2. Ticket prices should be based off of the crimes committed.<br/>
-				3. Refusal to pay a legit ticket is grounds for arrest.<br/>
-				4. Giving a civilian and illegitimate ticket, such as $100k for speeding, etc., is not allowed and will result in your removal from the police department.<br/><br/>
-
-				A complete list of all crimes and the appropriate punishments should be given to officers during training. If in doubt, or if you have not been trained, ask a higher ranking officer what to do.<br/><br/>
-
-				The list is available at crime.sealteamsloth.com<br/><br/>
 				"
 		]
 	];
 
-	player createDiaryRecord ["policerules",
+	player createDiaryRecord ["serverrules",
 		[
-			"Weapons",
+			"§8 Gang",
 				"
-				A cop is NEVER allowed to supply civilians with weapons. This will get you banned from the server and removed from being a cop.<br/><br/>
+				
+				<br/>
+				Bei Polizeieinsätzen in Ganggebieten, entscheiden die Beamten selbst, welche Mittel genutzt werden, um Bedrohungen zu kontrollieren. Zudem dürfen auch Unbewaffnete überwältigt werden.<br/>
 
-				Legal Weapons for Civilians to carry with a permit:<br/>
-				1. P07<br/>
-				2. Rook<br/>
-				3. ACP-C2<br/>
-				4. Zubr<br/>
-				5. 4-five<br/>
-				6. PDW2000<br/><br/>
+				Eine Gruppenzugehörigkeit kann grds. nicht herausgefunden werden (RP z.B. Datenbank-Polizei).<br/>
+				Ausnahme: Truppenbild auf Fahrzeugen (squad.xml)<br/>
+				Ein Clan-Tag ist Pflicht, das Clantag kann aus z.B [UPV]Test oder Test van darwin bestehen, d.h. entweder vor oder hinter dem Namen in Klammern[ ] oder einen gleichen Hausnamen. Überfälle <br/>oder Tötungen ohne Clan-Tag in einer Situation der Gang werden bestraft. Wenn ihr einen Rang habt z.B. Major,Leutnant etc. <br/>Müssen diese außerhalb der Klammer oder vor dem Hausnamen stehen. Denn sonst gilt das als anderes Clantag oder es Geht auch z.B so :<br/> |TST|General| oder [TST]Generall] die Hauptsache ist, dass das Clantag alleine steht.<br/>
+				Wenn ein Gangversteck eingenommen wird/ist , und eine andere Fraktion dort hin kommt heißt es nicht Direkt feuer Frei ,<br/>
+				macht RP Sprecht mit den Leuten das ihr das eingenommen habt und die sich verziehen soll . Wird dem nicht Folge geleistet und ihr habt den personen genügend Zeit gegeben so dürft Ihr Reagieren.<br/>
 
-				Any other weapon (Including Silenced P07 [Considered a Police Weapon]) is illegal.<br/><br/>
+				Ausgehend von Beschlüssen aus dem Servermeeting 15.02.2015 werden Bündnisse unter Gangs untersagt, sowie das Gangmitglieder Limit auf 10 (+/- 2) gesetzt<br/>
+				(bezieht sich nur auf die Zahl der Personen, welche gleichzeitig online sind).<br/>
+				Gemeinsames farmen ist ebenfalls nicht erlaubt, da dieses für Bündnisse untereinander ausgenutzt wurde.<br/>
+				Eine Gang hat sich im Forum anzukündigen.<br/>
 
-				1. Civilians are not allowed to have a weapon out within the town limits.<br/>
-				2. Civilians may have a gun out when they are not in the town. However they should submit to a license search if confronted by an officer and should have the gun lowered (Press Ctrl Twice).<br/><br/>
+				"
+		]
+	];
+
+	player createDiaryRecord ["serverrules",
+		[
+			"§9 Geiselnahmen",
+				"
+
+				<br/>
+				Zahl der benötigten Polizisten: 5<br/>
+
+
+				·Der Polizei muss mind. zehn Minuten zur Antwort auf die erste Nachricht gegeben werden.<br/>
+
+
+				·Geiseln dürfen nicht aus eigenen Reihen stammen.<br/>
+				·Bei Geldforderungen, Geiselnahmen & Freikaufen von gestohlenen Fahrzeugen werden Gelder nicht auf das Konto überwiesen.<br/> Diese Forderungen müssen immer in Bar mit einem Verhandlungspartner oder einem gewählten Vertreter<br/>, an einem Ort der Übergabe, geregelt werden.<br/>
+				·Eine Forderung darf folgendes nicht beinhalten: Polizeifunkgeräte überhebliche Foderrungen (z.B 20 Millionen Euro). Alle anderen Forderungen sind mit einem Beamten vor Ort zu klären.<br/>
+				·Die Polizei hat jederzeit das Recht einen Zugriff zu durchzuführen. (Bei einem Zugriff muss das Hauptziel sein die Geisel lebend zu retten)<br/>
+				·Eine Geiselnahme muss mindestens 1 Stunde vor Server Restart beginnen. (Durch den Server Restart ist das Roleplay beendet)<br/>
+
+				"
+		]
+	];
+
+	player createDiaryRecord ["serverrules",
+		[
+			"§10 Spielgeschehen",
+				"
+
+				<br/>
+				Spieler und Fahrzeug Inventar<br/>
+
+				·         Wenn ein Fahrzeug von der Polizei beschlagnahmt wird, hat der Spieler keinen Anspruch auf Ersatz des Fahrzeuginventars.<br/>
+				·         Nach Aufforderung durch Polizeibeamte ist jeder dazu verpflichtet, sich komplett zu entkleiden (inklusive Westen, <br/>dieses ist nur auf Polizeigelände auszuführen).<br/>
+
+				<br/>
+				Schießereien
+				<br/>
+
+				·         Taxi / Feuerwehr / Eventteam sind neutral d.h. Beschuss und der Diebstahl deren Fahrzeuge ist untersagt und wird geahndet <br/>(bis zum Permanent-Bann ist alles möglich).<br/>
+				·         Eine Ausnahme stellt das Verhalten dar indem er sich in die direkte Schusslinie begibt.<br/>
+				·         Bei Ankündigung (Halt stehen bleiben etc.) darf erst dann auf die Reifen des flüchtenden Fahrzeuges geschossen werden wenn<br/> dieser nicht sofort anhält.<br/>
+				·         Man darf auf Helikopter Schiessen sofern keine Person dabei getötet wird oder der Heli abstürzt durch diese Schüsse.<br/> Wird die Person ausversehen erschossen oder ist der Heli<br/> abgestürzt ist mit der betroffenen Person Kontakt herzustellen um über Ausfall,<br/> Preise etc. zu sprechen. Zurückgeschossen werden darf nur sofern die gestoppte<br/>Person / Gruppe / Partei das Feuer eröffnet! Wenn der Pilot nicht nach 3 min abdreht, <br/>darf das Feuer auf den Heli ( Personen ) eröffnet werden.<br/>
+				·         Direktes schießen auf Personen ist nur gestattet, wenn man ihn laut und deutlich vorgewarnt hat.<br/>
+				·         Wenn Fahrzeuge gewaltsam gestoppt werden, (Nagelband, usw.) gilt dies NICHT als RP-Eröffnung<br/>
+				·         Wird ein Spieler ermordet, erschossen oder Stirbt aus irgendwelchen gründen, und wird wiederbelebt, so hat er dem Feuerwehr ins nächste Krankenhaus zu begleiten um das Roleplay fortzusetzen.<br/> Das nicht befolgen, sei es von Polizei, Feuerwehr oder Zivilist führt nach der ersten Verwarnung zu einem Ban von 4 Stunden.<br/>
+
+
+				<br/>
+				Rebellen Regeln
+				<br/>
+				·         Ein Rebell ist ein Zivilist der sich als Gegner des Systems erklärt und gegen dieses Widerstand ausübt.<br/>
+				·         Sei kreativ. Finde Gründe dafür gegen das System zu sein und erfinde kreative Möglichkeiten des Widerstands.<br/>
+				·         Jede Aktion benötigt einen guten Rollenspielhintergrund.<br/>
+
+				"
+		]
+	];
+
+	player createDiaryRecord ["serverrules",
+		[
+			"§10.1 Spielgeschehen Feuerwehr",
+				"
+
+				<br/>
+				Wird ein Spieler ermordet, erschossen oder Stirbt aus irgendwelchen gründen, und wird wiederbelebt,<br/> 
+				so hat er dem Feuerwehr ins nächste Krankenhaus zu begleiten um das Roleplay fortzusetzen.<br/>
+				Der Patient / Spieler, darf den Ort nach<br/>
+
+				"
+		]
+	];
+
+	player createDiaryRecord ["serverrules",
+		[
+			"§11 Geldwäsche",
+				"
+
+
+				Das Überweisen von Geldern zu bestehenen Spielern ist auf einer Summe von 150.000 $ Dollar begrenzt.<br/>
+				Das Überweisen von Mehr als 30.000 $ an neuen Spielern führt zum Geldreset.<br/>
+
 				"
 		]
 	];

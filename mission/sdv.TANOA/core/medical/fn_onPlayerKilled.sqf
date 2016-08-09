@@ -47,7 +47,12 @@ _unit spawn {
 	disableSerialization;
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
-
+	_medicsOnline = {_x != player && side _x == independent} count playableUnits;
+		if(_medicsOnline > 0) then {
+		life_respawn_timer = 10; // 5 Minuten
+		} else {
+			life_respawn_timer = 2.5;
+		};
 	_maxTime = time + (life_respawn_timer * 60);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
@@ -105,7 +110,6 @@ life_hunger = 100;
 life_thirst = 100;
 life_carryWeight = 0;
 CASH = 0;
-
 [] call life_fnc_hudUpdate; //Get our HUD updated.
 [player,life_sidechat,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 

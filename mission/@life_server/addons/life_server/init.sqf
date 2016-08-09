@@ -67,22 +67,6 @@ publicVariable "all_ah_items";
 		};
 	};
 };
-/* Map-based server side initialization. */
-/*
-master_group attachTo[bank_obj,[0,0,0]];
-
-{
-	_hs = createVehicle ["Land_Hospital_main_F", [0,0,0], [], 0, "NONE"];
-	_hs setDir (markerDir _x);
-	_hs setPosATL (getMarkerPos _x);
-	_var = createVehicle ["Land_Hospital_side1_F", [0,0,0], [], 0, "NONE"];
-	_var attachTo [_hs, [4.69775,32.6045,-0.1125]];
-	detach _var;
-	_var = createVehicle ["Land_Hospital_side2_F", [0,0,0], [], 0, "NONE"];
-	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
-	detach _var;
-} foreach ["hospital_2","hospital_3"];
-*/
 {
 	if(!isPlayer _x) then {
 		_npc = _x;
@@ -119,7 +103,8 @@ addMissionEventHandler ["HandleDisconnect",{_this call TON_fnc_clientDisconnect;
 [] spawn TON_fnc_cleanup;
 life_wanted_list = [];
 [] execFSM "\life_server\FSM\cleanup.fsm";
-//[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
+// Start DynMarket
+[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
 /*
 [] spawn {
 	private["_logic","_queue"];
@@ -140,6 +125,7 @@ life_wanted_list = [];
 [] spawn life_fnc_fuelCheck;
 [] spawn life_fnc_fuelConfig;
 [] spawn life_fnc_initFuelAction;
+//[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
 /* Setup the federal reserve building(s) */
 private["_dome","_rsb"];
 _dome = nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"];

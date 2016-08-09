@@ -9,7 +9,7 @@ private["_handle","_timeStamp"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
-diag_log "--------------------------------- Starting TANOA Life Client Init ----------------------------------";
+diag_log "--------------------------------- Starting SDV Life Client Init ----------------------------------";
 diag_log "------------------------------------------------------------------------------------------------------";
 waitUntil {!isNull player && player == player}; //Wait till the player is ready
 [] call compile PreprocessFileLineNumbers "core\clientValidator.sqf";
@@ -103,7 +103,7 @@ diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
 player addRating 99999999;
 diag_log "------------------------------------------------------------------------------------------------------";
-diag_log format["                End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
+diag_log format["                End of SDV Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
 
 life_sidechat = true;
@@ -124,9 +124,8 @@ life_fnc_moveIn = compileFinal
 	player moveInCargo (_this select 0);
 	life_disable_getOut = true;
 ";
-
+DYNAMICMARKET_boughtItems = [];
 [] spawn life_fnc_survival;
-[] execVM "scripts\fn_statusBar.sqf";
 [] spawn {
 	while {true} do {
 		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open
@@ -136,6 +135,11 @@ life_fnc_moveIn = compileFinal
 };
 
 /* vAH */
+diag_log "AUTO SAVE LOAD";
+[] spawn life_fnc_autoSave;
+
+diag_log "STATUSBAR LOAD";
+[] execVM "scripts\statusBar.sqf";
 waitUntil {vAH_loaded};
 private["_total","_uid","_toDel"];
 _total = 0;
@@ -149,12 +153,9 @@ _uid = getPlayerUID player;
 BANK = BANK + _total;
 [1] call SOCK_fnc_updatePartial;
 };
-
-
-
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
-
+diag_log "PUMP SERVICE LOAD";
 if(EQUAL(LIFE_SETTINGS(getNumber,"Pump_service"),1)) then{
 	[] execVM "core\fn_Setup_Sation_Service.sqf";
 };

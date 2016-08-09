@@ -17,7 +17,7 @@ _struct = "";
 _config = [_itemFilter] call life_fnc_craftCfg;
 {
  if(_itemFilter == "item") then{
- _str = [_x select 0] call life_fnc_varToStr;
+ _str = localize M_CONFIG(getText,"VirtualItems",(_x select 0),"displayName");
  _inv lbAdd format["%1",_str]; //add a gun to the listbox
  _inv lbSetData[(lbSize _inv)-1,_x select 0]; //set the data of the gun
  } else {
@@ -31,14 +31,13 @@ _inv lbSetCurSel 0;
 _item = lbData[669,(lbCurSel 669)];
 _config = [_itemFilter] call life_fnc_craftCfg;
 {
- if(_item == _x select 0)then
- {
+ if(_item == _x select 0)then {
  _matsNeed = _x select 1;
  _invSize = count _matsNeed;
  for [{_i = 0},{_i < _invSize - 1},{_i = _i + 2}] do {
- _str = [_matsNeed select _i] call life_fnc_varToStr;
+ _str = M_CONFIG(getText,"VirtualItems",(_matsNeed select _i),"displayName");
  _matsNum = _matsNeed select _i+1;
- _struct = _struct + format["%1x %2<br/>",_matsNum,_str];
+ _struct = _struct + format["%1x %2<br/>",_matsNum,(localize _str)];
  };
  };
 } foreach (_config);

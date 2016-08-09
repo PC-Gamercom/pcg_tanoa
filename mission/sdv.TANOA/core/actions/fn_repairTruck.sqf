@@ -48,8 +48,11 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 		player playActionNow "stop";
 		if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_NOTF_ActionCancel","PLAIN"]; life_action_inUse = false;};
 		if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_ActionInVehicle","PLAIN"];};
-		player removeItem "ToolKit";
+		if(!("ToolKit" in (items player))) exitWith {hint "Bescheissen is nich! Spiel Fair!"};
+		if((side player) in [west,civilian]) then {player removeItem "ToolKit"};
 		_veh setDamage 0;
 		titleText[localize "STR_NOTF_RepairedVehicle","PLAIN"];
+	}else {
+		hint "Soll ich dat ding etwa per Hand reparieren!";
 	};
 };

@@ -20,8 +20,8 @@ switch (playerSide) do
 		switch(FETCH_CONST(life_coplevel)) do
 		{
 			case 0: {life_paycheck = life_paycheck + 0;};
-			case 1: {life_paycheck = life_paycheck + 200;}; 
-			case 2: {life_paycheck = life_paycheck + 450;}; 
+			case 1: {life_paycheck = life_paycheck + 650;}; 
+			case 2: {life_paycheck = life_paycheck + 750;}; 
 			case 3: {life_paycheck = life_paycheck + 950;}; 
 			case 4: {life_paycheck = life_paycheck + 1250;}; 
 			case 5: {life_paycheck = life_paycheck + 1550;}; 
@@ -50,12 +50,14 @@ switch (playerSide) do
 		switch(FETCH_CONST(life_mediclevel)) do
 		{
 			case 0: {life_paycheck = life_paycheck + 0;}; 
-			case 1: {life_paycheck = life_paycheck + 400;}; 
+			case 1: {life_paycheck = life_paycheck + 540;}; 
 			case 2: {life_paycheck = life_paycheck + 600;}; 
 			case 3: {life_paycheck = life_paycheck + 1900;};
 			case 4: {life_paycheck = life_paycheck + 2100;};
 			case 5: {life_paycheck = life_paycheck + 2800;};
-			case 6: {life_paycheck = life_paycheck + 3850;};
+			case 6: {life_paycheck = life_paycheck + 3300;};
+			case 7: {life_paycheck = life_paycheck + 3500;};
+			case 8: {life_paycheck = life_paycheck + 3850;};
 		};
 		switch(FETCH_CONST(life_donator)) do
 		{
@@ -82,8 +84,25 @@ switch (playerSide) do
 	};
 };
 
+/* Changes The Paycheck Depending On Licenses */
+
+/* Police Changes */
+/*
+if(license_cop_cAir) then
+{
+	life_paycheck = life_paycheck + 0;
+};
+
+/* NHS Changes */
+/*
+if(license_med_mAir) then
+{
+	life_paycheck = life_paycheck + 0;
+};
+*/
+/* Civilian Changes */
 
 if(license_civ_rebel) then
 {
-	life_paycheck = life_paycheck + 0;
+	life_paycheck = life_paycheck + 50;
 };

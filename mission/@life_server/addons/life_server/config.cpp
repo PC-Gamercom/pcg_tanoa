@@ -80,6 +80,12 @@ class CfgFunctions {
 
 	class TON_System {
 		tag = "TON";
+		class Smartphone
+		{
+			file = "\life_server\Functions\Smartphone";
+			class handleMessages {};
+			class msgRequest {};
+		};
 		class Systems {
 			file = "\life_server\Functions\Systems";
 			class insureCar{};
@@ -144,6 +150,16 @@ class CfgFunctions {
 		class super {};
 		class vehicleCheck {};
 		class scriptsave {postInit=1;};
+		};
+		class DynMarket
+		{
+		 file = "\life_server\Functions\DynMarket";
+		 class calculatePrices {};
+		 class config {};
+		 class getUpdate {};
+		 class HandleDB {};
+		 class playerLogged {};
+		 class sleeper {}; 
 		};
 		class vAH {
 			file = "\life_server\Functions\vAH";

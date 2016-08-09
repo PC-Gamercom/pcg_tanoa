@@ -20,7 +20,7 @@ class Life_Settings {
     cops_online_min = 5; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
@@ -30,7 +30,7 @@ class Life_Settings {
     house_limit = 5; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
-    gang_price = 175000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_price = 475000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 4.5; //Not sure if in use?
 
@@ -46,12 +46,12 @@ class Life_Settings {
 
     /* Initial Bank Amount */
     bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 30000; //Amount of cash on bank for new civillians
+    bank_civ = 10000; //Amount of cash on bank for new civillians
     bank_med = 7000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
     paycheck_cop = 50; //Payment for cops
-    paycheck_civ = 50; //Payment for civillians
+    paycheck_civ = 500; //Payment for civillians
     paycheck_med = 50; //Payment for medics
 
     /* Federal Reserve settings */
@@ -64,7 +64,7 @@ class Life_Settings {
     global_ATM = true; //Allow users to access any ATM on the map.
 
     /* Pump settings */
-    Pump_service = false; //Allow users to use pump service on the map. Default = false
+    Pump_service = true; //Allow users to use pump service on the map. Default = false
 
     /* Skins settings */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)

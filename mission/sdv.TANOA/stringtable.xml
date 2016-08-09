@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Tanoa Life RPG">
+<Package name="Smartphone">
+		<Key ID="STR_PM_Smartphone">
+			<Original>Smartphone</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_TITLE">
+			<Original>Smartphone Menu</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
+			<Original>Playerlist</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
+			<Original>Nachrichten  | VON | WANN</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
+			<Original>Nachricht zum lesen auswählen</Original>
+		</Key>
+		<Key ID="STR_Global_Close">
+			<Original>Schließen</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SCHREIBEN">
+			<Original>Schreiben</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NOTRUF">
+			<Original>Notruf</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Absenden">
+			<Original>Absenden</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
+			<Original>Nachricht an:</Original>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Notruftitle">
+			<Original>NOTRUFE | Abuse führt zum BAN!</Original>
+		</Key>
+	</Package>
+	
 <Package name="Extra">
 <Key ID="STR_SDV_DirectChat">
 <Original>Wechsel doch bitte zum Reden in die Direkte Kommunikation</Original>
@@ -69,6 +105,10 @@
     <Key ID="STR_Shops_Wongs">
       <Original>Wong's Spezialitäten</Original>
       <German>Wong's Spezialitäten</German>
+    </Key>
+	<Key ID="STR_Shops_Gummi">
+      <Original>Gummiexport</Original>
+      <German>Gummiexport</German>
     </Key>
     <Key ID="STR_Shops_Coffee">
       <Original>Gyro's Café</Original>
@@ -661,6 +701,10 @@
       <German>Parkhaus</German>
     </Key>
 	<Key ID="STR_Garage_Boot">
+      <Original>Hafen</Original>
+      <German>Hafen</German>
+    </Key>
+	<Key ID="STR_Garage_Hafen">
       <Original>Hafen</Original>
       <German>Hafen</German>
     </Key>
@@ -1882,12 +1926,12 @@
       <German>Cannabis</German>
     </Key>
     <Key ID="STR_Item_Hanf">
-      <Original>Hanfpflanze</Original>
-      <German>Hanfpflanze</German>
+      <Original>Hanfpflanzen</Original>
+      <German>Hanfpflanzen</German>
     </Key>
 	<Key ID="STR_Item_Hanffaser">
-      <Original>Hanffaser</Original>
-      <German>Hanffaser</German>
+      <Original>Hanffasern</Original>
+      <German>Hanffasern</German>
     </Key>
 	<Key ID="STR_Item_Aluerz">
       <Original>Aluminium Erz</Original>
@@ -1942,8 +1986,8 @@
       <German>Erdbeeren</German>
     </Key>
 		<Key ID="STR_Item_Muschel">
-      <Original>Muschel</Original>
-      <German>Muschel</German>
+      <Original>Muscheln</Original>
+      <German>Muscheln</German>
     </Key>
 	<Key ID="STR_Item_Birnen">
       <Original>Birnen</Original>
@@ -1954,16 +1998,16 @@
       <German>Kiwi</German>
     </Key>
 	<Key ID="STR_Item_Kirsche">
-      <Original>Kirsche</Original>
-      <German>Kirsche</German>
+      <Original>Kirschen</Original>
+      <German>Kirschen</German>
     </Key>
 	<Key ID="STR_Item_Hopfen">
       <Original>Hopfen</Original>
 	  <German>Hopfen</German>
     </Key>
 	<Key ID="STR_Item_Gerste">
-      <Original>Gerste</Original>
-	  <German>Gerste</German>
+      <Original>Gersten</Original>
+	  <German>Gersten</German>
     </Key>
 	<Key ID="STR_Item_Weizen">
       <Original>Weizen</Original>
@@ -1985,9 +2029,21 @@
       <Original>Golderz</Original>
       <German>Golderz</German>
     </Key>
+	<Key ID="STR_Item_Goldmuenzen">
+      <Original>Golderz</Original>
+      <German>Goldmünzen</German>
+    </Key>
     <Key ID="STR_Item_Goldbarren">
       <Original>Goldbarren</Original>
       <German>Goldbarren</German>
+    </Key>
+	<Key ID="STR_Item_GoldBar">
+      <Original>Gold Bar</Original>
+      <German>Staatsgold</German>
+      <French>Lingot d'or</French>
+      <Italian>Lingotto d'Oro</Italian>
+      <Portuguese>Barra de Ouro</Portuguese>
+      <Polish>Sztabka złota</Polish>
     </Key>
 	<Key ID="STR_Item_Zinnerz">
       <Original>Zinnerz</Original>
@@ -2177,6 +2233,14 @@
       <Original>Sand</Original>
       <German>Sand</German>
     </Key>
+	 <Key ID="STR_Item_gummiu">
+      <Original>Kautschuk</Original>
+      <German>Kautschuk</German>
+    </Key>
+	<Key ID="STR_Item_gummip">
+      <Original>Gummi</Original>
+      <German>Gummi</German>
+    </Key>
     <Key ID="STR_Item_Salt">
       <Original>Salt</Original>
       <German>Salz</German>
@@ -2268,7 +2332,12 @@
     <Key ID="STR_Item_SpikeStrip">
       <Original>Spike Strip</Original>
       <German>Nagelband</German>
+    </Key> 
+	<Key ID="STR_Item_FlashLightShoulder">
+      <Original>Taschenlampe</Original>
+      <German>Taschenlampe</German>
     </Key>
+	
   </Package>
   <Package name="Life_License">
     <Key ID="STR_License_Driver">
@@ -2282,6 +2351,10 @@
 		    <Key ID="STR_License_Eichenholzverarbeitung">
       <Original>Eichenholzverarbeitung</Original>
       <German>Eichenholzverarbeitung</German>
+    </Key>
+	<Key ID="STR_License_Helikop">
+      <Original>Helikopterschein</Original>
+      <German>Helikopterschein</German>
     </Key>
     <Key ID="STR_License_Pilot">
       <Original>Pilot License</Original>
@@ -2385,7 +2458,7 @@
     </Key>
 	 <Key ID="STR_License_einwohner">
       <Original>Einwohner Lizenz</Original>
-      <German>Einwohner Lizenz</German>
+      <German>Arbeitserlaubnis</German>
     </Key>
 	 <Key ID="STR_License_Kakao">
       <Original>Kakaoverarbeitung</Original>
@@ -2560,8 +2633,8 @@
       <German>Öl wird verarbeitet</German>
     </Key>
 	<Key ID="STR_Process_Goldbarren">
-	  <Original>Golderz wird geschmolzen</Original>
-	  <German>Golderz wird geschmolzen</Original>
+	  <Original>Golderz wird verarbeitet</Original>
+	  <German>Golderz wird verarbeitet</Original>
 	</Key>
 	<Key ID="STR_Process_Aluerz">
 	  <Original>Aluminiumerz wird geschmolzen</Original>
@@ -2606,6 +2679,10 @@
     <Key ID="STR_Process_Cement">
       <Original>Mixing Cement</Original>
       <German>Zement wird gemischt</German>
+    </Key>
+	<Key ID="STR_Process_Gummi">
+      <Original>Kautschuk wird vulkanisiert </Original>
+      <German>Kautschuk wird vulkanisiert </German>
     </Key>
     <Key ID="STR_Process_Kakaobohnen">
       <Original>Kakaobohnen werden pulverisiert</Original>
@@ -3337,6 +3414,10 @@
       <Original>Cannabis trocknen...</Original>
       <German>Cannabis trocknen...</German>
     </Key>
+	<Key ID="STR_MAR_Eichenholz_Processing">
+      <Original>Eichenholz sägen...</Original>
+      <German>Eichenholz sägen...</German>
+    </Key>
     <Key ID="STR_MAR_Sand_Mine">
       <Original>Sand Mine</Original>
       <German>Sand Mine</German>
@@ -3496,6 +3577,10 @@
     <Key ID="STR_MAR_Glass_Trader">
       <Original>Glass Trader</Original>
       <German>Glasbläserei</German>
+    </Key>
+	    <Key ID="STR_MAR_Gummi_Trader">
+      <Original>Gummi Export</Original>
+      <German>Gummi Export</German>
     </Key>
     <Key ID="STR_MAR_Iron_Copper_Trader">
       <Original>Iron / Copper Trader</Original>
@@ -3661,6 +3746,11 @@
       <Original>Process Rock</Original>
       <German>Verarbeite Stein</German>
     </Key>
+	    <Key ID="STR_MAR_Process_Gummi">
+      <Original>Vulkanisiere Kautschuk</Original>
+      <German>Vulkanisiere Kautschuk</German>
+    </Key>
+	
     <Key ID="STR_MAR_Wong_Food_Cart">
       <Original>Wongs Food Cart</Original>
       <German>Wongs Spezialitäten</German>

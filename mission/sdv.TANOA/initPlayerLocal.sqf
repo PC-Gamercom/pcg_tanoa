@@ -13,3 +13,4 @@ if(!hasInterface) exitWith {}; //This is a headless client, he doesn't need to d
 CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 if(EQUAL(LIFE_SETTINGS(getNumber,"spyglass_init"),1)) then {[] execVM "SpyGlass\fn_initSpy.sqf";};
 [] execVM "core\init.sqf";
+[] execVM "core\functions\fn_emptyFuel.sqf";

@@ -19,17 +19,30 @@ _interactionKey = if((EQUAL(count (actionKeys "User10"),0))) then {219} else {(a
 _mapKey = SEL(actionKeys "ShowMap",0);
 //hint str _code;
 _interruptionKeys = [17,30,31,32]; //A,S,W,D
-
+private _greetingsKey = if(count (actionKeys "User1") == 0) then {157} else {(actionKeys "User9") select 0};
 //Vault handling...
+private _forbiddenKnast = (actionKeys "GetOver") + (actionKeys "Turbo") + (actionKeys "Crouch") + (actionKeys "Prone");
+private _forbiddenFestnahme = _forbiddenKnast + (actionKeys "ReloadMagazine") + (actionKeys "Salute") + (actionKeys "SitDown") + (actionKeys "Throw");
+
 if((_code in (actionKeys "GetOver") || _code in (actionKeys "salute") || _code in (actionKeys "SitDown") || _code in (actionKeys "Throw") || _code in (actionKeys "GetIn") || _code in (actionKeys "GetOut") || _code in (actionKeys "Fire") || _code in (actionKeys "ReloadMagazine") || _code in [16,18]) && ((player GVAR ["restrained",false]) || (player GVAR ["playerSurrender",false]) || life_isknocked || life_istazed)) exitWith {
 	true;
 };
-
+if(life_is_arrested && {_code in _forbiddenKnast}) exitWith {
+	hint "Typen wie dich mögen wir hier nicht. Du weißt schon, Buguser, Exploiter und anderes assoziales Gesindel. Solange du im Knast bist, bleib locker und sitz deine Zeit wie ein MANN ab."
+};
+if (_code in (actionKeys "TacticalView")) then
+{
+	hint "Taktische Ansicht ist hier nicht..." ;
+	_handled = true;
+};
+if(player getVariable["restrained",false] && {_code in _forbiddenFestnahme}) then {
+	systemChat "Hände wie Houdini? Der Computer sagt NEIN!";
+	_handled = true;
+};
 if(life_action_inUse) exitWith {
 	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
 	_handled;
 };
-
 
 //Hotfix for Interaction key not being able to be bound on some operation systems.
 if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exitWith {
@@ -45,17 +58,18 @@ if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exit
 	true;
 };
 
-if (life_container_active) then {
-	switch (_code) do {
-		//space key
-		case 57: {
-			[life_container_activeObj] spawn life_fnc_placedefinestorage;
-		};
+
+
+
+switch (_code) do {
+
+
+if (life_barrier_active) then {
+	case 77: {
+			[] spawn life_fnc_placeablesPlaceComplete;
 	};
 	true;
 };
-
-switch (_code) do {
 	//Space key for Jumping
 	case 57: {
 		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
@@ -116,10 +130,21 @@ switch (_code) do {
 	};
 	
 	//Q Key (Pickaxe)
-	case 16:
-	{
-	[] spawn life_fnc_pickAxeUse;
+	case 16:{
+		if((!life_action_gather) && (vehicle player == player)) then
+        {
+        	if(life_inv_pickaxe > 0) then
+            {
+            	[] spawn life_fnc_pickAxeUse;
+        	};
+        };
+
 	};
+	
+
+
+	//Bau MEnü
+
 
 	//Restraining (Shift + R)
 	case 19: {
@@ -168,7 +193,7 @@ switch (_code) do {
 	case 38: {
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F","C_Van_01_box_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","I_MRAP_03_F","I_Heli_light_03_unarmed_F","I_Heli_light_03_F","O_Heli_Light_02_unarmed_F","B_Heli_Light_01_F","C_Heli_Light_01_civil_F","I_Heli_Transport_02_F","C_Hatchback_01_sport_F","B_MRAP_01_hmg_F","B_Quadbike_01_F","O_Heli_Transport_04_bench_F","B_Heli_Transport_03_unarmed_F","I_MRAP_03_hmg_F","B_Heli_Transport_03_F"]) then {
 				if(!isNil {vehicle player GVAR "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;
@@ -181,13 +206,24 @@ switch (_code) do {
 		};
 
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
+		 if (_shift && vehicle player == player && playerside in [civilian,west,independent]) then {
+				[vehicle player] call life_fnc_useFlashlight;
 	};
-
-	//Y Player Menu
+	};
+	//Z Player Menu
 	case 21: {
 		if(!_alt && !_ctrlKey && !dialog && !(player GVAR ["restrained",false]) && {!life_action_inUse}) then {
 			[] call life_fnc_p_openMenu;
 		};
+		if(playerSide in [west]) then {
+				[player] call life_fnc_copUniform;
+			};
+		if(playerSide in [independent]) then {
+				[player] call life_fnc_medicUniform;
+			};
+	    if(playerSide in [civilian]) then {
+				[player] call life_fnc_playerSkins;
+			};
 	};
 
 	//F Key
@@ -261,6 +297,9 @@ switch (_code) do {
 		if(playerSide in [west,independent,east] && vehicle player != player && ((driver vehicle player) == player)) then {
 			[] call life_fnc_Opener;
 			};
+		if((life_is_arrested) or {(_player GVAR ["restrained",false])}) then {
+			_handled = true;
+		};
 		};
 
 	//U Key
@@ -362,6 +401,25 @@ switch (_code) do {
 				player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";
 			};
 	};
+	case 83:
+    {
+        if(playerSide == civilian) then 
+        {
+            _handled = true;
+        };
+		if(playerSide == west) then 
+        {
+            _handled = true;
+        };
+		if(playerSide == east) then
+		{
+			_handled = true;
+		};
+    };
+	//HI TAB
+	case _greetingsKey : {
+        player playActionNow "gestureHi";
+    };
 };
 
 _handled;

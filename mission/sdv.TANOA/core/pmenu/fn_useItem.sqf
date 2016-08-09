@@ -63,6 +63,11 @@ switch (true) do {
 		[] spawn life_fnc_jerryRefuel;
 	};
 
+	case (_item isEqualTo "flashlightshoulder"): {
+		 [] spawn life_fnc_useFlashlight;
+		 closeDialog 0;
+	 };
+	
 	case (EQUAL(_item,"lockpick")): {
 		[] spawn life_fnc_lockpick;
 	};

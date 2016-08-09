@@ -34,9 +34,9 @@ for "_i" from 0 to count(_licenses)-1 do {
 _licenses = [_licenses] call DB_fnc_mresArray;
 
 switch (_side) do {
-	case west: {_query = format["UPDATE players SET name='%1', cash='%2', bankacc='%3', cop_gear='%4', cop_licenses='%5', cop_stats='%6' WHERE playerid='%7'",_name,_cash,_bank,_gear,_licenses,_stats,_uid];};
+	case west: {_query = format["UPDATE players SET name='%1', westcash='%2', westbankacc='%3', cop_gear='%4', cop_licenses='%5', cop_stats='%6' WHERE playerid='%7'",_name,_cash,_bank,_gear,_licenses,_stats,_uid];};
 	case civilian: {_query = format["UPDATE players SET name='%1', cash='%2', bankacc='%3', civ_licenses='%4', civ_gear='%5', arrested='%6', civ_stats='%7' WHERE playerid='%8'",_name,_cash,_bank,_licenses,_gear,[_this select 8] call DB_fnc_bool,_stats,_uid];};
-	case independent: {_query = format["UPDATE players SET name='%1', cash='%2', bankacc='%3', med_licenses='%4', med_gear='%5', med_stats='%6' WHERE playerid='%7'",_name,_cash,_bank,_licenses,_gear,_stats,_uid];};
+	case independent: {_query = format["UPDATE players SET name='%1', indcash='%2', indbankacc='%3', med_licenses='%4', med_gear='%5', med_stats='%6' WHERE playerid='%7'",_name,_cash,_bank,_licenses,_gear,_stats,_uid];};
 };
 
 

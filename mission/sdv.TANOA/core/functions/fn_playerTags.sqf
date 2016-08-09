@@ -51,8 +51,8 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 					case 9: {format["<t color='#2753a5'>Polizeihauptkommissar</t>"];};
 					case 10: {format["<t color='#2753a5'>Polizeihauptkommissar+</t>"];};
 					case 11: {format["<t color='#2753a5'>Polizeihauptkommissar+</t>"];};
-					case 12: {format["<t color='#2753a5'>Polizeihauptkommissar+</t>"];};
-					case 13: {format["<t color='#2753a5'>Polizeihauptkommissar+</t>"];};
+					case 12: {format["<t color='#2753a5'>Polizeivizepräsident</t>"];};
+					case 13: {format["<t color='#2753a5'>Polizeipräsident</t>"];};
 					default {format["<t color='#2753a5'>Polizeianwärter</t>"];};
 						},_x GVAR ["realname",name _x]]};
 					case (side _x == independent && {!isNil {_x GVAR "medicrank"}}): {format["<t size='1'>%1<br/>%2</t>",switch ((_x GVAR "medicrank")) do {

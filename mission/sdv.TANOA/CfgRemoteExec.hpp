@@ -105,7 +105,11 @@ class CfgRemoteExec {
         F(TON_fnc_deleteDBContainer,SERVER)
 		F(TON_fnc_vehicleimpound,SERVER)
 		F(TON_fnc_getimpoundedvehicles,SERVER)
-		
+		F(TON_fnc_handleMessages,SERVER)
+		F(TON_fnc_msgRequest,SERVER)
+		F(TON_fnc_playerLogged,SERVER) //DYN
+		F(TON_fnc_changePrice,SERVER) // DYN
+		F(TON_fnc_getUpdate,SERVER) // DYN
 
         /* Functions for everyone */
         F(life_fnc_broadcast,ANYONE)
@@ -122,6 +126,8 @@ class CfgRemoteExec {
         F(life_fnc_pushFunction,ANYONE)
         F(life_fnc_simDisable,ANYONE)
 		F(mac_fnc_switchmove,ANYONE)
+		F(life_fnc_mediclights,ANYONE)
+		F(life_fnc_update,ANYONE)
 
     };
 

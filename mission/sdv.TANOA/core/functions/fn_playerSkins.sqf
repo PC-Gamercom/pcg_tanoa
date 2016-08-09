@@ -32,18 +32,4 @@ switch(playerSide) do {
 			};
 		};
 	};
-	case west: {
-		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
-		};
-		/* Einfügen Rucksack weg */
-		if (backpack player == "B_Carryall_cbr") then {
-			(backpackContainer player) setObjectTextureGlobal[0,""];
-};
-	};
-	case independent: {
-		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
-		};
-	};
 };

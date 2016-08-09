@@ -1,5 +1,5 @@
 #include "\life_server\script_macros.hpp"
-private["_vid","_sp","_pid","_query","_sql","_vehicle","_nearVehicles","_name","_side","_tickTime","_dir","_servIndex"];
+private["_vid","_sp","_pid","_query","_sql","_vehicle","_nearVehicles","_name","_side","_tickTime","_dir","_servIndex","_vFuel","_vHitBody","_vHitEngine","_vHitFuel","_vHitLFWheel","_vHitRFWheel","_vHitLF2Wheel","_vHitRF2Wheel","_vHitLMWheel","_vHitRMWheel","_vHitLBWheel","_vHitRBWheel"];
 _vid = [_this,0,-1,[0]] call BIS_fnc_param;
 _pid = [_this,1,"",[""]] call BIS_fnc_param;
 _sp = [_this,2,[],[[],""]] call BIS_fnc_param;
@@ -14,7 +14,18 @@ if(EQUAL(_vid,-1) OR EQUAL(_pid,"")) exitWith {};
 if(_vid in serv_sv_use) exitWith {};
 serv_sv_use pushBack _vid;
 _servIndex = serv_sv_use find _vid;
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel, impound FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+/*
+ **************************
+ * ORIGINAL QUERY
+ * _query = format["SELECT id, side, classname, type, pid, alive,
+ active, plate, color, inventory, gear, fuel,
+ impound FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+ **************************
+*/
+
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color,inventory, gear, fuelstand, HitBody, HitEngine, HitFuel, HitLFWheel,HitRFWheel, HitLF2Wheel, HitRF2Wheel, HitLMWheel, HitRMWheel,HitLBWheel,HitRBWheel FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
+
+
 _tickTime = diag_tickTime;
 _queryResult = [_query,2] call DB_fnc_asyncCall;
 if(EXTDB_SETTING(getNumber,"DebugMode") == 1) then {
@@ -65,8 +76,54 @@ if(typeName _sp == "STRING") then {
  _vehicle setVectorUp (surfaceNormal _sp);
  _vehicle setDir _dir;
 };
-_vehicle setFuel (_vInfo select 11);
 _vehicle allowDamage true;
+/*
+ **************************
+ * TANK FÜLLUNG
+ **************************
+*/
+_vehicle setFuel (_vInfo select 11);
+/*
+ **************************
+ * DAMAGE ZUWEISUNG
+ **************************
+*/
+_vHitBody = (_vInfo select 12); 
+_vHitEngine = (_vInfo select 13);
+_vHitFuel = (_vInfo select 14);
+_vHitLFWheel = (_vInfo select 15);
+_vHitRFWheel = (_vInfo select 16);
+_vHitLF2Wheel = (_vInfo select 17);
+_vHitRF2Wheel = (_vInfo select 18);
+_vHitLMWheel = (_vInfo select 19);
+_vHitRMWheel = (_vInfo select 20);
+_vHitLBWheel = (_vInfo select 21);
+_vHitRBWheel = (_vInfo select 22);
+/*
+ ***********************************
+ * DAMAGE ZUWEISUNG 
+ * NUR BEI FAHRZEUGEN
+ * FLUGZEUGE / BOOTE / HUBSCHRAUBER
+ * SIND NICHT INBEGRIFFEN!!
+ * DEREN DAMAGEPOINTS SIND ANDERS!
+ ***********************************
+*/
+if (_vehicle isKindOf "LandVehicle") then
+{
+ _vehicle setHitPointDamage ["HitBody",_vHitBody];
+ _vehicle setHitPointDamage ["HitEngine",_vHitEngine];
+ _vehicle setHitPointDamage ["HitFuel",_vHitFuel];
+ _vehicle setHitPointDamage ["HitLFWheel",_vHitLFWheel];
+ _vehicle setHitPointDamage ["HitRFWheel",_vHitRFWheel];
+ _vehicle setHitPointDamage ["HitLF2Wheel",_vHitLF2Wheel];
+ _vehicle setHitPointDamage ["HitRF2Wheel",_vHitRF2Wheel];
+ _vehicle setHitPointDamage ["HitLMWheel",_vHitLMWheel];
+ _vehicle setHitPointDamage ["HitRMWheel",_vHitRMWheel];
+ _vehicle setHitPointDamage ["HitLBWheel",_vHitLBWheel];
+ _vehicle setHitPointDamage ["HitRBWheel",_vHitRBWheel];
+};
+
+
 //Send keys over the network.
 [_vehicle] remoteExecCall ["life_fnc_addVehicle2Chain",_unit];
 [_pid,_side,_vehicle,1] call TON_fnc_keyManagement;

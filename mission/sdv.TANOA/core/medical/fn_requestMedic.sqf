@@ -21,6 +21,6 @@ if(_medicsOnline) then {
 //Create a thread to monitor duration since last request (prevent spammage).
 [] spawn  {
 	((findDisplay 7300) displayCtrl 7303) ctrlEnable false;
-	sleep (2 * 60);
+	uisleep (3 * 60);
 	((findDisplay 7300) displayCtrl 7303) ctrlEnable true;
 };

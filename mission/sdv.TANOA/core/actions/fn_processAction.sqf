@@ -14,27 +14,21 @@ if(isNull _vendor OR EQUAL(_type,"") OR (player distance _vendor > 10)) exitWith
 
 //unprocessed item,processed item, cost if no license,Text to display (I.e Processing  (percent) ..."
 _itemInfo = switch (_type) do {
-	case "oil": {["oil_unprocessed","oil_processed",1200,(localize "STR_Process_Oil")];};
-	case "diamond": {["diamond_uncut","diamond_cut",1350,(localize "STR_Process_Diamond")];};
 	case "heroin": {["heroin_unprocessed","heroin_processed",1750,(localize "STR_Process_Heroin")];};
 	case "copper": {["copper_unrefined","copper_refined",750,(localize "STR_Process_Copper")];};
 	case "iron": {["iron_unrefined","iron_refined",1120,(localize "STR_Process_Iron")];};
-	case "sand": {["sand","glass",650,(localize "STR_Process_Sand")];};
-	case "salt": {["salt_unrefined","salt_refined",450,(localize "STR_Process_Salt")];};
 	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
 	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
+	case "diamond": {["diamond_uncut","diamond_cut",1350,(localize "STR_Process_Diamond")];};
+	case "sand": {["sand","glass",650,(localize "STR_Process_Sand")];};
 	case "koralle": {["koralle","korallever",1300,(localize "STR_Process_Koralle")];};
-	case "kakaobohnen": {["kakaobohnen","kakaopulver",780,(localize "STR_Process_Kakaobohnen")];};
-	case "eichenholz": {["eichenholz","eichenholzbretter",590,(localize "STR_Process_Eichenholz")];};
-	case "tropenholz": {["tropenholz","tropenholzbretter",590,(localize "STR_Process_Tropenholz")];};
-	case "golderz": {["golderz","goldbarren",1800,(localize "STR_Process_Goldbarren")];};
 	case "aluerz": {["aluerz","alubarren",1600,(localize "STR_Process_Aluerz")];};
 	case "hanf": {["hanf","hanffaser",1000,(localize "STR_Process_Hanf")];};
+	case "gummi": {["gummiu","gummip",400,(localize "STR_Process_Gummi")];};
 	case "zinnerz": {["zinnerz","zinnbarren",1000,(localize "STR_Process_Zinn")];};
 	default {[];};
 };
-
 //Error checking
 if(EQUAL(count _itemInfo,0)) exitWith {};
 

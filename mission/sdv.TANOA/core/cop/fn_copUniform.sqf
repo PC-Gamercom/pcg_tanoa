@@ -8,11 +8,13 @@
 	
 	// Standard Cop Uniforms by coplevel. Create new 'if' for every coplevel you want to have a special uniform. (e.G. if(__GETC__(life_coplevel) == 1) then {... )
 	if (__GETC__(life_coplevel) > 1)  then {
-		player setObjectTextureGlobal [0, "textures\police_shirt.paa"]; // this is for all cops whitelisted or public.
+		player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"]; // this is for all cops whitelisted or public.
 	};
 
-	
-	
+		/* Einfügen Rucksack weg */
+		if (backpack player == "B_Carryall_cbr") then {
+			(backpackContainer player) setObjectTextureGlobal[0,""];
+		};
 	// Special Uniforms cops can buy in shops. Add new 'if' for every classname you want the skin to be overwritten. (warning, does NOT work with every class!)
 	
 	if ((uniform player) == "U_B_CombatUniform_mcam")  then {

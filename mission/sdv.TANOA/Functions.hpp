@@ -29,19 +29,6 @@ class Life_Client_Core
 		class survival {};
 		class initPayChecks {};
 	};
-	
-	class vAH
-		{
-			file = "core\vAH";
-			class vAH_load;
-			class vAH_buy;
-			class vAH_reciever;
-			class vAH_loadInventory;
-			class vAH_sell;
-			class vAH_checkItem;
-			class vAH_takeBack;
-			class vAH_select;
-		};
 	class Admin
 	{
 		file = "core\admin";
@@ -76,7 +63,20 @@ class Life_Client_Core
 		class medicSirenLights {};
 		class medicLights {};
 		class medicSiren {};
-		class copEnter {}
+		class copEnter {};
+		class medicUniform{};
+	};
+	class vAH
+	{
+		file = "core\vAH";
+		class vAH_load;
+		class vAH_buy;
+		class vAH_reciever;
+		class vAH_loadInventory;
+		class vAH_sell;
+		class vAH_checkItem;
+		class vAH_takeBack;
+		class vAH_select;
 	};
 	class Actions
 	{
@@ -176,6 +176,9 @@ class Life_Client_Core
 		class craft {};
 		class craft_update {};
 		class craft_updateFilter {};
+		class smartphone {};
+		class newMsg {};
+		class showMsg {};
 	};
 
 	class Functions
@@ -225,9 +228,28 @@ class Life_Client_Core
 		class nearestObjects {};
 		class Opener {};
 		class loggedOut {};
+		class autoSave {};
+		class emptyFuel {};
 	};
 
-
+	class CopPlaceablesMEDIC {
+		file = "core\medical\MedicPlaceables";
+		class placeablesInitMEDIC {};
+		class placeablesMenuMEDIC {};
+		class placeablesRemoveAllMEDIC {};
+		class placeablePlaceMEDIC {};
+		class placeableCancelMEDIC {};
+		class placeablesPlaceCompleteMEDIC {};
+	};
+	class CopPlaceables {
+		file = "core\cop\placeables";
+		class placeablesInit {};
+		class placeablesMenu {};
+		class placeablesRemoveAll {};
+		class placeablePlace {};
+		class placeableCancel {};
+		class placeablesPlaceComplete {};
+	};
 	class Network
 	{
 		file = "core\functions\network";
@@ -371,6 +393,7 @@ class Life_Client_Core
 		class placestorageBig {};
 		class placestorageSmall {};
 		class placedefinestorage {};
+		class useFlashlight {};
 	};
 
 	class Dialog_Controls
@@ -402,4 +425,14 @@ class Life_Client_Core
 		class willswieder {};
 		class impoundLBChange {};
 	};
+		 class DynMarket
+	 {
+	 file = "core\DynMarket";
+	 class bought {};
+	 class update {};
+	 class DisplayPrices {};
+	 class LoadIntoListbox {};
+	 class ForcePrice {};
+	 class DYNMARKET_getPrice {};
+	 };
 };
